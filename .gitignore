@@ -2,15 +2,15 @@
 
 *.exe
 *.pdb
-src/bitcoin
-src/bitcoind
-src/bitcoin-cli
-src/bitcoin-gui
-src/bitcoin-node
-src/bitcoin-tx
-src/bitcoin-util
-src/bitcoin-wallet
-src/test/fuzz/fuzz
+src/vertcoin
+src/vertcoind
+src/vertcoin-cli
+src/vertcoin-gui
+src/vertcoin-node
+src/vertcoin-tx
+src/vertcoin-wallet
+src/test/fuzz/*
+!src/test/fuzz/*.*
 src/test/test_bitcoin
 src/qt/test/test_bitcoin-qt
 
@@ -94,7 +94,7 @@ src/qt/bitcoin-qt.includes
 Makefile
 !depends/Makefile
 src/qt/bitcoin-qt
-Bitcoin-Qt.app
+Vertcoin-Qt.app
 background.tiff*
 
 # Qt Creator
@@ -139,6 +139,8 @@ test/.mypy_cache/
 
 libbitcoinconsensus.pc
 contrib/devtools/split-debug.sh
+
+.vscode/settings.json
 
 # Output from running db4 installation
 db4/

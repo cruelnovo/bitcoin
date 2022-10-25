@@ -212,7 +212,7 @@ void SendCoinsDialog::setModel(WalletModel *_model)
             }
         } else if (model->wallet().privateKeysDisabled()) {
             ui->sendButton->setText(tr("Cr&eate Unsigned"));
-            ui->sendButton->setToolTip(tr("Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.").arg(PACKAGE_NAME));
+            ui->sendButton->setToolTip(tr("Creates a Partially Signed Vertcoin Transaction (PSVT) for use with e.g. an offline %1 wallet, or a PSVT-compatible hardware wallet.").arg(PACKAGE_NAME));
         }
 
         // set the smartfee-sliders default value (wallets default conf.target or last stored value)
@@ -332,7 +332,7 @@ bool SendCoinsDialog::PrepareSendText(QString& question_string, QString& informa
 
     question_string.append("<br /><span style='font-size:10pt;'>");
     if (model->wallet().privateKeysDisabled() && !model->wallet().hasExternalSigner()) {
-        question_string.append(tr("Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.").arg(PACKAGE_NAME));
+        question_string.append(tr("Please, review your transaction proposal. This will produce a Partially Signed Vertcoin Transaction (PSVT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSVT-compatible hardware wallet.").arg(PACKAGE_NAME));
     } else {
         question_string.append(tr("Please, review your transaction."));
     }
@@ -440,7 +440,7 @@ void SendCoinsDialog::sendButtonClicked([[maybe_unused]] bool checked)
                 return;
             }
             if (err != TransactionError::OK) {
-                tfm::format(std::cerr, "Failed to sign PSBT");
+                tfm::format(std::cerr, "Failed to sign PSVT");
                 processSendCoinsReturn(WalletModel::TransactionCreationFailed);
                 send_failure = true;
                 return;
@@ -466,15 +466,15 @@ void SendCoinsDialog::sendButtonClicked([[maybe_unused]] bool checked)
             return;
         }
 
-        // Copy PSBT to clipboard and offer to save
+        // Copy PVBT to clipboard and offer to save
         assert(!complete);
-        // Serialize the PSBT
+        // Serialize the PSVT
         CDataStream ssTx(SER_NETWORK, PROTOCOL_VERSION);
         ssTx << psbtx;
         GUIUtil::setClipboard(EncodeBase64(ssTx.str()).c_str());
         QMessageBox msgBox;
         msgBox.setText("Unsigned Transaction");
-        msgBox.setInformativeText("The PSBT has been copied to the clipboard. You can also save it.");
+        msgBox.setInformativeText("The PSVT has been copied to the clipboard. You can also save it.");
         msgBox.setStandardButtons(QMessageBox::Save | QMessageBox::Discard);
         msgBox.setDefaultButton(QMessageBox::Discard);
         switch (msgBox.exec()) {
@@ -494,7 +494,7 @@ void SendCoinsDialog::sendButtonClicked([[maybe_unused]] bool checked)
             fileNameSuggestion.append(".psbt");
             QString filename = GUIUtil::getSaveFileName(this,
                 tr("Save Transaction Data"), fileNameSuggestion,
-                //: Expanded name of the binary PSBT file format. See: BIP 174.
+                //: Expanded name of the binary PSVT file format. See: BIP 174.
                 tr("Partially Signed Transaction (Binary)") + QLatin1String(" (*.psbt)"), &selectedFilter);
             if (filename.isEmpty()) {
                 return;
@@ -502,7 +502,7 @@ void SendCoinsDialog::sendButtonClicked([[maybe_unused]] bool checked)
             std::ofstream out(filename.toLocal8Bit().data(), std::ofstream::out | std::ofstream::binary);
             out << ssTx.str();
             out.close();
-            Q_EMIT message(tr("PSBT saved"), "PSBT saved to disk", CClientUIInterface::MSG_INFORMATION);
+            Q_EMIT message(tr("PSVT saved"), "PSVT saved to disk", CClientUIInterface::MSG_INFORMATION);
             break;
         }
         case QMessageBox::Discard:
@@ -951,7 +951,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!IsValidDestination(dest)) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Bitcoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Vertcoin address"));
         }
         else // Valid address
         {

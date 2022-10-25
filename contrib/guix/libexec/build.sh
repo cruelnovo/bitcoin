@@ -237,7 +237,7 @@ mkdir -p "$OUTDIR"
 ###########################
 
 # CONFIGFLAGS
-CONFIGFLAGS="--enable-reduce-exports --disable-bench --disable-gui-tests --disable-fuzz-binary"
+CONFIGFLAGS="--enable-reduce-exports --disable-bench --disable-tests --disable-fuzz-binary"
 case "$HOST" in
     *linux*) CONFIGFLAGS+=" --disable-threadlocal" ;;
 esac
@@ -245,7 +245,7 @@ esac
 # CFLAGS
 HOST_CFLAGS="-O2 -g"
 case "$HOST" in
-    *linux*)  HOST_CFLAGS+=" -ffile-prefix-map=${PWD}=." ;;
+    *linux*)  HOST_CFLAGS+=" -ffile-prefix-map=${PWD}=. -fPIC" ;;
     *mingw*)  HOST_CFLAGS+=" -fno-ident" ;;
     *darwin*) unset HOST_CFLAGS ;;
 esac
@@ -299,7 +299,7 @@ mkdir -p "$DISTSRC"
 
     sed -i.old 's/-lstdc++ //g' config.status libtool src/univalue/config.status src/univalue/libtool
 
-    # Build Bitcoin Core
+    # Build Vertcoin Core
     make --jobs="$JOBS" ${V:+V=1}
 
     # Check that symbol/security checks tools are sane.
@@ -318,12 +318,12 @@ mkdir -p "$DISTSRC"
             ;;
     esac
 
-    # Setup the directory where our Bitcoin Core build for HOST will be
+    # Setup the directory where our Vertcoin Core build for HOST will be
     # installed. This directory will also later serve as the input for our
     # binary tarballs.
     INSTALLPATH="${PWD}/installed/${DISTNAME}"
     mkdir -p "${INSTALLPATH}"
-    # Install built Bitcoin Core to $INSTALLPATH
+    # Install built Vertcoin Core to $INSTALLPATH
     case "$HOST" in
         *darwin*)
             make install-strip DESTDIR="${INSTALLPATH}" ${V:+V=1}
@@ -357,11 +357,11 @@ mkdir -p "$DISTSRC"
     (
         cd installed
 
-        case "$HOST" in
-            *mingw*)
-                mv --target-directory="$DISTNAME"/lib/ "$DISTNAME"/bin/*.dll
-                ;;
-        esac
+#        case "$HOST" in
+#            *mingw*)
+#                mv --target-directory="$DISTNAME"/lib/ "$DISTNAME"/bin/*.dll
+#                ;;
+#        esac
 
         # Prune libtool and object archives
         find . -name "lib*.la" -delete

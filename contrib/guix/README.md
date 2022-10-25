@@ -1,6 +1,6 @@
-# Bootstrappable Bitcoin Core Builds
+# Bootstrappable Vertcoin Core Builds
 
-This directory contains the files necessary to perform bootstrappable Bitcoin
+This directory contains the files necessary to perform bootstrappable Vertcoin
 Core builds.
 
 [Bootstrappability][b17e] furthers our binary security guarantees by allowing us

@@ -1,7 +1,7 @@
-Contributing to Bitcoin Core
+Contributing to Vertcoin Core
 ============================
 
-The Bitcoin Core project operates an open contributor model where anyone is
+The Vertcoin Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
@@ -56,21 +56,13 @@ and is also an effective way to request assistance if and when you need it.
 Communication Channels
 ----------------------
 
-Most communication about Bitcoin Core development happens on IRC, in the
-`#bitcoin-core-dev` channel on Libera Chat. The easiest way to participate on IRC is
-with the web client, [web.libera.chat](https://web.libera.chat/#bitcoin-core-dev). Chat
-history logs can be found
-on [http://www.erisian.com.au/bitcoin-core-dev/](http://www.erisian.com.au/bitcoin-core-dev/)
-and [http://gnusha.org/bitcoin-core-dev/](http://gnusha.org/bitcoin-core-dev/).
+Most communication about Vertcoin Core development happens onthe #development channel
+on [Discord](https://discord.gg/vertcoin).
 
-Discussion about codebase improvements happens in GitHub issues and pull
-requests.
+Issues List
+--------------------
 
-The developer
-[mailing list](https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev)
-should be used to discuss complicated or controversial consensus or P2P protocol changes before working on
-a patch set.
-
+Open issues can be found on github in the [issues list](https://github.com/vertcoin-project/vertcoin-core/issues).
 
 Contributor Workflow
 --------------------
@@ -187,17 +179,11 @@ in the body of the pull request to indicate tasks are pending.
 
 ### Address Feedback
 
-At this stage, one should expect comments and review from other contributors. You
-can add more commits to your pull request by committing them locally and pushing
-to your fork until you have satisfied all feedback.
-
-Note: Code review is a burdensome but important part of the development process, and as such, certain types of pull requests are rejected. In general, if the **improvements** do not warrant the **review effort** required, the PR has a high chance of being rejected. It is up to the PR author to convince the reviewers that the changes warrant the review effort, and if reviewers are "Concept NACK'ing" the PR, the author may need to present arguments and/or do research backing their suggested changes.
-
-### Squashing Commits
-
-If your pull request contains fixup commits (commits that change the same line of code repeatedly) or too fine-grained
-commits, you may be asked to [squash](https://git-scm.com/docs/git-rebase#_interactive_mode) your commits
-before it will be reviewed. The basic squashing workflow is shown below.
+Squashing Commits
+---------------------------
+If your pull request is accepted for merging, you may be asked by a maintainer
+to squash and or [rebase](https://git-scm.com/docs/git-rebase) your commits
+before it will be merged. The basic squashing workflow is shown below.
 
     git checkout your_branch_name
     git rebase -i HEAD~n
@@ -425,7 +411,7 @@ https://github.com/bitcoin-core/bitcoin-maintainer-tools#backport).
 Release Policy
 --------------
 
-The project leader is the release manager for each Bitcoin Core release.
+The project leader is the release manager for each Vertcoin Core release.
 
 Copyright
 ---------
