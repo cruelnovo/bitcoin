@@ -10,13 +10,13 @@
     <name>QObject</name>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -46,10 +46,10 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -66,7 +66,7 @@
         <translation type="unfinished">Ti Apamowo</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -81,14 +81,6 @@
     </message>
     </context>
 <context>
-    <name>OpenWalletActivity</name>
-    <message>
-        <source>Open Wallet</source>
-        <extracomment>Title of window indicating the progress of opening of a wallet.</extracomment>
-        <translation type="unfinished">sii apamowo</translation>
-    </message>
-    </context>
-<context>
     <name>WalletController</name>
     <message>
         <source>Close wallet</source>
@@ -99,7 +91,7 @@
     <name>FreespaceChecker</name>
     <message>
         <source>name</source>
-        <translation type="unfinished">oruko</translation>
+        <translation>oruko</translation>
     </message>
     </context>
 <context>
@@ -113,14 +105,14 @@
     </message>
     <message>
         <source>Welcome</source>
-        <translation type="unfinished">Ka bo</translation>
+        <translation>Ka bo</translation>
     </message>
     </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;o da</translation>
+        <translation>&amp;o da</translation>
     </message>
     </context>
 <context>
@@ -145,13 +137,19 @@
     <name>SendCoinsDialog</name>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>Date</source>
         <translation type="unfinished">Ojo</translation>
@@ -162,7 +160,7 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -172,6 +170,12 @@
     <message>
         <source>Date</source>
         <translation type="unfinished">Ojo</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
     </message>
     <message>
         <source>watch-only</source>

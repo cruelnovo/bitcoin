@@ -2,12 +2,8 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation type="unfinished">Fai click co botón dereito para editar o enderezo ou etiqueta</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Crear un novo enderezo</translation>
+        <translation>Crear un novo enderezo</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +11,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Copiar o enderezo seleccionado ao cartafol</translation>
+        <translation>Copiar o enderezo seleccionado ao cartafol</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +23,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Borrar o enderezo actualmente seleccionado da listaxe</translation>
+        <translation>Borrar o enderezo actualmente seleccionado da listaxe</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,15 +31,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Exportar os datos da pestaña actual a un arquivo.</translation>
+        <translation>Exportar os datos da pestaña actual a un arquivo.</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Exportar</translation>
+        <translation>&amp;Exportar</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Borrar</translation>
+        <translation>&amp;Borrar</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -66,14 +62,8 @@
         <translation type="unfinished">Recibindo enderezos</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Estas son as túas direccións Bitcoin para enviar pagos. Revisa sempre a cantidade e a dirección receptora antes de enviar moedas.</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Estes son os teus enderezos de Bitcoin para recibir pagamentos. Emprega o botón 'Crear novo enderezo para recibir pagamentos' na solapa de recibir para crear novos enderezos.
-Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Estas son as túas direccións Vertcoin para enviar pagos. Revisa sempre a cantidade e a dirección receptora antes de enviar moedas.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -115,19 +105,19 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">Diálogo de Contrasinal</translation>
+        <translation>Diálogo de Contrasinal</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Introduce contrasinal</translation>
+        <translation>Introduce contrasinal</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Novo contrasinal</translation>
+        <translation>Novo contrasinal</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Repite novo contrasinal</translation>
+        <translation>Repite novo contrasinal</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -150,8 +140,8 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation type="unfinished">Confirmar encriptación de moedeiro</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS VERTCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -210,14 +200,14 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -252,165 +242,102 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished">Esta é unha build de test pre-lanzamento - emprégaa baixo o teu propio risco - non empregar para minado ou aplicacións de comerciantes</translation>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished">Precaución: Non parece que esteamos totalmente de acordo cos nosos pares! Pode que precises actualizar, ou outros nodos poden precisar actualizarse.</translation>
-    </message>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished">Detectada base de datos de bloques corrupta.</translation>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished">Queres reconstruír a base de datos de bloques agora?</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation type="unfinished">Carga completa</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation type="unfinished">Erro inicializando a base de datos de bloques</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished">Erro inicializando entorno de base de datos de moedeiro %s!</translation>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation type="unfinished">Erro cargando base de datos do bloque</translation>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation type="unfinished">Erro abrindo base de datos de bloques</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished">Fallou escoitar en calquera porto. Emprega -listen=0 se queres isto.</translation>
-    </message>
-    <message>
-        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation type="unfinished">Bloque xénese incorrecto ou non existente. Datadir erróneo para a rede?</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation type="unfinished">Fondos insuficientes</translation>
-    </message>
-    <message>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished">Non hai suficientes descritores de arquivo dispoñibles.</translation>
-    </message>
-    <message>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished">Fallou a sinatura da transacción</translation>
-    </message>
-    <message>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished">A cantidade da transacción é demasiado pequena</translation>
-    </message>
-    <message>
-        <source>Transaction too large</source>
-        <translation type="unfinished">A transacción é demasiado grande</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation type="unfinished">Rede descoñecida especificada en -onlynet: '%s'</translation>
-    </message>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Vista xeral</translation>
+        <translation>&amp;Vista xeral</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Amosar vista xeral do moedeiro</translation>
+        <translation>Amosar vista xeral do moedeiro</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Transaccións</translation>
+        <translation>&amp;Transaccións</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Navegar historial de transaccións</translation>
+        <translation>Navegar historial de transaccións</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">&amp;Saír</translation>
+        <translation>&amp;Saír</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Saír da aplicación</translation>
+        <translation>Saír da aplicación</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">Acerca de &amp;Qt</translation>
+        <translation>Acerca de &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Amosar información acerca de Qt</translation>
+        <translation>Amosar información acerca de Qt</translation>
     </message>
     <message>
         <source>Wallet:</source>
         <translation type="unfinished">Moedeiro:</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Enviar moedas a unha dirección Bitcoin</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Enviar moedas a unha dirección Vertcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">Facer copia de seguridade do moedeiro noutra localización</translation>
+        <translation>Facer copia de seguridade do moedeiro noutra localización</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Cambiar o contrasinal empregado para a encriptación do moedeiro</translation>
+        <translation>Cambiar o contrasinal empregado para a encriptación do moedeiro</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;Enviar</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;Recibir</translation>
+        <translation>&amp;Recibir</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Amosar/Agachar</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Amosar ou agachar a xanela principal</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">Encriptar as claves privadas que pertencen ao teu moedeiro</translation>
+        <translation>Encriptar as claves privadas que pertencen ao teu moedeiro</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Asina mensaxes cos teus enderezos Bitcoin para probar que che pertencen</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>Asina mensaxes cos teus enderezos Vertcoin para probar que che pertencen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verifica mensaxes para asegurar que foron asinados con enderezos Bitcoin específicos.</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Verifica mensaxes para asegurar que foron asinados con enderezos Vertcoin específicos.</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Arquivo</translation>
+        <translation>&amp;Arquivo</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">Axus&amp;tes</translation>
+        <translation>Axus&amp;tes</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">A&amp;xuda</translation>
+        <translation>A&amp;xuda</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Barra de ferramentas</translation>
+        <translation>Barra de ferramentas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Solicitar pagamentos (xera códigos QR e bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation type="unfinished">Solicitar pagamentos (xera códigos QR e vertcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,38 +353,38 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 detrás</translation>
+        <translation>%1 detrás</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished">O último bloque recibido foi xerado fai %1.</translation>
+        <translation>O último bloque recibido foi xerado fai %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished">As transaccións despois desta non serán aínda visibles.</translation>
+        <translation>As transaccións despois desta non serán aínda visibles.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Erro</translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Aviso</translation>
+        <translation>Aviso</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Información</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Actualizado</translation>
+        <translation>Actualizado</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -484,6 +411,10 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation type="unfinished">&amp;Xanela</translation>
     </message>
     <message>
+        <source>Minimize</source>
+        <translation type="unfinished">Minimizar</translation>
+    </message>
+    <message>
         <source>Main Window</source>
         <translation type="unfinished">Xanela Principal</translation>
     </message>
@@ -492,7 +423,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation type="unfinished">%1 cliente</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -501,19 +432,19 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation type="unfinished">Transacción enviada</translation>
+        <translation>Transacción enviada</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Transacción entrante</translation>
+        <translation>Transacción entrante</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">O moedeiro está &lt;b&gt;encriptado&lt;/b&gt; e actualmente &lt;b&gt;desbloqueado&lt;/b&gt;</translation>
+        <translation>O moedeiro está &lt;b&gt;encriptado&lt;/b&gt; e actualmente &lt;b&gt;desbloqueado&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">O moedeiro está &lt;b&gt;encriptado&lt;/b&gt; e actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
+        <translation>O moedeiro está &lt;b&gt;encriptado&lt;/b&gt; e actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -613,11 +544,6 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <source>default wallet</source>
         <translation type="unfinished">moedeiro por defecto</translation>
     </message>
-    <message>
-        <source>Open Wallet</source>
-        <extracomment>Title of window indicating the progress of opening of a wallet.</extracomment>
-        <translation type="unfinished">Abrir Moedeiro</translation>
-    </message>
     </context>
 <context>
     <name>WalletController</name>
@@ -637,11 +563,11 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">Modificar Enderezo</translation>
+        <translation>Modificar Enderezo</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">&amp;Etiqueta</translation>
+        <translation>&amp;Etiqueta</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -653,7 +579,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">&amp;Enderezo</translation>
+        <translation>&amp;Enderezo</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -668,8 +594,8 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation type="unfinished">Modificar dirección para enviar</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">A dirección introducida '%1' non é unha dirección Bitcoin válida.</translation>
+        <source>The entered address "%1" is not a valid Vertcoin address.</source>
+        <translation type="unfinished">A dirección introducida '%1' non é unha dirección Vertcoin válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -684,23 +610,23 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation type="unfinished">Crearáse un novo directorio de datos.</translation>
+        <translation>Crearáse un novo directorio de datos.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation type="unfinished">nome</translation>
+        <translation>nome</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation type="unfinished">O directorio xa existe. Engade %1 se queres crear un novo directorio aquí.</translation>
+        <translation>O directorio xa existe. Engade %1 se queres crear un novo directorio aquí.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation type="unfinished">A ruta xa existe e non é un directorio.</translation>
+        <translation>A ruta xa existe e non é un directorio.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation type="unfinished">Non se pode crear directorio de datos aquí</translation>
+        <translation>Non se pode crear directorio de datos aquí</translation>
     </message>
 </context>
 <context>
@@ -715,11 +641,11 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Erro</translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <source>Welcome</source>
-        <translation type="unfinished">Benvido</translation>
+        <translation>Benvido</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
@@ -727,11 +653,11 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation type="unfinished">Empregar o directorio de datos por defecto</translation>
+        <translation>Empregar o directorio de datos por defecto</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation type="unfinished">Empregar un directorio de datos personalizado</translation>
+        <translation>Empregar un directorio de datos personalizado</translation>
     </message>
 </context>
 <context>
@@ -757,34 +683,26 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     </context>
 <context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Paste address from clipboard</source>
-        <extracomment>Tooltip text for button that allows you to paste an address that is in your clipboard.</extracomment>
-        <translation type="unfinished">Pegar enderezo dende portapapeis</translation>
-    </message>
-</context>
-<context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Opcións</translation>
+        <translation>Opcións</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation type="unfinished">&amp;Principal</translation>
+        <translation>&amp;Principal</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished">Restaurar todas as opcións de cliente ás por defecto</translation>
+        <translation>Restaurar todas as opcións de cliente ás por defecto</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished">Opcións de &amp;Restaurar</translation>
+        <translation>Opcións de &amp;Restaurar</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation type="unfinished">&amp;Rede</translation>
+        <translation>&amp;Rede</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -795,72 +713,71 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation type="unfinished">Experto</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Abrir automáticamente o porto do cliente Bitcoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
+        <source>Automatically open the Vertcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente o porto do cliente Vertcoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished">Mapear porto empregando &amp;UPnP</translation>
+        <translation>Mapear porto empregando &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished">&amp;IP do Proxy:</translation>
+        <translation>&amp;IP do Proxy:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Porto:</translation>
+        <translation>&amp;Porto:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished">Porto do proxy (exemplo: 9050)</translation>
+        <translation>Porto do proxy (exemplo: 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation type="unfinished">&amp;Xanela</translation>
+        <translation>&amp;Xanela</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished">Amosar so unha icona na bandexa tras minimizar a xanela.</translation>
+        <translation>Amosar so unha icona na bandexa tras minimizar a xanela.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished">&amp;Minimizar á bandexa en lugar de á barra de tarefas.</translation>
+        <translation>&amp;Minimizar á bandexa en lugar de á barra de tarefas.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished">M&amp;inimizar ao pechar</translation>
+        <translation>M&amp;inimizar ao pechar</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation type="unfinished">&amp;Visualización</translation>
+        <translation>&amp;Visualización</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished">&amp;Linguaxe de interface de usuario:</translation>
+        <translation>&amp;Linguaxe de interface de usuario:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished">&amp;Unidade na que amosar as cantidades:</translation>
+        <translation>&amp;Unidade na que amosar as cantidades:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Escolle a unidade de subdivisión por defecto para amosar na interface e ao enviar moedas.</translation>
+        <translation>Escolle a unidade de subdivisión por defecto para amosar na interface e ao enviar moedas.</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Cancelar</translation>
+        <translation>&amp;Cancelar</translation>
     </message>
     <message>
         <source>default</source>
-        <translation type="unfinished">por defecto</translation>
+        <translation>por defecto</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished">Confirmar opcións de restaurar</translation>
+        <translation>Confirmar opcións de restaurar</translation>
     </message>
     <message>
         <source>Configuration options</source>
-        <extracomment>Window title text of pop-up box that allows opening up of configuration file.</extracomment>
         <translation type="unfinished">Opcións de configuración</translation>
     </message>
     <message>
@@ -877,38 +794,38 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished">O enderezo de proxy suministrado é inválido.</translation>
+        <translation>O enderezo de proxy suministrado é inválido.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Formulario</translation>
+        <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Bitcoin despois de que se estableza unha conexión, mais este proceso non está todavía rematado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vertcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Vertcoin despois de que se estableza unha conexión, mais este proceso non está todavía rematado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation type="unfinished">O teu balance actualmente dispoñible</translation>
+        <translation>O teu balance actualmente dispoñible</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation type="unfinished">Total de transaccións que aínda teñen que ser confirmadas, e non contan todavía dentro do balance gastable</translation>
+        <translation>Total de transaccións que aínda teñen que ser confirmadas, e non contan todavía dentro do balance gastable</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation type="unfinished">Inmaduro:</translation>
+        <translation>Inmaduro:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished">O balance minado todavía non madurou</translation>
+        <translation>O balance minado todavía non madurou</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation type="unfinished">O teu balance actual total</translation>
+        <translation>O teu balance actual total</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -943,7 +860,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <extracomment>Title of Peers Table column which states the network the peer connected through.</extracomment>
         <translation type="unfinished">Rede</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -967,39 +884,39 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <name>RPCConsole</name>
     <message>
         <source>Client version</source>
-        <translation type="unfinished">Versión do cliente</translation>
+        <translation>Versión do cliente</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished">&amp;Información</translation>
+        <translation>&amp;Información</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation type="unfinished">Tempo de arranque</translation>
+        <translation>Tempo de arranque</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">Rede</translation>
+        <translation>Rede</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation type="unfinished">Número de conexións</translation>
+        <translation>Número de conexións</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation type="unfinished">Cadea de bloques</translation>
+        <translation>Cadea de bloques</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation type="unfinished">Hora do último bloque</translation>
+        <translation>Hora do último bloque</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished">&amp;Abrir</translation>
+        <translation>&amp;Abrir</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished">&amp;Consola</translation>
+        <translation>&amp;Consola</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
@@ -1011,11 +928,11 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation type="unfinished">Arquivo de log de depuración</translation>
+        <translation>Arquivo de log de depuración</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation type="unfinished">Limpar consola</translation>
+        <translation>Limpar consola</translation>
     </message>
     <message>
         <source>In:</source>
@@ -1047,10 +964,6 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <message>
         <source>&amp;Message:</source>
         <translation type="unfinished">&amp;Mensaxe:</translation>
-    </message>
-    <message>
-        <source>&amp;Create new receiving address</source>
-        <translation type="unfinished">&amp;Crear novo enderezo para recibir pagamentos</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1123,7 +1036,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Moedas Enviadas</translation>
+        <translation>Moedas Enviadas</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
@@ -1151,11 +1064,11 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation type="unfinished">Enviar a múltiples receptores á vez</translation>
+        <translation>Enviar a múltiples receptores á vez</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation type="unfinished">Engadir &amp;Receptor</translation>
+        <translation>Engadir &amp;Receptor</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1163,15 +1076,15 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">Limpar &amp;Todo</translation>
+        <translation>Limpar &amp;Todo</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation type="unfinished">Confirmar a acción de envío</translation>
+        <translation>Confirmar a acción de envío</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation type="unfinished">&amp;Enviar</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1202,6 +1115,10 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation type="unfinished">%1 a %2</translation>
     </message>
     <message>
+        <source>Are you sure you want to send?</source>
+        <translation type="unfinished">Seguro que queres enviar?</translation>
+    </message>
+    <message>
         <source>Transaction fee</source>
         <translation type="unfinished">Tarifa de transacción</translation>
     </message>
@@ -1227,14 +1144,14 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Atención:  Enderezo Bitcoin non válido</translation>
+        <source>Warning: Invalid Vertcoin address</source>
+        <translation type="unfinished">Atención:  Enderezo Vertcoin non válido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1249,15 +1166,15 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation type="unfinished">&amp;Cantidade:</translation>
+        <translation>&amp;Cantidade:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation type="unfinished">Pagar &amp;A:</translation>
+        <translation>Pagar &amp;A:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation type="unfinished">&amp;Etiqueta:</translation>
+        <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1265,7 +1182,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Pegar enderezo dende portapapeis</translation>
+        <translation>Pegar enderezo dende portapapeis</translation>
     </message>
     <message>
         <source>Remove this entry</source>
@@ -1288,11 +1205,11 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished">Sinaturas - Asinar / Verificar unha Mensaxe</translation>
+        <translation>Sinaturas - Asinar / Verificar unha Mensaxe</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished">&amp;Asinar Mensaxe</translation>
+        <translation>&amp;Asinar Mensaxe</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1300,51 +1217,51 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Pegar enderezo dende portapapeis</translation>
+        <translation>Pegar enderezo dende portapapeis</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished">Introduce a mensaxe que queres asinar aquí</translation>
+        <translation>Introduce a mensaxe que queres asinar aquí</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation type="unfinished">Sinatura</translation>
+        <translation>Sinatura</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished">Copiar a sinatura actual ao portapapeis do sistema</translation>
+        <translation>Copiar a sinatura actual ao portapapeis do sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Asina a mensaxe para probar que posúes este enderezo Bitcoin</translation>
+        <source>Sign the message to prove you own this Vertcoin address</source>
+        <translation>Asina a mensaxe para probar que posúes este enderezo Vertcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished">Asinar &amp;Mensaxe</translation>
+        <translation>Asinar &amp;Mensaxe</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished">Restaurar todos os campos de sinatura de mensaxe</translation>
+        <translation>Restaurar todos os campos de sinatura de mensaxe</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">Limpar &amp;Todo</translation>
+        <translation>Limpar &amp;Todo</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished">&amp;Verificar Mensaxe</translation>
+        <translation>&amp;Verificar Mensaxe</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Verificar a mensaxe para asegurar que foi asinada coa dirección Bitcoin especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified Vertcoin address</source>
+        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Vertcoin especificada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished">Verificar &amp;Mensaxe</translation>
+        <translation>Verificar &amp;Mensaxe</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished">Restaurar todos os campos de verificación de mensaxe</translation>
+        <translation>Restaurar todos os campos de verificación de mensaxe</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1401,6 +1318,17 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">Aberto ata %1</translation>
+    </message>
     <message>
         <source>%1/unconfirmed</source>
         <translation type="unfinished">%1/sen confirmar</translation>
@@ -1451,7 +1379,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -1521,7 +1449,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished">Este panel amosa unha descripción detallada da transacción</translation>
+        <translation>Este panel amosa unha descripción detallada da transacción</translation>
     </message>
     </context>
 <context>
@@ -1537,6 +1465,17 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <message>
         <source>Label</source>
         <translation type="unfinished">Etiqueta</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">Aberto ata %1</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -1687,13 +1626,6 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
 </context>
 <context>
-    <name>WalletFrame</name>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">Erro</translation>
-    </message>
-    </context>
-<context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
@@ -1715,6 +1647,10 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation type="unfinished">Exportar os datos da pestaña actual a un arquivo.</translation>
     </message>
     <message>
+        <source>Error</source>
+        <translation type="unfinished">Erro</translation>
+    </message>
+    <message>
         <source>Backup Wallet</source>
         <translation type="unfinished">Copia de Seguridade de Moedeiro</translation>
     </message>
@@ -1733,6 +1669,77 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
         <translation type="unfinished">Os datos do moedeiro foron gardados correctamente en %1.</translation>
+    </message>
+    </context>
+<context>
+    <name>vertcoin-core</name>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished">Esta é unha build de test pre-lanzamento - emprégaa baixo o teu propio risco - non empregar para minado ou aplicacións de comerciantes</translation>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation type="unfinished">Precaución: Non parece que esteamos totalmente de acordo cos nosos pares! Pode que precises actualizar, ou outros nodos poden precisar actualizarse.</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation type="unfinished">Detectada base de datos de bloques corrupta.</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation type="unfinished">Queres reconstruír a base de datos de bloques agora?</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation type="unfinished">Carga completa</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation type="unfinished">Erro inicializando a base de datos de bloques</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation type="unfinished">Erro inicializando entorno de base de datos de moedeiro %s!</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation type="unfinished">Erro cargando base de datos do bloque</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation type="unfinished">Erro abrindo base de datos de bloques</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation type="unfinished">Fallou escoitar en calquera porto. Emprega -listen=0 se queres isto.</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation type="unfinished">Bloque xénese incorrecto ou non existente. Datadir erróneo para a rede?</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation type="unfinished">Fondos insuficientes</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation type="unfinished">Non hai suficientes descritores de arquivo dispoñibles.</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation type="unfinished">Fallou a sinatura da transacción</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation type="unfinished">A cantidade da transacción é demasiado pequena</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation type="unfinished">A transacción é demasiado grande</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation type="unfinished">Rede descoñecida especificada en -onlynet: '%s'</translation>
     </message>
     </context>
 </TS>

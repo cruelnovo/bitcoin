@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Crea novam inscriptionem</translation>
+        <translation>Crea novam inscriptionem</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -11,7 +11,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Copia inscriptionem iam selectam in latibulum systematis</translation>
+        <translation>Copia inscriptionem iam selectam in latibulum systematis</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -23,7 +23,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Dele active selectam inscriptionem ex enumeratione</translation>
+        <translation>Dele active selectam inscriptionem ex enumeratione</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -31,18 +31,18 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Exporta data in hac tabella in plicam</translation>
+        <translation>Exporta data in hac tabella in plicam</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Exporta</translation>
+        <translation>&amp;Exporta</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Dele</translation>
+        <translation>&amp;Dele</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
@@ -81,19 +81,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">Dialogus Tesserae</translation>
+        <translation>Dialogus Tesserae</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Insere tesseram</translation>
+        <translation>Insere tesseram</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Nova tessera</translation>
+        <translation>Nova tessera</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Itera novam tesseram</translation>
+        <translation>Itera novam tesseram</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -120,7 +120,7 @@
         <translation type="unfinished">Confirma cifrationem cassidilis</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS BITOS&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -183,14 +183,14 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -225,93 +225,30 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished">Hoc est prae-dimittum experimentala aedes - utere eo periculo tuo proprio - nolite utere fodendo vel applicationibus mercatoriis</translation>
-    </message>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished">Corruptum databasum frustorum invenitur</translation>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished">Visne reficere databasum frustorum iam?</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation type="unfinished">Completo lengendi</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation type="unfinished">Error initiando databasem frustorum</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished">Error initiando systematem databasi cassidilis %s!</translation>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation type="unfinished">Error legendo frustorum databasem</translation>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation type="unfinished">Error aperiendo databasum frustorum</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished">Non potuisse auscultare in ulla porta.  Utere -listen=0 si hoc vis.</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation type="unfinished">Inopia nummorum</translation>
-    </message>
-    <message>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished">Inopia descriptorum plicarum.</translation>
-    </message>
-    <message>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished">Signandum transactionis abortum est</translation>
-    </message>
-    <message>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished">Magnitudo transactionis nimis parva</translation>
-    </message>
-    <message>
-        <source>Transaction too large</source>
-        <translation type="unfinished">Transactio nimis magna</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation type="unfinished">Ignotum rete specificatum in -onlynet: '%s'</translation>
-    </message>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Summarium</translation>
+        <translation>&amp;Summarium</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Monstra generale summarium cassidilis</translation>
+        <translation>Monstra generale summarium cassidilis</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Transactiones</translation>
+        <translation>&amp;Transactiones</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Inspicio historiam transactionum</translation>
+        <translation>Inspicio historiam transactionum</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">E&amp;xi</translation>
+        <translation>E&amp;xi</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Exi applicatione</translation>
+        <translation>Exi applicatione</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -319,63 +256,71 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">Informatio de &amp;Qt</translation>
+        <translation>Informatio de &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Monstra informationem de Qt</translation>
+        <translation>Monstra informationem de Qt</translation>
     </message>
     <message>
         <source>Create a new wallet</source>
-        <translation type="unfinished">Creare novum cassidilium</translation>
+        <translation type="unfinished">Creare novum casidillium</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Mitte nummos ad inscriptionem Bitcoin</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Mitte nummos ad inscriptionem Vertcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">Conserva cassidile in locum alium</translation>
+        <translation>Conserva cassidile in locum alium</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Muta tesseram utam pro cassidilis cifrando</translation>
+        <translation>Muta tesseram utam pro cassidilis cifrando</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;Mitte</translation>
+        <translation>&amp;Mitte</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;Accipe</translation>
+        <translation>&amp;Accipe</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Monstra/Occulta</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Monstra vel occulta Fenestram principem</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">Cifra claves privatas quae cassidili tui sunt</translation>
+        <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Signa nuntios cum tuis inscriptionibus Bitcoin ut demonstres te eas possidere</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus Vertcoin ut demonstres te eas possidere</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Bitcoin</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Vertcoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Plica</translation>
+        <translation>&amp;Plica</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Configuratio</translation>
+        <translation>&amp;Configuratio</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Auxilium</translation>
+        <translation>&amp;Auxilium</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Tabella instrumentorum "Tabs"</translation>
+        <translation>Tabella instrumentorum "Tabs"</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -383,41 +328,41 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 post</translation>
+        <translation>%1 post</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished">Postremum acceptum frustum generatum est %1 abhinc.</translation>
+        <translation>Postremum acceptum frustum generatum est %1 abhinc.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished">Transactiones post hoc nondum visibiles erunt.</translation>
+        <translation>Transactiones post hoc nondum visibiles erunt.</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Monitio</translation>
+        <translation>Monitio</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Informatio</translation>
+        <translation>Informatio</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Recentissimo</translation>
+        <translation>Recentissimo</translation>
     </message>
     <message>
         <source>&amp;Window</source>
         <translation type="unfinished">&amp;Fenestra</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -426,19 +371,19 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation type="unfinished">Transactio missa</translation>
+        <translation>Transactio missa</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Transactio incipiens</translation>
+        <translation>Transactio incipiens</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;reseratum&lt;/b&gt;</translation>
+        <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;reseratum&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;seratum&lt;/b&gt;</translation>
+        <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;seratum&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -483,15 +428,15 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">Muta Inscriptionem</translation>
+        <translation>Muta Inscriptionem</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">&amp;Titulus</translation>
+        <translation>&amp;Titulus</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">&amp;Inscriptio</translation>
+        <translation>&amp;Inscriptio</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -506,8 +451,8 @@
         <translation type="unfinished">Muta inscriptionem mittendi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Inscriptio inserta "%1" non valida inscriptio Bitcoin est.</translation>
+        <source>The entered address "%1" is not a valid Vertcoin address.</source>
+        <translation type="unfinished">Inscriptio inserta "%1" non valida inscriptio Vertcoin est.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -552,132 +497,124 @@
     </message>
     </context>
 <context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Paste address from clipboard</source>
-        <extracomment>Tooltip text for button that allows you to paste an address that is in your clipboard.</extracomment>
-        <translation type="unfinished">Glutina inscriptionem ex latibulo</translation>
-    </message>
-</context>
-<context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Optiones</translation>
+        <translation>Optiones</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation type="unfinished">&amp;Princeps</translation>
+        <translation>&amp;Princeps</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished">Reconstitue omnes optiones clientis ad praedefinita.</translation>
+        <translation>Reconstitue omnes optiones clientis ad praedefinita.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished">&amp;Reconstitue Optiones</translation>
+        <translation>&amp;Reconstitue Optiones</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation type="unfinished">&amp;Rete</translation>
+        <translation>&amp;Rete</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation type="unfinished">Cassidile</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Aperi per se portam clientis Bitcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the Vertcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis Vertcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished">Designa portam utendo &amp;UPnP</translation>
+        <translation>Designa portam utendo &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished">&amp;IP vicarii:</translation>
+        <translation>&amp;IP vicarii:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Porta:</translation>
+        <translation>&amp;Porta:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished">Porta vicarii (e.g. 9050)</translation>
+        <translation>Porta vicarii (e.g. 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation type="unfinished">&amp;Fenestra</translation>
+        <translation>&amp;Fenestra</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished">Monstra tantum iconem in tabella systematis postquam fenestram minifactam est.</translation>
+        <translation>Monstra tantum iconem in tabella systematis postquam fenestram minifactam est.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished">&amp;Minifac in tabellam systematis potius quam applicationum</translation>
+        <translation>&amp;Minifac in tabellam systematis potius quam applicationum</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished">M&amp;inifac ad claudendum</translation>
+        <translation>M&amp;inifac ad claudendum</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation type="unfinished">&amp;UI</translation>
+        <translation>&amp;UI</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished">&amp;Lingua monstranda utenti:</translation>
+        <translation>&amp;Lingua monstranda utenti:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished">&amp;Unita qua quantitates monstrare:</translation>
+        <translation>&amp;Unita qua quantitates monstrare:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Selige praedefinitam unitam subdivisionis monstrare in interfacie et quando nummos mittere</translation>
+        <translation>Selige praedefinitam unitam subdivisionis monstrare in interfacie et quando nummos mittere</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Cancella</translation>
+        <translation>&amp;Cancella</translation>
     </message>
     <message>
         <source>default</source>
-        <translation type="unfinished">praedefinitum</translation>
+        <translation>praedefinitum</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished">Confirma optionum reconstituere</translation>
+        <translation>Confirma optionum reconstituere</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished">Inscriptio vicarii tradita non valida est.</translation>
+        <translation>Inscriptio vicarii tradita non valida est.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Schema</translation>
+        <translation>Schema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Bitcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vertcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Vertcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation type="unfinished">Immatura:</translation>
+        <translation>Immatura:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished">Fossum pendendum quod nondum maturum est</translation>
+        <translation>Fossum pendendum quod nondum maturum est</translation>
     </message>
     </context>
 <context>
     <name>PaymentServer</name>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished">Bitcoin incipere non potest: cliccare-ad-pensandum handler</translation>
+        <source>Cannot start vertcoin: click-to-pay handler</source>
+        <translation type="unfinished">Vertcoin incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -701,7 +638,7 @@
         <extracomment>Title of Peers Table column which states the network the peer connected through.</extracomment>
         <translation type="unfinished">Rete</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -721,47 +658,47 @@
     <name>RPCConsole</name>
     <message>
         <source>Client version</source>
-        <translation type="unfinished">Versio clientis</translation>
+        <translation>Versio clientis</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished">&amp;Informatio</translation>
+        <translation>&amp;Informatio</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation type="unfinished">Tempus initiandi</translation>
+        <translation>Tempus initiandi</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">Rete</translation>
+        <translation>Rete</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation type="unfinished">Numerus conexionum</translation>
+        <translation>Numerus conexionum</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation type="unfinished">Catena frustorum</translation>
+        <translation>Catena frustorum</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation type="unfinished">Hora postremi frusti</translation>
+        <translation>Hora postremi frusti</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished">&amp;Aperi</translation>
+        <translation>&amp;Aperi</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished">&amp;Terminale</translation>
+        <translation>&amp;Terminale</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation type="unfinished">Debug catalogi plica</translation>
+        <translation>Debug catalogi plica</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation type="unfinished">Vacuefac terminale</translation>
+        <translation>Vacuefac terminale</translation>
     </message>
     <message>
         <source>To</source>
@@ -833,7 +770,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Mitte Nummos</translation>
+        <translation>Mitte Nummos</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
@@ -853,27 +790,27 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation type="unfinished">Mitte pluribus accipientibus simul</translation>
+        <translation>Mitte pluribus accipientibus simul</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation type="unfinished">Adde &amp;Accipientem</translation>
+        <translation>Adde &amp;Accipientem</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">Vacuefac &amp;Omnia</translation>
+        <translation>Vacuefac &amp;Omnia</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="unfinished">Pendendum:</translation>
+        <translation>Pendendum:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation type="unfinished">Confirma actionem mittendi</translation>
+        <translation>Confirma actionem mittendi</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation type="unfinished">&amp;Mitte</translation>
+        <translation>&amp;Mitte</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -901,7 +838,7 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -915,19 +852,19 @@
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation type="unfinished">&amp;Quantitas:</translation>
+        <translation>&amp;Quantitas:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation type="unfinished">Pensa &amp;Ad:</translation>
+        <translation>Pensa &amp;Ad:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation type="unfinished">&amp;Titulus:</translation>
+        <translation>&amp;Titulus:</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Glutina inscriptionem ex latibulo</translation>
+        <translation>Glutina inscriptionem ex latibulo</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -942,59 +879,59 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished">Signationes - Signa / Verifica nuntium</translation>
+        <translation>Signationes - Signa / Verifica nuntium</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished">&amp;Signa Nuntium</translation>
+        <translation>&amp;Signa Nuntium</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Glutina inscriptionem ex latibulo</translation>
+        <translation>Glutina inscriptionem ex latibulo</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished">Insere hic nuntium quod vis signare</translation>
+        <translation>Insere hic nuntium quod vis signare</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation type="unfinished">Signatio</translation>
+        <translation>Signatio</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished">Copia signationem in latibulum systematis</translation>
+        <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Signa nuntium ut demonstres hanc inscriptionem Bitcoin a te possessa esse</translation>
+        <source>Sign the message to prove you own this Vertcoin address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem Vertcoin a te possessa esse</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished">Signa &amp;Nuntium</translation>
+        <translation>Signa &amp;Nuntium</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished">Reconstitue omnes campos signandi nuntii</translation>
+        <translation>Reconstitue omnes campos signandi nuntii</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">Vacuefac &amp;Omnia</translation>
+        <translation>Vacuefac &amp;Omnia</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished">&amp;Verifica Nuntium</translation>
+        <translation>&amp;Verifica Nuntium</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Verifica nuntium ut cures signatum esse cum specifica inscriptione Bitcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Vertcoin address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Vertcoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished">Verifica &amp;Nuntium</translation>
+        <translation>Verifica &amp;Nuntium</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished">Reconstitue omnes campos verificandi nuntii</translation>
+        <translation>Reconstitue omnes campos verificandi nuntii</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1051,6 +988,17 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">Apertum donec %1</translation>
+    </message>
     <message>
         <source>%1/unconfirmed</source>
         <translation type="unfinished">%1/non confirmata</translation>
@@ -1097,7 +1045,7 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -1159,7 +1107,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished">Haec tabula monstrat descriptionem verbosam transactionis</translation>
+        <translation>Haec tabula monstrat descriptionem verbosam transactionis</translation>
     </message>
     </context>
 <context>
@@ -1175,6 +1123,17 @@
     <message>
         <source>Label</source>
         <translation type="unfinished">Titulus</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">Apertum donec %1</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -1308,9 +1267,9 @@
     <name>WalletFrame</name>
     <message>
         <source>Create a new wallet</source>
-        <translation type="unfinished">Creare novum cassidilium</translation>
+        <translation type="unfinished">Creare novum casidillium</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>WalletModel</name>
     <message>
@@ -1339,6 +1298,69 @@
     <message>
         <source>Backup Successful</source>
         <translation type="unfinished">Successum in conservando</translation>
+    </message>
+    </context>
+<context>
+    <name>vertcoin-core</name>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished">Hoc est prae-dimittum experimentala aedes - utere eo periculo tuo proprio - nolite utere fodendo vel applicationibus mercatoriis</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation type="unfinished">Corruptum databasum frustorum invenitur</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation type="unfinished">Visne reficere databasum frustorum iam?</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation type="unfinished">Completo lengendi</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation type="unfinished">Error initiando databasem frustorum</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation type="unfinished">Error initiando systematem databasi cassidilis %s!</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation type="unfinished">Error legendo frustorum databasem</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation type="unfinished">Error aperiendo databasum frustorum</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation type="unfinished">Non potuisse auscultare in ulla porta.  Utere -listen=0 si hoc vis.</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation type="unfinished">Inopia nummorum</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation type="unfinished">Inopia descriptorum plicarum.</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation type="unfinished">Signandum transactionis abortum est</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation type="unfinished">Magnitudo transactionis nimis parva</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation type="unfinished">Transactio nimis magna</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation type="unfinished">Ignotum rete specificatum in -onlynet: '%s'</translation>
     </message>
     </context>
 </TS>

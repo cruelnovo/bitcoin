@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Maglalang kang bayung address</translation>
+        <translation>Maglalang kang bayung address</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Kopyan me ing salukuyan at makipiling address keng system clipboard</translation>
+        <translation>Kopyan me ing salukuyan at makipiling address keng system clipboard</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Ilako ya ing kasalungsungan makapiling address keng listahan</translation>
+        <translation>Ilako ya ing kasalungsungan makapiling address keng listahan</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,7 +35,7 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Ilako</translation>
+        <translation>&amp;Ilako</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -58,8 +58,8 @@
         <translation type="unfinished">Address king pamag-Tanggap</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Reni reng kekang Bitcoin address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Reni reng kekang Vertcoin address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -85,19 +85,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">Dialogo ning Passphrase</translation>
+        <translation>Dialogo ning Passphrase</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Mamalub kang passphrase</translation>
+        <translation>Mamalub kang passphrase</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Panibayung passphrase</translation>
+        <translation>Panibayung passphrase</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Pasibayuan ya ing bayung passphrase</translation>
+        <translation>Pasibayuan ya ing bayung passphrase</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -120,8 +120,8 @@
         <translation type="unfinished">Kumpirman ya ing wallet encryption</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG BITCOINS&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG VERTCOINS&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,13 +176,13 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -212,97 +212,66 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished">Mekapansin lang me-corrupt a block database</translation>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished">Buri meng buuan pasibayu ing block database ngene?</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation type="unfinished">Yari ne ing pamag-load</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation type="unfinished">Kamalian king pamag-initialize king block na ning database</translation>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation type="unfinished">Kamalian king pamag buklat king block database</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished">Memali ya ing pamakiramdam kareng gang nanung port. Gamita me ini -listen=0 nung buri me ini.</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation type="unfinished">Kulang a pondo</translation>
-    </message>
-    <message>
-        <source>Transaction too large</source>
-        <translation type="unfinished">Maragul yang masiadu ing transaksion</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation type="unfinished">E kilalang network ing mepili king -onlynet: '%s'</translation>
-    </message>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Ipakit ing kabuuang lawe ning wallet</translation>
+        <translation>Ipakit ing kabuuang lawe ning wallet</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Transaksion</translation>
+        <translation>&amp;Transaksion</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Lawan ing kasalesayan ning transaksion</translation>
+        <translation>Lawan ing kasalesayan ning transaksion</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">L&amp;umwal</translation>
+        <translation>L&amp;umwal</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Tuknangan ing aplikasyon</translation>
+        <translation>Tuknangan ing aplikasyon</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">Tungkul &amp;Qt</translation>
+        <translation>Tungkul &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Magpakit impormasion tungkul king Qt</translation>
+        <translation>Magpakit impormasion tungkul king Qt</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Magpadalang barya king Bitcoin address</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Magpadalang barya king Vertcoin address</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">I-backup ing wallet king aliwang lugal</translation>
+        <translation>I-backup ing wallet king aliwang lugal</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Alilan ya ing passphrase a gagamitan para king wallet encryption</translation>
+        <translation>Alilan ya ing passphrase a gagamitan para king wallet encryption</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Ipalto / Isalikut</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Ipalto o isalikut ing pun a awang</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Pamag-ayus</translation>
+        <translation>&amp;Pamag-ayus</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Saup</translation>
+        <translation>&amp;Saup</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Gamit para king Tabs</translation>
+        <translation>Gamit para king Tabs</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -310,40 +279,40 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished">Ing tatauling block a metanggap,  me-generate ya %1 ing milabas</translation>
+        <translation>Ing tatauling block a metanggap,  me-generate ya %1 ing milabas</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished">Ing transaksion kaibat na nini ali yapa magsilbing ipakit.</translation>
+        <translation>Ing transaksion kaibat na nini ali yapa magsilbing ipakit.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Mali</translation>
+        <translation>Mali</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Kapabaluan</translation>
+        <translation>Kapabaluan</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">&amp;Impormasion</translation>
+        <translation>&amp;Impormasion</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Makatuki ya king aldo</translation>
+        <translation>Makatuki ya king aldo</translation>
     </message>
     <message>
         <source>&amp;Window</source>
         <translation type="unfinished">&amp;Awang</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -351,19 +320,19 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation type="unfinished">Mipadalang transaksion</translation>
+        <translation>Mipadalang transaksion</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Paparatang a transaksion</translation>
+        <translation>Paparatang a transaksion</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">Maka-&lt;b&gt;encrypt&lt;/b&gt; ya ing wallet at kasalukuyan yang maka-&lt;b&gt;unlocked&lt;/b&gt;</translation>
+        <translation>Maka-&lt;b&gt;encrypt&lt;/b&gt; ya ing wallet at kasalukuyan yang maka-&lt;b&gt;unlocked&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">Maka-&lt;b&gt;encrypt&lt;/b&gt; ya ing wallet at kasalukuyan yang maka-&lt;b&gt;locked&lt;/b&gt;</translation>
+        <translation>Maka-&lt;b&gt;encrypt&lt;/b&gt; ya ing wallet at kasalukuyan yang maka-&lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -397,7 +366,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">Alilan ing Address</translation>
+        <translation>Alilan ing Address</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -412,8 +381,8 @@
         <translation type="unfinished">Alilan ya ing address king pamagpadala</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Ing pepalub yung address "%1" ali ya katanggap-tanggap a Bitcoin address.</translation>
+        <source>The entered address "%1" is not a valid Vertcoin address.</source>
+        <translation type="unfinished">Ing pepalub yung address "%1" ali ya katanggap-tanggap a Vertcoin address.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -435,11 +404,11 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Mali</translation>
+        <translation>Mali</translation>
     </message>
     <message>
         <source>Welcome</source>
-        <translation type="unfinished">Malaus ka</translation>
+        <translation>Malaus ka</translation>
     </message>
     </context>
 <context>
@@ -461,70 +430,62 @@
     </message>
     </context>
 <context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Paste address from clipboard</source>
-        <extracomment>Tooltip text for button that allows you to paste an address that is in your clipboard.</extracomment>
-        <translation type="unfinished">Idikit ing address menibat king clipboard</translation>
-    </message>
-</context>
-<context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Pipamilian</translation>
+        <translation>Pipamilian</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation type="unfinished">&amp;Pun</translation>
+        <translation>&amp;Pun</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Ibuklat yang antimanu ing Bitcoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
+        <source>Automatically open the Vertcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ibuklat yang antimanu ing Vertcoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished">Mapa ng ning port gamit ing &amp;UPnP</translation>
+        <translation>Mapa ng ning port gamit ing &amp;UPnP</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished">Port na ning proxy(e.g. 9050)</translation>
+        <translation>Port na ning proxy(e.g. 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation type="unfinished">&amp;Awang</translation>
+        <translation>&amp;Awang</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished">Ipakit mu ing tray icon kaibat meng pelatian ing awang.</translation>
+        <translation>Ipakit mu ing tray icon kaibat meng pelatian ing awang.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished">&amp;Latian ya ing tray kesa king taskbar</translation>
+        <translation>&amp;Latian ya ing tray kesa king taskbar</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished">P&amp;alatian istung isara</translation>
+        <translation>P&amp;alatian istung isara</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation type="unfinished">&amp;Ipalto</translation>
+        <translation>&amp;Ipalto</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished">Amanu na ning user interface:</translation>
+        <translation>Amanu na ning user interface:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished">Ing &amp;Unit a ipakit king alaga ning:</translation>
+        <translation>Ing &amp;Unit a ipakit king alaga ning:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Pilinan ing default subdivision unit a ipalto o ipakit king interface at istung magpadala kang barya.</translation>
+        <translation>Pilinan ing default subdivision unit a ipalto o ipakit king interface at istung magpadala kang barya.</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">I-&amp;Cancel</translation>
+        <translation>I-&amp;Cancel</translation>
     </message>
     <message>
         <source>Error</source>
@@ -532,34 +493,34 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished">Ing milageng proxy address eya katanggap-tanggap.</translation>
+        <translation>Ing milageng proxy address eya katanggap-tanggap.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Bitcoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vertcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Vertcoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation type="unfinished">Ing kekang kasalungsungan balanse a malyari mung gastusan</translation>
+        <translation>Ing kekang kasalungsungan balanse a malyari mung gastusan</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation type="unfinished">Ing kabuuan dareng transaksion a kasalungsungan ali pa me-kumpirma, at kasalungsungan ali pa mebilang kareng kekang balanseng malyari mung gastusan</translation>
+        <translation>Ing kabuuan dareng transaksion a kasalungsungan ali pa me-kumpirma, at kasalungsungan ali pa mebilang kareng kekang balanseng malyari mung gastusan</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished">Reng me-minang balanse a epa meg-matured</translation>
+        <translation>Reng me-minang balanse a epa meg-matured</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation type="unfinished">Kabuuan:</translation>
+        <translation>Kabuuan:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation type="unfinished">Ing kekang kasalungsungan kabuuang balanse</translation>
+        <translation>Ing kekang kasalungsungan kabuuang balanse</translation>
     </message>
     </context>
 <context>
@@ -574,27 +535,27 @@
     <name>RPCConsole</name>
     <message>
         <source>Client version</source>
-        <translation type="unfinished">Bersion ning Cliente</translation>
+        <translation>Bersion ning Cliente</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished">&amp;Impormasion</translation>
+        <translation>&amp;Impormasion</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation type="unfinished">Oras ning umpisa</translation>
+        <translation>Oras ning umpisa</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation type="unfinished">Bilang dareng koneksion</translation>
+        <translation>Bilang dareng koneksion</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation type="unfinished">Tatauling oras na ning block</translation>
+        <translation>Tatauling oras na ning block</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished">&amp;Ibuklat</translation>
+        <translation>&amp;Ibuklat</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -602,7 +563,7 @@
     </message>
     <message>
         <source>Clear console</source>
-        <translation type="unfinished">I-Clear ing console</translation>
+        <translation>I-Clear ing console</translation>
     </message>
     <message>
         <source>To</source>
@@ -654,7 +615,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Magpadalang Barya</translation>
+        <translation>Magpadalang Barya</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
@@ -670,27 +631,27 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation type="unfinished">Misanang magpadala kareng alialiuang tumanggap</translation>
+        <translation>Misanang magpadala kareng alialiuang tumanggap</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation type="unfinished">Maglage &amp;Tumanggap</translation>
+        <translation>Maglage &amp;Tumanggap</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">I-Clear &amp;Eganagana</translation>
+        <translation>I-Clear &amp;Eganagana</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="unfinished">Balanse:</translation>
+        <translation>Balanse:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation type="unfinished">Kumpirman ing aksion king pamagpadala</translation>
+        <translation>Kumpirman ing aksion king pamagpadala</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation type="unfinished">&amp;Ipadala</translation>
+        <translation>&amp;Ipadala</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -718,7 +679,7 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -731,15 +692,15 @@
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation type="unfinished">A&amp;laga:</translation>
+        <translation>A&amp;laga:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation type="unfinished">Ibayad &amp;kang:</translation>
+        <translation>Ibayad &amp;kang:</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Idikit ing address menibat king clipboard</translation>
+        <translation>Idikit ing address menibat king clipboard</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -754,59 +715,59 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished">Pirma - Pirman / I-beripika ing mensayi</translation>
+        <translation>Pirma - Pirman / I-beripika ing mensayi</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished">&amp;Pirman ing Mensayi</translation>
+        <translation>&amp;Pirman ing Mensayi</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Idikit ing address menibat king clipboard</translation>
+        <translation>Idikit ing address menibat king clipboard</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished">Ipalub ing mensayi a buri mung pirman keni</translation>
+        <translation>Ipalub ing mensayi a buri mung pirman keni</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation type="unfinished">Pirma</translation>
+        <translation>Pirma</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished">Kopyan ing kasalungsungan pirma king system clipboard</translation>
+        <translation>Kopyan ing kasalungsungan pirma king system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Pirman ing mensayi ban patune na keka ya ining Bitcoin address</translation>
+        <source>Sign the message to prove you own this Vertcoin address</source>
+        <translation>Pirman ing mensayi ban patune na keka ya ining Vertcoin address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished">Pirman ing &amp;Mensayi</translation>
+        <translation>Pirman ing &amp;Mensayi</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished">Ibalik keng dati reng ngan fields keng pamamirmang mensayi</translation>
+        <translation>Ibalik keng dati reng ngan fields keng pamamirmang mensayi</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">I-Clear &amp;Eganagana</translation>
+        <translation>I-Clear &amp;Eganagana</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished">&amp;Beripikan ing Mensayi</translation>
+        <translation>&amp;Beripikan ing Mensayi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Bitcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Vertcoin address</source>
+        <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Vertcoin address</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished">Beripikan ing &amp;Mensayi</translation>
+        <translation>Beripikan ing &amp;Mensayi</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished">Ibalik king dati reng ngan fields na ning pamag beripikang mensayi</translation>
+        <translation>Ibalik king dati reng ngan fields na ning pamag beripikang mensayi</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -863,6 +824,16 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">Makabuklat anggang %1</translation>
+    </message>
     <message>
         <source>%1/unconfirmed</source>
         <translation type="unfinished">%1/ali me-kumpirma</translation>
@@ -905,7 +876,7 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -958,7 +929,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished">Ining pane a ini magpakit yang detalyadung description ning transaksion</translation>
+        <translation>Ining pane a ini magpakit yang detalyadung description ning transaksion</translation>
     </message>
     </context>
 <context>
@@ -970,6 +941,16 @@
     <message>
         <source>Type</source>
         <translation type="unfinished">Klase</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">Makabuklat anggang %1</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -1092,17 +1073,56 @@
     </message>
 </context>
 <context>
-    <name>WalletFrame</name>
+    <name>WalletModel</name>
+    <message>
+        <source>Send Coins</source>
+        <translation type="unfinished">Magpadalang Barya</translation>
+    </message>
+    </context>
+<context>
+    <name>WalletView</name>
     <message>
         <source>Error</source>
         <translation type="unfinished">Mali</translation>
     </message>
     </context>
 <context>
-    <name>WalletModel</name>
+    <name>vertcoin-core</name>
     <message>
-        <source>Send Coins</source>
-        <translation type="unfinished">Magpadalang Barya</translation>
+        <source>Corrupted block database detected</source>
+        <translation type="unfinished">Mekapansin lang me-corrupt a block database</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation type="unfinished">Buri meng buuan pasibayu ing block database ngene?</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation type="unfinished">Yari ne ing pamag-load</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation type="unfinished">Kamalian king pamag-initialize king block na ning database</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation type="unfinished">Kamalian king pamag buklat king block database</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation type="unfinished">Memali ya ing pamakiramdam kareng gang nanung port. Gamita me ini -listen=0 nung buri me ini.</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation type="unfinished">Kulang a pondo</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation type="unfinished">Maragul yang masiadu ing transaksion</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation type="unfinished">E kilalang network ing mepili king -onlynet: '%s'</translation>
     </message>
     </context>
 </TS>

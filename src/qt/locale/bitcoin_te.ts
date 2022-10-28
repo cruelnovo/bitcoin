@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">క్రొత్త చిరునామా సృష్టించు</translation>
+        <translation>క్రొత్త చిరునామా సృష్టించు</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">ప్రస్తుతం ఎంచుకున్న చిరునామాను సిస్టం క్లిప్ బోర్డుకు కాపీ చేయండి</translation>
+        <translation>ప్రస్తుతం ఎంచుకున్న చిరునామాను సిస్టం క్లిప్ బోర్డుకు కాపీ చేయండి</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">ప్రస్తుతం ఎంచుకున్న చిరునామా ను జాబితా నుండి తీసివేయండి</translation>
+        <translation>ప్రస్తుతం ఎంచుకున్న చిరునామా ను జాబితా నుండి తీసివేయండి</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,15 +35,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">ప్రస్తుతం ఉన్న సమాచారాన్ని ఫైల్ లోనికి ఎగుమతి చేసుకోండి</translation>
+        <translation>ప్రస్తుతం ఉన్న సమాచారాన్ని ఫైల్ లోనికి ఎగుమతి చేసుకోండి</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">ఎగుమతి చేయండి</translation>
+        <translation>ఎగుమతి చేయండి</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">తొలగించండి</translation>
+        <translation>తొలగించండి</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -66,7 +66,7 @@
         <translation type="unfinished">అందుకునే చిరునామాలు</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">ఇవి మీరు పంపే చెల్లింపుల బిట్‌కాయిన్ చిరునామాలు. నాణేలు పంపే ముందు ప్రతిసారి అందుకునే చిరునామా మరియు చెల్లింపు మొత్తం సరిచూసుకోండి.</translation>
     </message>
     <message>
@@ -114,19 +114,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">సంకేతపదము డైలాగ్</translation>
+        <translation>సంకేతపదము డైలాగ్</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">సంకేతపదము చేర్చండి</translation>
+        <translation>సంకేతపదము చేర్చండి</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">క్రొత్త సంకేతపదము</translation>
+        <translation>క్రొత్త సంకేతపదము</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">క్రొత్త సంకేతపదము మరలా ఇవ్వండి</translation>
+        <translation>క్రొత్త సంకేతపదము మరలా ఇవ్వండి</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -153,7 +153,7 @@
         <translation type="unfinished">వాలెట్ గుప్తీకరణను నిర్ధారించండి</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">హెచ్చరిక: మీ జోలెని సంకేతపరిచి మీ సంకేతపదము కోల్పోతే, &lt;b&gt;మీ బిట్‌కాయిన్లు అన్నీ కోల్పోతారు&lt;/b&gt;</translation>
     </message>
     <message>
@@ -169,7 +169,7 @@
         <translation type="unfinished">వాలెట్ కోసం క్రొత్త పాస్‌ఫ్రేజ్‌ని నమోదు చేయండి.&lt;br/&gt; దయచేసి &lt;b&gt;పది లేదా అంతకంటే ఎక్కువ యాదృచ్ఛిక అక్షరాల&lt;/b&gt; పాస్‌ఫ్రేజ్‌ని లేదా &lt;b&gt;ఎనిమిది లేదా అంతకంటే ఎక్కువ పదాలను ఉపయోగించండి.&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your vertcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">మీ వాలెట్‌ను గుప్తీకరించడం వల్ల మీ కంప్యూటర్‌కు హాని కలిగించే మాల్వేర్ దొంగిలించకుండా మీ బిట్‌కాయిన్‌లను పూర్తిగా రక్షించలేమని గుర్తుంచుకోండి.</translation>
     </message>
     <message>
@@ -240,14 +240,14 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -282,30 +282,30 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;అవలోకనం</translation>
+        <translation>&amp;అవలోకనం</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">జోలె యొక్క సాధారణ అవలోకనాన్ని చూపించు</translation>
+        <translation>జోలె యొక్క సాధారణ అవలోకనాన్ని చూపించు</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;లావాదేవీలు</translation>
+        <translation>&amp;లావాదేవీలు</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">లావాదేవీ చరిత్రను బ్రౌజ్ చేయండి</translation>
+        <translation>లావాదేవీ చరిత్రను బ్రౌజ్ చేయండి</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">నిష్క్రమించు</translation>
+        <translation>నిష్క్రమించు</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">అప్లికేషన్ నిష్క్రమణ </translation>
+        <translation>అప్లికేషన్ నిష్క్రమణ </translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -317,11 +317,11 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">గురించి &amp; Qt</translation>
+        <translation>గురించి &amp; Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Qt గురించి సమాచారాన్ని చూపించు</translation>
+        <translation>Qt గురించి సమాచారాన్ని చూపించు</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -341,50 +341,50 @@
         <translation type="unfinished">నెట్‌వర్క్ కార్యాచరణ నిలిపివేయబడింది.</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">బిట్‌కాయిన్ చిరునామాకు నాణేలను పంపండి</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>బిట్‌కాయిన్ చిరునామాకు నాణేలను పంపండి</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">మరొక ప్రదేశానికి జోలెను బ్యాకప్ చెయండి</translation>
+        <translation>మరొక ప్రదేశానికి జోలెను బ్యాకప్ చెయండి</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">వాలెట్ గుప్తీకరణకు ఉపయోగించే పాస్‌ఫ్రేజ్‌ని మార్చండి</translation>
+        <translation>వాలెట్ గుప్తీకరణకు ఉపయోగించే పాస్‌ఫ్రేజ్‌ని మార్చండి</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">పంపు</translation>
+        <translation>పంపు</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">స్వీకరించండి</translation>
+        <translation>స్వీకరించండి</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">లోపం</translation>
+        <translation>లోపం</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">హెచ్చరిక</translation>
+        <translation>హెచ్చరిక</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">వర్తమానము</translation>
+        <translation>వర్తమానము</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">తాజాగా ఉంది</translation>
+        <translation>తాజాగా ఉంది</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -425,7 +425,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
+        <source>Vertcoin</source>
         <translation type="unfinished">బిట్కోయిన్</translation>
     </message>
     <message numerus="yes">
@@ -438,7 +438,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">లోపం</translation>
+        <translation>లోపం</translation>
     </message>
     </context>
 <context>
@@ -501,7 +501,7 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -513,6 +513,13 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>Status</source>
         <translation type="unfinished">స్థితి</translation>
@@ -535,7 +542,7 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -562,6 +569,13 @@
     <message>
         <source>Label</source>
         <translation type="unfinished">ఉల్లాకు</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -597,11 +611,7 @@
         <source>Create a new wallet</source>
         <translation type="unfinished">&lt;div&gt;&lt;/div&gt;</translation>
     </message>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">లోపం</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -611,6 +621,10 @@
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished">ప్రస్తుతం ఉన్న సమాచారాన్ని ఫైల్ లోనికి ఎగుమతి చేసుకోండి</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">లోపం</translation>
     </message>
     </context>
 </TS>

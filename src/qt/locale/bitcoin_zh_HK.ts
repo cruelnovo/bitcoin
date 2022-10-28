@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">新增一個位址</translation>
+        <translation>新增一個位址</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">複製目前選擇的位址到系統剪貼簿</translation>
+        <translation>複製目前選擇的位址到系統剪貼簿</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">把目前選擇的位址從列表中刪除</translation>
+        <translation>把目前選擇的位址從列表中刪除</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,15 +35,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">把目前分頁的資料匯出至檔案</translation>
+        <translation>把目前分頁的資料匯出至檔案</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">匯出 &amp;E</translation>
+        <translation>匯出 &amp;E</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">刪除 &amp;D</translation>
+        <translation>刪除 &amp;D</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -66,8 +66,8 @@
         <translation type="unfinished">收款地址</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">這些是你要付款過去的 Bitcoin 位址。在付款之前，務必要檢查金額和收款位址是否正確。</translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">這些是你要付款過去的 Vertcoin 位址。在付款之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -114,19 +114,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">複雜密碼對話方塊</translation>
+        <translation>複雜密碼對話方塊</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">請輸入密碼</translation>
+        <translation>請輸入密碼</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">新密碼</translation>
+        <translation>新密碼</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">重複新密碼</translation>
+        <translation>重複新密碼</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -153,8 +153,8 @@
         <translation type="unfinished">確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Bitcoin 了&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Vertcoin 了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -173,8 +173,8 @@
         <translation type="unfinished">請輸入舊密碼和新密碼至錢包。</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">請記得將錢包加密不能完全防止你的 Bitcoins 經被入侵電腦的惡意程式偷取。</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your vertcoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">請記得將錢包加密不能完全防止你的 Vertcoins 經被入侵電腦的惡意程式偷取。</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -233,7 +233,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>VertcoinApplication</name>
     <message>
         <source>Internal error</source>
         <translation type="unfinished">內部錯誤</translation>
@@ -246,8 +246,8 @@
         <translation type="unfinished">錯誤: %1</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">輸入一個 Bitcoin 位址 (例如 %1)</translation>
+        <source>Enter a Vertcoin address (e.g. %1)</source>
+        <translation type="unfinished">輸入一個 Vertcoin 位址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -275,13 +275,13 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -315,30 +315,30 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">總覽 &amp;O</translation>
+        <translation>總覽 &amp;O</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">顯示錢包一般總覽</translation>
+        <translation>顯示錢包一般總覽</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">交易 &amp;T</translation>
+        <translation>交易 &amp;T</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">瀏覽交易紀錄</translation>
+        <translation>瀏覽交易紀錄</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">結束 &amp;x</translation>
+        <translation>結束 &amp;x</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">結束應用程式</translation>
+        <translation>結束應用程式</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -350,11 +350,11 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">關於 Qt &amp;Q</translation>
+        <translation>關於 Qt &amp;Q</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">顯示 Qt 相關資訊</translation>
+        <translation>顯示 Qt 相關資訊</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -369,62 +369,70 @@
         <translation type="unfinished">錢包:</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">付款至一個 Bitcoin 位址</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>付款至一個 Vertcoin 位址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">把錢包備份到其它地方</translation>
+        <translation>把錢包備份到其它地方</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">改變錢包加密用的密碼</translation>
+        <translation>改變錢包加密用的密碼</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">付款 &amp;S</translation>
+        <translation>付款 &amp;S</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">收款 &amp;R</translation>
+        <translation>收款 &amp;R</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>顯示 / 隱藏 &amp;S</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>顯示或隱藏主視窗</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">檔案 &amp;F</translation>
+        <translation>檔案 &amp;F</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">設定 &amp;S</translation>
+        <translation>設定 &amp;S</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">說明 &amp;H</translation>
+        <translation>說明 &amp;H</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">要求付款 (產生QR碼 bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation type="unfinished">要求付款 (產生QR碼 vertcoin: URIs)</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">錯誤</translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">警告</translation>
+        <translation>警告</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">資訊</translation>
+        <translation>資訊</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">已更新至最新版本</translation>
+        <translation>已更新至最新版本</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -443,7 +451,7 @@
         <translation type="unfinished">主視窗</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -483,11 +491,6 @@
         <source>default wallet</source>
         <translation type="unfinished">預設錢包</translation>
     </message>
-    <message>
-        <source>Open Wallet</source>
-        <extracomment>Title of window indicating the progress of opening of a wallet.</extracomment>
-        <translation type="unfinished">開啟錢包</translation>
-    </message>
     </context>
 <context>
     <name>CreateWalletDialog</name>
@@ -507,7 +510,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">錯誤</translation>
+        <translation>錯誤</translation>
     </message>
     </context>
 <context>
@@ -546,7 +549,7 @@
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished">資訊 &amp;I</translation>
+        <translation>資訊 &amp;I</translation>
     </message>
     <message>
         <source>General</source>
@@ -587,7 +590,7 @@
     <name>SendCoinsDialog</name>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -599,8 +602,18 @@
 <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">開放至 %1</translation>
+    </message>
+    <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -610,6 +623,16 @@
     <message>
         <source>Label</source>
         <translation type="unfinished">標記</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">開放至 %1</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -641,11 +664,7 @@
         <source>Create a new wallet</source>
         <translation type="unfinished">新增一個錢包</translation>
     </message>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">錯誤</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>WalletModel</name>
     <message>
@@ -662,6 +681,10 @@
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished">把目前分頁的資料匯出至檔案</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">錯誤</translation>
     </message>
     </context>
 </TS>

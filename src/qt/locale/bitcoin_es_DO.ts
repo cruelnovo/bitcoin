@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Crear una nueva dirección</translation>
+        <translation>Crear una nueva dirección</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Copie las direcciones seleccionadas actualmente al portapapeles del sistema</translation>
+        <translation>Copie las direcciones seleccionadas actualmente al portapapeles del sistema</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Borrar las direcciones seleccionadas recientemente de la lista</translation>
+        <translation>Borrar las direcciones seleccionadas recientemente de la lista</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,15 +35,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Exportar los datos en la pestaña actual a un archivo</translation>
+        <translation>Exportar los datos en la pestaña actual a un archivo</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Exportar</translation>
+        <translation>&amp;Exportar</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Borrar</translation>
+        <translation>&amp;Borrar</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -66,8 +66,8 @@
         <translation type="unfinished">Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Estas son tus direcciones Bitcoin para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Estas son tus direcciones Vertcoin para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -114,19 +114,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">Diálogo contraseña</translation>
+        <translation>Diálogo contraseña</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Ingresa frase de contraseña</translation>
+        <translation>Ingresa frase de contraseña</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Nueva frase de contraseña</translation>
+        <translation>Nueva frase de contraseña</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Repetir nueva frase de contraseña</translation>
+        <translation>Repetir nueva frase de contraseña</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -150,8 +150,8 @@
         <translation type="unfinished">Confirmar cifrado de billetera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Atención: Si cifra su monedero y pierde la contraseña, perderá ¡&lt;b&gt;TODOS SUS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">Atención: Si cifra su monedero y pierde la contraseña, perderá ¡&lt;b&gt;TODOS SUS VERTCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -214,14 +214,14 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -260,181 +260,98 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished">Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería.</translation>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished">Atención: ¡Parece que no estamos completamente de acuerdo con nuestros pares! Podría necesitar una actualización, u otros nodos podrían necesitarla.</translation>
-    </message>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished">Corrupción de base de datos de bloques detectada.</translation>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished">¿Quieres reconstruir la base de datos de bloques ahora?</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation type="unfinished">Carga lista</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation type="unfinished">Error al inicializar la base de datos de bloques</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished">Error al inicializar el entorno de la base de datos del monedero  %s</translation>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation type="unfinished">Error cargando base de datos de bloques</translation>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation type="unfinished">Error al abrir base de datos de bloques.</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished">Ha fallado la escucha en todos los puertos. Use -listen=0 si desea esto.</translation>
-    </message>
-    <message>
-        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation type="unfinished">Incorrecto o bloque de génesis no encontrado. Datadir equivocada para la red?</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation type="unfinished">Fondos insuficientes</translation>
-    </message>
-    <message>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished">No hay suficientes descriptores de archivo disponibles. </translation>
-    </message>
-    <message>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished">Transacción falló</translation>
-    </message>
-    <message>
-        <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation type="unfinished">Esta es la tarifa mínima a pagar en cada transacción.</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished">Esta es la tarifa a pagar si realizas una transacción.</translation>
-    </message>
-    <message>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished">Transacción muy pequeña</translation>
-    </message>
-    <message>
-        <source>Transaction amounts must not be negative</source>
-        <translation type="unfinished">Los montos de la transacción no debe ser negativo</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">La transacción tiene largo tiempo en una cadena mempool</translation>
-    </message>
-    <message>
-        <source>Transaction must have at least one recipient</source>
-        <translation type="unfinished">La transacción debe tener al menos un destinatario</translation>
-    </message>
-    <message>
-        <source>Transaction too large</source>
-        <translation type="unfinished">Transacción muy grande</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation type="unfinished">La red especificada en -onlynet '%s' es desconocida</translation>
-    </message>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Vista general</translation>
+        <translation>&amp;Vista general</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Mostrar visión general de la billetera</translation>
+        <translation>Mostrar visión general de la billetera</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Transacciones</translation>
+        <translation>&amp;Transacciones</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Buscar historial de transacciones</translation>
+        <translation>Buscar historial de transacciones</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">S&amp;alir</translation>
+        <translation>S&amp;alir</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Quitar aplicación</translation>
+        <translation>Quitar aplicación</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">Acerca de &amp;Qt</translation>
+        <translation>Acerca de &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Mostrar información acerca de Qt</translation>
+        <translation>Mostrar información acerca de Qt</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Enviar monedas a una dirección Bitcoin</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Enviar monedas a una dirección Vertcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">Respaldar billetera en otra ubicación</translation>
+        <translation>Respaldar billetera en otra ubicación</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Cambiar frase secreta usada para la encriptación de la billetera</translation>
+        <translation>Cambiar frase secreta usada para la encriptación de la billetera</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;Enviar</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;Recibir</translation>
+        <translation>&amp;Recibir</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Mostar / Ocultar</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Mostar u ocultar la ventana principal</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">Encriptar las llaves privadas que pertenecen a tu billetera</translation>
+        <translation>Encriptar las llaves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Firma mensajes con tus direcciones Bitcoin para probar que eres dueño de ellas</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>Firma mensajes con tus direcciones Vertcoin para probar que eres dueño de ellas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verificar mensajes para asegurar que estaban firmados con direcciones Bitcoin especificas</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Vertcoin especificas</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Archivo</translation>
+        <translation>&amp;Archivo</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Configuración</translation>
+        <translation>&amp;Configuración</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">A&amp;yuda</translation>
+        <translation>A&amp;yuda</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Barra de pestañas</translation>
+        <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Solicitar pagos (genera codigo QR y URL's de Bitcoin)</translation>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation type="unfinished">Solicitar pagos (genera codigo QR y URL's de Vertcoin)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -450,41 +367,41 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 detrás</translation>
+        <translation>%1 detrás</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished">El último bloque recibido fue generado hace %1 hora(s).</translation>
+        <translation>El último bloque recibido fue generado hace %1 hora(s).</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished">Transacciones después de esta no serán visibles todavía.</translation>
+        <translation>Transacciones después de esta no serán visibles todavía.</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Advertencia</translation>
+        <translation>Advertencia</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Información</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Al día</translation>
+        <translation>Al día</translation>
     </message>
     <message>
         <source>&amp;Window</source>
         <translation type="unfinished">&amp;Ventana</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -493,19 +410,19 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation type="unfinished">Transacción enviada</translation>
+        <translation>Transacción enviada</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Transacción entrante</translation>
+        <translation>Transacción entrante</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">La billetera está encriptada y desbloqueada recientemente</translation>
+        <translation>La billetera está encriptada y desbloqueada recientemente</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">La billetera está encriptada y bloqueada recientemente</translation>
+        <translation>La billetera está encriptada y bloqueada recientemente</translation>
     </message>
     </context>
 <context>
@@ -630,11 +547,11 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">Editar dirección</translation>
+        <translation>Editar dirección</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">&amp;Etiqueta</translation>
+        <translation>&amp;Etiqueta</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -646,7 +563,7 @@
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">&amp;Dirección</translation>
+        <translation>&amp;Dirección</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -661,8 +578,8 @@
         <translation type="unfinished">Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">La dirección introducida "%1" no es una dirección Bitcoin válida.</translation>
+        <source>The entered address "%1" is not a valid Vertcoin address.</source>
+        <translation type="unfinished">La dirección introducida "%1" no es una dirección Vertcoin válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -677,23 +594,23 @@
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation type="unfinished">Un nuevo directorio de datos será creado.</translation>
+        <translation>Un nuevo directorio de datos será creado.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation type="unfinished">nombre</translation>
+        <translation>nombre</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation type="unfinished">El directorio ya existe. Agrega %1 si tiene la intención de crear un nuevo directorio aquí.</translation>
+        <translation>El directorio ya existe. Agrega %1 si tiene la intención de crear un nuevo directorio aquí.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation type="unfinished">La ruta ya existe, y no es un directorio.</translation>
+        <translation>La ruta ya existe, y no es un directorio.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation type="unfinished">No puede crear directorio de datos aquí.</translation>
+        <translation>No puede crear directorio de datos aquí.</translation>
     </message>
 </context>
 <context>
@@ -712,7 +629,7 @@
     </message>
     <message>
         <source>Welcome</source>
-        <translation type="unfinished">Bienvenido</translation>
+        <translation>Bienvenido</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
@@ -720,11 +637,11 @@
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation type="unfinished">Usar el directorio de datos por defecto</translation>
+        <translation>Usar el directorio de datos por defecto</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation type="unfinished">Usa un directorio de datos personalizado:</translation>
+        <translation>Usa un directorio de datos personalizado:</translation>
     </message>
 </context>
 <context>
@@ -750,18 +667,10 @@
     </message>
     </context>
 <context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Paste address from clipboard</source>
-        <extracomment>Tooltip text for button that allows you to paste an address that is in your clipboard.</extracomment>
-        <translation type="unfinished">Pegar dirección desde portapapeles</translation>
-    </message>
-</context>
-<context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Opciones</translation>
+        <translation>Opciones</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -769,15 +678,15 @@
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished">Restablecer todas las opciones del cliente a las predeterminadas.</translation>
+        <translation>Restablecer todas las opciones del cliente a las predeterminadas.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished">&amp;Restablecer opciones</translation>
+        <translation>&amp;Restablecer opciones</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation type="unfinished">&amp;Red</translation>
+        <translation>&amp;Red</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -788,56 +697,56 @@
         <translation type="unfinished">Experto</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Abrir automáticamente el puerto del cliente Bitcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Vertcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Vertcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished">Mapear el puerto usando &amp;UPnP</translation>
+        <translation>Mapear el puerto usando &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished">Dirección &amp;IP del proxy:</translation>
+        <translation>Dirección &amp;IP del proxy:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Puerto:</translation>
+        <translation>&amp;Puerto:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished">Puerto del servidor proxy (ej. 9050)</translation>
+        <translation>Puerto del servidor proxy (ej. 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation type="unfinished">&amp;Ventana</translation>
+        <translation>&amp;Ventana</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished">Minimizar la ventana a la bandeja de iconos del sistema.</translation>
+        <translation>Minimizar la ventana a la bandeja de iconos del sistema.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished">&amp;Minimizar a la bandeja en vez de a la barra de tareas</translation>
+        <translation>&amp;Minimizar a la bandeja en vez de a la barra de tareas</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished">M&amp;inimizar al cerrar</translation>
+        <translation>M&amp;inimizar al cerrar</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation type="unfinished">&amp;Interfaz</translation>
+        <translation>&amp;Interfaz</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished">I&amp;dioma de la interfaz de usuario</translation>
+        <translation>I&amp;dioma de la interfaz de usuario</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished">Mostrar las cantidades en la &amp;unidad:</translation>
+        <translation>Mostrar las cantidades en la &amp;unidad:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían monedas.</translation>
+        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían monedas.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -845,15 +754,15 @@
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;Aceptar</translation>
+        <translation>&amp;Aceptar</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Cancelar</translation>
+        <translation>&amp;Cancelar</translation>
     </message>
     <message>
         <source>default</source>
-        <translation type="unfinished">predeterminado</translation>
+        <translation>predeterminado</translation>
     </message>
     <message>
         <source>none</source>
@@ -861,7 +770,7 @@
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished">Confirme el restablecimiento de las opciones</translation>
+        <translation>Confirme el restablecimiento de las opciones</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
@@ -873,18 +782,18 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished">La dirección proxy indicada es inválida.</translation>
+        <translation>La dirección proxy indicada es inválida.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Desde</translation>
+        <translation>Desde</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Bitcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vertcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Vertcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -892,7 +801,7 @@
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation type="unfinished">Su balance actual gastable</translation>
+        <translation>Su balance actual gastable</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -900,19 +809,19 @@
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation type="unfinished">Total de transacciones que deben ser confirmadas, y que no cuentan con el balance gastable necesario</translation>
+        <translation>Total de transacciones que deben ser confirmadas, y que no cuentan con el balance gastable necesario</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation type="unfinished">No disponible:</translation>
+        <translation>No disponible:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished">Saldo recién minado que aún no está disponible.</translation>
+        <translation>Saldo recién minado que aún no está disponible.</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation type="unfinished">Su balance actual total</translation>
+        <translation>Su balance actual total</translation>
     </message>
     </context>
 <context>
@@ -929,8 +838,8 @@
         <translation type="unfinished">Error en petición de pago</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished">No se pudo iniciar bitcoin: manejador de pago-al-clic</translation>
+        <source>Cannot start vertcoin: click-to-pay handler</source>
+        <translation type="unfinished">No se pudo iniciar vertcoin: manejador de pago-al-clic</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -954,7 +863,7 @@
         <extracomment>Title of Peers Table column which states the network the peer connected through.</extracomment>
         <translation type="unfinished">Red</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -978,23 +887,23 @@
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation type="unfinished">N/D</translation>
+        <translation>N/D</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation type="unfinished">Versión del cliente</translation>
+        <translation>Versión del cliente</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished">Información</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation type="unfinished">Hora de inicio</translation>
+        <translation>Hora de inicio</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">Red</translation>
+        <translation>Red</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1002,23 +911,23 @@
     </message>
     <message>
         <source>Number of connections</source>
-        <translation type="unfinished">Número de conexiones</translation>
+        <translation>Número de conexiones</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation type="unfinished">Cadena de bloques</translation>
+        <translation>Cadena de bloques</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation type="unfinished">Hora del último bloque</translation>
+        <translation>Hora del último bloque</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished">&amp;Abrir</translation>
+        <translation>&amp;Abrir</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished">&amp;Consola</translation>
+        <translation>&amp;Consola</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
@@ -1030,11 +939,11 @@
     </message>
     <message>
         <source>Debug log file</source>
-        <translation type="unfinished">Archivo de registro de depuración</translation>
+        <translation>Archivo de registro de depuración</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation type="unfinished">Borrar consola</translation>
+        <translation>Borrar consola</translation>
     </message>
     <message>
         <source>In:</source>
@@ -1154,7 +1063,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Enviar monedas</translation>
+        <translation>Enviar monedas</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1202,11 +1111,11 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation type="unfinished">Enviar a múltiples destinatarios de una vez</translation>
+        <translation>Enviar a múltiples destinatarios de una vez</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation type="unfinished">Añadir &amp;destinatario</translation>
+        <translation>Añadir &amp;destinatario</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1218,19 +1127,19 @@
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">Limpiar &amp;todo</translation>
+        <translation>Limpiar &amp;todo</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="unfinished">Saldo:</translation>
+        <translation>Saldo:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation type="unfinished">Confirmar el envío</translation>
+        <translation>Confirmar el envío</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation type="unfinished">&amp;Enviar</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1259,6 +1168,10 @@
     <message>
         <source>%1 to %2</source>
         <translation type="unfinished">%1 a %2</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation type="unfinished">¿Está seguro que desea enviar?</translation>
     </message>
     <message>
         <source>or</source>
@@ -1290,18 +1203,18 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Alerta: Dirección de Bitcoin inválida</translation>
+        <source>Warning: Invalid Vertcoin address</source>
+        <translation type="unfinished">Alerta: Dirección de Vertcoin inválida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation type="unfinished">Alerta: Dirección de Bitcoin inválida</translation>
+        <translation type="unfinished">Alerta: Dirección de Vertcoin inválida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1312,15 +1225,15 @@
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation type="unfinished">Monto:</translation>
+        <translation>Monto:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation type="unfinished">&amp;Pagar a:</translation>
+        <translation>&amp;Pagar a:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation type="unfinished">&amp;Etiqueta:</translation>
+        <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1328,7 +1241,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Pegar dirección desde portapapeles</translation>
+        <translation>Pegar dirección desde portapapeles</translation>
     </message>
     <message>
         <source>Remove this entry</source>
@@ -1351,11 +1264,11 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished">Firmas - Firmar / verificar un mensaje</translation>
+        <translation>Firmas - Firmar / verificar un mensaje</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished">&amp;Firmar mensaje</translation>
+        <translation>&amp;Firmar mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1363,51 +1276,51 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Pegar dirección desde portapapeles</translation>
+        <translation>Pegar dirección desde portapapeles</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished">Introduzca el mensaje que desea firmar aquí</translation>
+        <translation>Introduzca el mensaje que desea firmar aquí</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation type="unfinished">Firma</translation>
+        <translation>Firma</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished">Copiar la firma actual al portapapeles del sistema</translation>
+        <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Firmar el mensaje para demostrar que se posee esta dirección Bitcoin</translation>
+        <source>Sign the message to prove you own this Vertcoin address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Vertcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished">Firmar &amp;mensaje</translation>
+        <translation>Firmar &amp;mensaje</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished">Limpiar todos los campos de la firma de mensaje</translation>
+        <translation>Limpiar todos los campos de la firma de mensaje</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">Limpiar &amp;todo</translation>
+        <translation>Limpiar &amp;todo</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished">&amp;Verificar mensaje</translation>
+        <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Verificar el mensaje para comprobar que fue firmado con la dirección Bitcoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Vertcoin address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Vertcoin indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished">Verificar &amp;mensaje</translation>
+        <translation>Verificar &amp;mensaje</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished">Limpiar todos los campos de la verificación de mensaje</translation>
+        <translation>Limpiar todos los campos de la verificación de mensaje</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1464,6 +1377,17 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">Abierto hasta %1</translation>
+    </message>
     <message>
         <source>%1/unconfirmed</source>
         <translation type="unfinished">%1/no confirmado</translation>
@@ -1514,7 +1438,7 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -1584,7 +1508,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished">Esta ventana muestra información detallada sobre la transacción</translation>
+        <translation>Esta ventana muestra información detallada sobre la transacción</translation>
     </message>
     </context>
 <context>
@@ -1600,6 +1524,17 @@
     <message>
         <source>Label</source>
         <translation type="unfinished">Nombre</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">Abierto hasta %1</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -1789,6 +1724,97 @@
     <message>
         <source>The wallet data was successfully saved to %1.</source>
         <translation type="unfinished">Los datos del monedero se han guardado con éxito en %1.</translation>
+    </message>
+    </context>
+<context>
+    <name>vertcoin-core</name>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished">Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería.</translation>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation type="unfinished">Atención: ¡Parece que no estamos completamente de acuerdo con nuestros pares! Podría necesitar una actualización, u otros nodos podrían necesitarla.</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation type="unfinished">Corrupción de base de datos de bloques detectada.</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation type="unfinished">¿Quieres reconstruir la base de datos de bloques ahora?</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation type="unfinished">Carga lista</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation type="unfinished">Error al inicializar la base de datos de bloques</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation type="unfinished">Error al inicializar el entorno de la base de datos del monedero  %s</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation type="unfinished">Error cargando base de datos de bloques</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation type="unfinished">Error al abrir base de datos de bloques.</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation type="unfinished">Ha fallado la escucha en todos los puertos. Use -listen=0 si desea esto.</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation type="unfinished">Incorrecto o bloque de génesis no encontrado. Datadir equivocada para la red?</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation type="unfinished">Fondos insuficientes</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation type="unfinished">No hay suficientes descriptores de archivo disponibles. </translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation type="unfinished">Transacción falló</translation>
+    </message>
+    <message>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation type="unfinished">Esta es la tarifa mínima a pagar en cada transacción.</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation type="unfinished">Esta es la tarifa a pagar si realizas una transacción.</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation type="unfinished">Transacción muy pequeña</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must not be negative</source>
+        <translation type="unfinished">Los montos de la transacción no debe ser negativo</translation>
+    </message>
+    <message>
+        <source>Transaction has too long of a mempool chain</source>
+        <translation type="unfinished">La transacción tiene largo tiempo en una cadena mempool</translation>
+    </message>
+    <message>
+        <source>Transaction must have at least one recipient</source>
+        <translation type="unfinished">La transacción debe tener al menos un destinatario</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation type="unfinished">Transacción muy grande</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation type="unfinished">La red especificada en -onlynet '%s' es desconocida</translation>
     </message>
     </context>
 </TS>

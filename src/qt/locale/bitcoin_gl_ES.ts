@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Crea un novo enderezo</translation>
+        <translation>Crea un novo enderezo</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Copia o enderezo seleccionado ao portapapeis do sistema</translation>
+        <translation>Copia o enderezo seleccionado ao portapapeis do sistema</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Borra o enderezo seleccionado actualmente da lista</translation>
+        <translation>Borra o enderezo seleccionado actualmente da lista</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,15 +35,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Exporta os datos na pestana actual a un ficheiro</translation>
+        <translation>Exporta os datos na pestana actual a un ficheiro</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">Exportar</translation>
+        <translation>Exportar</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">Borrar</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -66,8 +66,8 @@
         <translation type="unfinished">Enderezos de recepción</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Estes son os teus enderezos de Bitcoin para enviar pagamentos. Asegurate sempre de comprobar a cantidade e maila dirección antes de enviar moedas.</translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Estes son os teus enderezos de Vertcoin para enviar pagamentos. Asegurate sempre de comprobar a cantidade e maila dirección antes de enviar moedas.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -114,19 +114,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">Diálogo de Frase Contrasinal</translation>
+        <translation>Diálogo de Frase Contrasinal</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Introduce a frase contrasinal</translation>
+        <translation>Introduce a frase contrasinal</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Nova frase contrasinal</translation>
+        <translation>Nova frase contrasinal</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Repite a frase contrasinal</translation>
+        <translation>Repite a frase contrasinal</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -153,8 +153,8 @@
         <translation type="unfinished">Confirmar encriptación da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Aviso: Si encriptas a túa carteira e perdes a túa frase contrasinal, &lt;b&gt;PERDERÁS TODOS OS TEUS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">Aviso: Si encriptas a túa carteira e perdes a túa frase contrasinal, &lt;b&gt;PERDERÁS TODOS OS TEUS VERTCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -173,8 +173,8 @@
         <translation type="unfinished">Introduce a frase contrasinal anterior mais a nova frase contrasinal para a carteira.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Recorda que encriptar a tua carteira non protexe completamente que os teus bitcoins poidan ser roubados por malware que afecte ó teu computador.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your vertcoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Recorda que encriptar a tua carteira non protexe completamente que os teus vertcoins poidan ser roubados por malware que afecte ó teu computador.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -240,14 +240,14 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -282,30 +282,30 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;visión xeral</translation>
+        <translation>&amp;visión xeral</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Mostra una visión xeral da carteira</translation>
+        <translation>Mostra una visión xeral da carteira</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Transaccións</translation>
+        <translation>&amp;Transaccións</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Busca no historial de transaccións</translation>
+        <translation>Busca no historial de transaccións</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">S&amp;aír</translation>
+        <translation>S&amp;aír</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Saír da aplicación</translation>
+        <translation>Saír da aplicación</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -317,11 +317,11 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">Acerca de &amp;Qt</translation>
+        <translation>Acerca de &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Mostra información acerca de Qt</translation>
+        <translation>Mostra información acerca de Qt</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -345,56 +345,64 @@
         <translation type="unfinished">Proxy &lt;b&gt;activado&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Envía moedas a un enderezo de Bitcoin</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Envía moedas a un enderezo de Vertcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">Respalda a carteira noutro destino</translation>
+        <translation>Respalda a carteira noutro destino</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Cambia a frase contrasinal usada para a encriptación da carteira</translation>
+        <translation>Cambia a frase contrasinal usada para a encriptación da carteira</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;Envía</translation>
+        <translation>&amp;Envía</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;Recibir</translation>
+        <translation>&amp;Recibir</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Mostra / Agocha</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Mostra ou agocha a xanela principal</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">Encripta as claves privadas que pertencen á túa carteira</translation>
+        <translation>Encripta as claves privadas que pertencen á túa carteira</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Asina mensaxes cos teus enderezos de Bitcoin para probar que che pertencen</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>Asina mensaxes cos teus enderezos de Vertcoin para probar que che pertencen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verifica mensaxes para asegurar que foron asinados cos enderezos de Bitcoin especificados</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Verifica mensaxes para asegurar que foron asinados cos enderezos de Vertcoin especificados</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Arquivo</translation>
+        <translation>&amp;Arquivo</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Opcións</translation>
+        <translation>&amp;Opcións</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Axuda</translation>
+        <translation>&amp;Axuda</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Barra de ferramentas das pestanas</translation>
+        <translation>Barra de ferramentas das pestanas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Solicita pagamentos (xera un código QR e bitcoin : URIs)</translation>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation type="unfinished">Solicita pagamentos (xera un código QR e vertcoin : URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -410,34 +418,34 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 tras</translation>
+        <translation>%1 tras</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished">O último bloque recibido foi xerado fai %1.</translation>
+        <translation>O último bloque recibido foi xerado fai %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished">Transaccións despois desta non serán aínda visibles.</translation>
+        <translation>Transaccións despois desta non serán aínda visibles.</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Aviso</translation>
+        <translation>Aviso</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Información</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Actualizado</translation>
+        <translation>Actualizado</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -456,8 +464,8 @@
         <translation type="unfinished">&amp;Enderezos de recepción</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
-        <translation type="unfinished">Abre una URI de Bitcoin</translation>
+        <source>Open a vertcoin: URI</source>
+        <translation type="unfinished">Abre una URI de Vertcoin</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -472,8 +480,8 @@
         <translation type="unfinished">Pechar carteira</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Mostra a %1 mensaxe de axuda para obter unha lista cas posibles opcións de línea de comando de Bitcoin </translation>
+        <source>Show the %1 help message to get a list with possible Vertcoin command-line options</source>
+        <translation type="unfinished">Mostra a %1 mensaxe de axuda para obter unha lista cas posibles opcións de línea de comando de Vertcoin </translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -488,6 +496,10 @@
         <translation type="unfinished">&amp;Xanela</translation>
     </message>
     <message>
+        <source>Minimize</source>
+        <translation type="unfinished">Minimizar</translation>
+    </message>
+    <message>
         <source>Main Window</source>
         <translation type="unfinished">Xanela Principal</translation>
     </message>
@@ -496,7 +508,7 @@
         <translation type="unfinished">%1 cliente</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -545,11 +557,11 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation type="unfinished">Transacción enviada</translation>
+        <translation>Transacción enviada</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Transacción entrante</translation>
+        <translation>Transacción entrante</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
@@ -565,11 +577,11 @@
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">A carteira está &lt;b&gt;encrypted&lt;/b&gt; e actualmente &lt;b&gt;desbloqueada&lt;/b&gt;</translation>
+        <translation>A carteira está &lt;b&gt;encrypted&lt;/b&gt; e actualmente &lt;b&gt;desbloqueada&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">A carteira está &lt;b&gt;encriptada&lt;/b&gt; e actualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
+        <translation>A carteira está &lt;b&gt;encriptada&lt;/b&gt; e actualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -698,11 +710,6 @@
 <context>
     <name>CreateWalletActivity</name>
     <message>
-        <source>Create Wallet</source>
-        <extracomment>Title of window indicating the progress of creation of a new wallet.</extracomment>
-        <translation type="unfinished">Crea unha Carteira</translation>
-    </message>
-    <message>
         <source>Create wallet failed</source>
         <translation type="unfinished">Creación de carteira fallida</translation>
     </message>
@@ -716,11 +723,6 @@
     <message>
         <source>default wallet</source>
         <translation type="unfinished">Carteira por defecto</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <extracomment>Title of window indicating the progress of opening of a wallet.</extracomment>
-        <translation type="unfinished">Abrir carteira</translation>
     </message>
     </context>
 <context>
@@ -773,11 +775,11 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">Editar Enderezo</translation>
+        <translation>Editar Enderezo</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">&amp;Etiqueta</translation>
+        <translation>&amp;Etiqueta</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -789,7 +791,7 @@
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">&amp;Enderezo</translation>
+        <translation>&amp;Enderezo</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -804,8 +806,8 @@
         <translation type="unfinished">Editar enderezo de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">O enderezo introducido "%1" non é un enderezo de Bitcoin válido.</translation>
+        <source>The entered address "%1" is not a valid Vertcoin address.</source>
+        <translation type="unfinished">O enderezo introducido "%1" non é un enderezo de Vertcoin válido.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -835,7 +837,7 @@
     <name>OptionsDialog</name>
     <message>
         <source>&amp;Window</source>
-        <translation type="unfinished">&amp;Xanela</translation>
+        <translation>&amp;Xanela</translation>
     </message>
     </context>
 <context>
@@ -949,7 +951,7 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -961,13 +963,20 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>Date</source>
         <translation type="unfinished">Data</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -986,6 +995,13 @@
     <message>
         <source>Label</source>
         <translation type="unfinished">Etiqueta</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1021,7 +1037,7 @@
         <source>Create a new wallet</source>
         <translation type="unfinished">Crear unha nova carteira</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>WalletModel</name>
     <message>

@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">نیا پتہ تخلیق کریں</translation>
+        <translation>نیا پتہ تخلیق کریں</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">موجودہ چنے ہوئے پتے کو نقل کریں سسٹم کلپ بورڈ پر</translation>
+        <translation>موجودہ چنے ہوئے پتے کو نقل کریں سسٹم کلپ بورڈ پر</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">سلیکٹڈ پتے کو مٹائیں</translation>
+        <translation>سلیکٹڈ پتے کو مٹائیں</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,15 +35,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">موجودہ ڈیٹا کو فائیل میں محفوظ کریں</translation>
+        <translation>موجودہ ڈیٹا کو فائیل میں محفوظ کریں</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">برآمد</translation>
+        <translation>برآمد</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">مٹا</translation>
+        <translation>مٹا</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -66,11 +66,11 @@
         <translation type="unfinished">پتے موصول ہورہے ہیں</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">یہ آپ کے ادائیگی بھیجنے کے لئے بٹ کوائن ایڈریس ہیں.سکے بھیجنے سے پہلے ہمیشہ رقم اور وصول کنندہ پتہ چیک کریں۔</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Vertcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">ادائیگیوں کے لئے آپ کے بٹ کوائن ایڈریس ہیں۔ نئے پتے بنانے کے لئے وصول کنندہ ٹیب میں 'نیا وصول کنندہ پتہ بنائیں' بٹن کا استعمال کریں۔دستخط صرف 'میراثی' قسم کے پتے کے ساتھ ہی ممکن ہے۔</translation>
     </message>
@@ -92,7 +92,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Comma separated file</source>
-        <extracomment>Expanded name of the CSV file format. See: https://en.wikipedia.org/wiki/Comma-separated_values.</extracomment>
+        <extracomment>Expanded name of the CSV file format. See https://en.wikipedia.org/wiki/Comma-separated_values</extracomment>
         <translation type="unfinished">کوما سے الگ فائل</translation>
     </message>
     <message>
@@ -124,19 +124,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">پاسفریج ڈائیلاگ</translation>
+        <translation>پاسفریج ڈائیلاگ</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">پاس فریز داخل کریں</translation>
+        <translation>پاس فریز داخل کریں</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">نیا پاس فریز</translation>
+        <translation>نیا پاس فریز</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">نیا پاس فریز دہرائیں</translation>
+        <translation>نیا پاس فریز دہرائیں</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -163,7 +163,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">پرس کی خفیہ کاری کی تصدیق کریں</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">انتباہ: اگر آپ اپنا بٹوہ انکرپٹ کرتے ہیں اور اپنا پاس فریز کھو دیتے ہیں تو ، آپ اپنے تمام بٹکوئنز کھو دیں گے.</translation>
     </message>
     <message>
@@ -183,7 +183,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">پرس کے لئے پرانا پاسفریج اور نیا پاسفریز درج کریں۔</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your vertcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">یاد رکھیں کہ آپ کے پرس کو خفیہ کرنا آپ کے بٹ کوائنز کو میلویئر/چور سے آپ کے کمپیوٹر میں انفیکشن لگانے کے ذریعہ چوری ہونے سے پوری طرح محفوظ نہیں رکھ سکتا ہے۔</translation>
     </message>
     <message>
@@ -243,7 +243,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>VertcoinApplication</name>
     <message>
         <source>Runaway exception</source>
         <translation type="unfinished">بھگوڑے رعایت</translation>
@@ -264,11 +264,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>QObject</name>
     <message>
-        <source>Do you want to reset settings to default values, or to abort without making changes?</source>
-        <extracomment>Explanatory text shown on startup when the settings file cannot be read. Prompts user to make a choice between resetting or aborting.</extracomment>
-        <translation type="unfinished">کیا آپ ترتیبات کو ڈیفالٹ اقدار پر دوبارہ ترتیب دینا چاہتے ہیں، یا تبدیلیاں کیے بغیر اسقاط کرنا چاہتے ہیں؟</translation>
-    </message>
-    <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
         <translation type="unfinished">خرابی: مخصوص ڈیٹا ڈائریکٹری ""  %1 موجود نہیں ہے۔</translation>
     </message>
@@ -281,6 +276,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">خرابی:%1</translation>
     </message>
     <message>
+        <source>Error initializing settings: %1</source>
+        <translation type="unfinished">ترتیبات کو شروع کرنے میں خرابی:%1</translation>
+    </message>
+    <message>
         <source>%1 didn't yet exit safely…</source>
         <translation type="unfinished">%1ابھی تک سلامتی سے باہر نہیں نکلا…</translation>
     </message>
@@ -290,14 +289,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -332,37 +331,30 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>Insufficient funds</source>
-        <translation type="unfinished">ناکافی فنڈز</translation>
-    </message>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">اور جائزہ</translation>
+        <translation>اور جائزہ</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">پرس کا عمومی جائزہ دکھائیں</translation>
+        <translation>پرس کا عمومی جائزہ دکھائیں</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">اور لین دین</translation>
+        <translation>اور لین دین</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">ٹرانزیکشن ہسٹری کو براؤز کریں</translation>
+        <translation>ٹرانزیکشن ہسٹری کو براؤز کریں</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">باہر نکلیں</translation>
+        <translation>باہر نکلیں</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">درخواست چھوڑ دیں</translation>
+        <translation>درخواست چھوڑ دیں</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -374,11 +366,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">کے بارے میں &amp;Qt</translation>
+        <translation>کے بارے میں &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Qt کے بارے میں معلومات دکھائیں</translation>
+        <translation>Qt کے بارے میں معلومات دکھائیں</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -402,28 +394,36 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">پراکسی &lt;b&gt;فعال&lt;/b&gt; ہے:%1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">بٹ کوائن ایڈریس پر سکے بھیجیں</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>بٹ کوائن ایڈریس پر سکے بھیجیں</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">کسی دوسرے مقام پر بیک اپ والیٹ</translation>
+        <translation>کسی دوسرے مقام پر بیک اپ والیٹ</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">بٹوے کی خفیہ کاری کے لئے استعمال ہونے والا پاسفریز تبدیل کریں</translation>
+        <translation>بٹوے کی خفیہ کاری کے لئے استعمال ہونے والا پاسفریز تبدیل کریں</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;بھیجیں</translation>
+        <translation>&amp;بھیجیں</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;وصول کریں</translation>
+        <translation>&amp;وصول کریں</translation>
     </message>
     <message>
         <source>&amp;Options…</source>
         <translation type="unfinished">&amp;اختیارات…</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;دکھانا چھپانا</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>مین ونڈو دکھائیں یا چھپائیں</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet…</source>
@@ -442,16 +442,20 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">سائن اور پیغام…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">اپنے ویکیپیڈیا پتوں کے ساتھ پیغامات پر دستخط کریں تاکہ آپ ان کے مالک ہوں</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>اپنے ویکیپیڈیا پتوں کے ساتھ پیغامات پر دستخط کریں تاکہ آپ ان کے مالک ہوں</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">پیغام کی توثیق کریں…</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">پیغامات کی توثیق کریں تاکہ یہ یقینی بن سکے کہ ان پر بٹ کوائن کے مخصوص پتوں پر دستخط ہوئے ہیں</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>پیغامات کی توثیق کریں تاکہ یہ یقینی بن سکے کہ ان پر بٹ کوائن کے مخصوص پتوں پر دستخط ہوئے ہیں</translation>
+    </message>
+    <message>
+        <source>Load PSBT from clipboard…</source>
+        <translation type="unfinished">کلپ بورڈ سے پی ایس بی ٹی لوڈ کریں…</translation>
     </message>
     <message>
         <source>Open &amp;URI…</source>
@@ -461,23 +465,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>Close Wallet…</source>
         <translation type="unfinished">پرس بند کریں…</translation>
     </message>
-    <message>
-        <source>Create Wallet…</source>
-        <translation type="unfinished">والیٹ بنائیں…</translation>
-    </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">نقص</translation>
+        <translation>نقص</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -512,11 +512,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>EditAddressDialog</name>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">چٹ</translation>
+        <translation>چٹ</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">پتہ</translation>
+        <translation>پتہ</translation>
     </message>
     </context>
 <context>
@@ -531,7 +531,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">نقص</translation>
+        <translation>نقص</translation>
     </message>
     </context>
 <context>
@@ -591,11 +591,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="unfinished">بیلنس:</translation>
+        <translation>بیلنس:</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -607,13 +607,20 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>Date</source>
         <translation type="unfinished">تاریخ</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -633,6 +640,13 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>Label</source>
         <translation type="unfinished">لیبل</translation>
     </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>(no label)</source>
         <translation type="unfinished">(کوئی لیبل نہیں)</translation>
@@ -642,7 +656,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>TransactionView</name>
     <message>
         <source>Comma separated file</source>
-        <extracomment>Expanded name of the CSV file format. See: https://en.wikipedia.org/wiki/Comma-separated_values.</extracomment>
+        <extracomment>Expanded name of the CSV file format. See https://en.wikipedia.org/wiki/Comma-separated_values</extracomment>
         <translation type="unfinished">کوما سے الگ فائل</translation>
     </message>
     <message>
@@ -668,11 +682,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>Create a new wallet</source>
         <translation type="unfinished">ایک نیا پرس بنائیں</translation>
     </message>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">نقص</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -682,6 +692,17 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished">موجودہ ڈیٹا کو فائیل میں محفوظ کریں</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">نقص</translation>
+    </message>
+    </context>
+<context>
+    <name>vertcoin-core</name>
+    <message>
+        <source>Insufficient funds</source>
+        <translation type="unfinished">ناکافی فنڈز</translation>
     </message>
     </context>
 </TS>

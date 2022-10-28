@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Gadzira Kero Itsva</translation>
+        <translation>Gadzira Kero Itsva</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -19,7 +19,7 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">Dzima</translation>
+        <translation>Dzima</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -67,8 +67,8 @@
         <translation type="unfinished">Marii</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Nyora kero ye Bitcoin (sekuti %1)</translation>
+        <source>Enter a Vertcoin address (e.g. %1)</source>
+        <translation type="unfinished">Nyora kero ye Vertcoin (sekuti %1)</translation>
     </message>
     <message>
         <source>None</source>
@@ -80,14 +80,14 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -122,14 +122,14 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">Buda</translation>
+        <translation>Buda</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Vhara Application</translation>
+        <translation>Vhara Application</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -141,45 +141,49 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Taridza ruzivo rwe Qt</translation>
+        <translation>Taridza ruzivo rwe Qt</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;Tumira</translation>
+        <translation>&amp;Tumira</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;Tambira</translation>
+        <translation>&amp;Tambira</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Taridza/Usataridza</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Faira</translation>
+        <translation>&amp;Faira</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Rubatsiro</translation>
+        <translation>&amp;Rubatsiro</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 kumashure</translation>
+        <translation>%1 kumashure</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Hokoyo</translation>
+        <translation>Hokoyo</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Ruzivo</translation>
+        <translation>Ruzivo</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -232,7 +236,7 @@
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation type="unfinished">Hapana</translation>
+        <translation>Hapana</translation>
     </message>
     </context>
 <context>
@@ -254,7 +258,7 @@
     <name>SendCoinsDialog</name>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -266,13 +270,20 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>Date</source>
         <translation type="unfinished">Zuva</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -291,6 +302,13 @@
     <message>
         <source>Label</source>
         <translation type="unfinished">Zita</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
     </message>
     <message>
         <source>(no label)</source>

@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation type="unfinished">A cím vagy címke szerkesztéséhez kattintson a jobb gombbal</translation>
+        <translation type="unfinished">Jobb gombbal ide kattintva szerkeszthető a cím vagy a címke</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Új cím létrehozása</translation>
+        <translation>Új cím létrehozása</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">A kiválasztott cím másolása a vágólapra</translation>
+        <translation>A kiválasztott cím másolása a vágólapra</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Kiválasztott cím törlése a listából</translation>
+        <translation>Kiválasztott cím törlése a listából</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,23 +35,23 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Jelenlegi nézet adatainak exportálása fájlba</translation>
+        <translation>Jelenlegi nézet adatainak exportálása fájlba</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Exportálás</translation>
+        <translation>&amp;Exportálás</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Törlés</translation>
+        <translation>&amp;Törlés</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished">Válassza ki a küldési címet kimenő utalásokhoz</translation>
+        <translation type="unfinished">Kedvezményezett címének kiválasztása</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished">Válassza ki a fogadó címet beérkező utalásokhoz</translation>
+        <translation type="unfinished">Jóváírási cím kiválasztása</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -66,21 +66,21 @@
         <translation type="unfinished">Fogadási címek</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ezek az Ön Bitcoin címei kifizetések küldéséhez. Mindig ellenőrizze az összeget és a fogadó címet mielőtt érméket küldene.</translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Ezek a te  Vertcoin címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Vertcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Ezek a Bitcoin címek amelyeken fogadni tud Bitcoin utalásokat. Az "Új cím létrehozása" gombbal tud új címet létrehozni. Aláírni csak korábbi, egyessel kezdődő címekkel lehet.</translation>
+        <translation type="unfinished">Ezek a Vertcoin címeid amelyeken fogadni tudsz Vertcoin utalásokat. Az "Új cím létrehozása" gombbal tudsz új címet létrehozni. Aláírni csak korábbi egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation type="unfinished">Cím &amp;másolása</translation>
+        <translation type="unfinished">&amp;Cím másolása</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation type="unfinished">Másolás és &amp;címkézés</translation>
+        <translation type="unfinished">Másolás és Címkézés</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -92,17 +92,17 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Comma separated file</source>
-        <extracomment>Expanded name of the CSV file format. See: https://en.wikipedia.org/wiki/Comma-separated_values.</extracomment>
-        <translation type="unfinished">Vesszővel tagolt fájl</translation>
+        <extracomment>Expanded name of the CSV file format. See https://en.wikipedia.org/wiki/Comma-separated_values</extracomment>
+        <translation type="unfinished">CSV fájl</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
         <extracomment>An error message. %1 is a stand-in argument for the name of the file we attempted to save to.</extracomment>
-        <translation type="unfinished">Hiba történt a címlista %1 mentésekor. Kérem próbálja újra.</translation>
+        <translation type="unfinished">Hiba történt a címlista %1 mentésekor.  Kérem próbálja újra.</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation type="unfinished">Sikertelen Exportálás</translation>
+        <translation type="unfinished">Hiba az exportálás során</translation>
     </message>
 </context>
 <context>
@@ -124,19 +124,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">Jelszó Párbeszédablak</translation>
+        <translation>Jelszó párbeszédablak</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Írja be a jelszót</translation>
+        <translation>Írja be a jelszót</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Új jelszó</translation>
+        <translation>Új jelszó</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Ismét az új jelszó</translation>
+        <translation>Ismét az új jelszó</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -152,7 +152,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation type="unfinished">Tárca feloldása</translation>
+        <translation type="unfinished">Tárca kinyitása</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -163,8 +163,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Tárca titkosításának megerősítése</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Figyelem: Ha titkosítja a tárcáját és elveszíti a jelszavát, akkor &lt;b&gt;AZ ÖSSZES BITCOINJA ELVÉSZ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">Figyelem: Ha titkosítja a tárcáját és elveszíti a jelszavát, akkor &lt;b&gt;AZ ÖSSZES VERTCOINJA ELVESZIK&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,15 +176,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation type="unfinished">Írja be a tárca új jelszavát. &lt;br/&gt;Használjon &lt;b&gt;legalább tíz véletlenszerű karakterből&lt;/b&gt;, vagy &lt;b&gt;legalább nyolc szóból&lt;/b&gt; álló jelszót.</translation>
+        <translation type="unfinished">Írja be a tárca új jelszavát. &lt;br/&gt;A jelszó összetétele a következő: &lt;b&gt;tíz vagy annál több véletlenszerű karakter&lt;/b&gt;, vagy &lt;b&gt;nyolc vagy annál több szó&lt;/b&gt;. </translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase for the wallet.</source>
         <translation type="unfinished">Írja be a tárca régi és új jelszavát.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Ne feledje, hogy a tárca titkosítása nem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your vertcoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Ne feledd, hogy a tárca titkosítása nem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -196,7 +196,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Your wallet is now encrypted. </source>
-        <translation type="unfinished">A tárcája mostmár titkosított.</translation>
+        <translation type="unfinished">Tárcáját titkosítottuk.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -204,11 +204,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation type="unfinished">Tárca titkosítása sikertelen</translation>
+        <translation type="unfinished">Nem sikerült a tárca titkosítása</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation type="unfinished">A tárca titkosítása belső hiba miatt nem sikerült. A tárcája nem lett titkosítva.</translation>
+        <translation type="unfinished">A tárca titkosítása belső hiba miatt nem sikerült. A tárcád nem lett titkosítva.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -216,7 +216,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation type="unfinished">A tárca feloldása sikertelen</translation>
+        <translation type="unfinished">A tárca felnyitása nem sikerült</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
@@ -243,7 +243,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>VertcoinApplication</name>
+    <message>
+        <source>Runaway exception</source>
+        <translation type="unfinished">Ajajj, nagy baj van: Runaway exception!</translation>
+    </message>
     <message>
         <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
         <translation type="unfinished">Végzetes hiba történt %1 nem tud biztonságban továbblépni így most kilép.</translation>
@@ -260,16 +264,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>QObject</name>
     <message>
-        <source>Do you want to reset settings to default values, or to abort without making changes?</source>
-        <extracomment>Explanatory text shown on startup when the settings file cannot be read. Prompts user to make a choice between resetting or aborting.</extracomment>
-        <translation type="unfinished">Visszaállítja az alapértelmezett beállításokat vagy kilép a változtatások alkalmazása nélkül?</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. Check that settings file is writable, or try running with -nosettings.</source>
-        <extracomment>Explanatory text shown on startup when the settings file could not be written. Prompts user to check that we have the ability to write to the file. Explains that the user has the option of running without a settings file.</extracomment>
-        <translation type="unfinished">Végzetes hiba történt. Ellenőrize, hogy a beállítások fájl írható, vagy próbálja a futtatást -nosettings paraméterrel.</translation>
-    </message>
-    <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
         <translation type="unfinished">Hiba: A megadott "%1" adatkönyvtár nem létezik.</translation>
     </message>
@@ -280,6 +274,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Error: %1</source>
         <translation type="unfinished">Hiba: %1</translation>
+    </message>
+    <message>
+        <source>Error initializing settings: %1</source>
+        <translation type="unfinished">Beállítások betöltése sikertelen: %1</translation>
     </message>
     <message>
         <source>%1 didn't yet exit safely…</source>
@@ -294,51 +292,20 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Összeg</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Adjon meg egy Bitcoin címet (pl: %1)</translation>
-    </message>
-    <message>
-        <source>Unroutable</source>
-        <translation type="unfinished">Nem átirányítható</translation>
-    </message>
-    <message>
-        <source>Internal</source>
-        <translation type="unfinished">Belső</translation>
+        <source>Enter a Vertcoin address (e.g. %1)</source>
+        <translation type="unfinished">Ad meg egy Vertcoin címet (pl: %1)</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <extracomment>An inbound connection from a peer. An inbound connection is a connection initiated by a peer.</extracomment>
         <translation type="unfinished">Bejövő</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <extracomment>An outbound connection to a peer. An outbound connection is a connection initiated by us.</extracomment>
         <translation type="unfinished">Kimenő</translation>
     </message>
     <message>
-        <source>Full Relay</source>
-        <extracomment>Peer connection type that relays all network information.</extracomment>
-        <translation type="unfinished">Teljes Elosztó</translation>
-    </message>
-    <message>
         <source>Block Relay</source>
-        <extracomment>Peer connection type that relays network information about blocks and not transactions or addresses.</extracomment>
-        <translation type="unfinished">Blokk Elosztó</translation>
-    </message>
-    <message>
-        <source>Manual</source>
-        <extracomment>Peer connection type established manually through one of several methods.</extracomment>
-        <translation type="unfinished">Kézi</translation>
-    </message>
-    <message>
-        <source>Feeler</source>
-        <extracomment>Short-lived peer connection type that tests the aliveness of known addresses.</extracomment>
-        <translation type="unfinished">Felderítő</translation>
-    </message>
-    <message>
-        <source>Address Fetch</source>
-        <extracomment>Short-lived peer connection type that solicits known addresses from a peer.</extracomment>
-        <translation type="unfinished">Címek Lekérdezése</translation>
+        <translation type="unfinished">Blokkok továbbküldése</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -366,32 +333,32 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform>%n másodperc</numerusform>
+        <translation>
+            <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform>%n perc</numerusform>
+        <translation>
+            <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform>%n óra</numerusform>
+            <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform>%n nap</numerusform>
+            <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform>%n hét</numerusform>
+            <numerusform />
         </translation>
     </message>
     <message>
@@ -401,714 +368,35 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform>%n év</numerusform>
+            <numerusform />
         </translation>
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>Settings file could not be read</source>
-        <translation type="unfinished">Nem sikerült olvasni a beállítások fájlból</translation>
-    </message>
-    <message>
-        <source>Settings file could not be written</source>
-        <translation type="unfinished">Nem sikerült írni a beállítások fájlba</translation>
-    </message>
-    <message>
-        <source>The %s developers</source>
-        <translation type="unfinished">A %s fejlesztők</translation>
-    </message>
-    <message>
-        <source>%s corrupt. Try using the wallet tool bitcoin-wallet to salvage or restoring a backup.</source>
-        <translation type="unfinished">%s sérült. Próbálja meg a bitcoint-wallet tárca mentő eszközt használni, vagy állítsa helyre egy biztonsági mentésből.</translation>
-    </message>
-    <message>
-        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation type="unfinished">-maxtxfee túl magasra van állítva! Ez a jelentős díj esetleg már egy egyszeri tranzakcióra is ki lehet fizetve.</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet from version %i to version %i. Wallet version unchanged.</source>
-        <translation type="unfinished">Nem sikerült a tárcát %iverzióról %iverzióra vissza módosítani. A tárca verzió változatlan maradt.</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation type="unfinished">Az %s adatkönyvtár nem zárható.  A %s valószínűleg fut már.</translation>
-    </message>
-    <message>
-        <source>Cannot upgrade a non HD split wallet from version %i to version %i without upgrading to support pre-split keypool. Please use version %i or no version specified.</source>
-        <translation type="unfinished">Nem lehet frissíteni a nem HD szétválasztott tárcát %i verzióról %i verzióra az ezt támogató kulcstár frissítése nélkül. Kérjuk használja a %i verziót vagy ne adjon meg verziót.</translation>
-    </message>
-    <message>
-        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation type="unfinished">MIT szoftver licenc alapján terjesztve, tekintse meg a hozzátartozó fájlt: %s vagy %s</translation>
-    </message>
-    <message>
-        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished">Hiba %s beolvasása közben. Az összes kulcs sikeresen beolvasva, de a tranzakciós adatok és a címtár rekordok hiányoznak vagy sérültek.</translation>
-    </message>
-    <message>
-        <source>Error reading %s! Transaction data may be missing or incorrect. Rescanning wallet.</source>
-        <translation type="unfinished">Hiba %s olvasásakor! A tranzakciós adatok hiányosak vagy sérültek. Tárca újraolvasása folyamatban.</translation>
-    </message>
-    <message>
-        <source>Error: Dumpfile format record is incorrect. Got "%s", expected "format".</source>
-        <translation type="unfinished">Hiba: A dump fájl formátum rekordja helytelen. Talált "%s", várt "format".</translation>
-    </message>
-    <message>
-        <source>Error: Dumpfile identifier record is incorrect. Got "%s", expected "%s".</source>
-        <translation type="unfinished">Hiba: A dump fájl azonosító rekordja helytelen. Talált "%s", várt "%s".</translation>
-    </message>
-    <message>
-        <source>Error: Dumpfile version is not supported. This version of bitcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
-        <translation type="unfinished">Hiba: A dump fájl verziója nem támogatott. A bitcoin-wallet ez a kiadása csak 1-es verziójú dump fájlokat támogat. A talált dump fájl verziója %s.</translation>
-    </message>
-    <message>
-        <source>Error: Legacy wallets only support the "legacy", "p2sh-segwit", and "bech32" address types</source>
-        <translation type="unfinished">Hiba: Régi típusú tárcák csak "legacy", "p2sh-segwit" és "bech32" címformátumokat támogatják</translation>
-    </message>
-    <message>
-        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation type="unfinished">Hiba: Figyelés a bejövő kapcsolatokra sikertelen (a listen hibaüzenete: %s)</translation>
-    </message>
-    <message>
-        <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</source>
-        <translation type="unfinished">Díjbecslés sikertelen. Alapértelmezett díj le van tiltva. Várjon néhány blokkot vagy engedélyezze a -fallbackfee -t.</translation>
-    </message>
-    <message>
-        <source>File %s already exists. If you are sure this is what you want, move it out of the way first.</source>
-        <translation type="unfinished">A %s fájl már létezik. Ha tényleg ezt szeretné használni akkor előtte mozgassa el onnan.</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation type="unfinished">Érvénytelen összeg -maxtxfee=&lt;amount&gt;: '%s' (legalább a minrelay összeg azaz %s kell legyen, hogy ne ragadjon be a tranzakció)</translation>
-    </message>
-    <message>
-        <source>Invalid or corrupt peers.dat (%s). If you believe this is a bug, please report it to %s. As a workaround, you can move the file (%s) out of the way (rename, move, or delete) to have a new one created on the next start.</source>
-        <translation type="unfinished">Érvénytelen vagy sérült peers.dat (%s). Ha úgy gondolja ez programhibára utal kérjük jelezze itt %s. Átmeneti megoldásként helyezze át a fájlt (%s) mostani helyéről (átnevezés, mozgatás vagy törlés), hogy készülhessen egy új helyette a következő induláskor.</translation>
-    </message>
-    <message>
-        <source>More than one onion bind address is provided. Using %s for the automatically created Tor onion service.</source>
-        <translation type="unfinished">Egynél több társított onion cím lett megadva. %s használata az automatikusan létrehozott Tor szolgáltatáshoz.</translation>
-    </message>
-    <message>
-        <source>No dump file provided. To use createfromdump, -dumpfile=&lt;filename&gt; must be provided.</source>
-        <translation type="unfinished">Nincs dump fájl megadva. A createfromdump használatához -dumpfile=&lt;filename&gt; megadása kötelező.</translation>
-    </message>
-    <message>
-        <source>No dump file provided. To use dump, -dumpfile=&lt;filename&gt; must be provided.</source>
-        <translation type="unfinished">Nincs dump fájl megadva. A dump használatához -dumpfile=&lt;filename&gt; megadása kötelező.</translation>
-    </message>
-    <message>
-        <source>No wallet file format provided. To use createfromdump, -format=&lt;format&gt; must be provided.</source>
-        <translation type="unfinished">Nincs tárca fájlformátum megadva. A createfromdump használatához -format=&lt;format&gt; megadása kötelező.</translation>
-    </message>
-    <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation type="unfinished">Ellenőrizze, hogy helyesen van-e beállítva a gépén a dátum és az idő! A %s nem fog megfelelően működni, ha rosszul van beállítva az óra.</translation>
-    </message>
-    <message>
-        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation type="unfinished">Kérjük támogasson, ha hasznosnak találta a %s-t. Az alábbi linken további információt találhat a szoftverről: %s.</translation>
-    </message>
-    <message>
-        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation type="unfinished">Nyesés konfigurálásának megkísérlése a minimális %d MiB alá. Kérjük, használjon egy magasabb értéket.</translation>
-    </message>
-    <message>
-        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation type="unfinished">Nyesés: az utolsó tárcaszinkronizálás meghaladja a nyesett adatokat. Szükséges a -reindex használata (nyesett csomópont esetében a teljes blokklánc ismételt letöltése).</translation>
-    </message>
-    <message>
-        <source>SQLiteDatabase: Unknown sqlite wallet schema version %d. Only version %d is supported</source>
-        <translation type="unfinished">SQLiteDatabase: Ismeretlen sqlite pénztárca séma verzió: %d. Csak az alábbi verzió támogatott: %d</translation>
-    </message>
-    <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation type="unfinished">A blokk adatbázis tartalmaz egy blokkot ami a jövőből érkezettnek látszik. Ennek oka lehet, hogy a számítógép dátum és idő beállítása helytelen. Csak akkor építse újra a blokk adatbázist ha biztos vagy benne, hogy az időbeállítás helyes.</translation>
-    </message>
-    <message>
-        <source>The block index db contains a legacy 'txindex'. To clear the occupied disk space, run a full -reindex, otherwise ignore this error. This error message will not be displayed again.</source>
-        <translation type="unfinished">A blokk index adatbázis régi típusú 'txindex'-et tartalmaz. Az elfoglalt tárhely felszabadításához futtassa a teljes -reindex parancsot, vagy hagyja figyelmen kívül ezt a hibát. Ez az üzenet nem fog újra megjelenni.</translation>
-    </message>
-    <message>
-        <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation type="unfinished">A tranzakció összege túl alacsony az elküldéshez miután a díj levonódik</translation>
-    </message>
-    <message>
-        <source>This error could occur if this wallet was not shutdown cleanly and was last loaded using a build with a newer version of Berkeley DB. If so, please use the software that last loaded this wallet</source>
-        <translation type="unfinished">Ez a hiba akkor jelentkezhet, ha a tárca nem volt rendesen lezárva és egy újabb verziójában volt megnyitva a Berkeley DB-nek. Ha így van, akkor használja azt a verziót amivel legutóbb megnyitotta.</translation>
-    </message>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished">Ez egy kiadás előtt álló, teszt verzió - csak saját felelősségre használja - ne használja bányászatra vagy kereskedéshez.</translation>
-    </message>
-    <message>
-        <source>This is the maximum transaction fee you pay (in addition to the normal fee) to prioritize partial spend avoidance over regular coin selection.</source>
-        <translation type="unfinished">Ez a maximum tranzakciós díj amit fizetni fog (a normál díj felett), hogy segítse a részleges költés elkerülést a normál érme választás felett.</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
-        <translation type="unfinished">Ez az a tranzakciós díj amit figyelmen kívül hagyhat ha a visszajáró kevesebb a porszem jelenlegi határértékénél</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation type="unfinished">Ezt a tranzakciós díjat fogja fizetni ha a díjbecslés nem lehetséges.</translation>
-    </message>
-    <message>
-        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation type="unfinished">A hálózati verzió string (%i) hossza túllépi a megengedettet (%i). Csökkentse a hosszt vagy a darabszámot uacomments beállításban.</translation>
-    </message>
-    <message>
-        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
-        <translation type="unfinished">Blokkok visszajátszása nem lehetséges. Újra kell építenie az adatbázist a -reindex-chainstate opció használatával.</translation>
-    </message>
-    <message>
-        <source>Unknown wallet file format "%s" provided. Please provide one of "bdb" or "sqlite".</source>
-        <translation type="unfinished">A megadott tárca fájl formátuma "%s" ismeretlen. Kérjuk adja meg "bdb" vagy "sqlite" egyikét.</translation>
-    </message>
-    <message>
-        <source>Warning: Dumpfile wallet format "%s" does not match command line specified format "%s".</source>
-        <translation type="unfinished">Figyelem: A dumpfájl tárca formátum (%s) nem egyezik a parancssor által megadott formátummal (%s).</translation>
-    </message>
-    <message>
-        <source>Warning: Private keys detected in wallet {%s} with disabled private keys</source>
-        <translation type="unfinished">Figyelem: Privát kulcsokat észleltünk a {%s} tárcában, melynél a privát kulcsok le vannak tiltva.</translation>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished">Figyelem: Úgy tűnik nem értünk egyet teljesen a partnereinkel! Lehet, hogy frissítenie kell, vagy a többi partnernek kell frissítenie.</translation>
-    </message>
-    <message>
-        <source>Witness data for blocks after height %d requires validation. Please restart with -reindex.</source>
-        <translation type="unfinished">Ellenőrzés szükséges a %d feletti blokkok tanúsító adatának. Kérjük indítsa újra -reindex paraméterrel.</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation type="unfinished">Újra kell építeni az adatbázist a -reindex használatával, ami a nyesett üzemmódot megszünteti. Ez a teljes blokklánc ismételt letöltésével jár.</translation>
-    </message>
-    <message>
-        <source>%s is set very high!</source>
-        <translation type="unfinished">%s értéke nagyon magas!</translation>
-    </message>
-    <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation type="unfinished">-maxmempool legalább %d MB kell legyen.</translation>
-    </message>
-    <message>
-        <source>A fatal internal error occurred, see debug.log for details</source>
-        <translation type="unfinished">Súlyos belső hiba történt, részletek a debug.log-ban</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation type="unfinished">-%s cím feloldása nem sikerült: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot set -forcednsseed to true when setting -dnsseed to false.</source>
-        <translation type="unfinished">Nem állítható egyszerre a -forcednsseed igazra és a -dnsseed hamisra.</translation>
-    </message>
-    <message>
-        <source>Cannot set -peerblockfilters without -blockfilterindex.</source>
-        <translation type="unfinished">A -peerblockfilters nem állítható be a -blockfilterindex opció nélkül.</translation>
-    </message>
-    <message>
-        <source>Cannot write to data directory '%s'; check permissions.</source>
-        <translation type="unfinished">Nem lehet írni a '%s' könyvtárba; ellenőrizze a jogosultságokat.</translation>
-    </message>
-    <message>
-        <source>The -txindex upgrade started by a previous version cannot be completed. Restart with the previous version or run a full -reindex.</source>
-        <translation type="unfinished">A -txindex frissítése nem fejezhető be mivel egy korábbi verzió kezdte el. Indítsa újra az előző verziót vagy futtassa a teljes -reindex parancsot.</translation>
-    </message>
-    <message>
-        <source>%s request to listen on port %u. This port is considered "bad" and thus it is unlikely that any Bitcoin Core peers connect to it. See doc/p2p-bad-ports.md for details and a full list.</source>
-        <translation type="unfinished">%s kérés figyel a(z) %u porton. Ennek a portnak a megítélése "rossz" ezért valószínűtlen, hogy más Bitcoin Core partner ezen keresztül csatlakozna. Részletekért és teljes listáért lásd doc/p2p-bad-ports.md.</translation>
-    </message>
-    <message>
-        <source>Cannot provide specific connections and have addrman find outgoing connections at the same time.</source>
-        <translation type="unfinished">Nem lehetséges a megadott kapcsolatok és az addrman által felderített kapcsolatok egyidejű használata.</translation>
-    </message>
-    <message>
-        <source>Error loading %s: External signer wallet being loaded without external signer support compiled</source>
-        <translation type="unfinished">Hiba %s betöltése közben: Külső aláíró tárca betöltése külső aláírók támogatása nélkül</translation>
-    </message>
-    <message>
-        <source>Failed to rename invalid peers.dat file. Please move or delete it and try again.</source>
-        <translation type="unfinished">Az érvénytelen peers.dat fájl átnevezése sikertelen. Kérjük mozgassa vagy törölje, majd próbálja újra.</translation>
-    </message>
-    <message>
-        <source>Outbound connections restricted to Tor (-onlynet=onion) but the proxy for reaching the Tor network is not provided (no -proxy= and no -onion= given) or it is explicitly forbidden (-onion=0)</source>
-        <translation type="unfinished">A kilépő kapcsolatok a Tor-ra korlátozottak (-onlynet=onion) de nincs megadva a Tor hálózatot elérő proxy (hiányzó -proxy= és -onion= paraméterek) vagy kifejezetten tiltva van (-onion=0)</translation>
-    </message>
-    <message>
-        <source>Config setting for %s only applied on %s network when in [%s] section.</source>
-        <translation type="unfinished">A konfigurációs beálltás %s kizárólag az %s hálózatra vonatkozik amikor a [%s] szekcióban van.</translation>
-    </message>
-    <message>
-        <source>Copyright (C) %i-%i</source>
-        <translation type="unfinished">Szerzői jog (C) fenntartva %i-%i</translation>
-    </message>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished">Sérült blokk-adatbázis észlelve</translation>
-    </message>
-    <message>
-        <source>Could not find asmap file %s</source>
-        <translation type="unfinished">%s asmap fájl nem található</translation>
-    </message>
-    <message>
-        <source>Could not parse asmap file %s</source>
-        <translation type="unfinished">%s asmap fájl beolvasása sikertelen</translation>
-    </message>
-    <message>
-        <source>Disk space is too low!</source>
-        <translation type="unfinished">Kevés a hely a lemezen!</translation>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished">Újra akarja építeni a blokk adatbázist most?</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation type="unfinished">Betöltés befejezve.</translation>
-    </message>
-    <message>
-        <source>Dump file %s does not exist.</source>
-        <translation type="unfinished">A %s elérési úton fájl nem létezik.</translation>
-    </message>
-    <message>
-        <source>Error creating %s</source>
-        <translation type="unfinished">Hiba %s létrehozása közben</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation type="unfinished">A blokkadatbázis előkészítése nem sikerült</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished">A tárca-adatbázis előkészítése nem sikerült: %s!</translation>
-    </message>
-    <message>
-        <source>Error loading %s</source>
-        <translation type="unfinished">Hiba a(z) %s betöltése közben</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Private keys can only be disabled during creation</source>
-        <translation type="unfinished"> %s betöltése sikertelen. A privát kulcsok csak a létrehozáskor tilthatóak le.</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet corrupted</source>
-        <translation type="unfinished">Hiba a(z) %s betöltése közben: A tárca hibás.</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation type="unfinished">Hiba a(z) %s betöltése közben: A tárcához %s újabb verziója szükséges.</translation>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation type="unfinished">Hiba a blokk adatbázis betöltése közben.</translation>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation type="unfinished">Hiba a blokk adatbázis megnyitása közben.</translation>
-    </message>
-    <message>
-        <source>Error reading from database, shutting down.</source>
-        <translation type="unfinished">Hiba az adatbázis olvasásakor, leállítás</translation>
-    </message>
-    <message>
-        <source>Error reading next record from wallet database</source>
-        <translation type="unfinished">A tárca adatbázisból a következő rekord beolvasása sikertelen.</translation>
-    </message>
-    <message>
-        <source>Error upgrading chainstate database</source>
-        <translation type="unfinished">Hiba a blokk adatbázis betöltése közben</translation>
-    </message>
-    <message>
-        <source>Error: Couldn't create cursor into database</source>
-        <translation type="unfinished">Hiba: Nem tudott kurzort az adatbázisba készíteni</translation>
-    </message>
-    <message>
-        <source>Error: Disk space is low for %s</source>
-        <translation type="unfinished">Hiba: kevés a hely a lemezen %s részére</translation>
-    </message>
-    <message>
-        <source>Error: Dumpfile checksum does not match. Computed %s, expected %s</source>
-        <translation type="unfinished">Hiba: A dumpfájl ellenőrző összege nem egyezik. %s-t kapott, %s-re számított</translation>
-    </message>
-    <message>
-        <source>Error: Got key that was not hex: %s</source>
-        <translation type="unfinished">Hiba: Nem hexadecimális kulcsot kapott: %s</translation>
-    </message>
-    <message>
-        <source>Error: Got value that was not hex: %s</source>
-        <translation type="unfinished">Hiba: Nem hexadecimális értéket kapott: %s</translation>
-    </message>
-    <message>
-        <source>Error: Keypool ran out, please call keypoolrefill first</source>
-        <translation type="unfinished">A címraktár kiürült, előbb adja ki a keypoolrefill parancsot.</translation>
-    </message>
-    <message>
-        <source>Error: Missing checksum</source>
-        <translation type="unfinished">Hiba: Hiányzó ellenőrző összeg</translation>
-    </message>
-    <message>
-        <source>Error: No %s addresses available.</source>
-        <translation type="unfinished">Hiba: Nem áll rendelkezésre %s cím.</translation>
-    </message>
-    <message>
-        <source>Error: Unable to parse version %u as a uint32_t</source>
-        <translation type="unfinished">Hiba: Nem lehet a %u verziót uint32_t-ként értelmezni</translation>
-    </message>
-    <message>
-        <source>Error: Unable to write record to new wallet</source>
-        <translation type="unfinished">Hiba: Nem sikerült rekordot írni az új pénztárcába</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished">Egyik hálózati portot sem sikerül figyelni. Használja a -listen=0 kapcsolót, ha ezt szeretné.</translation>
-    </message>
-    <message>
-        <source>Failed to rescan the wallet during initialization</source>
-        <translation type="unfinished">Inicializálás közben nem sikerült feltérképezni a tárcát</translation>
-    </message>
-    <message>
-        <source>Failed to verify database</source>
-        <translation type="unfinished">Nem sikerült ellenőrizni az adatbázist</translation>
-    </message>
-    <message>
-        <source>Fee rate (%s) is lower than the minimum fee rate setting (%s)</source>
-        <translation type="unfinished">A választott díj (%s) alacsonyabb mint a beállított minimum díj (%s)</translation>
-    </message>
-    <message>
-        <source>Ignoring duplicate -wallet %s.</source>
-        <translation type="unfinished">Az ismétlődő -wallet %s figyelmen kívül hagyva.</translation>
-    </message>
-    <message>
-        <source>Importing…</source>
-        <translation type="unfinished">Importálás…</translation>
-    </message>
-    <message>
-        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation type="unfinished">Helytelen vagy nemlétező ősblokk. Helytelen hálózati adatkönyvtár?</translation>
-    </message>
-    <message>
-        <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation type="unfinished">Az indítási hitelességi teszt sikertelen. %s most leáll.</translation>
-    </message>
-    <message>
-        <source>Input not found or already spent</source>
-        <translation type="unfinished">Bejövő nem található vagy már el van költve.</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation type="unfinished">Fedezethiány</translation>
-    </message>
-    <message>
-        <source>Invalid -i2psam address or hostname: '%s'</source>
-        <translation type="unfinished">Érvénytelen -i2psam cím vagy hostname: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid -onion address or hostname: '%s'</source>
-        <translation type="unfinished">Érvénytelen -onion cím vagy hosztnév: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address or hostname: '%s'</source>
-        <translation type="unfinished">Érvénytelen -proxy cím vagy hosztnév: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid P2P permission: '%s'</source>
-        <translation type="unfinished">Érvénytelen P2P jog: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation type="unfinished">Érvénytelen összeg, -%s=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
-        <translation type="unfinished">Érvénytelen összeg, -discardfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation type="unfinished">Érvénytelen összeg, -fallbackfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation type="unfinished">Érvénytelen tranzakciós díj -paytxfee=&lt;amount&gt;: '%s' (minimum ennyinek kell legyen %s)</translation>
-    </message>
-    <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation type="unfinished">Érvénytelen az itt megadott hálózati maszk: -whitelist: '%s'</translation>
-    </message>
-    <message>
-        <source>Loading P2P addresses…</source>
-        <translation type="unfinished">P2P címek betöltése…</translation>
-    </message>
-    <message>
-        <source>Loading banlist…</source>
-        <translation type="unfinished">Tiltólista betöltése…</translation>
-    </message>
-    <message>
-        <source>Loading block index…</source>
-        <translation type="unfinished">Blokkindex betöltése…</translation>
-    </message>
-    <message>
-        <source>Loading wallet…</source>
-        <translation type="unfinished">Tárca betöltése…</translation>
-    </message>
-    <message>
-        <source>Missing amount</source>
-        <translation type="unfinished">Hiányzó összeg</translation>
-    </message>
-    <message>
-        <source>Missing solving data for estimating transaction size</source>
-        <translation type="unfinished">Hiányzó adat a tranzakció méretének becsléséhez</translation>
-    </message>
-    <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation type="unfinished">A -whitebind opcióhoz meg kell adni egy portot is: '%s'</translation>
-    </message>
-    <message>
-        <source>No addresses available</source>
-        <translation type="unfinished">Nincsenek rendelkezésre álló címek</translation>
-    </message>
-    <message>
-        <source>No proxy server specified. Use -proxy=&lt;ip&gt; or -proxy=&lt;ip:port&gt;.</source>
-        <translation type="unfinished">Proxy szerver nincs megadva. A megadás módja:  -proxy=&lt;ip&gt; vagy -proxy=&lt;ip:port&gt;</translation>
-    </message>
-    <message>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished">Nincs elég fájlleíró.</translation>
-    </message>
-    <message>
-        <source>Prune cannot be configured with a negative value.</source>
-        <translation type="unfinished">Nyesett üzemmódot nem lehet negatív értékkel konfigurálni.</translation>
-    </message>
-    <message>
-        <source>Prune mode is incompatible with -coinstatsindex.</source>
-        <translation type="unfinished">A Prune mód nem kompatibilis a -coinstatsindex funkcióval.</translation>
-    </message>
-    <message>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation type="unfinished">A -txindex nem használható nyesett üzemmódban.</translation>
-    </message>
-    <message>
-        <source>Pruning blockstore…</source>
-        <translation type="unfinished">Blokktároló nyesése…</translation>
-    </message>
-    <message>
-        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation type="unfinished">A -maxconnections csökkentése %d értékről %d értékre, a rendszer korlátai miatt.</translation>
-    </message>
-    <message>
-        <source>Replaying blocks…</source>
-        <translation type="unfinished">Blokkok visszajátszása…</translation>
-    </message>
-    <message>
-        <source>Rescanning…</source>
-        <translation type="unfinished">Újraszkennelés…</translation>
-    </message>
-    <message>
-        <source>SQLiteDatabase: Failed to execute statement to verify database: %s</source>
-        <translation type="unfinished">SQLiteDatabase: Nem sikerült végrehajtani az adatbázist ellenőrző utasítást: %s</translation>
-    </message>
-    <message>
-        <source>SQLiteDatabase: Failed to prepare statement to verify database: %s</source>
-        <translation type="unfinished">SQLiteDatabase: Nem sikerült előkészíteni az adatbázist ellenőrző utasítást: %s</translation>
-    </message>
-    <message>
-        <source>SQLiteDatabase: Failed to read database verification error: %s</source>
-        <translation type="unfinished">SQLiteDatabase: Nem sikerült kiolvasni az adatbázis ellenőrzési hibát: %s</translation>
-    </message>
-    <message>
-        <source>SQLiteDatabase: Unexpected application id. Expected %u, got %u</source>
-        <translation type="unfinished">SQLiteDatabase: Váratlan alkalmazásazonosító. Várt: %u, helyette kapott: %u</translation>
-    </message>
-    <message>
-        <source>Section [%s] is not recognized.</source>
-        <translation type="unfinished">Ismeretlen szekció [%s]</translation>
-    </message>
-    <message>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished">Tranzakció aláírása sikertelen</translation>
-    </message>
-    <message>
-        <source>Specified -walletdir "%s" does not exist</source>
-        <translation type="unfinished">A megadott -walletdir "%s" nem létezik</translation>
-    </message>
-    <message>
-        <source>Specified -walletdir "%s" is a relative path</source>
-        <translation type="unfinished">A megadott -walletdir "%s" egy relatív elérési út</translation>
-    </message>
-    <message>
-        <source>Specified -walletdir "%s" is not a directory</source>
-        <translation type="unfinished">A megadott -walletdir "%s" nem könyvtár</translation>
-    </message>
-    <message>
-        <source>Specified blocks directory "%s" does not exist.</source>
-        <translation type="unfinished">A megadott blokkönyvtár "%s" nem létezik.</translation>
-    </message>
-    <message>
-        <source>Starting network threads…</source>
-        <translation type="unfinished">Hálózati szálak indítása…</translation>
-    </message>
-    <message>
-        <source>The source code is available from %s.</source>
-        <translation type="unfinished">A forráskód elérhető innen: %s.</translation>
-    </message>
-    <message>
-        <source>The specified config file %s does not exist</source>
-        <translation type="unfinished">A megadott konfigurációs fájl %s nem létezik</translation>
-    </message>
-    <message>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation type="unfinished">A tranzakció összege túl alacsony a tranzakciós költség kifizetéséhez.</translation>
-    </message>
-    <message>
-        <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation type="unfinished">A tárca nem fog a minimális továbbítási díjnál kevesebbet fizetni. </translation>
-    </message>
-    <message>
-        <source>This is experimental software.</source>
-        <translation type="unfinished">Ez egy kísérleti szoftver.</translation>
-    </message>
-    <message>
-        <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation type="unfinished">Ez a minimum tranzakciós díj, amelyet tranzakciónként kifizet.</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished">Ez a tranzakció díja, amelyet kifizet, ha tranzakciót indít.</translation>
-    </message>
-    <message>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished">Tranzakció összege túl alacsony</translation>
-    </message>
-    <message>
-        <source>Transaction amounts must not be negative</source>
-        <translation type="unfinished">Tranzakció összege nem lehet negatív</translation>
-    </message>
-    <message>
-        <source>Transaction change output index out of range</source>
-        <translation type="unfinished">Tartományon kivüli tranzakció visszajáró index</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">A tranzakcóihoz tartozó mempool elődlánc túl hosszú</translation>
-    </message>
-    <message>
-        <source>Transaction must have at least one recipient</source>
-        <translation type="unfinished">Legalább egy címzett kell a tranzakcióhoz</translation>
-    </message>
-    <message>
-        <source>Transaction needs a change address, but we can't generate it.</source>
-        <translation type="unfinished">A tranzakcióhoz szükség van visszajáró címekre, de nem lehet generálni egyet.</translation>
-    </message>
-    <message>
-        <source>Transaction too large</source>
-        <translation type="unfinished">Túl nagy tranzakció</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation type="unfinished">Ezen a számítógépen nem lehet ehhez társítani: %s (a bind ezzel a hibával tért vissza: %s)</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation type="unfinished">Ezen a gépen nem lehet ehhez társítani: %s. %s már valószínűleg fut.</translation>
-    </message>
-    <message>
-        <source>Unable to create the PID file '%s': %s</source>
-        <translation type="unfinished">PID fájl létrehozása sikertelen '%s': %s</translation>
-    </message>
-    <message>
-        <source>Unable to generate initial keys</source>
-        <translation type="unfinished">Kezdő kulcsok létrehozása sikertelen</translation>
-    </message>
-    <message>
-        <source>Unable to generate keys</source>
-        <translation type="unfinished">Kulcs generálás sikertelen</translation>
-    </message>
-    <message>
-        <source>Unable to open %s for writing</source>
-        <translation type="unfinished">Nem sikerült %s megnyitni írásra.</translation>
-    </message>
-    <message>
-        <source>Unable to parse -maxuploadtarget: '%s'</source>
-        <translation type="unfinished">Nem értelmezhető -maxuploadtarget: '%s'</translation>
-    </message>
-    <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation type="unfinished">HTTP szerver indítása sikertelen. A részletekért tekintse meg a hibakeresési naplót.</translation>
-    </message>
-    <message>
-        <source>Unknown -blockfilterindex value %s.</source>
-        <translation type="unfinished">Ismeretlen -blockfilterindex érték %s.</translation>
-    </message>
-    <message>
-        <source>Unknown address type '%s'</source>
-        <translation type="unfinished">Ismeretlen cím típus '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown change type '%s'</source>
-        <translation type="unfinished">Visszajáró típusa ismeretlen '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation type="unfinished">Ismeretlen hálózat lett megadva -onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown new rules activated (versionbit %i)</source>
-        <translation type="unfinished">Ismeretlen új szabályok aktiválva (verzióbit %i)</translation>
-    </message>
-    <message>
-        <source>Unsupported logging category %s=%s.</source>
-        <translation type="unfinished">Nem támogatott naplózási kategória %s=%s</translation>
-    </message>
-    <message>
-        <source>Upgrading UTXO database</source>
-        <translation type="unfinished">UTXO adatbázis frissítése</translation>
-    </message>
-    <message>
-        <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation type="unfinished">A felhasználói ügynök megjegyzés (%s) veszélyes karaktert tartalmaz.</translation>
-    </message>
-    <message>
-        <source>Verifying blocks…</source>
-        <translation type="unfinished">Blokkhitelesítés</translation>
-    </message>
-    <message>
-        <source>Verifying wallet(s)…</source>
-        <translation type="unfinished">Elérhető tárcák ellenőrzése...</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation type="unfinished">A tárca újraírása szükséges: Indítsa újra a %s-t.</translation>
-    </message>
-</context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Áttekintés</translation>
+        <translation>&amp;Áttekintés</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">A tárca általános áttekintése</translation>
+        <translation>A tárca általános áttekintése</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Tranzakciók</translation>
+        <translation>&amp;Tranzakciók</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Tranzakciós előzmények megtekintése</translation>
+        <translation>Tranzakciós előzmények megtekintése</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">&amp;Kilépés</translation>
+        <translation>&amp;Kilépés</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Kilépés az alkalmazásból</translation>
+        <translation>Kilépés az alkalmazásból</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -1120,23 +408,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">A &amp;Qt-ról</translation>
+        <translation>A &amp;Qt-ról</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Információk a Qt-ról</translation>
+        <translation>Információk a Qt-ról</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation type="unfinished">%1 beállításainak módosítása</translation>
+        <translation type="unfinished">%1 beállítások módosítása</translation>
     </message>
     <message>
         <source>Create a new wallet</source>
         <translation type="unfinished">Új tárca készítése</translation>
-    </message>
-    <message>
-        <source>&amp;Minimize</source>
-        <translation type="unfinished">&amp;Kicsinyít</translation>
     </message>
     <message>
         <source>Wallet:</source>
@@ -1152,28 +436,36 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">A proxy &lt;b&gt;aktív&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Bitcoin küldése megadott címre</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Vertcoin küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">Biztonsági másolat készítése a tárcáról egy másik helyre</translation>
+        <translation>Biztonsági másolat készítése a tárcáról egy másik helyre</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Tárcatitkosító jelszó megváltoztatása</translation>
+        <translation>Tárcatitkosító jelszó megváltoztatása</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;Küldés</translation>
+        <translation>&amp;Küldés</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;Fogadás</translation>
+        <translation>&amp;Fogadás</translation>
     </message>
     <message>
         <source>&amp;Options…</source>
-        <translation type="unfinished">&amp;Beállítások…</translation>
+        <translation type="unfinished">&amp;Opciók…</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Mutat / Elrejt</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Főablakot mutat/elrejt</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet…</source>
@@ -1181,7 +473,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">A tárcához tartozó privát kulcsok titkosítása</translation>
+        <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet…</source>
@@ -1196,20 +488,24 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Üzenet &amp;aláírása…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Üzenetek aláírása a Bitcoin-címeivel, amivel bizonyíthatja, hogy az Öné</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a Vertcoin-címeivel, amivel bizonyíthatja hogy a cím az Öné</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">Üzenet &amp;ellenőrzése…</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Üzenetek ellenőrzése, hogy valóban a megjelölt Bitcoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Vertcoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
         <translation type="unfinished">PSBT betöltése &amp;fájlból…</translation>
+    </message>
+    <message>
+        <source>Load PSBT from clipboard…</source>
+        <translation type="unfinished">PSBT betöltése vágólapról…</translation>
     </message>
     <message>
         <source>Open &amp;URI…</source>
@@ -1229,19 +525,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Fájl</translation>
+        <translation>&amp;Fájl</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Beállítások</translation>
+        <translation>&amp;Beállítások</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Súgó</translation>
+        <translation>&amp;Súgó</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Fül eszköztár</translation>
+        <translation>Fül eszköztár</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)…</source>
@@ -1265,11 +561,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Connecting to peers…</source>
-        <translation type="unfinished">Csatlakozás partnerekhez…</translation>
+        <translation type="unfinished">Csatlakozás az ügyfelekhez…</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Fizetési kérelem (QR-kódot és "bitcoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation type="unfinished">Fizetési kérelem (QR-kódot és "vertcoin:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -1281,17 +577,17 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation type="unfinished">Paran&amp;cssor kapcsolók</translation>
+        <translation type="unfinished">Paran&amp;cssori opciók</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
-            <numerusform>A tranzakció történetből %n blokk feldolgozva.</numerusform>
+        <translation>
+            <numerusform>%n blokk feldolgozva a tranzakció előzményből.</numerusform>
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 lemaradás</translation>
+        <translation>%1 lemaradás</translation>
     </message>
     <message>
         <source>Catching up…</source>
@@ -1299,39 +595,35 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished">Az utolsóként kapott blokk kora: %1.</translation>
+        <translation>Az utolsóként kapott blokk kora: %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished">Ez utáni tranzakciók még nem lesznek láthatóak.</translation>
+        <translation>Ez utáni tranzakciók még nem lesznek láthatóak.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation>Hiba</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Figyelem</translation>
+        <translation>Figyelem</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Információ</translation>
+        <translation>Információ</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Naprakész</translation>
+        <translation>Naprakész</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Részlegesen aláírt Bitcoin tranzakció (PSBT) betöltése</translation>
+        <source>Load Partially Signed Vertcoin Transaction</source>
+        <translation type="unfinished">Részlegesen aláírt Vertcoin tranzakció (PSBT) betöltése</translation>
     </message>
     <message>
-        <source>Load PSBT from &amp;clipboard…</source>
-        <translation type="unfinished">PSBT betöltése &amp;vágólapról...</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Részlegesen aláírt Bitcoin tranzakció (PSBT) betöltése vágólapról</translation>
+        <source>Load Partially Signed Vertcoin Transaction from clipboard</source>
+        <translation type="unfinished">Részlegesen aláírt Vertcoin tranzakció (PSBT) betöltése vágólapról</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -1350,16 +642,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Fogadó címek</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
-        <translation type="unfinished">Bitcoin URI megnyitása</translation>
+        <source>Open a vertcoin: URI</source>
+        <translation type="unfinished">Egy vertcoin: URI hivatkozás megnyitása</translation>
     </message>
     <message>
         <source>Open Wallet</source>
-        <translation type="unfinished">Tárca Megnyitása</translation>
+        <translation type="unfinished">Tárca megnyitása</translation>
     </message>
     <message>
         <source>Open a wallet</source>
-        <translation type="unfinished">Tárca megnyitása</translation>
+        <translation type="unfinished">Egy tárca megnyitása</translation>
     </message>
     <message>
         <source>Close wallet</source>
@@ -1370,8 +662,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Összes tárca bezárása</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">A %1 súgó megjelenítése a Bitcoin lehetséges parancssori kapcsolóinak listájával</translation>
+        <source>Show the %1 help message to get a list with possible Vertcoin command-line options</source>
+        <translation type="unfinished">A %1 súgó megjelenítése a Vertcoin lehetséges parancssori kapcsolóinak listájával</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -1383,7 +675,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>default wallet</source>
-        <translation type="unfinished">alapértelmezett tárca</translation>
+        <translation type="unfinished">Alapértelmezett tárca</translation>
     </message>
     <message>
         <source>No wallets available</source>
@@ -1392,6 +684,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>&amp;Window</source>
         <translation type="unfinished">&amp;Ablak</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation type="unfinished">Kicsinyítés</translation>
     </message>
     <message>
         <source>Zoom</source>
@@ -1405,19 +701,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%1 client</source>
         <translation type="unfinished">%1 kliens</translation>
     </message>
-    <message>
-        <source>&amp;Hide</source>
-        <translation type="unfinished">&amp;Elrejt</translation>
-    </message>
-    <message>
-        <source>S&amp;how</source>
-        <translation type="unfinished">&amp;Mutat</translation>
-    </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n aktív kapcsolat a Bitcoin hálózathoz.</numerusform>
+            <numerusform>%n aktív kapcsolat a Vertcoin hálózathoz</numerusform>
         </translation>
     </message>
     <message>
@@ -1428,7 +716,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Show Peers tab</source>
         <extracomment>A context menu item. The "Peers tab" is an element of the "Node window".</extracomment>
-        <translation type="unfinished">Partnerek fül megjelenítése</translation>
+        <translation type="unfinished">Ügyfelek fül megjelenítése</translation>
     </message>
     <message>
         <source>Disable network activity</source>
@@ -1486,11 +774,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation type="unfinished">Elküldött tranzakció</translation>
+        <translation>Elküldött tranzakció</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Beérkező tranzakció</translation>
+        <translation>Beérkező tranzakció</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
@@ -1498,19 +786,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation type="unfinished">HD kulcs generálás &lt;b&gt;letiltva&lt;/b&gt;</translation>
+        <translation type="unfinished">HD kulcs generálás &lt;b&gt;tiltva&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Private key &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation type="unfinished">Privát kulcs &lt;b&gt;letiltva&lt;/b&gt;</translation>
+        <translation type="unfinished">Privát kulcs &lt;b&gt;inaktív&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">A tárca &lt;b&gt;titkosítva&lt;/b&gt; és jelenleg &lt;b&gt;feloldva&lt;/b&gt;.</translation>
+        <translation>A tárca &lt;b&gt;titkosítva&lt;/b&gt; és jelenleg &lt;b&gt;megnyitva&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">A tárca &lt;b&gt;titkosítva&lt;/b&gt; és jelenleg &lt;b&gt;lezárva&lt;/b&gt;.</translation>
+        <translation>A tárca &lt;b&gt;titkosítva&lt;/b&gt; és jelenleg &lt;b&gt;bezárva&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Original message:</source>
@@ -1521,7 +809,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation type="unfinished">Egység, amelyben az összegek lesznek megjelenítve. Kattintson ide másik egység kiválasztásához.</translation>
+        <translation type="unfinished">Egység, amelyben az összegek meg lesznek jelenítve. Kattintson ide, ha másik egységet szeretne kiválasztani.</translation>
     </message>
 </context>
 <context>
@@ -1611,8 +899,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ö&amp;sszeg másolása</translation>
     </message>
     <message>
-        <source>Copy transaction &amp;ID and output index</source>
-        <translation type="unfinished">Tranzakciós &amp;ID és kimeneti index másolása</translation>
+        <source>Copy transaction &amp;ID</source>
+        <translation type="unfinished">&amp;Tranzakcióazonosító másolása</translation>
     </message>
     <message>
         <source>L&amp;ock unspent</source>
@@ -1664,7 +952,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation type="unfinished">Megadott értékenként +/- %1 satoshi-val eltérhet.</translation>
+        <translation type="unfinished">Megadott értékenként  +/- %1 satoshi-val változhat.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1682,41 +970,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>CreateWalletActivity</name>
     <message>
-        <source>Create Wallet</source>
-        <extracomment>Title of window indicating the progress of creation of a new wallet.</extracomment>
-        <translation type="unfinished">Tárca készítése</translation>
-    </message>
-    <message>
-        <source>Creating Wallet &lt;b&gt;%1&lt;/b&gt;…</source>
-        <extracomment>Descriptive text of the create wallet progress window which indicates to the user which wallet is currently being created.</extracomment>
-        <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt; tárca készítése folyamatban…</translation>
-    </message>
-    <message>
         <source>Create wallet failed</source>
-        <translation type="unfinished">A tárcakészítés meghiúsult</translation>
+        <translation type="unfinished">A tárcakészítés nem sikerült</translation>
     </message>
     <message>
         <source>Create wallet warning</source>
         <translation type="unfinished">Tárcakészítési figyelmeztetés</translation>
     </message>
-    <message>
-        <source>Can't list signers</source>
-        <translation type="unfinished">Nem lehet az aláírókat listázni</translation>
-    </message>
-</context>
-<context>
-    <name>LoadWalletsActivity</name>
-    <message>
-        <source>Load Wallets</source>
-        <extracomment>Title of progress window which is displayed when wallets are being loaded.</extracomment>
-        <translation type="unfinished">Tárcák Betöltése</translation>
-    </message>
-    <message>
-        <source>Loading wallets…</source>
-        <extracomment>Descriptive text of the load wallets progress window which indicates to the user that wallets are currently being loaded.</extracomment>
-        <translation type="unfinished">Tárcák betöltése folyamatban...</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OpenWalletActivity</name>
     <message>
@@ -1729,19 +990,9 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>default wallet</source>
-        <translation type="unfinished">alapértelmezett tárca</translation>
+        <translation type="unfinished">Alapértelmezett tárca</translation>
     </message>
-    <message>
-        <source>Open Wallet</source>
-        <extracomment>Title of window indicating the progress of opening of a wallet.</extracomment>
-        <translation type="unfinished">Tárca megnyitása</translation>
-    </message>
-    <message>
-        <source>Opening Wallet &lt;b&gt;%1&lt;/b&gt;…</source>
-        <extracomment>Descriptive text of the open wallet progress window which indicates to the user which wallet is currently being opened.</extracomment>
-        <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt; tárca megnyitása…</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>WalletController</name>
     <message>
@@ -1750,7 +1001,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Are you sure you wish to close the wallet &lt;i&gt;%1&lt;/i&gt;?</source>
-        <translation type="unfinished">Biztosan bezárja ezt a tárcát: &lt;i&gt;%1&lt;/i&gt;?</translation>
+        <translation type="unfinished">Biztos, hogy bezárja a "%1" tárcát?</translation>
     </message>
     <message>
         <source>Closing the wallet for too long can result in having to resync the entire chain if pruning is enabled.</source>
@@ -1762,7 +1013,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Are you sure you wish to close all wallets?</source>
-        <translation type="unfinished">Biztos, hogy be akarja zárni az összes tárcát?</translation>
+        <translation type="unfinished">Biztos, hogy be akarod zárni az összes tárcát?</translation>
     </message>
 </context>
 <context>
@@ -1797,11 +1048,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Disable Private Keys</source>
-        <translation type="unfinished">Privát Kulcsok Letiltása</translation>
+        <translation type="unfinished">Kapcsold ki a Privát Kódot</translation>
     </message>
     <message>
         <source>Make a blank wallet. Blank wallets do not initially have private keys or scripts. Private keys and addresses can be imported, or an HD seed can be set, at a later time.</source>
-        <translation type="unfinished">Üres tárca készítése. Az üres tárcák kezdetben nem tartalmaznak privát kulcsokat vagy szkripteket. Később lehetséges a privát kulcsok vagy címek importálása illetve egy HD mag beállítása.</translation>
+        <translation type="unfinished">Üres tárca készítése. Az üres tárcák kezdetben nem tartalmaznak privát kulcsokat vagy szkripteket. Később lehetséges a privát kulcsok vagy címek importálása avagy egy HD mag beállítása.</translation>
     </message>
     <message>
         <source>Make Blank Wallet</source>
@@ -1809,19 +1060,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Use descriptors for scriptPubKey management</source>
-        <translation type="unfinished">Leírók használata scriptPubKey kezeléséhez</translation>
+        <translation type="unfinished">Leírók használata scriptPubKey menedzseléshez</translation>
     </message>
     <message>
         <source>Descriptor Wallet</source>
         <translation type="unfinished">Descriptor Tárca</translation>
-    </message>
-    <message>
-        <source>Use an external signing device such as a hardware wallet. Configure the external signer script in wallet preferences first.</source>
-        <translation type="unfinished">Külső aláíró eszköz például hardver tárca használata. Előtte konfigurálja az aláíró szkriptet a tárca beállításaiban.</translation>
-    </message>
-    <message>
-        <source>External signer</source>
-        <translation type="unfinished">Külső aláíró</translation>
     </message>
     <message>
         <source>Create</source>
@@ -1829,23 +1072,18 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Compiled without sqlite support (required for descriptor wallets)</source>
-        <translation type="unfinished">SQLite támogatás nélkül fordítva (követelmény a descriptor tárca használatához)</translation>
+        <translation type="unfinished">SQLLite támogatás nélkül fordítva (követelmény a descriptor wallet használatához)</translation>
     </message>
-    <message>
-        <source>Compiled without external signing support (required for external signing)</source>
-        <extracomment>"External signing" means using devices such as hardware wallets.</extracomment>
-        <translation type="unfinished">A program külső aláíró támogatás nélkül lett fordítva (követelmény külső aláírók használatához)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">Cím szerkesztése</translation>
+        <translation>Cím szerkesztése</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">Cím&amp;ke</translation>
+        <translation>Cím&amp;ke</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -1857,7 +1095,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">&amp;Cím</translation>
+        <translation>&amp;Cím</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -1872,8 +1110,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Küldő cím szerkesztése</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">A megadott "%1" cím nem egy érvényes Bitcoin-cím.</translation>
+        <source>The entered address "%1" is not a valid Vertcoin address.</source>
+        <translation type="unfinished">A megadott "%1" cím nem egy érvényes Vertcoin-cím.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1885,7 +1123,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation type="unfinished">Nem sikerült a tárca feloldása</translation>
+        <translation type="unfinished">Nem sikerült a tárca megnyitása</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -1896,39 +1134,27 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation type="unfinished">Új adatkönyvtár lesz létrehozva.</translation>
+        <translation>Új adatkönyvtár lesz létrehozva.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation type="unfinished">név</translation>
+        <translation>Név</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation type="unfinished">A könyvtár már létezik. %1 hozzáadása, ha új könyvtárat kíván létrehozni.</translation>
+        <translation>A könyvtár már létezik. %1 hozzáadása, ha új könyvtárat kíván létrehozni.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation type="unfinished">Az elérési út létezik, de nem egy könyvtáré.</translation>
+        <translation>Az elérési út létezik, de nem egy könyvtáré.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation type="unfinished">Adatkönyvtár nem hozható itt létre.</translation>
+        <translation>Adatkönyvtár nem hozható itt létre.</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
-    <message>
-        <source>%1 GB of space available</source>
-        <translation type="unfinished">%1 GB szabad hely áll rendelkezésre</translation>
-    </message>
-    <message>
-        <source>(of %1 GB needed)</source>
-        <translation type="unfinished">(a szükséges %1 GB-ból)</translation>
-    </message>
-    <message>
-        <source>(%1 GB needed for full chain)</source>
-        <translation type="unfinished">(%1 GB szükséges a teljes lánchoz)</translation>
-    </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
         <translation type="unfinished">Legalább %1 GB adatot fogunk ebben a könyvtárban tárolni és idővel ez egyre több lesz.</translation>
@@ -1941,16 +1167,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform>(elegendő %n nappal ezelőtti biztonsági mentések visszaállításához)</numerusform>
+            <numerusform />
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 fog letöltődni és a Bitcoin blokklánc egy másolatát fogja tárolni.</translation>
+        <source>%1 will download and store a copy of the Vertcoin block chain.</source>
+        <translation type="unfinished">%1 le fog töltődni és a Vertcoin blokk lánc egy másolatát fogja tárolni.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
-        <translation type="unfinished">A tárca is ebben a könyvtárban tárolódik.</translation>
+        <translation type="unfinished">A tárcát is ebben a könyvtárban tároljuk.</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1958,15 +1184,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation>Hiba</translation>
     </message>
     <message>
         <source>Welcome</source>
-        <translation type="unfinished">Üdvözöljük</translation>
+        <translation>Üdvözlünk</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation type="unfinished">Üdvözöljük a %1 -ban.</translation>
+        <translation type="unfinished">Üdvözlünk a %1 -ban.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
@@ -1977,16 +1203,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ha az OK-ra kattint, %1 megkezdi a teljes %4 blokk lánc letöltését és feldolgozását (%2GB) a legkorábbi tranzakciókkal kezdve %3 -ben, amikor a %4 bevezetésre került.</translation>
     </message>
     <message>
-        <source>Limit block chain storage to</source>
-        <translation type="unfinished">A blokklánc tárhelyének korlátozása erre:</translation>
-    </message>
-    <message>
         <source>Reverting this setting requires re-downloading the entire blockchain. It is faster to download the full chain first and prune it later. Disables some advanced features.</source>
         <translation type="unfinished">A beállítás visszaállításához le kell tölteni a teljes blokkláncot. A teljes lánc letöltése és későbbi nyesése ennél gyorsabb. Bizonyos haladó funkciókat letilt.</translation>
-    </message>
-    <message>
-        <source> GB</source>
-        <translation type="unfinished">GB</translation>
     </message>
     <message>
         <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
@@ -1998,11 +1216,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation type="unfinished">Az alapértelmezett adat könyvtár használata</translation>
+        <translation>Az alapértelmezett adat könyvtár használata</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation type="unfinished">Saját adatkönyvtár használata:</translation>
+        <translation>Saját adatkönyvtár használata:</translation>
     </message>
 </context>
 <context>
@@ -2017,18 +1235,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation type="unfinished">Parancssori opciók</translation>
+        <translation type="unfinished">Parancssoros opciók</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>%1 is shutting down…</source>
-        <translation type="unfinished">%1 leáll…</translation>
-    </message>
-    <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation type="unfinished">Ne állítsa le a számítógépet amíg ez az ablak el nem tűnik.</translation>
+        <translation type="unfinished">Ne állítsd le a számítógépet amíg ez az ablak el nem tűnik.</translation>
     </message>
 </context>
 <context>
@@ -2038,24 +1252,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Űrlap</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation type="unfinished">A legutóbbi tranzakciók még lehet, hogy nem láthatók, és így előfordulhat, hogy a tárca egyenlege helytelen. A tárca azon nyomban az aktuális egyenleget fogja mutatni, amint befejezte a bitcoin hálózattal történő szinkronizációt, amely alább van részletezve.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vertcoin network, as detailed below.</source>
+        <translation type="unfinished">A legutóbbi tranzakciók még lehet, hogy nem láthatók, és így előfordulhat, hogy a tárca egyenlege helytelen. A tárca azon nyomban az aktuális egyenleget fogja mutatni, amint befejezte a vertcoin hálózattal történő szinkronizációt, amely alább van részletezve.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">A hálózat nem fogadja el azoknak a bitcoinoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
+        <source>Attempting to spend vertcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation type="unfinished">A hálózat nem fogadja el azoknak a vertcoinoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
         <translation type="unfinished">Hátralévő blokkok száma</translation>
-    </message>
-    <message>
-        <source>Unknown…</source>
-        <translation type="unfinished">Ismeretlen…</translation>
-    </message>
-    <message>
-        <source>calculating…</source>
-        <translation type="unfinished">számolás…</translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -2083,38 +1289,29 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>%1 is currently syncing.  It will download headers and blocks from peers and validate them until reaching the tip of the block chain.</source>
-        <translation type="unfinished">%1 szinkronizálás alatt. Fejléceket és blokkokat tölt le az ügyfelektől, majd érvényesíti, amíg el nem éri a blokklánc tetejét.</translation>
+        <translation type="unfinished">%1 szinkronizálás alatt. Fejléceket és blokkokat tölt le a felektől, majd érvényesíti, amíg el nem éri a blokklánc tetejét.</translation>
     </message>
-    <message>
-        <source>Unknown. Syncing Headers (%1, %2%)…</source>
-        <translation type="unfinished">Ismeretlen. Fejlécek szinkronizálása (%1, %2%)…</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
-        <translation type="unfinished">Bitcoin URI megnyitása</translation>
+        <source>Open vertcoin URI</source>
+        <translation type="unfinished">Nyisd meg a vertcoin címedet</translation>
     </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <extracomment>Tooltip text for button that allows you to paste an address that is in your clipboard.</extracomment>
-        <translation type="unfinished">Cím beillesztése a vágólapról</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Opciók</translation>
+        <translation>Opciók</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation type="unfinished">&amp;Fő</translation>
+        <translation>&amp;Fő</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation type="unfinished">%1 automatikus indítása a rendszerbe való belépés után.</translation>
+        <translation type="unfinished">%1 automatikus indítása  a rendszerbe való belépés után.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
@@ -2122,7 +1319,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Enabling pruning significantly reduces the disk space required to store transactions. All blocks are still fully validated. Reverting this setting requires re-downloading the entire blockchain.</source>
-        <translation type="unfinished">A tárolt blokkok számának visszavágásával jelentősen csökken a tranzakció történet tárolásához szükséges tárhely. Minden blokk továbbra is ellenőrizve lesz. Ha ezt a beállítást később törölni szeretné újra le kell majd tölteni a teljes blokkláncot.</translation>
+        <translation type="unfinished">A tárolt blokkok számának visszavágásval jelentősen csökken a tranzakció történet tárolásához szükséges tárhely. Minden blokk továbbra is ellenőrizve lesz. Ha ezt a beállítást késpbb törölni szeretné  újra le kell majd tölteni a teljes blokkláncot.</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -2138,11 +1335,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation type="unfinished">Megmutatja, hogy az alapértelmezett SOCKS5 proxy van-e használatban, hogy elérje az ügyfeleket ennél a hálózati típusnál.</translation>
+        <translation type="unfinished">Megmutatja, hogy az alapértelmezett SOCKS5 proxy van-e használatban, hogy elérje a párokat ennél a hálózati típusnál.</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation type="unfinished">Az alkalmazásból való kilépés helyett az eszköztárba kicsinyíti az alkalmazást az ablak bezárásakor. Ez esetben az alkalmazás csak a Kilépés menüponttal zárható be.</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation type="unfinished">Harmadik féltől származó URL-ek (pl. egy blokk felfedező) amelyek a tranzakciós fülön jelennek meg mint a környezetérzékeny menü tételei. %s az URL-ben helyettesítve a tranzakciós hash-el. Több URL esetén, függőleges vonal választja el őket.</translation>
     </message>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
@@ -2154,61 +1355,35 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished">Minden kliensbeállítás alapértelmezettre állítása.</translation>
+        <translation>Minden kliensbeállítás alapértelmezettre állítása.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished">Beállítások Tö&amp;rlése</translation>
+        <translation>Beállítások tö&amp;rlése</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation type="unfinished">&amp;Hálózat</translation>
+        <translation>&amp;Hálózat</translation>
     </message>
     <message>
         <source>Prune &amp;block storage to</source>
-        <translation type="unfinished">Nyesi a &amp;blokkok tárolását erre:</translation>
+        <translation type="unfinished">Nyesi a &amp;block tárolását ide:</translation>
     </message>
     <message>
         <source>Reverting this setting requires re-downloading the entire blockchain.</source>
         <translation type="unfinished">A beállítás visszaállításához le kell tölteni a teljes blokkláncot.</translation>
     </message>
     <message>
-        <source>Maximum database cache size. A larger cache can contribute to faster sync, after which the benefit is less pronounced for most use cases. Lowering the cache size will reduce memory usage. Unused mempool memory is shared for this cache.</source>
-        <extracomment>Tooltip text for Options window setting that sets the size of the database cache. Explains the corresponding effects of increasing/decreasing this value.</extracomment>
-        <translation type="unfinished">Adatbázis gyorsítótár maximális mérete. Nagyobb gyorsítótár gyorsabb szinkronizálást eredményez utána viszont az előnyei kevésbé számottevők. A gyorsítótár méretének csökkentése a memóriafelhasználást is mérsékli. A használaton kívüli mempool memória is osztozik ezen a táron.</translation>
-    </message>
-    <message>
-        <source>Set the number of script verification threads. Negative values correspond to the number of cores you want to leave free to the system.</source>
-        <extracomment>Tooltip text for Options window setting that sets the number of script verification threads. Explains that negative values mean to leave these many cores free to the system.</extracomment>
-        <translation type="unfinished">Beállítja a szkript ellenőrző szálak számát. Negatív értékkel megadható hány szabad processzormag maradjon szabadon a rendszeren.</translation>
+        <source>MiB</source>
+        <translation type="unfinished">MB</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation type="unfinished">(0 = automatikus, &lt;0 = ennyi processzormagot hagyjon szabadon)</translation>
     </message>
     <message>
-        <source>This allows you or a third party tool to communicate with the node through command-line and JSON-RPC commands.</source>
-        <extracomment>Tooltip text for Options window setting that enables the RPC server.</extracomment>
-        <translation type="unfinished">Segítségével ön vagy egy harmadik féltől származó eszköz tud kommunikálni a csomóponttal parancssoron és JSON-RPC protokollon keresztül.</translation>
-    </message>
-    <message>
-        <source>Enable R&amp;PC server</source>
-        <extracomment>An Options window setting to enable the RPC server.</extracomment>
-        <translation type="unfinished">R&amp;PC szerver engedélyezése</translation>
-    </message>
-    <message>
         <source>W&amp;allet</source>
         <translation type="unfinished">T&amp;árca</translation>
-    </message>
-    <message>
-        <source>Whether to set subtract fee from amount as default or not.</source>
-        <extracomment>Tooltip text for Options window setting that sets subtracting the fee from a sending amount as default.</extracomment>
-        <translation type="unfinished">Beállítja, hogy alapértelmezés szerint levonódjon-e az összegből a tranzakciós díj vagy sem.</translation>
-    </message>
-    <message>
-        <source>Subtract &amp;fee from amount by default</source>
-        <extracomment>An Options window setting to set subtracting the fee from a sending amount as default.</extracomment>
-        <translation type="unfinished">Alapértelmezetten vonja le a díjat az összegből</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -2216,7 +1391,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation type="unfinished">Pénzküldés b&amp;eállításainak engedélyezése</translation>
+        <translation type="unfinished">Pénzküldés beállításainak engedélyezése</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
@@ -2224,45 +1399,23 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation type="unfinished">A jóváhagyatlan visszajáró el&amp;költése</translation>
+        <translation type="unfinished">&amp;Költése a a jóváhagyatlan visszajárónak</translation>
     </message>
     <message>
-        <source>Enable &amp;PSBT controls</source>
-        <extracomment>An options window setting to enable PSBT controls.</extracomment>
-        <translation type="unfinished">&amp;PSBT vezérlők engedélyezése</translation>
-    </message>
-    <message>
-        <source>Whether to show PSBT controls.</source>
-        <extracomment>Tooltip text for options window setting that enables PSBT controls.</extracomment>
-        <translation type="unfinished">Láthatóak legyenek-e a PSBT vezérlők.</translation>
-    </message>
-    <message>
-        <source>External Signer (e.g. hardware wallet)</source>
-        <translation type="unfinished">Külső Aláíró (pl. hardver tárca)</translation>
-    </message>
-    <message>
-        <source>&amp;External signer script path</source>
-        <translation type="unfinished">&amp;Külső aláíró szkript elérési útvonala</translation>
-    </message>
-    <message>
-        <source>Full path to a Bitcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
-        <translation type="unfinished">Bitcoin Core kompatibilis szkript teljes elérésí útvonala (pl. C:\Letöltések\hwi.exe vagy /Users/felhasznalo/Letöltések/hwi.py). Vigyázat: rosszindulatú programok ellophatják az érméit!</translation>
-    </message>
-    <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">A Bitcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Vertcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Vertcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished">&amp;UPnP port-feltérképezés</translation>
+        <translation>&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">A Bitcoin kliens port automatikus megnyitása a routeren. Ez csak akkor működik ha a router támogatja a NAT-PMP-t és ez engedélyezve is van. A külső port lehet véletlenszerűen választott.</translation>
+        <source>Automatically open the Vertcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">A Vertcoin kliens port automatikus megnyitása a routeren. Ez csak akkor működik ha a router támogatja a NAT-PMP-t és ez engedélyezve is van. A külső port lehet véletlenszerűen választott.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
-        <translation type="unfinished">Külső port megnyitása NA&amp;T-PMP-vel</translation>
+        <translation type="unfinished">Külső port megnyitása NA&amp;T-PMP -vel</translation>
     </message>
     <message>
         <source>Accept connections from outside.</source>
@@ -2273,8 +1426,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Bejövő kapcsolatok engedélyezése.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Csatlakozás a Bitcoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the Vertcoin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Csatlakozás a Vertcoin hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -2282,15 +1435,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished">Proxy portja (pl.: 9050)</translation>
+        <translation>Proxy portja (pl.: 9050)</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation type="unfinished">Partnerek elérése ezen keresztül:</translation>
+        <translation type="unfinished">Párok elérésére használjuk ezen keresztül:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation type="unfinished">&amp;Ablak</translation>
+        <translation>&amp;Ablak</translation>
     </message>
     <message>
         <source>Show the icon in the system tray.</source>
@@ -2302,23 +1455,23 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished">Kicsinyítés után csak az eszköztár-ikont mutassa.</translation>
+        <translation>Kicsinyítés után csak eszköztár-ikont mutass</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished">&amp;Kicsinyítés a tálcára az eszköztár helyett</translation>
+        <translation>&amp;Kicsinyítés a tálcára az eszköztár helyett</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished">K&amp;icsinyítés bezáráskor</translation>
+        <translation>K&amp;icsinyítés záráskor</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation type="unfinished">&amp;Megjelenítés</translation>
+        <translation>&amp;Megjelenítés</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished">Felhasználófelület nye&amp;lve:</translation>
+        <translation>Felhasználófelület nye&amp;lve:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
@@ -2326,60 +1479,39 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished">&amp;Mértékegység:</translation>
+        <translation>&amp;Mértékegység:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Válassza ki az felületen és érmék küldésekor megjelenítendő alapértelmezett alegységet.</translation>
-    </message>
-    <message>
-        <source>Third-party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation type="unfinished">Külső URL-ek (pl. blokkböngésző) amik megjelennek a tranzakciók fülön a helyi menüben. %s helyére az URL-ben behelyettesítődik a tranzakció ellenőrzőösszege. Több URL függőleges vonallal | van elválasztva egymástól.</translation>
-    </message>
-    <message>
-        <source>&amp;Third-party transaction URLs</source>
-        <translation type="unfinished">&amp;Külsős tranzakciós URL-ek</translation>
+        <translation>Válaszd ki az interfészen és érmék küldésekor megjelenítendő alapértelmezett alegységet.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation type="unfinished">Mutassa-e a pénzküldés beállításait.</translation>
+        <translation type="unfinished">Mutassa a pénzküldés beállításait vagy ne.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Csatlakozás a Bitcoin hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
+        <source>Connect to the Vertcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Csatlakozás a Vertcoin hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
     </message>
     <message>
-        <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
-        <translation type="unfinished">Külön SOCKS&amp;5 proxy használata a partnerek Tor hálózaton keresztüli eléréséhez:</translation>
+        <source>&amp;Third party transaction URLs</source>
+        <translation type="unfinished">&amp;Harmadik féltől származó tranzakció URL-ek</translation>
     </message>
     <message>
         <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">Fix szélességű betűtípus használata az áttekintés fülön:</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">beágyazott "%1"</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">legjobb találat "%1"</translation>
+        <translation type="unfinished">Fix szélességű betütípus használata az áttekintés fülön:</translation>
     </message>
     <message>
         <source>Options set in this dialog are overridden by the command line or in the configuration file:</source>
-        <translation type="unfinished">Az itt beállított opciók felülbírálásra kerültek a parancssor vagy a konfigurációs fájl által:</translation>
+        <translation type="unfinished">Az ebben a párbeszédablakban beállított opciók felülírásra kerültek a parancssor által vagy a konfigurációs fájlban:</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Mégse</translation>
-    </message>
-    <message>
-        <source>Compiled without external signing support (required for external signing)</source>
-        <extracomment>"External signing" means using devices such as hardware wallets.</extracomment>
-        <translation type="unfinished">A program külső aláíró támogatás nélkül lett fordítva (követelmény külső aláírók használatához)</translation>
+        <translation>&amp;Mégse</translation>
     </message>
     <message>
         <source>default</source>
-        <translation type="unfinished">alapértelmezett</translation>
+        <translation>alapértelmezett</translation>
     </message>
     <message>
         <source>none</source>
@@ -2387,7 +1519,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished">Beállítások törlésének jóváhagyása.</translation>
+        <translation>Beállítások törlésének jóváhagyása.</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
@@ -2399,21 +1531,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Configuration options</source>
-        <extracomment>Window title text of pop-up box that allows opening up of configuration file.</extracomment>
         <translation type="unfinished">Beállítási lehetőségek</translation>
     </message>
     <message>
         <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
-        <extracomment>Explanatory text about the priority order of instructions considered by client. The order from high to low being: command-line, configuration file, GUI settings.</extracomment>
-        <translation type="unfinished">A konfigurációs fájlt a haladó felhasználók olyan beállításokra használhatják, amelyek felülbírálják a grafikus felület beállításait. Továbbá bármely parancssori opció felülbírálja a konfigurációs fájl beállításait.</translation>
-    </message>
-    <message>
-        <source>Continue</source>
-        <translation type="unfinished">Tovább</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="unfinished">Mégse</translation>
+        <translation type="unfinished">A konfigurációs fájlt a haladó felhasználók olyan beállításokra használhatják, amelyek felülírják a grafikus felület beállításait. Azonban bármely parancssori beállítás felülírja a konfigurációs fájl beállításait.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2429,22 +1551,22 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished">A megadott proxy cím nem érvényes.</translation>
+        <translation>A megadott proxy cím nem érvényes.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Űrlap</translation>
+        <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">A kijelzett információ lehet, hogy elavult. A kapcsolat létrehozatalát követően tárcája automatikusan szinkronba kerül a Bitcoin hálózattal, de ez a folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vertcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A kapcsolat létrehozatalát követően tárcája automatikusan szinkronba kerül a Vertcoin hálózattal, de ez a folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation type="unfinished">Csak megfigyelés:</translation>
+        <translation type="unfinished">Csak megfigyelés</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -2452,23 +1574,23 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation type="unfinished">Jelenlegi felhasználható egyenleg</translation>
+        <translation>Jelenlegi egyenleg</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation type="unfinished">Függőben:</translation>
+        <translation type="unfinished">Küldés:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation type="unfinished">Még megerősítésre váró, a jelenlegi egyenlegbe be nem számított tranzakciók</translation>
+        <translation>Még megerősítésre váró, a jelenlegi egyenlegbe be nem számított tranzakciók</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation type="unfinished">Éretlen:</translation>
+        <translation>Éretlen:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished">Bányászott egyenleg amely még nem érett be.</translation>
+        <translation>Bányászott egyenleg amely még nem érett be.</translation>
     </message>
     <message>
         <source>Balances</source>
@@ -2476,11 +1598,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Total:</source>
-        <translation type="unfinished">Összesen:</translation>
+        <translation>Összesen:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation type="unfinished">Aktuális egyenlege</translation>
+        <translation>Aktuális egyenleged</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -2508,7 +1630,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Privacy mode activated for the Overview tab. To unmask the values, uncheck Settings-&gt;Mask values.</source>
-        <translation type="unfinished">Diszkrét mód aktiválva az áttekintés fülön. Az értékek megjelenítéséhez kapcsolja ki a Beállítások-&gt;Értékek maszkolását.</translation>
+        <translation type="unfinished">Diszkrét mód aktiváva az áttekintés fülün. Az értékek újbóli megjelenítéséhez kapcsold ki a Beállítások-&gt;Értékek maszkolását</translation>
     </message>
 </context>
 <context>
@@ -2523,15 +1645,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Broadcast Tx</source>
-        <translation type="unfinished">Tx szétküldése</translation>
+        <translation type="unfinished">Tx kiküldése</translation>
     </message>
     <message>
         <source>Copy to Clipboard</source>
         <translation type="unfinished">Másolás vágólapra</translation>
-    </message>
-    <message>
-        <source>Save…</source>
-        <translation type="unfinished">Mentés…</translation>
     </message>
     <message>
         <source>Close</source>
@@ -2546,16 +1664,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Tranzakció aláírása sikertelen: %1</translation>
     </message>
     <message>
-        <source>Cannot sign inputs while wallet is locked.</source>
-        <translation type="unfinished">Nem írhatók alá a bejövők míg a tárca zárolva van.</translation>
-    </message>
-    <message>
         <source>Could not sign any more inputs.</source>
-        <translation type="unfinished">Több bejövőt nem lehet aláírni.</translation>
+        <translation type="unfinished">Több input-ot nem tudok aláírni.</translation>
     </message>
     <message>
         <source>Signed %1 inputs, but more signatures are still required.</source>
-        <translation type="unfinished">%1 bejövő aláírva, de több aláírásra van szükség.</translation>
+        <translation type="unfinished">%1 input aláírva, de több alárásra van szükség.</translation>
     </message>
     <message>
         <source>Signed transaction successfully. Transaction is ready to broadcast.</source>
@@ -2563,11 +1677,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Unknown error processing transaction.</source>
-        <translation type="unfinished">Ismeretlen hiba a tranzakció feldolgozásakor.</translation>
+        <translation type="unfinished">Imseretlen hiba a tranzakció feldolázásakor.</translation>
     </message>
     <message>
         <source>Transaction broadcast successfully! Transaction ID: %1</source>
-        <translation type="unfinished">Tranzakció sikeresen szétküldve. Tranzakció azonosító: %1</translation>
+        <translation type="unfinished">Tranzakció sikeresen szétküldve. Transaction ID: %1</translation>
     </message>
     <message>
         <source>Transaction broadcast failed: %1</source>
@@ -2596,7 +1710,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Unable to calculate transaction fee or total transaction amount.</source>
-        <translation type="unfinished">Nem sikerült tranzakciós díjat vagy teljes tranzakció értéket számolni.</translation>
+        <translation type="unfinished">Nem tudok tranzakciós díjat vagy teljes tranzakció értéket kalkulálni.</translation>
     </message>
     <message>
         <source>Pays transaction fee: </source>
@@ -2612,7 +1726,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Transaction has %1 unsigned inputs.</source>
-        <translation type="unfinished">A tranzakciónak %1 aláíratlan bejövő értéke van.</translation>
+        <translation type="unfinished">A tranzakciónak %1 aláíratlan bejövő érteke van.</translation>
     </message>
     <message>
         <source>Transaction is missing some information about inputs.</source>
@@ -2620,11 +1734,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Transaction still needs signature(s).</source>
-        <translation type="unfinished">További aláírások szükségesek a tranzakcióhoz.</translation>
-    </message>
-    <message>
-        <source>(But no wallet is loaded.)</source>
-        <translation type="unfinished">(De nincs tárca betöltve.)</translation>
+        <translation type="unfinished">Még aláírások szükségesen a tranzakcióhoz.</translation>
     </message>
     <message>
         <source>(But this wallet cannot sign transactions.)</source>
@@ -2650,26 +1760,26 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Hiba történt a fizetési kérelem során</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished">A bitcoin nem tud elindulni: click-to-pay kezelő</translation>
+        <source>Cannot start vertcoin: click-to-pay handler</source>
+        <translation type="unfinished">A vertcoin nem tud elindulni: click-to-pay kezelő</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation type="unfinished">URI kezelés</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' nem érvényes egységes erőforrás azonosító (URI). Használja helyette a 'bitcoin:'-t.</translation>
+        <source>'vertcoin://' is not a valid URI. Use 'vertcoin:' instead.</source>
+        <translation type="unfinished">'vertcoin://' nem érvényes egységes erőforrás azonosító (URI). Használd helyette a 'vertcoin'-t.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.
 Due to widespread security flaws in BIP70 it's strongly recommended that any merchant instructions to switch wallets be ignored.
 If you are receiving this error you should request the merchant provide a BIP21 compatible URI.</source>
-        <translation type="unfinished">Ezt a tranzakciót nem lehet feldolgozni, mert a BIP70 nem támogatott. A jól ismert biztonsági hiányosságok miatt a BIP70-re való váltásra történő felhívásokat hagyja figyelmen kívül. Amennyiben ezt az üzenetet látja kérjen egy új, BIP21 kompatibilis URI-t.</translation>
+        <translation type="unfinished">Ezt a tranzakciót nem tudom feldolgozni, mert a BIP70 nem támogatott. A jól ismert biztonsági hiányosságok miatt a BIP70-re való váltásra buzdító utasításokat hagyja figyelmen kívül. Amennyiben ezt az ünetet látja kérje meg azt akitől kapta a kérést, hogy adjon Önnek BIP21 kompatibilis URL-t.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">Nem sikerült az URI értelmezése! Ezt okozhatja érvénytelen Bitcoin cím, vagy rossz URI paraméterezés.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Vertcoin address or malformed URI parameters.</source>
+        <translation type="unfinished">Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Vertcoin cím, vagy rossz URI paraméterezés.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2678,21 +1788,6 @@ If you are receiving this error you should request the merchant provide a BIP21 
 </context>
 <context>
     <name>PeerTableModel</name>
-    <message>
-        <source>User Agent</source>
-        <extracomment>Title of Peers Table column which contains the peer's User Agent string.</extracomment>
-        <translation type="unfinished">Felhasználói ügynök</translation>
-    </message>
-    <message>
-        <source>Peer</source>
-        <extracomment>Title of Peers Table column which contains a unique number used to identify a connection.</extracomment>
-        <translation type="unfinished">Partner</translation>
-    </message>
-    <message>
-        <source>Direction</source>
-        <extracomment>Title of Peers Table column which indicates the direction the peer connection was initiated from.</extracomment>
-        <translation type="unfinished">Irány</translation>
-    </message>
     <message>
         <source>Sent</source>
         <extracomment>Title of Peers Table column which indicates the total amount of network information we have sent to the peer.</extracomment>
@@ -2718,30 +1813,16 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <extracomment>Title of Peers Table column which states the network the peer connected through.</extracomment>
         <translation type="unfinished">Hálózat</translation>
     </message>
-    <message>
-        <source>Inbound</source>
-        <extracomment>An Inbound Connection from a Peer.</extracomment>
-        <translation type="unfinished">Bejövő</translation>
-    </message>
-    <message>
-        <source>Outbound</source>
-        <extracomment>An Outbound Connection to a Peer.</extracomment>
-        <translation type="unfinished">Kimenő</translation>
-    </message>
 </context>
 <context>
     <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image…</source>
-        <translation type="unfinished">&amp;Kép Mentése…</translation>
-    </message>
     <message>
         <source>&amp;Copy Image</source>
         <translation type="unfinished">&amp;Kép Másolása</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished">A keletkezett URI túl hosszú, próbálja meg csökkenteni a címke / üzenet szövegének méretét.</translation>
+        <translation type="unfinished">A keletkezett URI túl hosszú, próbálja meg csökkenteni a cimke / üzenet szövegének méretét.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
@@ -2757,7 +1838,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>PNG Image</source>
-        <extracomment>Expanded name of the PNG file format. See: https://en.wikipedia.org/wiki/Portable_Network_Graphics.</extracomment>
+        <extracomment>Expanded name of the PNG file format. See https://en.wikipedia.org/wiki/Portable_Network_Graphics</extracomment>
         <translation type="unfinished">PNG kép</translation>
     </message>
 </context>
@@ -2765,15 +1846,15 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation type="unfinished">Nem elérhető</translation>
+        <translation>Nem elérhető</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation type="unfinished">Kliens verzió</translation>
+        <translation>Kliens verzió</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished">&amp;Információ</translation>
+        <translation>&amp;Információ</translation>
     </message>
     <message>
         <source>General</source>
@@ -2785,7 +1866,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>To specify a non-default location of the data directory use the '%1' option.</source>
-        <translation type="unfinished">Az adat könyvárhoz kívánt nem alapértelmezett elérési úthoz használja a '%1' opciót.</translation>
+        <translation type="unfinished">Az adat könyvárhoz kívánt nem alapértelmezett elérési úthoz használd a '%1' opciót</translation>
     </message>
     <message>
         <source>Blocksdir</source>
@@ -2793,15 +1874,15 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>To specify a non-default location of the blocks directory use the '%1' option.</source>
-        <translation type="unfinished">A blokk könyvár egyedi elérési útjának beállításához használja a '%1' opciót.</translation>
+        <translation type="unfinished">Az blokkk könyvárhoz kívánt nem alapértelmezett elérési úthoz használd a '%1' opciót</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation type="unfinished">Indítás időpontja</translation>
+        <translation>Bekapcsolás ideje</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">Hálózat</translation>
+        <translation>Hálózat</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2809,11 +1890,11 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>Number of connections</source>
-        <translation type="unfinished">Kapcsolatok száma</translation>
+        <translation>Kapcsolatok száma</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation type="unfinished">Blokklánc</translation>
+        <translation>Blokklánc</translation>
     </message>
     <message>
         <source>Memory Pool</source>
@@ -2849,15 +1930,15 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation type="unfinished">&amp;Partnerek</translation>
+        <translation type="unfinished">&amp;Peerek</translation>
     </message>
     <message>
         <source>Banned peers</source>
-        <translation type="unfinished">Tiltott partnerek</translation>
+        <translation type="unfinished">Kitiltott felek</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation type="unfinished">Válasszon ki egy partnert a részletes információk megtekintéséhez.</translation>
+        <translation type="unfinished">Peer kijelölése a részletes információkért</translation>
     </message>
     <message>
         <source>Version</source>
@@ -2876,47 +1957,12 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Szinkronizált Blokkok</translation>
     </message>
     <message>
-        <source>Last Transaction</source>
-        <translation type="unfinished">Utolsó Tranzakció</translation>
-    </message>
-    <message>
         <source>The mapped Autonomous System used for diversifying peer selection.</source>
-        <translation type="unfinished">A megadott "Autonóm Rendszer" használata a partnerválasztás diverzifikálásához.</translation>
+        <translation type="unfinished">A megadott "Önálló rendszer" használom a peer választás diverzifikálásához.</translation>
     </message>
     <message>
         <source>Mapped AS</source>
-        <translation type="unfinished">Leképezett AR</translation>
-    </message>
-    <message>
-        <source>Whether we relay addresses to this peer.</source>
-        <extracomment>Tooltip text for the Address Relay field in the peer details area.</extracomment>
-        <translation type="unfinished">Továbbítsunk-e címeket ennek a partnernek.</translation>
-    </message>
-    <message>
-        <source>Address Relay</source>
-        <translation type="unfinished">Cím Továbbítás</translation>
-    </message>
-    <message>
-        <source>Total number of addresses processed, excluding those dropped due to rate-limiting.</source>
-        <extracomment>Tooltip text for the Addresses Processed field in the peer details area.</extracomment>
-        <translation type="unfinished">Az eddig feldolgozott címek összesen, nem számolva a sebességkorlát miatt eldobott címeket.</translation>
-    </message>
-    <message>
-        <source>Addresses Processed</source>
-        <translation type="unfinished">Feldolgozott Címek</translation>
-    </message>
-    <message>
-        <source>Total number of addresses dropped due to rate-limiting.</source>
-        <extracomment>Tooltip text for the Addresses Rate-Limited field in the peer details area.</extracomment>
-        <translation type="unfinished">Sebességkorlát miatt eldobott címek összesen.</translation>
-    </message>
-    <message>
-        <source>Addresses Rate-Limited</source>
-        <translation type="unfinished">Eldobott Címek</translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation type="unfinished">Felhasználói ügynök</translation>
+        <translation type="unfinished">Felvett AS (önálló rendszer)</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -2928,11 +1974,11 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="unfinished">A %1 hibakeresési naplófájl megnyitása a jelenlegi adatkönyvtárból. Ez néhány másodpercig eltarthat nagyobb naplófájlok esetén.</translation>
+        <translation type="unfinished">A %1 debug log fájl megnyitása a jelenlegi könyvtárból. Ez néhány másodpercig eltarthat nagyobb log fájlok esetén.</translation>
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation type="unfinished">Betűméret csökkentése</translation>
+        <translation type="unfinished">Betűméret kicsinyítése</translation>
     </message>
     <message>
         <source>Increase font size</source>
@@ -2943,32 +1989,8 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Jogosultságok</translation>
     </message>
     <message>
-        <source>The direction and type of peer connection: %1</source>
-        <translation type="unfinished">A csomóponti kapcsolat iránya és típusa: %1</translation>
-    </message>
-    <message>
-        <source>Direction/Type</source>
-        <translation type="unfinished">Irány/Típus</translation>
-    </message>
-    <message>
-        <source>The network protocol this peer is connected through: IPv4, IPv6, Onion, I2P, or CJDNS.</source>
-        <translation type="unfinished">A hálózati protokoll amin keresztül ez a partner kapcsolódik: IPv4, IPv6, Onion, I2P vagy CJDNS.</translation>
-    </message>
-    <message>
         <source>Services</source>
         <translation type="unfinished">Szolgáltatások</translation>
-    </message>
-    <message>
-        <source>Whether the peer requested us to relay transactions.</source>
-        <translation type="unfinished">Kérte-e tőlünk a partner a tranzakciók közvetítését.</translation>
-    </message>
-    <message>
-        <source>Wants Tx Relay</source>
-        <translation type="unfinished">Tx Közlést Kér</translation>
-    </message>
-    <message>
-        <source>High bandwidth BIP152 compact block relay: %1</source>
-        <translation type="unfinished">Nagy sávszélességű BIP152 kompakt blokk közvetítő: %1</translation>
     </message>
     <message>
         <source>High Bandwidth</source>
@@ -2979,29 +2001,24 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Csatlakozás ideje</translation>
     </message>
     <message>
-        <source>Elapsed time since a novel block passing initial validity checks was received from this peer.</source>
-        <translation type="unfinished">A partnertől érkező új blokkokra vonatkozó érvényességet igazoló ellenőrzések óta eltelt idő.</translation>
-    </message>
-    <message>
         <source>Last Block</source>
         <translation type="unfinished">Utolsó blokk</translation>
     </message>
     <message>
-        <source>Elapsed time since a novel transaction accepted into our mempool was received from this peer.</source>
-        <extracomment>Tooltip text for the Last Transaction field in the peer details area.</extracomment>
-        <translation type="unfinished">Az eltelt idő, amióta egy új, a saját memóriahalomba elfogadott tranzakció érkezett ettől a partnertől.</translation>
+        <source>Last Tx</source>
+        <translation type="unfinished">Utolsó tranzakció</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation type="unfinished">Legutóbbi Küldés</translation>
+        <translation type="unfinished">Legutóbbi küldés</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation type="unfinished">Legutóbbi Fogadás</translation>
+        <translation type="unfinished">Legutóbbi fogadás</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation type="unfinished">Ping Idő</translation>
+        <translation type="unfinished">Ping idő</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
@@ -3021,19 +2038,19 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>Last block time</source>
-        <translation type="unfinished">Utolsó blokk ideje</translation>
+        <translation>Utolsó blokk ideje</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished">&amp;Megnyitás</translation>
+        <translation>&amp;Megnyitás</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished">&amp;Konzol</translation>
+        <translation>&amp;Konzol</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation type="unfinished">&amp;Hálózati Forgalom</translation>
+        <translation type="unfinished">&amp;Hálózati forgalom</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -3041,11 +2058,11 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>Debug log file</source>
-        <translation type="unfinished">Hibakeresési naplófájl</translation>
+        <translation>Debug naplófájl</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation type="unfinished">Konzol törlése</translation>
+        <translation>Konzol törlése</translation>
     </message>
     <message>
         <source>In:</source>
@@ -3056,63 +2073,12 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Ki:</translation>
     </message>
     <message>
-        <source>Inbound: initiated by peer</source>
-        <extracomment>Explanatory text for an inbound peer connection.</extracomment>
-        <translation type="unfinished">Bejövő: partner által indított</translation>
-    </message>
-    <message>
-        <source>Outbound Full Relay: default</source>
-        <extracomment>Explanatory text for an outbound peer connection that relays all network information. This is the default behavior for outbound connections.</extracomment>
-        <translation type="unfinished">Kimenő Teljes Elosztó: alapértelmezett</translation>
-    </message>
-    <message>
-        <source>Outbound Block Relay: does not relay transactions or addresses</source>
-        <extracomment>Explanatory text for an outbound peer connection that relays network information about blocks and not transactions or addresses.</extracomment>
-        <translation type="unfinished">Kimenő Blokk Elosztó: nem továbbít tranzakciókat vagy címeket</translation>
-    </message>
-    <message>
-        <source>Outbound Manual: added using RPC %1 or %2/%3 configuration options</source>
-        <extracomment>Explanatory text for an outbound peer connection that was established manually through one of several methods. The numbered arguments are stand-ins for the methods available to establish manual connections.</extracomment>
-        <translation type="unfinished">Kézi Kilépő Kapcsolat: hozzáadva RPC használatával %1 vagy %2/%3 beállításokkal</translation>
-    </message>
-    <message>
-        <source>Outbound Feeler: short-lived, for testing addresses</source>
-        <extracomment>Explanatory text for a short-lived outbound peer connection that is used to test the aliveness of known addresses.</extracomment>
-        <translation type="unfinished">Outbound Feeler: rövid életű, címek teszteléséhez</translation>
-    </message>
-    <message>
-        <source>Outbound Address Fetch: short-lived, for soliciting addresses</source>
-        <extracomment>Explanatory text for a short-lived outbound peer connection that is used to request addresses from a peer.</extracomment>
-        <translation type="unfinished">Outbound Address Fetch: rövid életű, címek lekérdezéséhez.</translation>
-    </message>
-    <message>
-        <source>we selected the peer for high bandwidth relay</source>
-        <translation type="unfinished">a partnert nagy sávszélességű elosztónak választottuk</translation>
-    </message>
-    <message>
-        <source>the peer selected us for high bandwidth relay</source>
-        <translation type="unfinished">a partner minket választott nagy sávszélességű elosztójául</translation>
-    </message>
-    <message>
-        <source>no high bandwidth relay selected</source>
-        <translation type="unfinished">nincs nagy sávszélességű elosztó kiválasztva</translation>
-    </message>
-    <message>
-        <source>&amp;Copy address</source>
-        <extracomment>Context menu action to copy the address of a peer.</extracomment>
-        <translation type="unfinished">&amp;Cím másolása</translation>
-    </message>
-    <message>
         <source>&amp;Disconnect</source>
         <translation type="unfinished">&amp;Szétkapcsol</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
         <translation type="unfinished">1 &amp;óra</translation>
-    </message>
-    <message>
-        <source>1 d&amp;ay</source>
-        <translation type="unfinished">1 &amp;nap</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
@@ -3123,13 +2089,8 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">1 &amp;év</translation>
     </message>
     <message>
-        <source>&amp;Copy IP/Netmask</source>
-        <extracomment>Context menu action to copy the IP/Netmask of a banned peer. IP/Netmask is the combination of a peer's IP address and its Netmask. For IP address, see: https://en.wikipedia.org/wiki/IP_address.</extracomment>
-        <translation type="unfinished">IP-cím/maszk &amp;Másolása</translation>
-    </message>
-    <message>
         <source>&amp;Unban</source>
-        <translation type="unfinished">&amp;Feloldja a tiltást</translation>
+        <translation type="unfinished">&amp;Feloldja a kitiltást</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -3142,15 +2103,6 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <message>
         <source>Executing command using "%1" wallet</source>
         <translation type="unfinished">Parancs végrehajtása a "%1" tárca használatával</translation>
-    </message>
-    <message>
-        <source>Executing…</source>
-        <extracomment>A console message indicating an entered command is currently being executed.</extracomment>
-        <translation type="unfinished">Végrehajtás...</translation>
-    </message>
-    <message>
-        <source>(peer: %1)</source>
-        <translation type="unfinished">(partner: %1)</translation>
     </message>
     <message>
         <source>via %1</source>
@@ -3170,7 +2122,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>From</source>
-        <translation type="unfinished">Küldő</translation>
+        <translation type="unfinished">Küldő:</translation>
     </message>
     <message>
         <source>Ban for</source>
@@ -3200,8 +2152,8 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">&amp;Üzenet:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Bitcoin hálózaton keresztül.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Vertcoin network.</source>
+        <translation type="unfinished">Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Vertcoin hálózaton keresztül.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -3217,11 +2169,11 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>An optional label to associate with the new receiving address (used by you to identify an invoice).  It is also attached to the payment request.</source>
-        <translation type="unfinished">Egy opcionális címke, ami hozzárendelhető az új fogadó címhez (pl. használható a számla azonosításához). Továbbá hozzá lesz csatolva a fizetési kérelemhez is.</translation>
+        <translation type="unfinished">Egy opcionális címke, amit hozzá lehet rendelni az új fogadó címhez (amit használhatsz a számla azonosításához). E mellett hozzá lesz csatolva a fizetési kérelemhez is.</translation>
     </message>
     <message>
         <source>An optional message that is attached to the payment request and may be displayed to the sender.</source>
-        <translation type="unfinished">Egy opcionális üzenet ami a fizetési kérelemhez van fűzve és megjelenhet a fizető félnek.</translation>
+        <translation type="unfinished">Egy opcionális üzenet ami a fizetési kérelemhez van fűzve és valószínűleg meg lesz jelenítve a fizető oldalán.</translation>
     </message>
     <message>
         <source>&amp;Create new receiving address</source>
@@ -3236,12 +2188,20 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Törlés</translation>
     </message>
     <message>
+        <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
+        <translation type="unfinished">Segwit címek (Bech32 vagy BIP-173) csökkentik a tranzakciók díját és jobb védelmet biztosítanak gépelési hibával szemben, de a régi pénztárcák nem támogatják. Ha nincs aktiválva, egy régi pénztárcával is kompatibilis cím lesz létrehozva.</translation>
+    </message>
+    <message>
+        <source>Generate native segwit (Bech32) address</source>
+        <translation type="unfinished">Segwit cím (Bech32) létrehozása</translation>
+    </message>
+    <message>
         <source>Requested payments history</source>
         <translation type="unfinished">A kért kifizetések története</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation type="unfinished">Mutassa meg a kiválasztott kérelmet (ugyanaz, mint a duplakattintás)</translation>
+        <translation type="unfinished">Mutassa meg a kiválasztott kérelmet (ugyanaz, mint a duplaklikk)</translation>
     </message>
     <message>
         <source>Show</source>
@@ -3268,10 +2228,6 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Címke &amp;másolása</translation>
     </message>
     <message>
-        <source>Copy &amp;message</source>
-        <translation type="unfinished">Üzenet &amp;másolása</translation>
-    </message>
-    <message>
         <source>Copy &amp;amount</source>
         <translation type="unfinished">Ö&amp;sszeg másolása</translation>
     </message>
@@ -3286,10 +2242,6 @@ If you are receiving this error you should request the merchant provide a BIP21 
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
-    <message>
-        <source>Request payment to …</source>
-        <translation type="unfinished">Fizetési kérelem küldése…</translation>
-    </message>
     <message>
         <source>Address:</source>
         <translation type="unfinished">Cím:</translation>
@@ -3317,18 +2269,6 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <message>
         <source>Copy &amp;Address</source>
         <translation type="unfinished">&amp;Cím másolása</translation>
-    </message>
-    <message>
-        <source>&amp;Verify</source>
-        <translation type="unfinished">&amp;Ellenőrzés</translation>
-    </message>
-    <message>
-        <source>Verify this address on e.g. a hardware wallet screen</source>
-        <translation type="unfinished">Ellenőrizze ezt a címet például egy hardver tárca képernyőjén</translation>
-    </message>
-    <message>
-        <source>&amp;Save Image…</source>
-        <translation type="unfinished">&amp;Kép Mentése…</translation>
     </message>
     <message>
         <source>Payment information</source>
@@ -3363,7 +2303,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>(no amount requested)</source>
-        <translation type="unfinished">(nincs kért összeg)</translation>
+        <translation type="unfinished">(nem kért összeget)</translation>
     </message>
     <message>
         <source>Requested</source>
@@ -3374,7 +2314,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Érmék Küldése</translation>
+        <translation>Érmék Küldése</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -3402,7 +2342,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>Fee:</source>
-        <translation type="unfinished">Díj:</translation>
+        <translation type="unfinished">Díjak:</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -3422,11 +2362,11 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation type="unfinished">Tranzakciós díj:</translation>
+        <translation type="unfinished">Tranzakciós díj</translation>
     </message>
     <message>
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
-        <translation type="unfinished">A tartalék díj (failback fee) használata egy órákig, napokig tartó, vagy akár sosem végbemenő tranzakciót eredményezhet. Fontolja meg, hogy Ön adja meg a díjat, vagy várjon amíg a teljes láncot érvényesíti.</translation>
+        <translation type="unfinished">A tartalék díj (failback fee) használata egy órákig vagy napokig tartó (vagy soha be nem fejeződő) tranzakciót eredményezhet. Fontolja meg, hogy Ön adja meg a díjat, vagy várjon amíg a teljes láncot érvényesíti.</translation>
     </message>
     <message>
         <source>Warning: Fee estimation is currently not possible.</source>
@@ -3450,51 +2390,31 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation type="unfinished">Küldés több címzettnek egyszerre</translation>
+        <translation>Küldés több címzettnek egyszerre</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation type="unfinished">&amp;Címzett hozzáadása</translation>
+        <translation>&amp;Címzett hozzáadása</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
         <translation type="unfinished">Minden mező törlése</translation>
     </message>
     <message>
-        <source>Inputs…</source>
-        <translation type="unfinished">Bemenetek...</translation>
-    </message>
-    <message>
         <source>Dust:</source>
         <translation type="unfinished">Porszem:</translation>
     </message>
     <message>
-        <source>Choose…</source>
-        <translation type="unfinished">Válasszon...</translation>
-    </message>
-    <message>
         <source>Hide transaction fee settings</source>
-        <translation type="unfinished">Ne mutassa a tranzakciós költségek beállításait</translation>
+        <translation type="unfinished">Rejtsd el a tranzakciós költségek beállításait</translation>
     </message>
     <message>
-        <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
-
-Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satoshis per kvB" for a transaction size of 500 virtual bytes (half of 1 kvB) would ultimately yield a fee of only 50 satoshis.</source>
-        <translation type="unfinished">Adjon meg egy egyéni díjat a tranzakció virtuális méretének 1 kilobájtjához (1000 bájt).
-
-Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nként"-ként megadott díj egy 500 virtuális bájt (1kvB fele) méretű tranzakció végül csak 50 satoshi-s díjat jelentene.</translation>
-    </message>
-    <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation type="unfinished">Ha kevesebb a tranzakció, mint amennyi hely lenne egy blokkban, akkor a bányászok és a többi csomópont megkövetelheti a minimum díjat. Ezt a minimum díjat fizetni elegendő lehet de elképzelhető, hogy ez esetleg egy soha sem jóváhagyott tranzakciót eredményez ahogy a tranzakciók száma magasabb lesz, mint a hálózat által megengedett.</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for vertcoin transactions than the network can process.</source>
+        <translation type="unfinished">Ha kevesebb a tranzakció mint amennyi hely lenne egy blokkban, akkor a bányászok és a többi node megkövetelheti a minimum díjat. E minimum díjat fizetni elegendő lehet, de tudnod kell, hogy ez esetleg soha nem konfirmálódó tranzakciót eredményezhet ahogy a tranzakciók száma magasabb lesz mint a network által megengedett.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
-        <translation type="unfinished">Túl alacsony díj a tranzakció soha be nem teljesülését eredményezheti (olvassa el az elemleírást)</translation>
-    </message>
-    <message>
-        <source>(Smart fee not initialized yet. This usually takes a few blocks…)</source>
-        <translation type="unfinished">(Az intelligens díj még nem lett előkészítve. Ez általában eltart néhány blokkig…)</translation>
+        <translation type="unfinished">A túl alacsony illeték a tranzakció soha be nem teljesülését eredményezheti (olvassa el az elemleírást)</translation>
     </message>
     <message>
         <source>Confirmation time target:</source>
@@ -3506,23 +2426,23 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
-        <translation type="unfinished">A Replace-By-Fee (BIP-125) funkciót használva küldés után is megemelheti a tranzakciós díjat. Ha ezt nem szeretné akkor magasabb díjat érdemes használni, hogy kisebb legyen a késedelem.</translation>
+        <translation type="unfinished">A With Replace-By-Fee (BIP-125) funkciót használva küldés után is megemelheted a tranzakciós díjat. Ha ezt nem használod akkor magasabb díjat érdemes használni, hogy kisebb legyen a késedelem.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">Mindent &amp;Töröl</translation>
+        <translation>Mindent &amp;töröl</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="unfinished">Egyenleg:</translation>
+        <translation>Egyenleg:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation type="unfinished">Küldés megerősítése</translation>
+        <translation>Küldés megerősítése</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation type="unfinished">&amp;Küldés</translation>
+        <translation>&amp;Küldés</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -3554,59 +2474,39 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>%1 (%2 blocks)</source>
-        <translation type="unfinished">%1 (%2 blokk)</translation>
-    </message>
-    <message>
-        <source>Sign on device</source>
-        <extracomment>"device" usually means a hardware wallet.</extracomment>
-        <translation type="unfinished">Aláírás eszközön</translation>
-    </message>
-    <message>
-        <source>Connect your hardware wallet first.</source>
-        <translation type="unfinished">Először csatlakoztassa a hardvertárcát.</translation>
-    </message>
-    <message>
-        <source>Set external signer script path in Options -&gt; Wallet</source>
-        <extracomment>"External signer" means using devices such as hardware wallets.</extracomment>
-        <translation type="unfinished">Állítsa be a külső aláíró szkript útvonalát itt: Opciók -&gt; Tárca</translation>
+        <translation type="unfinished">%1 (%2 blokov)</translation>
     </message>
     <message>
         <source>Cr&amp;eate Unsigned</source>
-        <translation type="unfinished">&amp;Aláíratlan Létrehozása</translation>
+        <translation type="unfinished">&amp;Aláírás nélkül létrehozása Unsigned</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Létrehoz egy Részlegesen Aláírt Bitcoin Tranzakciót (PSBT) melyet offline %1 tárcával vagy egy PSBT kompatibilis hardver tárcával használhat.</translation>
+        <source>Creates a Partially Signed Vertcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation type="unfinished">Létrehoz egy Részlegesen Aláírt Vertcoin Tranzakciót (PSBT) melyet offline %1 tárcával vagy egy PSBT kompatibilis hardver tárcával használhatsz.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
-        <translation type="unfinished"> '%1' tárcából</translation>
+        <translation type="unfinished">A "%1" tárcától</translation>
     </message>
     <message>
         <source>%1 to '%2'</source>
-        <translation type="unfinished">%1-től '%2-ig'</translation>
+        <translation type="unfinished">%1 -től '%2-ig'</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation type="unfinished">%1-től %2-ig</translation>
+        <translation type="unfinished">%1 do %2</translation>
     </message>
     <message>
-        <source>To review recipient list click "Show Details…"</source>
-        <translation type="unfinished">A címzettek listájának ellenőrzéséhez kattintson ide: "Részletek..."</translation>
+        <source>Do you want to draft this transaction?</source>
+        <translation type="unfinished">Piszkozatba teszed ezt a tranzakciót?</translation>
     </message>
     <message>
-        <source>Sign failed</source>
-        <translation type="unfinished">Aláírás sikertelen</translation>
+        <source>Are you sure you want to send?</source>
+        <translation type="unfinished">Biztosan el akarja küldeni?</translation>
     </message>
     <message>
-        <source>External signer not found</source>
-        <extracomment>"External signer" means using devices such as hardware wallets.</extracomment>
-        <translation type="unfinished">Külső aláíró nem található</translation>
-    </message>
-    <message>
-        <source>External signer failure</source>
-        <extracomment>"External signer" means using devices such as hardware wallets.</extracomment>
-        <translation type="unfinished">Külső aláíró hibája</translation>
+        <source>Create Unsigned</source>
+        <translation type="unfinished">Aláíratlan létrehozása</translation>
     </message>
     <message>
         <source>Save Transaction Data</source>
@@ -3622,35 +2522,19 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
         <translation type="unfinished">PBST elmentve</translation>
     </message>
     <message>
-        <source>External balance:</source>
-        <translation type="unfinished">Külső egyenleg:</translation>
-    </message>
-    <message>
         <source>or</source>
         <translation type="unfinished">vagy</translation>
     </message>
     <message>
         <source>You can increase the fee later (signals Replace-By-Fee, BIP-125).</source>
-        <translation type="unfinished">Később növelheti a tranzakció díját (Replace-By-Fee-t jelez, BIP-125).</translation>
+        <translation type="unfinished">Később növelheti a tranzakció díját (lásd Replace-By-Fee, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Kérjük nézze át a tranzakciós javaslatot. Ez létrehoz egy Részlegesen Aláírt Bitcoin Tranzakciót (PSBT) amit elmenthet vagy kimásolhat amit később aláírhatja offline %1 tárcával vagy egy PSBT kompatibilis hardvertárcával.</translation>
-    </message>
-    <message>
-        <source>Do you want to create this transaction?</source>
-        <extracomment>Message displayed when attempting to create a transaction. Cautionary text to prompt the user to verify that the displayed transaction details represent the transaction the user intends to create.</extracomment>
-        <translation type="unfinished">Biztosan létrehozza ezt a tranzakciót?</translation>
-    </message>
-    <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Kérjük nézze át a tranzakció részleteit. Véglegesítheti és elküldheti ezt a tranzakciót vagy létrehozhat egy Részlegesen Aláírt Bitcoin Tranzakciót (PSBT) amit elmentve vagy átmásolva aláírhat egy offline %1 tárcával, vagy PSBT-t támogató hardvertárcával.</translation>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Vertcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation type="unfinished">Kérlek nézd át a tranzakciós javaslatot. Ez létrehoz egy Részlegesen Aláírt Vertcoin Tranzakciót (PSBT) amit elmenthetsz vagy kimásolhatsz. Aztán aláírhatod: offline %1 tárcával vagy egy PSBT kompatibilis hardver tárcával.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
-        <extracomment>Text to prompt a user to review the details of the transaction they are attempting to send.</extracomment>
         <translation type="unfinished">Kérjük, hogy ellenőrizze le a tranzakcióját.</translation>
     </message>
     <message>
@@ -3659,7 +2543,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Not signalling Replace-By-Fee, BIP-125.</source>
-        <translation type="unfinished">Nincs Replace-By-Fee, BIP-125 jelezve.</translation>
+        <translation type="unfinished">Nem jelzek Replace-By-Fee, BIP-125-t</translation>
     </message>
     <message>
         <source>Total Amount</source>
@@ -3670,12 +2554,16 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
         <translation type="unfinished">Összeg küldésének megerősítése</translation>
     </message>
     <message>
+        <source>Confirm transaction proposal</source>
+        <translation type="unfinished">Tranzakció javaslat megerősítése</translation>
+    </message>
+    <message>
         <source>Watch-only balance:</source>
         <translation type="unfinished">Egyenleg csak megfigyelésre</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation type="unfinished">A fogadó címe érvénytelen. Kérjük ellenőrizze.</translation>
+        <translation type="unfinished">A fogadó címe érvénytelen. Kérem ellenőrizze.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -3699,7 +2587,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation type="unfinished">A díj magasabb, mint %1 ami abszurd magas díjnak számít.</translation>
+        <translation type="unfinished">Magasabb díj mint %1 abszurd magas díjnak számít.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -3707,13 +2595,13 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
-            <numerusform>A megerősítésnek becsült kezdete %n blokkon belül várható.</numerusform>
+        <translation>
+            <numerusform />
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Figyelmeztetés: Érvénytelen Bitcoin cím</translation>
+        <source>Warning: Invalid Vertcoin address</source>
+        <translation type="unfinished">Figyelmeztetés: Érvénytelen Vertcoin cím</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3736,39 +2624,39 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation type="unfinished">Ö&amp;sszeg:</translation>
+        <translation>Összeg:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation type="unfinished">Címze&amp;tt:</translation>
+        <translation>Címzett:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation type="unfinished">Cím&amp;ke:</translation>
+        <translation>Címke:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation type="unfinished">Válasszon egy korábban már használt címet</translation>
+        <translation type="unfinished">Válassz egy korábban már használt címet</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">Erre a Bitcoin címre küldje az összeget</translation>
+        <source>The Vertcoin address to send the payment to</source>
+        <translation type="unfinished">Erre a Vertcoin címre küldje az összeget</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Cím beillesztése a vágólapról</translation>
+        <translation>Cím beillesztése a vágólapról</translation>
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation type="unfinished">Bejegyzés eltávolítása</translation>
+        <translation type="unfinished">Ez a bejegyzés eltávolítása</translation>
     </message>
     <message>
         <source>The amount to send in the selected unit</source>
         <translation type="unfinished">A küldendő összeg a választott egységben.</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">A díj le lesz vonva a küldött teljes összegből. A címzett kevesebb bitcoint fog megkapni, mint amennyit az összeg mezőben megadott. Amennyiben több címzett van kiválasztva, az illeték egyenlő mértékben lesz elosztva.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vertcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation type="unfinished">Znesek plačila bo zmanjšan za znesek provizije. Prejemnik bo prejel manjše število kovancev, kot je bil vnešeni znesek. Če je prejemnikov več, bo provizija med njih enakomerno porazdeljena.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -3795,8 +2683,8 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
         <translation type="unfinished">Adjon egy címkét ehhez a címhez, hogy bekerüljön a használt címek közé</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation type="unfinished">Egy üzenet a bitcoin: URI-hoz csatolva, amely a tranzakciócal együtt lesz eltárolva az Ön számára. Megjegyzés: Ez az üzenet nem kerül elküldésre a Bitcoin hálózaton keresztül.</translation>
+        <source>A message that was attached to the vertcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vertcoin network.</source>
+        <translation type="unfinished">Sporočilo, ki ste ga pripeli na URI tipa vertcoin:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Vertcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -3808,105 +2696,94 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
 </context>
 <context>
-    <name>SendConfirmationDialog</name>
-    <message>
-        <source>Send</source>
-        <translation type="unfinished">Küldés</translation>
-    </message>
-    <message>
-        <source>Create Unsigned</source>
-        <translation type="unfinished">Aláíratlan létrehozása</translation>
-    </message>
-</context>
-<context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished">Aláírások - üzenet aláírása/ellenőrzése</translation>
+        <translation>Aláírások - üzenet aláírása/ellenőrzése</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished">Üzenet &amp;Aláírása</translation>
+        <translation>Üzenet aláírása...</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Címeivel aláírhatja az üzeneteket/egyezményeket, amivel bizonyíthatja, hogy át tudja venni az ezekre a címekre küldött bitcoin-t. Vigyázzon, hogy ne írjon alá semmi félreérthetőt, mivel adathalász támadásokkal megpróbálhatják becsapni, hogy az azonosságát átírja másokra. Csak olyan részletes állításokat írjon alá, amivel egyetért.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive vertcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation type="unfinished">S svojimi naslovi lahko podpisujete sporočila ali pogodbe in s tem dokazujete, da na teh naslovih lahko prejemate kovance. Bodite previdni in ne podpisujte ničesar nejasnega ali naključnega, ker vas zlikovci preko ribarjenja (phishing) lahko prelisičijo, da na njih prepišete svojo identiteto. Podpisujte samo podrobno opisane izjave, s katerimi se strinjate.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">Bitcoin cím, amivel alá kívánja írni az üzenetet</translation>
+        <source>The Vertcoin address to sign the message with</source>
+        <translation type="unfinished">Vertcoin cím, amivel alá kívánja írni az üzenetet</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation type="unfinished">Válasszon egy korábban már használt címet</translation>
+        <translation type="unfinished">Válassz egy korábban már használt címet</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Cím beillesztése a vágólapról</translation>
+        <translation>Cím beillesztése a vágólapról</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished">Ide írja az aláírandó üzenetet</translation>
+        <translation>Ide írja az aláírandó üzenetet</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation type="unfinished">Aláírás</translation>
+        <translation>Aláírás</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished">A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
+        <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Üzenet aláírása, ezzel bizonyítva, hogy Öné ez a Bitcoin cím</translation>
+        <source>Sign the message to prove you own this Vertcoin address</source>
+        <translation>Üzenet</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished">Üzenet &amp;Aláírása</translation>
+        <translation>Üzenet &amp;aláírása</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished">Az összes aláírási üzenetmező törlése</translation>
+        <translation>Počisti vsa polja za vnos v oknu za podpisovanje</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">Mindent &amp;töröl</translation>
+        <translation>Mindent &amp;töröl</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished">Üzenet ellenőrzése</translation>
+        <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation type="unfinished">Adja meg a fogadó címét, az üzenetet (megbizonyosodva arról, hogy az új-sor, szóköz, tab, stb. karaktereket is pontosan adta meg) és az aláírást az üzenet ellenőrzéséhez. Ügyeljen arra, ne gondoljon bele többet az aláírásba, mint amennyi az aláírt szövegben ténylegesen áll, hogy elkerülje a köztes-ember (man-in-the-middle) támadást. Megjegyzendő, hogy ez csak azt bizonyítja hogy az aláíró fél az adott címen tud fogadni, de azt nem tudja igazolni hogy képes-e akár egyetlen tranzakció feladására is!</translation>
+        <translation type="unfinished">Da preverite verodostojnost sporočila, spodaj vnesite: prejemnikov naslov, prejeto sporočilo (pazljivo skopirajte vse prelome vrstic, presledke, tabulatorje ipd.,) in prejeti podpis. Da se izognete napadom tipa man-in-the-middle, vedite, da iz veljavnega podpisa ne sledi nič drugega, kot tisto, kar je navedeno v sporočilu. Podpis samo potrjuje dejstvo, da ima podpisnik v lasti prejemni naslov, ne more pa dokazati vira nobene transakcije!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">Bitcoin cím, amivel aláírta az üzenetet</translation>
+        <source>The Vertcoin address the message was signed with</source>
+        <translation type="unfinished">Vertcoin cím, amivel aláírta az üzenetet</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
-        <translation type="unfinished">Az ellenőrizni kívánt aláírt üzenet</translation>
+        <translation type="unfinished">Az aláírt üzenet ellenőrzésre</translation>
     </message>
     <message>
         <source>The signature given when the message was signed</source>
-        <translation type="unfinished">A kapott aláírás amikor az üzenet alá lett írva.</translation>
+        <translation type="unfinished">A kapott aláírás  amikor az üzenet alá lett írva.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Ellenőrizze az üzenetet, hogy valóban a megjelölt Bitcoin címmel van-e aláírva</translation>
+        <source>Verify the message to ensure it was signed with the specified Vertcoin address</source>
+        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Vertcoin címmel van-e aláírva</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished">Üzenet &amp;Ellenőrzése</translation>
+        <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished">Az összes ellenőrzési üzenetmező törlése</translation>
+        <translation>Počisti vsa polja za vnos v oknu za preverjanje</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation type="unfinished">Kattintson az "Üzenet aláírása" gombra, hogy aláírást generáljon</translation>
+        <translation type="unfinished">Klikkeljen az "Üzenet Aláírása" -ra, hogy aláírást generáljon</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -3914,11 +2791,11 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation type="unfinished">Ellenőrizze a címet és próbálja meg újra.</translation>
+        <translation type="unfinished">Kérem ellenőrizze a címet és próbálja meg újra.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation type="unfinished">A megadott cím nem hivatkozik egy kulcshoz sem.</translation>
+        <translation type="unfinished">Vnešeni naslov se ne nanaša na ključ.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -3946,11 +2823,11 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation type="unfinished">Ellenőrizze az aláírást és próbálja újra.</translation>
+        <translation type="unfinished">Kérem ellenőrizze az aláírást és próbálja újra.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation type="unfinished">Az aláírás nem egyezett az üzenet kivonatával.</translation>
+        <translation type="unfinished">Podpis ne ustreza rezultatu (digest) preverjanja.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
@@ -3962,21 +2839,20 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
 </context>
 <context>
-    <name>SplashScreen</name>
-    <message>
-        <source>(press q to shutdown and continue later)</source>
-        <translation type="unfinished">(nyomjon q billentyűt a leállításhoz és későbbi visszatéréshez)</translation>
-    </message>
-    <message>
-        <source>press q to shutdown</source>
-        <translation type="unfinished">leállítás q billentyűvel</translation>
-    </message>
-</context>
-<context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">%1 -ig megnyitva</translation>
+    </message>
     <message>
         <source>conflicted with a transaction with %1 confirmations</source>
-        <translation type="unfinished">ütközés egy %1 megerősítéssel rendelkező tranzakcióval</translation>
+        <translation type="unfinished">v sporu s transakcijo z %1 potrditvami</translation>
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
@@ -4020,7 +2896,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>From</source>
-        <translation type="unfinished">Küldő</translation>
+        <translation type="unfinished">Küldő:</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -4048,8 +2924,8 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform>Beérik %n blokk múlva</numerusform>
+        <translation>
+            <numerusform />
         </translation>
     </message>
     <message>
@@ -4062,11 +2938,11 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Total debit</source>
-        <translation type="unfinished">Összes terhelés</translation>
+        <translation type="unfinished">Teljes terhelés</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation type="unfinished">Összes jóváírás</translation>
+        <translation type="unfinished">Skupni kredit</translation>
     </message>
     <message>
         <source>Transaction fee</source>
@@ -4098,7 +2974,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Output index</source>
-        <translation type="unfinished">Kimeneti index</translation>
+        <translation type="unfinished">Indeks izhoda</translation>
     </message>
     <message>
         <source> (Certificate was not verified)</source>
@@ -4110,11 +2986,11 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished">A frissen generált érméket csak %1 blokkal később tudja elkölteni. Ez a blokk nyomban szétküldésre került a hálózatba, amint legenerálásra került, hogy hozzáadható legyen a blokklánchoz. Ha nem kerül be a láncba, akkor az állapota "elutasított"-ra módosul, és az érmék nem költhetők el. Ez akkor következhet be időnként, ha egy másik csomópont mindössze néhány másodperc különbséggel generált le egy blokkot a miénkhez képest.</translation>
+        <translation type="unfinished">Ustvarjeni kovanci morajo zoreti %1 blokov, preden jih lahko porabite. Ko ste ta blok ustvarili, je bil posredovan v omrežje, da bo dodan v verigo blokov. Če se bloku ni uspelo uvrstiti v verigo, se bo njegovo stanje spremenilo v "ni bilo sprejeto" in kovancev ne bo mogoče porabiti. To se včasih zgodi, če kak drug rudar v roku nekaj sekund hkrati z vami odkrije drug blok.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation type="unfinished">Hibakeresési információk</translation>
+        <translation type="unfinished">Debug információ</translation>
     </message>
     <message>
         <source>Transaction</source>
@@ -4141,7 +3017,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished">Ez a panel a tranzakció részleteit mutatja</translation>
+        <translation>Ez a mező a tranzakció részleteit mutatja</translation>
     </message>
     <message>
         <source>Details for %1</source>
@@ -4162,6 +3038,16 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
         <source>Label</source>
         <translation type="unfinished">Címke</translation>
     </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">%1 -ig megnyitva</translation>
+    </message>
     <message>
         <source>Unconfirmed</source>
         <translation type="unfinished">Megerősítetlen</translation>
@@ -4180,7 +3066,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Conflicted</source>
-        <translation type="unfinished">Ellentmondásos</translation>
+        <translation type="unfinished">Konfliktusos</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
@@ -4204,7 +3090,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation type="unfinished">Saját részre kifizetve</translation>
+        <translation type="unfinished">Magadnak kifizetve</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -4236,15 +3122,15 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation type="unfinished">Függetlenül attól, hogy egy megfigyelési cím is szerepel ebben a tranzakcióban.</translation>
+        <translation type="unfinished">Egy csak megfigyelt cím érintett vagy nem ebben a tranzakcióban.</translation>
     </message>
     <message>
         <source>User-defined intent/purpose of the transaction.</source>
-        <translation type="unfinished">A tranzakció felhasználó által meghatározott szándéka/célja.</translation>
+        <translation type="unfinished">Uporabniško določen namen transakcije.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation type="unfinished">Az egyenleghez jóváírt vagy ráterhelt összeg.</translation>
+        <translation type="unfinished">Znesek spremembe stanja sredstev.</translation>
     </message>
 </context>
 <context>
@@ -4283,11 +3169,11 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>To yourself</source>
-        <translation type="unfinished">Saját részre</translation>
+        <translation type="unfinished">Magának</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation type="unfinished">Bányászva</translation>
+        <translation type="unfinished">Kibányászva</translation>
     </message>
     <message>
         <source>Other</source>
@@ -4295,15 +3181,11 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Enter address, transaction id, or label to search</source>
-        <translation type="unfinished">Írja be a keresendő címet, tranzakció azonosítót vagy címkét</translation>
+        <translation type="unfinished">Vnesi naslov, ID transakcije, ali oznako za iskanje</translation>
     </message>
     <message>
         <source>Min amount</source>
         <translation type="unfinished">Minimális összeg</translation>
-    </message>
-    <message>
-        <source>Range…</source>
-        <translation type="unfinished">Tartomány...</translation>
     </message>
     <message>
         <source>&amp;Copy address</source>
@@ -4322,42 +3204,13 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
         <translation type="unfinished">&amp;Tranzakcióazonosító másolása</translation>
     </message>
     <message>
-        <source>Copy &amp;raw transaction</source>
-        <translation type="unfinished">Nye&amp;rs tranzakció másolása</translation>
-    </message>
-    <message>
-        <source>Copy full transaction &amp;details</source>
-        <translation type="unfinished">Tr&amp;anzakció teljes részleteinek másolása</translation>
-    </message>
-    <message>
-        <source>&amp;Show transaction details</source>
-        <translation type="unfinished">Tranzakció részleteinek &amp;megjelenítése</translation>
-    </message>
-    <message>
-        <source>Increase transaction &amp;fee</source>
-        <translation type="unfinished">Tranzakciós díj &amp;növelése</translation>
-    </message>
-    <message>
-        <source>A&amp;bandon transaction</source>
-        <translation type="unfinished">Tranzakció me&amp;gszakítása</translation>
-    </message>
-    <message>
-        <source>&amp;Edit address label</source>
-        <translation type="unfinished">Cím címkéjének sz&amp;erkesztése</translation>
-    </message>
-    <message>
-        <source>Show in %1</source>
-        <extracomment>Transactions table context menu action to show the selected transaction in a third-party block explorer. %1 is a stand-in argument for the URL of the explorer.</extracomment>
-        <translation type="unfinished">Látszódjon itt %1</translation>
-    </message>
-    <message>
         <source>Export Transaction History</source>
         <translation type="unfinished">Tranzakciós előzmények exportálása</translation>
     </message>
     <message>
         <source>Comma separated file</source>
-        <extracomment>Expanded name of the CSV file format. See: https://en.wikipedia.org/wiki/Comma-separated_values.</extracomment>
-        <translation type="unfinished">Vesszővel tagolt fájl</translation>
+        <extracomment>Expanded name of the CSV file format. See https://en.wikipedia.org/wiki/Comma-separated_values</extracomment>
+        <translation type="unfinished">CSV fájl</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -4397,11 +3250,11 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation type="unfinished">Sikeres exportálás</translation>
+        <translation type="unfinished">Sikeres Exportálás</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation type="unfinished">A tranzakciós előzmények sikeresen el lettek mentve ide: %1.</translation>
+        <translation type="unfinished">Zgodovina poteklih transakcij je bila uspešno shranjena v datoteko %1.</translation>
     </message>
     <message>
         <source>Range:</source>
@@ -4409,7 +3262,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>to</source>
-        <translation type="unfinished">-</translation>
+        <translation type="unfinished">za</translation>
     </message>
 </context>
 <context>
@@ -4418,37 +3271,13 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
         <source>No wallet has been loaded.
 Go to File &gt; Open Wallet to load a wallet.
 - OR -</source>
-        <translation type="unfinished">Nincs tárca betöltve. 
-A "Fájl &gt; Tárca megnyitása" menüben tölthet be egyet.
+        <translation type="unfinished">Nincs tárca megnyitva. 
+A Fájl &gt; Megnyitás menüben lehet megnyitni.
 - VAGY -</translation>
     </message>
     <message>
         <source>Create a new wallet</source>
         <translation type="unfinished">Új tárca készítése</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
-    </message>
-    <message>
-        <source>Unable to decode PSBT from clipboard (invalid base64)</source>
-        <translation type="unfinished">PSBT sikertelen dekódolása a vágólapról (érvénytelen base64)</translation>
-    </message>
-    <message>
-        <source>Load Transaction Data</source>
-        <translation type="unfinished">Tranzakció adatainak betöltése</translation>
-    </message>
-    <message>
-        <source>Partially Signed Transaction (*.psbt)</source>
-        <translation type="unfinished">Részlegesen Aláírt Tranzakció (*.psbt)</translation>
-    </message>
-    <message>
-        <source>PSBT file must be smaller than 100 MiB</source>
-        <translation type="unfinished">A PSBT fájlnak kisebbnek kell lennie, mint 100 MiB</translation>
-    </message>
-    <message>
-        <source>Unable to decode PSBT</source>
-        <translation type="unfinished">PSBT dekódolása sikertelen</translation>
     </message>
 </context>
 <context>
@@ -4467,8 +3296,11 @@ A "Fájl &gt; Tárca megnyitása" menüben tölthet be egyet.
     </message>
     <message>
         <source>Do you want to increase the fee?</source>
-        <extracomment>Asks a user if they would like to manually increase the fee of a transaction that has already been created.</extracomment>
         <translation type="unfinished">Kívánja megnövelni a díjat?</translation>
+    </message>
+    <message>
+        <source>Do you want to draft a transaction with fee increase?</source>
+        <translation type="unfinished">Akarsz egy piszkozat tranzakciót díj emeléssel?</translation>
     </message>
     <message>
         <source>Current fee:</source>
@@ -4483,16 +3315,12 @@ A "Fájl &gt; Tárca megnyitása" menüben tölthet be egyet.
         <translation type="unfinished">Új díj:</translation>
     </message>
     <message>
-        <source>Warning: This may pay the additional fee by reducing change outputs or adding inputs, when necessary. It may add a new change output if one does not already exist. These changes may potentially leak privacy.</source>
-        <translation type="unfinished">Figyelem: Többletdíjakhoz vezethet ha a bemenetek és visszajáró kimenetek szükség szerint kerülnek hozzáadásra illetve összevonásra. Ezzel létrejöhet új kimenet a visszajárónak, ha még nem létezik ilyen. Ilyen beállításokkal jelentősen sérülhet az adatvédelem hatékonysága.</translation>
-    </message>
-    <message>
         <source>Confirm fee bump</source>
-        <translation type="unfinished">Erősítse meg a díj emelését</translation>
+        <translation type="unfinished">Erősitsd meg a díj emelését</translation>
     </message>
     <message>
         <source>Can't draft transaction.</source>
-        <translation type="unfinished">Tranzakciós piszkozat létrehozása sikertelen.</translation>
+        <translation type="unfinished">Sikertelen tranzakciós piszkozat</translation>
     </message>
     <message>
         <source>PSBT copied</source>
@@ -4507,12 +3335,8 @@ A "Fájl &gt; Tárca megnyitása" menüben tölthet be egyet.
         <translation type="unfinished">A tranzakciót nem lehet elküldeni</translation>
     </message>
     <message>
-        <source>Can't display address</source>
-        <translation type="unfinished">Nem lehet a címet megjeleníteni</translation>
-    </message>
-    <message>
         <source>default wallet</source>
-        <translation type="unfinished">alapértelmezett tárca</translation>
+        <translation type="unfinished">Alapértelmezett tárca</translation>
     </message>
 </context>
 <context>
@@ -4524,6 +3348,30 @@ A "Fájl &gt; Tárca megnyitása" menüben tölthet be egyet.
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished">Jelenlegi nézet adatainak exportálása fájlba</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Hiba</translation>
+    </message>
+    <message>
+        <source>Unable to decode PSBT from clipboard (invalid base64)</source>
+        <translation type="unfinished">PSBT sikertelen dekódolása a vágólapról (base64 érvénytelen)</translation>
+    </message>
+    <message>
+        <source>Load Transaction Data</source>
+        <translation type="unfinished">Tranzakció adatainak betöltése</translation>
+    </message>
+    <message>
+        <source>Partially Signed Transaction (*.psbt)</source>
+        <translation type="unfinished">Részlegesen Aláírt Tranzakció (PSBT bináris) (*.psbt)</translation>
+    </message>
+    <message>
+        <source>PSBT file must be smaller than 100 MiB</source>
+        <translation type="unfinished">A PSBT fájlnak kisebbnek kell lennie mint 100 MiB</translation>
+    </message>
+    <message>
+        <source>Unable to decode PSBT</source>
+        <translation type="unfinished">PSBT dekódolása sikertelen</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
@@ -4540,7 +3388,7 @@ A "Fájl &gt; Tárca megnyitása" menüben tölthet be egyet.
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation type="unfinished">Hiba történt a pénztárca adatainak mentésekor ide: %1.</translation>
+        <translation type="unfinished">Hiba történt a pénztárca adatainak %1 mentésekor.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
@@ -4548,11 +3396,498 @@ A "Fájl &gt; Tárca megnyitása" menüben tölthet be egyet.
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation type="unfinished">A tárca adatai sikeresen el lettek mentve ide: %1.</translation>
+        <translation type="unfinished">A tárca adatai sikeresen elmentve %1.</translation>
     </message>
     <message>
         <source>Cancel</source>
         <translation type="unfinished">Bezárás</translation>
+    </message>
+</context>
+<context>
+    <name>vertcoin-core</name>
+    <message>
+        <source>The %s developers</source>
+        <translation type="unfinished">A %s fejlesztők</translation>
+    </message>
+    <message>
+        <source>%s corrupt. Try using the wallet tool vertcoin-wallet to salvage or restoring a backup.</source>
+        <translation type="unfinished">%s sérült. Megpróbálhatod a vertcoint-wallet tárcaj mentő eszközt, vagy mentésből helyreállítani a tárcát.</translation>
+    </message>
+    <message>
+        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation type="unfinished">-maxtxfee túl magasra van állítva! Ez a jelentős díj esetleg már egy egyszeri tranzakcióra is ki lehet fizetve.</translation>
+    </message>
+    <message>
+        <source>Cannot downgrade wallet from version %i to version %i. Wallet version unchanged.</source>
+        <translation type="unfinished">Nem sikerült a tárcát %iverzióról %iverzióra vissza módosítani. A tárca verzió változatlan maradt.</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
+        <translation type="unfinished">Az %s adatkönyvtár nem zárható.  A %s valószínűleg fut már.</translation>
+    </message>
+    <message>
+        <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
+        <translation type="unfinished">Nem lehetséges a megadott kapcsolatok és az addrman által felderített kapcsolatok egyidejű használata.</translation>
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
+        <translation type="unfinished">MIT szoftver licenc alapján terjesztve, tekintse meg a hozzátartozó fájlt %s or %s</translation>
+    </message>
+    <message>
+        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation type="unfinished">Hiba %s beolvasása közben. Az összes kulcs sikeresen beolvasva, de a tranzakciós adatok és a címtár rekordok hiányoznak vagy sérültek.</translation>
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation type="unfinished">Napaka: Ni mogoče sprejemati dohodnih povezav (vrnjena napaka: %s)</translation>
+    </message>
+    <message>
+        <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</source>
+        <translation type="unfinished">Díjbecslés sikertelen. Alapértelmezett díj le van tiltva. Fárj néhány blokkot vagy engedélyezd a -fallbackfee -t.</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation type="unfinished">Érvénytelen összeg -maxtxfee=&lt;amount&gt;: '%s' (legalább a minrelay összeg azaz %s kell legyen, hogy ne ragadjon be a tranzakció)</translation>
+    </message>
+    <message>
+        <source>More than one onion bind address is provided. Using %s for the automatically created Tor onion service.</source>
+        <translation type="unfinished">Egynél több hagymakötési cím van megadva. %s használata az automatikusan létrehozott Tor hagyma szolgáltatáshoz.</translation>
+    </message>
+    <message>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <translation type="unfinished">Opozorilo: Preverite, če sta datum in ura na vašem računalniku točna! %s ne bo deloval pravilno, če je nastavljeni čas nepravilen.</translation>
+    </message>
+    <message>
+        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
+        <translation type="unfinished">Kérlek támogasd ha hasznásnak találtad a  %s-t. Az alábbi linken találsz bővebb információt a szoftverről %s.</translation>
+    </message>
+    <message>
+        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
+        <translation type="unfinished">Nyesés megkísérlése a minimális %d MiB alatt. Kérjük, használjon egy magasabb értéket.</translation>
+    </message>
+    <message>
+        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
+        <translation type="unfinished">Nyesés: az utolsó tárcaszinkronizálás meghaladja a nyesett adatokat. Szükséges a -reindex használata (nyesett csomópont esetében a teljes blokklánc ismételt letöltése).</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Unknown sqlite wallet schema version %d. Only version %d is supported</source>
+        <translation type="unfinished">SQLiteDatabase: Ismeretlen sqlite pénztárca séma verzió %d. Csak a(z) %d verzió támogatott</translation>
+    </message>
+    <message>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <translation type="unfinished">A blokk adatbázis tartalmaz egy blokkot ami a jövőből érkezettnek látszik. Ennek oka lehet, hogy a számítógéped dátum és idő beállítása helytelen. Csak akkor építsd újra a block adatbázist ha biztos vagy benne, hogy az időbeállítás helyes.</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation type="unfinished">A tranzakció összege túl alacsony az elküldéshez miután a díj levonódik</translation>
+    </message>
+    <message>
+        <source>This error could occur if this wallet was not shutdown cleanly and was last loaded using a build with a newer version of Berkeley DB. If so, please use the software that last loaded this wallet</source>
+        <translation type="unfinished">Ez a hiba akkor jelentkezhet ha a tárca nem volt rendesen lezárva és egy újabb verziójában volt megnyitva a Berkeley DB-nek. Ha így van akkor használd azt a verziót amivel legutóbb megnyitottad.</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished">Ez egy kiadás előtt álló, teszt verzió - csak saját felelősségre - ne használja bányászatra vagy kereskedéshez.</translation>
+    </message>
+    <message>
+        <source>This is the maximum transaction fee you pay (in addition to the normal fee) to prioritize partial spend avoidance over regular coin selection.</source>
+        <translation type="unfinished">Ez a maximum tranzakciós díj amit fizetni fogsz (a normál díj felett), hogy prioritizáld a részleges költés elkerülést a normál coin választás felett.</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
+        <translation type="unfinished">Ez az a tranzakciós díj amit figyelmen kívül hagyhat ha a visszajáró kevesebb a porszem jelenlegi határértékénél</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
+        <translation type="unfinished">Ezt a tranzakciós díjat fogod fizetni ha a díjbecslés nem lehetséges.</translation>
+    </message>
+    <message>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation type="unfinished">A hálózati verzió string (%i) hossza túllépi a megengedettet (%i). Csökkentsd a hosszt vagy a darabszámot uacomments beállításban.</translation>
+    </message>
+    <message>
+        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
+        <translation type="unfinished">Ne morem ponoviti blokov. Podatkovno bazo bo potrebno ponovno zgraditi z uporabo ukaza -reindex-chainstate.</translation>
+    </message>
+    <message>
+        <source>Warning: Private keys detected in wallet {%s} with disabled private keys</source>
+        <translation type="unfinished">Figyelem: Privát kulcsokat észleltünk a {%s} tárcában, melynél a privát kulcsok le vannak tiltva.</translation>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation type="unfinished">Opozorilo: Trenutno se s soležniki ne strinjamo v popolnosti! Mogoče bi morali vi ali drugi udeleženci posodobiti odjemalce.</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
+        <translation type="unfinished">Újra kell építeni az adatbázist a -reindex használatával, ami a nyesett üzemmódot megszünteti. Ez a teljes blokklánc ismételt letöltésével jár.</translation>
+    </message>
+    <message>
+        <source>%s is set very high!</source>
+        <translation type="unfinished">%s étéke nagyon magas!</translation>
+    </message>
+    <message>
+        <source>-maxmempool must be at least %d MB</source>
+        <translation type="unfinished">-maxmempool legalább %d MB kell legyen.</translation>
+    </message>
+    <message>
+        <source>A fatal internal error occurred, see debug.log for details</source>
+        <translation type="unfinished">Súlyos belső hiba történt, részletek a debug.log-ban</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -%s address: '%s'</source>
+        <translation type="unfinished">Naslova -%s ni mogoče razrešiti: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot set -peerblockfilters without -blockfilterindex.</source>
+        <translation type="unfinished">-peerblockfilters csak a -blockfilterindex -vel együtt állítható be.</translation>
+    </message>
+    <message>
+        <source>Cannot write to data directory '%s'; check permissions.</source>
+        <translation type="unfinished">Nem tudok írni a '%s' könyvtárba, ellenőrizd a jogosultságokat.</translation>
+    </message>
+    <message>
+        <source>Change index out of range</source>
+        <translation type="unfinished">Indeks drobiža izven dovoljenega območja</translation>
+    </message>
+    <message>
+        <source>Config setting for %s only applied on %s network when in [%s] section.</source>
+        <translation type="unfinished">A konfigurációs beálltás %s kizárólag az %s hálózatra vonatkozik amikor a [%s] szekcióban van.</translation>
+    </message>
+    <message>
+        <source>Copyright (C) %i-%i</source>
+        <translation type="unfinished">Szerzői jog (C) fenntartva %i-%i</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation type="unfinished">Sérült blokk-adatbázis észlelve</translation>
+    </message>
+    <message>
+        <source>Could not find asmap file %s</source>
+        <translation type="unfinished">%s asmap fájl nem található</translation>
+    </message>
+    <message>
+        <source>Could not parse asmap file %s</source>
+        <translation type="unfinished">%s beolvasása sikertelen</translation>
+    </message>
+    <message>
+        <source>Disk space is too low!</source>
+        <translation type="unfinished">Kevés a hely a lemezen!</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation type="unfinished">Újra akarod építeni a blokk adatbázist most?</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation type="unfinished">Betöltés befejezve.</translation>
+    </message>
+    <message>
+        <source>Dump file %s does not exist.</source>
+        <translation type="unfinished">A %s elérési úton fájl nem létezik.</translation>
+    </message>
+    <message>
+        <source>Error creating %s</source>
+        <translation type="unfinished">Nem tudtam létrehozni %s -t.</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation type="unfinished">A blokkadatbázis inicializálása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation type="unfinished">A tárca-adatbázis inicializálása nem sikerült: %s!</translation>
+    </message>
+    <message>
+        <source>Error loading %s</source>
+        <translation type="unfinished">Hiba a(z) %s betöltése közben</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Private keys can only be disabled during creation</source>
+        <translation type="unfinished"> %s betöltése sikertelen. A privát kulcsok csak a létrehozáskor tilthatóak le.</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet corrupted</source>
+        <translation type="unfinished">Hiba a(z) %s betöltése közben: A tárca hibás.</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet requires newer version of %s</source>
+        <translation type="unfinished">Hiba a(z) %s betöltése közben: A tárcához %s újabb verziója szükséges.</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation type="unfinished">Hiba a blokk adatbázis betöltése közben.</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation type="unfinished">Hiba a blokk adatbázis megnyitása közben.</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation type="unfinished">Hiba az adatbázis olvasásakor, leállítás</translation>
+    </message>
+    <message>
+        <source>Error reading next record from wallet database</source>
+        <translation type="unfinished">A tárca adatbázisból a következő rekord beolvasása sikertelen.</translation>
+    </message>
+    <message>
+        <source>Error upgrading chainstate database</source>
+        <translation type="unfinished">Hiba a blokk adatbázis betöltése közben</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low for %s</source>
+        <translation type="unfinished">Hiba: kevés a hely a lemezen %s -nek!</translation>
+    </message>
+    <message>
+        <source>Error: Keypool ran out, please call keypoolrefill first</source>
+        <translation type="unfinished">A címraktár kiürült, tötsd újra a keyppolrefill paranccsal.</translation>
+    </message>
+    <message>
+        <source>Error: Missing checksum</source>
+        <translation type="unfinished">Hiba: Hiányzó ellenőrző összeg</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation type="unfinished">Egyik hálózati porton sem sikerül hallgatni. Használja a -listen=0 kapcsolót, ha ezt szeretné.</translation>
+    </message>
+    <message>
+        <source>Failed to rescan the wallet during initialization</source>
+        <translation type="unfinished">Inicializálás közben nem sikerült feltérképezni a tárcát</translation>
+    </message>
+    <message>
+        <source>Failed to verify database</source>
+        <translation type="unfinished">Nem sikerült ellenőrizni az adatbázist</translation>
+    </message>
+    <message>
+        <source>Fee rate (%s) is lower than the minimum fee rate setting (%s)</source>
+        <translation type="unfinished">A választott díj (%s) alacsonyabb mint a beállított minimum díj (%s)</translation>
+    </message>
+    <message>
+        <source>Ignoring duplicate -wallet %s.</source>
+        <translation type="unfinished">A duplikált -tárca %s figyelmen kívül hagyása.</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation type="unfinished">Helytelen vagy nemlétező genézis blokk. Helytelen hálózati adatkönyvtár?</translation>
+    </message>
+    <message>
+        <source>Initialization sanity check failed. %s is shutting down.</source>
+        <translation type="unfinished">%s bezárása folyamatban. A kezdeti hibátlansági teszt sikertelen.</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation type="unfinished">Fedezethiány</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address or hostname: '%s'</source>
+        <translation type="unfinished">Érvénytelen -onion cím vagy hostname: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address or hostname: '%s'</source>
+        <translation type="unfinished">Érvénytelen -proxy cím vagy hostname: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid P2P permission: '%s'</source>
+        <translation type="unfinished">Érvénytelen P2P jog: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+        <translation type="unfinished">Neveljavna količina za -%s=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
+        <translation type="unfinished">Neveljavna količina za -discardfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
+        <translation type="unfinished">Neveljavna količina za -fallbackfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+        <translation type="unfinished">Érvénytelen tranzakciós díj -paytxfee=&lt;amount&gt;: '%s' (minimum ennyinek kell legyen %s)</translation>
+    </message>
+    <message>
+        <source>Invalid netmask specified in -whitelist: '%s'</source>
+        <translation type="unfinished">Érvénytelen hálózati maszk van megadva itt:  -whitelist: '%s'</translation>
+    </message>
+    <message>
+        <source>Need to specify a port with -whitebind: '%s'</source>
+        <translation type="unfinished">Pri opciji -whitebind morate navesti vrata: %s</translation>
+    </message>
+    <message>
+        <source>No proxy server specified. Use -proxy=&lt;ip&gt; or -proxy=&lt;ip:port&gt;.</source>
+        <translation type="unfinished">Proxy szerver nincs megadva. A megadás módja:  -proxy=&lt;ip&gt; vagy -proxy=&lt;ip:port&gt;</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation type="unfinished">Nincs elég fájlleíró.</translation>
+    </message>
+    <message>
+        <source>Prune cannot be configured with a negative value.</source>
+        <translation type="unfinished">Nyesett üzemmódot nem lehet negatív értékkel kialakítani.</translation>
+    </message>
+    <message>
+        <source>Prune mode is incompatible with -txindex.</source>
+        <translation type="unfinished">A -txindex nem használható nyesett üzemmódban.</translation>
+    </message>
+    <message>
+        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
+        <translation type="unfinished">Zmanjšujem maksimalno število povezav (-maxconnections) iz %d na %d, zaradi sistemskih omejitev.</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Failed to execute statement to verify database: %s</source>
+        <translation type="unfinished">SQLiteDatabase: Nem sikerült végrehajtani az adatbázist ellenőrző utasítást: %s</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Failed to prepare statement to verify database: %s</source>
+        <translation type="unfinished">SQLiteDatabase: Nem sikerült előkészíteni az adatbázist ellenőrző utasítást: %s</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Failed to read database verification error: %s</source>
+        <translation type="unfinished">SQLiteDatabase: Nem sikerült kiolvasni az adatbázis ellenőrzési hibát: %s</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Unexpected application id. Expected %u, got %u</source>
+        <translation type="unfinished">SQLiteDatabase: Váratlan alkalmazásazonosító. Várt: %u, helyette kapott: %u</translation>
+    </message>
+    <message>
+        <source>Section [%s] is not recognized.</source>
+        <translation type="unfinished">Ismeretlen szekció [%s]</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation type="unfinished">Tranzakció aláírása sikertelen</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" does not exist</source>
+        <translation type="unfinished">A megadott "%s" -walletdir nem létezik</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" is a relative path</source>
+        <translation type="unfinished">A megadott "%s" -walletdir relatív elérési út</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" is not a directory</source>
+        <translation type="unfinished">A megadott "%s" -walletdir nem könyvtár</translation>
+    </message>
+    <message>
+        <source>Specified blocks directory "%s" does not exist.</source>
+        <translation type="unfinished">A megadott blokk "%s" nem létezik.</translation>
+    </message>
+    <message>
+        <source>The source code is available from %s.</source>
+        <translation type="unfinished">A forráskód elérhető: %s.</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation type="unfinished">A tranzakció összege túl alacsony a tranzakciós költség kifizetéséhez.</translation>
+    </message>
+    <message>
+        <source>The wallet will avoid paying less than the minimum relay fee.</source>
+        <translation type="unfinished">A tárca nem fog a minimális továbbítási díjnál kevesebbet fizetni. </translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation type="unfinished">Ez egy kísérleti szoftver.</translation>
+    </message>
+    <message>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation type="unfinished">Ez a minimum tranzakciós díj, amelyet tranzakciónként kifizet.</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation type="unfinished">Ez a tranzakció díja, amelyet kifizet, ha tranzakciót indít.</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation type="unfinished">Tranzakció összege túl alacsony</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must not be negative</source>
+        <translation type="unfinished">Tranzakció összege nem lehet negatív</translation>
+    </message>
+    <message>
+        <source>Transaction has too long of a mempool chain</source>
+        <translation type="unfinished">A tranzakcóihoz tartozó mempool elődlánc túl hosszú</translation>
+    </message>
+    <message>
+        <source>Transaction must have at least one recipient</source>
+        <translation type="unfinished">Legalább egy címzett kell a tranzakcióhoz</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation type="unfinished">Túl nagy tranzakció</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation type="unfinished">Na tem računalniku ni bilo mogoče vezati naslova %s (vrnjena napaka: %s)</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
+        <translation type="unfinished">Na tem računalniku ni bilo mogoče vezati naslova %s. %s je verjetno že zagnan.</translation>
+    </message>
+    <message>
+        <source>Unable to create the PID file '%s': %s</source>
+        <translation type="unfinished">PID fájl létrehozása sikertelen '%s': %s</translation>
+    </message>
+    <message>
+        <source>Unable to generate initial keys</source>
+        <translation type="unfinished">Ne zmorem ustvariti začetnih ključev</translation>
+    </message>
+    <message>
+        <source>Unable to generate keys</source>
+        <translation type="unfinished">Kulcs generálás sikertelen</translation>
+    </message>
+    <message>
+        <source>Unable to open %s for writing</source>
+        <translation type="unfinished">Nem sikerült %s megnyitni írásra.</translation>
+    </message>
+    <message>
+        <source>Unable to start HTTP server. See debug log for details.</source>
+        <translation type="unfinished">HTTP szerver indítása sikertelen. A részleteket lásd: debug log.</translation>
+    </message>
+    <message>
+        <source>Unknown -blockfilterindex value %s.</source>
+        <translation type="unfinished">Ismeretlen -blockfilterindex érték %s.</translation>
+    </message>
+    <message>
+        <source>Unknown address type '%s'</source>
+        <translation type="unfinished">Ismeretlen cím típus '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown change type '%s'</source>
+        <translation type="unfinished">Visszajáró típusa ismeretlen '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation type="unfinished">Ismeretlen hálózat lett megadva -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Unsupported logging category %s=%s.</source>
+        <translation type="unfinished">Nem támogatott logolási kategória %s=%s</translation>
+    </message>
+    <message>
+        <source>Upgrading UTXO database</source>
+        <translation type="unfinished">Blokk adatbázis frissítése</translation>
+    </message>
+    <message>
+        <source>Upgrading txindex database</source>
+        <translation type="unfinished">txindex adatbázis frissítése</translation>
+    </message>
+    <message>
+        <source>User Agent comment (%s) contains unsafe characters.</source>
+        <translation type="unfinished">Az ügyfélügynök megjegyzésben nem biztonságos karakter van: (%s) </translation>
+    </message>
+    <message>
+        <source>Verifying blocks…</source>
+        <translation type="unfinished">Blokkhitelesítés</translation>
+    </message>
+    <message>
+        <source>Verifying wallet(s)…</source>
+        <translation type="unfinished">Tárca(k) ellenőrzés(e)</translation>
+    </message>
+    <message>
+        <source>Wallet needed to be rewritten: restart %s to complete</source>
+        <translation type="unfinished">A Tárca újraírása szükséges: Indítsa újra a %s-t.</translation>
     </message>
 </context>
 </TS>

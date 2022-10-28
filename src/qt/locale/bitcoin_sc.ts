@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Crea un'incarreramentu nou</translation>
+        <translation>Crea un'incarreramentu nou</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Esporta</translation>
+        <translation>&amp;Esporta</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Cantzella</translation>
+        <translation>&amp;Cantzella</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -54,21 +54,21 @@
         <translation type="unfinished">Incarreramentu destinatàriu</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Custus funt is incarreramentu Bitcoin tuus po mandai pagamentus. Càstia sempri sa cantidadi e s'incarreramentu destinatàriu antis de inviais is monedas</translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Custus funt is incarreramentu Vertcoin tuus po mandai pagamentus. Càstia sempri sa cantidadi e s'incarreramentu destinatàriu antis de inviais is monedas</translation>
     </message>
     </context>
 <context>
     <name>QObject</name>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -98,15 +98,15 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -127,7 +127,7 @@
     <name>SendCoinsDialog</name>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -135,8 +135,23 @@
 <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
+    <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
             <numerusform />
         </translation>
     </message>

@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Cipta alamat baru</translation>
+        <translation>Cipta alamat baru</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Salin alamat terpilih ke dalam sistem papan klip</translation>
+        <translation>Salin alamat terpilih ke dalam sistem papan klip</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Padam alamat semasa yang dipilih dari senaraiyang dipilih dari senarai</translation>
+        <translation>Padam alamat semasa yang dipilih dari senaraiyang dipilih dari senarai</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -36,16 +36,16 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">
+        <translation>
 Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Eksport</translation>
+        <translation>&amp;Eksport</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Padam</translation>
+        <translation>&amp;Padam</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -68,8 +68,8 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation type="unfinished">alamat-alamat penerimaan</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ini adalah alamat Bitcoin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Ini adalah alamat Vertcoin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -108,19 +108,19 @@ Alihkan fail data ke dalam tab semasa</translation>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">Dialog frasa laluan</translation>
+        <translation>Dialog frasa laluan</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">memasukkan frasa laluan</translation>
+        <translation>memasukkan frasa laluan</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Frasa laluan baru</translation>
+        <translation>Frasa laluan baru</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Ulangi frasa laluan baru</translation>
+        <translation>Ulangi frasa laluan baru</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -143,8 +143,8 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation type="unfinished">Mengesahkan enkripsi dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA BITCOIN ANDA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA VERTCOIN ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -198,13 +198,13 @@ Alihkan fail data ke dalam tab semasa</translation>
     <name>QObject</name>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -234,37 +234,30 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>Done loading</source>
-        <translation type="unfinished">Baca Selesai</translation>
-    </message>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Gambaran Keseluruhan</translation>
+        <translation>&amp;Gambaran Keseluruhan</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Tunjuk gambaran keseluruhan umum dompet</translation>
+        <translation>Tunjuk gambaran keseluruhan umum dompet</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Transaksi</translation>
+        <translation>&amp;Transaksi</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Menyemak imbas sejarah transaksi</translation>
+        <translation>Menyemak imbas sejarah transaksi</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">&amp;Keluar</translation>
+        <translation>&amp;Keluar</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Berhenti aplikasi</translation>
+        <translation>Berhenti aplikasi</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -276,11 +269,11 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">Mengenai &amp;Qt</translation>
+        <translation>Mengenai &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Menunjuk informasi megenai Qt</translation>
+        <translation>Menunjuk informasi megenai Qt</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -296,57 +289,65 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation type="unfinished">Aktiviti rangkaian dilumpuhkan</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Menghantar koin kepada alamat Bitcoin</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Menghantar koin kepada alamat Vertcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">Wallet sandaran ke lokasi lain</translation>
+        <translation>Wallet sandaran ke lokasi lain</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Tukar kata laluan untuk dompet disulitkan</translation>
+        <translation>Tukar kata laluan untuk dompet disulitkan</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">hantar</translation>
+        <translation>hantar</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">terima</translation>
+        <translation>terima</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;tunjuk/sembunyi</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>tunjuk atau sembunyi tetingkap utama</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">sulitkan kata laluan milik peribadi anda</translation>
+        <translation>sulitkan kata laluan milik peribadi anda</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">sahkan mesej bersama alamat bitcoin anda untuk menunjukkan alamat ini anda punya</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>sahkan mesej bersama alamat vertcoin anda untuk menunjukkan alamat ini anda punya</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Bitcoin yang ditentukan</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Vertcoin yang ditentukan</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">fail</translation>
+        <translation>fail</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">tetapan</translation>
+        <translation>tetapan</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">tolong</translation>
+        <translation>tolong</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Bar alat tab
+        <translation>Bar alat tab
 </translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Request payments (generates QR codes and bitcoin: URIs)
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation type="unfinished">Request payments (generates QR codes and vertcoin: URIs)
 </translation>
     </message>
     <message>
@@ -356,25 +357,25 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Ralat</translation>
+        <translation>Ralat</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Amaran</translation>
+        <translation>Amaran</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Notis</translation>
+        <translation>Notis</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Terkini</translation>
+        <translation>Terkini</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -390,7 +391,7 @@ Alihkan fail data ke dalam tab semasa</translation>
 </translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -411,11 +412,6 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation type="unfinished">dompet lalai
 </translation>
     </message>
-    <message>
-        <source>Open Wallet</source>
-        <extracomment>Title of window indicating the progress of opening of a wallet.</extracomment>
-        <translation type="unfinished">Buka Wallet</translation>
-    </message>
     </context>
 <context>
     <name>WalletController</name>
@@ -435,11 +431,11 @@ Alihkan fail data ke dalam tab semasa</translation>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">Alamat</translation>
+        <translation>Alamat</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">Alamat</translation>
+        <translation>Alamat</translation>
     </message>
     </context>
 <context>
@@ -453,7 +449,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Ralat</translation>
+        <translation>Ralat</translation>
     </message>
     </context>
 <context>
@@ -493,11 +489,11 @@ Alihkan fail data ke dalam tab semasa</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Balance:</source>
-        <translation type="unfinished">Baki</translation>
+        <translation>Baki</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -509,14 +505,26 @@ Alihkan fail data ke dalam tab semasa</translation>
 <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
+    <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>(no label)</source>
         <translation type="unfinished">(tiada label)</translation>
@@ -531,13 +539,6 @@ Alihkan fail data ke dalam tab semasa</translation>
     <message>
         <source>Exporting Failed</source>
         <translation type="unfinished">Mengeksport Gagal</translation>
-    </message>
-    </context>
-<context>
-    <name>WalletFrame</name>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">Ralat</translation>
     </message>
     </context>
 <context>
@@ -558,6 +559,17 @@ Alihkan fail data ke dalam tab semasa</translation>
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished">
 Alihkan fail data ke dalam tab semasa</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Ralat</translation>
+    </message>
+    </context>
+<context>
+    <name>vertcoin-core</name>
+    <message>
+        <source>Done loading</source>
+        <translation type="unfinished">Baca Selesai</translation>
     </message>
     </context>
 </TS>

@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Жаң даректи жасоо</translation>
+        <translation>Жаң даректи жасоо</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">Ө&amp;чүрүү</translation>
+        <translation>Ө&amp;чүрүү</translation>
     </message>
     </context>
 <context>
@@ -25,14 +25,14 @@
     <name>QObject</name>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -67,48 +67,48 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Транзакциялар</translation>
+        <translation>&amp;Транзакциялар</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Файл</translation>
+        <translation>&amp;Файл</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Жардам</translation>
+        <translation>&amp;Жардам</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Ката</translation>
+        <translation>Ката</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Эскертүү</translation>
+        <translation>Эскертүү</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Маалымат</translation>
+        <translation>Маалымат</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Жаңыланган</translation>
+        <translation>Жаңыланган</translation>
     </message>
     <message>
         <source>&amp;Window</source>
         <translation type="unfinished">&amp;Терезе</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -138,7 +138,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">&amp;Дарек</translation>
+        <translation>&amp;Дарек</translation>
     </message>
     </context>
 <context>
@@ -153,7 +153,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Ката</translation>
+        <translation>Ката</translation>
     </message>
     </context>
 <context>
@@ -164,18 +164,10 @@
     </message>
     </context>
 <context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Paste address from clipboard</source>
-        <extracomment>Tooltip text for button that allows you to paste an address that is in your clipboard.</extracomment>
-        <translation type="unfinished">Даректи алмашуу буферинен коюу</translation>
-    </message>
-</context>
-<context>
     <name>OptionsDialog</name>
     <message>
         <source>&amp;Network</source>
-        <translation type="unfinished">&amp;Тармак</translation>
+        <translation>&amp;Тармак</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -183,23 +175,23 @@
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Порт:</translation>
+        <translation>&amp;Порт:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation type="unfinished">&amp;Терезе</translation>
+        <translation>&amp;Терезе</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;Жарайт</translation>
+        <translation>&amp;Жарайт</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Жокко чыгаруу</translation>
+        <translation>&amp;Жокко чыгаруу</translation>
     </message>
     <message>
         <source>default</source>
-        <translation type="unfinished">жарыяланбаган</translation>
+        <translation>жарыяланбаган</translation>
     </message>
     <message>
         <source>none</source>
@@ -222,12 +214,12 @@
         <extracomment>Title of Peers Table column which states the network the peer connected through.</extracomment>
         <translation type="unfinished">&amp;Тармак</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished">Маалымат</translation>
+        <translation>Маалымат</translation>
     </message>
     <message>
         <source>General</source>
@@ -235,7 +227,7 @@
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">&amp;Тармак</translation>
+        <translation>&amp;Тармак</translation>
     </message>
     <message>
         <source>Name</source>
@@ -243,15 +235,15 @@
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished">&amp;Ачуу</translation>
+        <translation>&amp;Ачуу</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished">&amp;Консоль</translation>
+        <translation>&amp;Консоль</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation type="unfinished">Консолду тазалоо</translation>
+        <translation>Консолду тазалоо</translation>
     </message>
     </context>
 <context>
@@ -287,15 +279,15 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">&amp;Бардыгын тазалоо</translation>
+        <translation>&amp;Бардыгын тазалоо</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation type="unfinished">&amp;Жөнөтүү</translation>
+        <translation>&amp;Жөнөтүү</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -309,7 +301,7 @@
     <name>SendCoinsEntry</name>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Даректи алмашуу буферинен коюу</translation>
+        <translation>Даректи алмашуу буферинен коюу</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -320,22 +312,29 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Даректи алмашуу буферинен коюу</translation>
+        <translation>Даректи алмашуу буферинен коюу</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">&amp;Бардыгын тазалоо</translation>
+        <translation>&amp;Бардыгын тазалоо</translation>
     </message>
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>Date</source>
         <translation type="unfinished">Дата</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -350,6 +349,13 @@
     <message>
         <source>Date</source>
         <translation type="unfinished">Дата</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -368,7 +374,7 @@
     </message>
     </context>
 <context>
-    <name>WalletFrame</name>
+    <name>WalletView</name>
     <message>
         <source>Error</source>
         <translation type="unfinished">Ката</translation>

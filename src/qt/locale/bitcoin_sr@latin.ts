@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Kreiraj novu adresu</translation>
+        <translation>Kreiraj novu adresu</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Kopiraj selektovanu adresu u sistemski klipbord</translation>
+        <translation>Kopiraj selektovanu adresu u sistemski klipbord</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Briše trenutno izabranu adresu sa liste</translation>
+        <translation>Briše trenutno izabranu adresu sa liste</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,15 +35,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Izvoz podataka iz trenutne kartice u datoteku</translation>
+        <translation>Izvoz podataka iz trenutne kartice u datoteku</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Izvoz</translation>
+        <translation>&amp;Izvoz</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Izbrisati</translation>
+        <translation>&amp;Izbrisati</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -66,8 +66,8 @@
         <translation type="unfinished">Adresa na koju se prima</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ovo su Vaše Bitcoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića.</translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Ovo su Vaše Vertcoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -114,19 +114,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">Dialog pristupne fraze</translation>
+        <translation>Dialog pristupne fraze</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Unesi pristupnu frazu</translation>
+        <translation>Unesi pristupnu frazu</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Nova pristupna fraza</translation>
+        <translation>Nova pristupna fraza</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Ponovo unesite pristupnu frazu</translation>
+        <translation>Ponovo unesite pristupnu frazu</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -153,7 +153,7 @@
         <translation type="unfinished">Potvrdite šifrovanje novčanika</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">Upozorenje: Ako šifrujete svoj novčanik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIĆETE SVE SVOJE BITKOINE&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -232,7 +232,7 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -240,7 +240,7 @@
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -280,41 +280,30 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>Done loading</source>
-        <translation type="unfinished">Zavrseno ucitavanje</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation type="unfinished">Nedovoljno sredstava</translation>
-    </message>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Pregled</translation>
+        <translation>&amp;Pregled</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Prikaži opšti pregled novčanika</translation>
+        <translation>Prikaži opšti pregled novčanika</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Transakcije</translation>
+        <translation>&amp;Transakcije</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Pregled istorije transakcija</translation>
+        <translation>Pregled istorije transakcija</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">I&amp;zađi</translation>
+        <translation>I&amp;zađi</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Isključi aplikaciju</translation>
+        <translation>Isključi aplikaciju</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -326,11 +315,11 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">O &amp;Qt</translation>
+        <translation>O &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Prikaži informacije o Qt</translation>
+        <translation>Prikaži informacije o Qt</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -346,60 +335,68 @@
         <translation type="unfinished">Aktivnost na mreži je prekinuta.</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Pošalji novčiće na Bitcoin adresu</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Pošalji novčiće na Vertcoin adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">Napravite rezervnu kopiju novčanika na drugom mestu</translation>
+        <translation>Napravite rezervnu kopiju novčanika na drugom mestu</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Promenite pristupnu frazu za enkiptovanje novčanika</translation>
+        <translation>Promenite pristupnu frazu za enkiptovanje novčanika</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;Pošalji</translation>
+        <translation>&amp;Pošalji</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;Primi</translation>
+        <translation>&amp;Primi</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Prikazati / Sakriti</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Prikaži ili sakrij glavni prozor</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">Enkriptuj privatne ključeve novčanika</translation>
+        <translation>Enkriptuj privatne ključeve novčanika</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Potpišite poruke sa svojim Bitcoin adresama da biste dokazali njihovo vlasništvo</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>Potpišite poruke sa svojim Vertcoin adresama da biste dokazali njihovo vlasništvo</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Proverite poruke da biste utvrdili sa kojim Bitcoin adresama su potpisane</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Proverite poruke da biste utvrdili sa kojim Vertcoin adresama su potpisane</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Fajl</translation>
+        <translation>&amp;Fajl</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Podešavanja</translation>
+        <translation>&amp;Podešavanja</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Pomoć</translation>
+        <translation>&amp;Pomoć</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Alatke za tabove</translation>
+        <translation>Alatke za tabove</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Zatražite plaćanje (generiše QR kodove i bitcoin: URI-e)</translation>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation type="unfinished">Zatražite plaćanje (generiše QR kodove i vertcoin: URI-e)</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -407,15 +404,15 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Greska</translation>
+        <translation>Greska</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Upozorenje</translation>
+        <translation>Upozorenje</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Informacije</translation>
+        <translation>Informacije</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -426,7 +423,7 @@
         <translation type="unfinished">%1 klijent</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -497,14 +494,6 @@
     </message>
     </context>
 <context>
-    <name>OpenWalletActivity</name>
-    <message>
-        <source>Open Wallet</source>
-        <extracomment>Title of window indicating the progress of opening of a wallet.</extracomment>
-        <translation type="unfinished">Otvori novčanik</translation>
-    </message>
-    </context>
-<context>
     <name>CreateWalletDialog</name>
     <message>
         <source>Wallet</source>
@@ -519,15 +508,15 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">Izmeni Adresu</translation>
+        <translation>Izmeni Adresu</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">&amp;Oznaka</translation>
+        <translation>&amp;Oznaka</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">&amp;Adresa</translation>
+        <translation>&amp;Adresa</translation>
     </message>
     </context>
 <context>
@@ -543,7 +532,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Greska</translation>
+        <translation>Greska</translation>
     </message>
     </context>
 <context>
@@ -631,7 +620,7 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -644,6 +633,14 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>%1/unconfirmed</source>
         <translation type="unfinished">%1/nepotvrdjeno</translation>
@@ -698,7 +695,7 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -783,6 +780,14 @@
         <source>Label</source>
         <translation type="unfinished">Oznaka</translation>
     </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>Received with</source>
         <translation type="unfinished">Primljeno uz</translation>
@@ -848,13 +853,6 @@
     </message>
     </context>
 <context>
-    <name>WalletFrame</name>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">Greska</translation>
-    </message>
-    </context>
-<context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
@@ -863,6 +861,21 @@
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished">Izvoz podataka iz trenutne kartice u datoteku</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Greska</translation>
+    </message>
+    </context>
+<context>
+    <name>vertcoin-core</name>
+    <message>
+        <source>Done loading</source>
+        <translation type="unfinished">Zavrseno ucitavanje</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation type="unfinished">Nedovoljno sredstava</translation>
     </message>
     </context>
 </TS>

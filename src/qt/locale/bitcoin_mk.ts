@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Креирај нова адреса</translation>
+        <translation>Креирај нова адреса</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Копирај ја избраната адреса на системскиот клипборд</translation>
+        <translation>Копирај ја избраната адреса на системскиот клипборд</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,34 +27,34 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Избриши ја избраната адреса од листата</translation>
+        <translation>Избриши ја избраната адреса од листата</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Експортирај ги податоците од активното јазиче во датотека</translation>
+        <translation>Експортирај ги податоците од активното јазиче во датотека</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Експорт</translation>
+        <translation>&amp;Експорт</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Избриши</translation>
+        <translation>&amp;Избриши</translation>
     </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Внеси тајна фраза</translation>
+        <translation>Внеси тајна фраза</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Нова тајна фраза</translation>
+        <translation>Нова тајна фраза</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Повторете ја новата тајна фраза</translation>
+        <translation>Повторете ја новата тајна фраза</translation>
     </message>
     </context>
 <context>
@@ -85,7 +85,7 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -93,7 +93,7 @@
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -149,62 +149,66 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Преглед</translation>
+        <translation>&amp;Преглед</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Трансакции</translation>
+        <translation>&amp;Трансакции</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Преглед на историјата на трансакции</translation>
+        <translation>Преглед на историјата на трансакции</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">И&amp;злез</translation>
+        <translation>И&amp;злез</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Напушти ја апликацијата</translation>
+        <translation>Напушти ја апликацијата</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">За &amp;Qt</translation>
+        <translation>За &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Прикажи информации за Qt</translation>
+        <translation>Прикажи информации за Qt</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Испрати биткоини на Биткоин адреса</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Испрати биткоини на Биткоин адреса</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;Испрати</translation>
+        <translation>&amp;Испрати</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;Прими</translation>
+        <translation>&amp;Прими</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Прикажи / Сокриј</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">Криптирај ги приватните клучеви кои припаѓаат на твојот паричник</translation>
+        <translation>Криптирај ги приватните клучеви кои припаѓаат на твојот паричник</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Подесувања</translation>
+        <translation>&amp;Подесувања</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Помош</translation>
+        <translation>&amp;Помош</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -212,26 +216,26 @@
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 позади</translation>
+        <translation>%1 позади</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Грешка</translation>
+        <translation>Грешка</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Предупредување</translation>
+        <translation>Предупредување</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Во тек</translation>
+        <translation>Во тек</translation>
     </message>
     <message>
         <source>&amp;Window</source>
         <translation type="unfinished">&amp;Прозорец</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -316,28 +320,28 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">Измени Адреса</translation>
+        <translation>Измени Адреса</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">&amp;Етикета</translation>
+        <translation>&amp;Етикета</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">&amp;Адреса</translation>
+        <translation>&amp;Адреса</translation>
     </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>name</source>
-        <translation type="unfinished">име</translation>
+        <translation>име</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
+        <source>Vertcoin</source>
         <translation type="unfinished">Биткоин</translation>
     </message>
     <message numerus="yes">
@@ -351,7 +355,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Грешка</translation>
+        <translation>Грешка</translation>
     </message>
     </context>
 <context>
@@ -365,11 +369,11 @@
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Опции</translation>
+        <translation>Опции</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation type="unfinished">&amp;Мрежа</translation>
+        <translation>&amp;Мрежа</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -377,15 +381,15 @@
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation type="unfinished">&amp;Прозорец</translation>
+        <translation>&amp;Прозорец</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;ОК</translation>
+        <translation>&amp;ОК</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Откажи</translation>
+        <translation>&amp;Откажи</translation>
     </message>
     <message>
         <source>none</source>
@@ -400,7 +404,7 @@
     <name>OverviewPage</name>
     <message>
         <source>Total:</source>
-        <translation type="unfinished">Вкупно:</translation>
+        <translation>Вкупно:</translation>
     </message>
     </context>
 <context>
@@ -415,12 +419,12 @@
         <extracomment>Title of Peers Table column which states the network the peer connected through.</extracomment>
         <translation type="unfinished">Мрежа</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Network</source>
-        <translation type="unfinished">Мрежа</translation>
+        <translation>Мрежа</translation>
     </message>
     <message>
         <source>Name</source>
@@ -428,7 +432,7 @@
     </message>
     <message>
         <source>Number of connections</source>
-        <translation type="unfinished">Број на конекции</translation>
+        <translation>Број на конекции</translation>
     </message>
     <message>
         <source>Sent</source>
@@ -440,7 +444,7 @@
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished">&amp;Конзола</translation>
+        <translation>&amp;Конзола</translation>
     </message>
     </context>
 <context>
@@ -520,7 +524,7 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -531,11 +535,11 @@
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation type="unfinished">Сума:</translation>
+        <translation>Сума:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation type="unfinished">&amp;Етикета:</translation>
+        <translation>&amp;Етикета:</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -544,13 +548,21 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>Date</source>
         <translation type="unfinished">Дата</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -567,19 +579,20 @@
         <source>Date</source>
         <translation type="unfinished">Дата</translation>
     </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Date</source>
         <translation type="unfinished">Дата</translation>
-    </message>
-    </context>
-<context>
-    <name>WalletFrame</name>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">Грешка</translation>
     </message>
     </context>
 <context>
@@ -591,6 +604,10 @@
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished">Експортирај ги податоците од активното јазиче во датотека</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Грешка</translation>
     </message>
     </context>
 </TS>

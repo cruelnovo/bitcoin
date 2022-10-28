@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">ახალი მისამართის შექმნა</translation>
+        <translation>ახალი მისამართის შექმნა</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">მონიშნული მისამართის კოპირება სისტემურ კლიპბორდში</translation>
+        <translation>მონიშნული მისამართის კოპირება სისტემურ კლიპბორდში</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">მონიშნული მისამართის წაშლა სიიდან</translation>
+        <translation>მონიშნული მისამართის წაშლა სიიდან</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,15 +35,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">ამ ბარათიდან მონაცემების ექსპორტი ფაილში</translation>
+        <translation>ამ ბარათიდან მონაცემების ექსპორტი ფაილში</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;ექსპორტი</translation>
+        <translation>&amp;ექსპორტი</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;წაშლა</translation>
+        <translation>&amp;წაშლა</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -66,7 +66,7 @@
         <translation type="unfinished">მიმღები მისამართი</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">ეს არის თქვენი ბიტკოინ-მისამართები, რომელთაგანაც შეგიძლიათ გადახდა. აუცილებლად შეამოწმეთ თანხა და მიმღები მისამართი გაგზავნამდე.</translation>
     </message>
     <message>
@@ -114,19 +114,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">ფრაზა-პაროლის დიალოგი</translation>
+        <translation>ფრაზა-პაროლის დიალოგი</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">შეიყვანეთ ფრაზა-პაროლი</translation>
+        <translation>შეიყვანეთ ფრაზა-პაროლი</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">ახალი ფრაზა-პაროლი</translation>
+        <translation>ახალი ფრაზა-პაროლი</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">გაიმეორეთ ახალი ფრაზა-პაროლი</translation>
+        <translation>გაიმეორეთ ახალი ფრაზა-პაროლი</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -153,7 +153,7 @@
         <translation type="unfinished">საფულის დაშიფრვის დადასტურება</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">გაფრთხილება: თუ თქვენ დაშიფრავთ თქვენს საფულეს და ამის შემდეგ დაკარგავთ გასაშიფრ ფრაზას, &lt;b&gt;თქვენ დაკარგავთ ყველა ბიტკოინს!&lt;/b&gt;</translation>
     </message>
     <message>
@@ -173,7 +173,7 @@
         <translation type="unfinished">შეიყვანეთ ძველი საიდუმლო ფრაზა და ახალი საიდუმლო ფრაზა საფულისთვის</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your vertcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">გახსოვდეთ, რომ თქვენი საფულის დაშიფვრა ვერ უზრუნველყოფს სრულად დაიცვას თქვენი ბიტკოინების მოპარვა კომპიუტერში მავნე პროგრამებით.</translation>
     </message>
     <message>
@@ -260,14 +260,14 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -306,101 +306,30 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished">ეს არის წინასწარი სატესტო ვერსია - გამოიყენეთ საკუთარი რისკით - არ გამოიყენოთ მოპოვებისა ან კომერციული მიზნებისათვის</translation>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished">ყურადღება: ჩვენ არ ვეთანხმებით ყველა პირს. შესაძლოა თქვენ ან სხვა კვანძებს განახლება გჭირდებათ.</translation>
-    </message>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished">შენიშნულია ბლოკთა ბაზის დაზიანება</translation>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished">გავუშვათ ბლოკთა ბაზის ხელახლა აგება ეხლა?</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation type="unfinished">ჩატვირთვა დასრულებულია</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation type="unfinished">ვერ ინიციალიზდება ბლოკების ბაზა</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished">ვერ ინიციალიზდება საფულის ბაზის გარემო %s!</translation>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation type="unfinished">არ იტვირთება ბლოკების ბაზა</translation>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation type="unfinished">ბლოკთა ბაზის შექმნა ვერ მოხერხდა</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished">ვერ ხერხდება პორტების მიყურადება. თუ გსურთ, გამოიყენეთ -listen=0.</translation>
-    </message>
-    <message>
-        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation type="unfinished">საწყისი ბლოკი არ არსებობს ან არასწორია. ქსელის მონაცემთა კატალოგი datadir ხომ არის არასწორი?</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation type="unfinished">არ არის საკმარისი თანხა</translation>
-    </message>
-    <message>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished">არ არის საკმარისი ფაილ-დესკრიპტორები.</translation>
-    </message>
-    <message>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished">ტრანსაქციების ხელმოწერა ვერ მოხერხდა</translation>
-    </message>
-    <message>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished">ტრანსაქციების რაოდენობა ძალიან ცოტაა</translation>
-    </message>
-    <message>
-        <source>Transaction too large</source>
-        <translation type="unfinished">ტრანსაქცია ძალიან დიდია</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation type="unfinished">-onlynet-ში მითითებულია უცნობი ქსელი: '%s'</translation>
-    </message>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">მიმ&amp;ოხილვა</translation>
+        <translation>მიმ&amp;ოხილვა</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">საფულის ზოგადი მიმოხილვა</translation>
+        <translation>საფულის ზოგადი მიმოხილვა</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;ტრანსაქციები</translation>
+        <translation>&amp;ტრანსაქციები</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">ტრანსაქციების ისტორიის დათვალიერება</translation>
+        <translation>ტრანსაქციების ისტორიის დათვალიერება</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">&amp;გასვლა</translation>
+        <translation>&amp;გასვლა</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">გასვლა</translation>
+        <translation>გასვლა</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -412,11 +341,11 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">&amp;Qt-ს შესახებ</translation>
+        <translation>&amp;Qt-ს შესახებ</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">ინფორმაცია Qt-ს შესახებ</translation>
+        <translation>ინფორმაცია Qt-ს შესახებ</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -436,56 +365,64 @@
         <translation type="unfinished">ქსელური აქტივობა გათიშულია.</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">მონეტების გაგზავნა Bitcoin-მისამართზე</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>მონეტების გაგზავნა Vertcoin-მისამართზე</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">საფულის არქივირება სხვა ადგილზე</translation>
+        <translation>საფულის არქივირება სხვა ადგილზე</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">საფულის დაშიფრვის ფრაზა-პაროლის შეცვლა</translation>
+        <translation>საფულის დაშიფრვის ფრაზა-პაროლის შეცვლა</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;გაგზავნა</translation>
+        <translation>&amp;გაგზავნა</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;მიღება</translation>
+        <translation>&amp;მიღება</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;ჩვენება/დაფარვა</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>მთავარი ფანჯრის ჩვენება/დაფარვა</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">თქვენი საფულის პირადი გასაღებების დაშიფრვა</translation>
+        <translation>თქვენი საფულის პირადი გასაღებების დაშიფრვა</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">მესიჯებზე ხელმოწერა თქვენი Bitcoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>მესიჯებზე ხელმოწერა თქვენი Vertcoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Vertcoin-მისამართით</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;ფაილი</translation>
+        <translation>&amp;ფაილი</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;პარამეტრები</translation>
+        <translation>&amp;პარამეტრები</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;დახმარება</translation>
+        <translation>&amp;დახმარება</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">ბარათების პანელი</translation>
+        <translation>ბარათების პანელი</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">გადახდის მოთხოვნა (შეიქმნება QR-კოდები და bitcoin: ბმულები)</translation>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation type="unfinished">გადახდის მოთხოვნა (შეიქმნება QR-კოდები და vertcoin: ბმულები)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -501,38 +438,38 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 გავლილია</translation>
+        <translation>%1 გავლილია</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished">ბოლო მიღებული ბლოკის გენერირებიდან გასულია %1</translation>
+        <translation>ბოლო მიღებული ბლოკის გენერირებიდან გასულია %1</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished">შემდგომი ტრანსაქციები ნაჩვენები ჯერ არ იქნება.</translation>
+        <translation>შემდგომი ტრანსაქციები ნაჩვენები ჯერ არ იქნება.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">შეცდომა</translation>
+        <translation>შეცდომა</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">გაფრთხილება</translation>
+        <translation>გაფრთხილება</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">ინფორმაცია</translation>
+        <translation>ინფორმაცია</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">განახლებულია</translation>
+        <translation>განახლებულია</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -551,7 +488,7 @@
         <translation type="unfinished">მისამართების მიღება</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a vertcoin: URI</source>
         <translation type="unfinished">გახსენით ბიტკოინი: URI</translation>
     </message>
     <message>
@@ -583,7 +520,7 @@
         <translation type="unfinished">%1 კლიენტი</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -628,19 +565,19 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation type="unfinished">გაგზავნილი ტრანსაქციები</translation>
+        <translation>გაგზავნილი ტრანსაქციები</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation type="unfinished">მიღებული ტრანსაქციები</translation>
+        <translation>მიღებული ტრანსაქციები</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">საფულე &lt;b&gt;დაშიფრულია&lt;/b&gt; და ამჟამად &lt;b&gt;განბლოკილია&lt;/b&gt;</translation>
+        <translation>საფულე &lt;b&gt;დაშიფრულია&lt;/b&gt; და ამჟამად &lt;b&gt;განბლოკილია&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">საფულე &lt;b&gt;დაშიფრულია&lt;/b&gt; და ამჟამად &lt;b&gt;დაბლოკილია&lt;/b&gt;</translation>
+        <translation>საფულე &lt;b&gt;დაშიფრულია&lt;/b&gt; და ამჟამად &lt;b&gt;დაბლოკილია&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -760,11 +697,6 @@
         <source>default wallet</source>
         <translation type="unfinished">ნაგულისხმევი საფულე</translation>
     </message>
-    <message>
-        <source>Open Wallet</source>
-        <extracomment>Title of window indicating the progress of opening of a wallet.</extracomment>
-        <translation type="unfinished">ღია საფულე</translation>
-    </message>
     </context>
 <context>
     <name>CreateWalletDialog</name>
@@ -777,11 +709,11 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">მისამართის შეცვლა</translation>
+        <translation>მისამართის შეცვლა</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">ნიშნუ&amp;ლი</translation>
+        <translation>ნიშნუ&amp;ლი</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -793,7 +725,7 @@
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">მის&amp;ამართი</translation>
+        <translation>მის&amp;ამართი</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -808,8 +740,8 @@
         <translation type="unfinished">გაგზავნის მისამართის შეცვლა</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">შეყვანილი მისამართი "%1" არ არის ვალიდური Bitcoin-მისამართი.</translation>
+        <source>The entered address "%1" is not a valid Vertcoin address.</source>
+        <translation type="unfinished">შეყვანილი მისამართი "%1" არ არის ვალიდური Vertcoin-მისამართი.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -824,23 +756,23 @@
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation type="unfinished">შეიქმნება ახალი მონაცემთა კატალოგი.</translation>
+        <translation>შეიქმნება ახალი მონაცემთა კატალოგი.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation type="unfinished">სახელი</translation>
+        <translation>სახელი</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation type="unfinished">კატალოგი უკვე არსებობს. დაამატეთ %1 თუ გინდათ ახალი კატალოგის აქვე შექმნა.</translation>
+        <translation>კატალოგი უკვე არსებობს. დაამატეთ %1 თუ გინდათ ახალი კატალოგის აქვე შექმნა.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation type="unfinished">მისამართი უკვე არსებობს და არ წარმოადგენს კატალოგს.</translation>
+        <translation>მისამართი უკვე არსებობს და არ წარმოადგენს კატალოგს.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation type="unfinished">კატალოგის აქ შექმნა შეუძლებელია.</translation>
+        <translation>კატალოგის აქ შექმნა შეუძლებელია.</translation>
     </message>
 </context>
 <context>
@@ -855,11 +787,11 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">შეცდომა</translation>
+        <translation>შეცდომა</translation>
     </message>
     <message>
         <source>Welcome</source>
-        <translation type="unfinished">მოგესალმებით</translation>
+        <translation>მოგესალმებით</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
@@ -867,11 +799,11 @@
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation type="unfinished">ნაგულისხმევი კატალოგის გამოყენება</translation>
+        <translation>ნაგულისხმევი კატალოგის გამოყენება</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation type="unfinished">მითითებული კატალოგის გამოყენება:</translation>
+        <translation>მითითებული კატალოგის გამოყენება:</translation>
     </message>
 </context>
 <context>
@@ -916,22 +848,14 @@
     </message>
     </context>
 <context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Paste address from clipboard</source>
-        <extracomment>Tooltip text for button that allows you to paste an address that is in your clipboard.</extracomment>
-        <translation type="unfinished">მისამართის ჩასმა კლიპბორდიდან</translation>
-    </message>
-</context>
-<context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation type="unfinished">ოპციები</translation>
+        <translation>ოპციები</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation type="unfinished">&amp;მთავარი</translation>
+        <translation>&amp;მთავარი</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -947,15 +871,15 @@
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished">კლიენტის ყველა პარამეტრის დაბრუნება ნაგულისხმევ მნიშვნელობებზე.</translation>
+        <translation>კლიენტის ყველა პარამეტრის დაბრუნება ნაგულისხმევ მნიშვნელობებზე.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished">დაბ&amp;რუნების ოპციები</translation>
+        <translation>დაბ&amp;რუნების ოპციები</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation type="unfinished">&amp;ქსელი</translation>
+        <translation>&amp;ქსელი</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -970,56 +894,56 @@
         <translation type="unfinished">დაუდასტურებელი ხურდის გამოყენების აკრძალვის შემდეგ მათი გამოყენება შეუძლებელი იქნება, სანამ ტრანსაქციას არ ექნება ერთი დასტური მაინც. ეს აისახება თქვენი ნაშთის დათვლაზეც.</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">როუტერში Bitcoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
+        <source>Automatically open the Vertcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>როუტერში Vertcoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished">პორტის გადამისამართება &amp;UPnP-ით</translation>
+        <translation>პორტის გადამისამართება &amp;UPnP-ით</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished">პროქსის &amp;IP:</translation>
+        <translation>პროქსის &amp;IP:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;პორტი</translation>
+        <translation>&amp;პორტი</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished">პროქსის პორტი (მაგ.: 9050)</translation>
+        <translation>პროქსის პორტი (მაგ.: 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation type="unfinished">&amp;ფანჯარა</translation>
+        <translation>&amp;ფანჯარა</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished">ფანჯრის მინიმიზებისას მხოლოდ იკონა სისტემურ ზონაში</translation>
+        <translation>ფანჯრის მინიმიზებისას მხოლოდ იკონა სისტემურ ზონაში</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished">&amp;მინიმიზება სისტემურ ზონაში პროგრამების პანელის ნაცვლად</translation>
+        <translation>&amp;მინიმიზება სისტემურ ზონაში პროგრამების პანელის ნაცვლად</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished">მ&amp;ინიმიზება დახურვისას</translation>
+        <translation>მ&amp;ინიმიზება დახურვისას</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation type="unfinished">&amp;ჩვენება</translation>
+        <translation>&amp;ჩვენება</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished">სამომხმარებ&amp;ლო ენა:</translation>
+        <translation>სამომხმარებ&amp;ლო ენა:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished">ერთეუ&amp;ლი:</translation>
+        <translation>ერთეუ&amp;ლი:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">აირჩიეთ გასაგზავნი თანხის ნაგულისხმევი ერთეული.</translation>
+        <translation>აირჩიეთ გასაგზავნი თანხის ნაგულისხმევი ერთეული.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1027,11 +951,11 @@
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;გაუქმება</translation>
+        <translation>&amp;გაუქმება</translation>
     </message>
     <message>
         <source>default</source>
-        <translation type="unfinished">ნაგულისხმევი</translation>
+        <translation>ნაგულისხმევი</translation>
     </message>
     <message>
         <source>none</source>
@@ -1039,7 +963,7 @@
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished">დაადასტურეთ პარამეტრების დაბრუნება ნაგულისხმევზე</translation>
+        <translation>დაადასტურეთ პარამეტრების დაბრუნება ნაგულისხმევზე</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
@@ -1055,18 +979,18 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished">პროქსის მისამართი არასწორია.</translation>
+        <translation>პროქსის მისამართი არასწორია.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">ფორმა</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Bitcoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vertcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Vertcoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1074,7 +998,7 @@
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation type="unfinished">თქვენი ხელმისაწვდომი ნაშთი</translation>
+        <translation>თქვენი ხელმისაწვდომი ნაშთი</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1082,23 +1006,23 @@
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation type="unfinished">დასადასტურებელი ტრანსაქციების საერთო რაოდენობა, რომლებიც ჯერ არ არის ასახული ბალანსში</translation>
+        <translation>დასადასტურებელი ტრანსაქციების საერთო რაოდენობა, რომლებიც ჯერ არ არის ასახული ბალანსში</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation type="unfinished">მოუმზადებელია:</translation>
+        <translation>მოუმზადებელია:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished">მოპოვებული თანხა, რომელიც ჯერ არ არის მზადყოფნაში</translation>
+        <translation>მოპოვებული თანხა, რომელიც ჯერ არ არის მზადყოფნაში</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation type="unfinished">სულ:</translation>
+        <translation>სულ:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation type="unfinished">თქვენი სრული მიმდინარე ბალანსი</translation>
+        <translation>თქვენი სრული მიმდინარე ბალანსი</translation>
     </message>
     </context>
 <context>
@@ -1115,8 +1039,8 @@
         <translation type="unfinished">გადახდის მოთხოვნის შეცდომა</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished">ვერ გაიშვა bitcoin: click-to-pay</translation>
+        <source>Cannot start vertcoin: click-to-pay handler</source>
+        <translation type="unfinished">ვერ გაიშვა vertcoin: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1144,7 +1068,7 @@
         <extracomment>Title of Peers Table column which states the network the peer connected through.</extracomment>
         <translation type="unfinished">ქსელი</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1168,15 +1092,15 @@
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation type="unfinished">მიუწვდ.</translation>
+        <translation>მიუწვდ.</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation type="unfinished">კლიენტის ვერსია</translation>
+        <translation>კლიენტის ვერსია</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished">&amp;ინფორმაცია</translation>
+        <translation>&amp;ინფორმაცია</translation>
     </message>
     <message>
         <source>General</source>
@@ -1184,11 +1108,11 @@
     </message>
     <message>
         <source>Startup time</source>
-        <translation type="unfinished">სტარტის დრო</translation>
+        <translation>სტარტის დრო</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">ქსელი</translation>
+        <translation>ქსელი</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1196,11 +1120,11 @@
     </message>
     <message>
         <source>Number of connections</source>
-        <translation type="unfinished">შეერთებების რაოდენობა</translation>
+        <translation>შეერთებების რაოდენობა</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation type="unfinished">ბლოკთა ჯაჭვი</translation>
+        <translation>ბლოკთა ჯაჭვი</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -1208,15 +1132,15 @@
     </message>
     <message>
         <source>Last block time</source>
-        <translation type="unfinished">ბოლო ბლოკის დრო</translation>
+        <translation>ბოლო ბლოკის დრო</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished">&amp;შექმნა</translation>
+        <translation>&amp;შექმნა</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished">&amp;კონსოლი</translation>
+        <translation>&amp;კონსოლი</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
@@ -1228,11 +1152,11 @@
     </message>
     <message>
         <source>Debug log file</source>
-        <translation type="unfinished">დახვეწის ლოგ-ფაილი</translation>
+        <translation>დახვეწის ლოგ-ფაილი</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation type="unfinished">კონსოლის გასუფთავება</translation>
+        <translation>კონსოლის გასუფთავება</translation>
     </message>
     <message>
         <source>In:</source>
@@ -1266,7 +1190,7 @@
         <translation type="unfinished">&amp;მესიჯი:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Vertcoin network.</source>
         <translation type="unfinished">არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
@@ -1376,7 +1300,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">მონეტების გაგზავნა</translation>
+        <translation>მონეტების გაგზავნა</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1432,11 +1356,11 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation type="unfinished">გაგზავნა რამდენიმე რეციპიენტთან ერთდროულად</translation>
+        <translation>გაგზავნა რამდენიმე რეციპიენტთან ერთდროულად</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation type="unfinished">&amp;რეციპიენტის დამატება</translation>
+        <translation>&amp;რეციპიენტის დამატება</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1448,19 +1372,19 @@
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">გ&amp;ასუფთავება</translation>
+        <translation>გ&amp;ასუფთავება</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="unfinished">ბალანსი:</translation>
+        <translation>ბალანსი:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation type="unfinished">გაგზავნის დადასტურება</translation>
+        <translation>გაგზავნის დადასტურება</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation type="unfinished">გაგ&amp;ზავნა</translation>
+        <translation>გაგ&amp;ზავნა</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1489,6 +1413,10 @@
     <message>
         <source>%1 to %2</source>
         <translation type="unfinished">%1-დან %2-ში</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation type="unfinished">დარწმუნებული ხართ, რომ გინდათ გაგზავნა?</translation>
     </message>
     <message>
         <source>or</source>
@@ -1520,14 +1448,14 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">ყურადღება: არასწორია Bitcoin-მისამართი</translation>
+        <source>Warning: Invalid Vertcoin address</source>
+        <translation type="unfinished">ყურადღება: არასწორია Vertcoin-მისამართი</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1542,15 +1470,15 @@
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation type="unfinished">&amp;რაოდენობა</translation>
+        <translation>&amp;რაოდენობა</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation type="unfinished">ადრესა&amp;ტი:</translation>
+        <translation>ადრესა&amp;ტი:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation type="unfinished">ნიშნუ&amp;ლი:</translation>
+        <translation>ნიშნუ&amp;ლი:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1558,7 +1486,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">მისამართის ჩასმა კლიპბორდიდან</translation>
+        <translation>მისამართის ჩასმა კლიპბორდიდან</translation>
     </message>
     <message>
         <source>Remove this entry</source>
@@ -1573,7 +1501,7 @@
         <translation type="unfinished">შეიყვანეთ ამ მისამართის ნიშნული გამოყენებული მისამართების სიაში დასამატებლად</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the vertcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vertcoin network.</source>
         <translation type="unfinished">მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
@@ -1589,11 +1517,11 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished">ხელმოწერები - მესიჯის ხელმოწერა/ვერიფიკაცია</translation>
+        <translation>ხელმოწერები - მესიჯის ხელმოწერა/ვერიფიკაცია</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished">მე&amp;სიჯის ხელმოწერა</translation>
+        <translation>მე&amp;სიჯის ხელმოწერა</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1601,51 +1529,51 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">მისამართის ჩასმა კლიპბორდიდან</translation>
+        <translation>მისამართის ჩასმა კლიპბორდიდან</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished">აკრიფეთ ხელმოსაწერი მესიჯი</translation>
+        <translation>აკრიფეთ ხელმოსაწერი მესიჯი</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation type="unfinished">ხელმოწერა</translation>
+        <translation>ხელმოწერა</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished">მიმდინარე ხელმოწერის კოპირება კლიპბორდში</translation>
+        <translation>მიმდინარე ხელმოწერის კოპირება კლიპბორდში</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
+        <source>Sign the message to prove you own this Vertcoin address</source>
+        <translation>მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished">&amp;მესიჯის ხელმოწერა</translation>
+        <translation>&amp;მესიჯის ხელმოწერა</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished">ხელმოწერის ყველა ველის წაშლა</translation>
+        <translation>ხელმოწერის ყველა ველის წაშლა</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">გ&amp;ასუფთავება</translation>
+        <translation>გ&amp;ასუფთავება</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished">მესიჯის &amp;ვერიფიკაცია</translation>
+        <translation>მესიჯის &amp;ვერიფიკაცია</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
+        <source>Verify the message to ensure it was signed with the specified Vertcoin address</source>
+        <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Vertcoin-მისამართით</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished">&amp;მესიჯის ვერიფიკაცია</translation>
+        <translation>&amp;მესიჯის ვერიფიკაცია</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished">ვერიფიკაციის ყველა ველის წაშლა</translation>
+        <translation>ვერიფიკაციის ყველა ველის წაშლა</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1702,6 +1630,17 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">ღია იქნება სანამ %1</translation>
+    </message>
     <message>
         <source>%1/unconfirmed</source>
         <translation type="unfinished">%1/დაუდასტურებელია</translation>
@@ -1752,7 +1691,7 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -1822,7 +1761,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished">ტრანსაქციის დაწვრილებითი აღწერილობა</translation>
+        <translation>ტრანსაქციის დაწვრილებითი აღწერილობა</translation>
     </message>
     </context>
 <context>
@@ -1838,6 +1777,17 @@
     <message>
         <source>Label</source>
         <translation type="unfinished">ნიშნული</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation type="unfinished">ღია იქნება სანამ %1</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
@@ -2013,11 +1963,7 @@
         <source>Create a new wallet</source>
         <translation type="unfinished">შექმენით ახალი საფულე</translation>
     </message>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">შეცდომა</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>WalletModel</name>
     <message>
@@ -2040,6 +1986,10 @@
         <translation type="unfinished">ამ ბარათიდან მონაცემების ექსპორტი ფაილში</translation>
     </message>
     <message>
+        <source>Error</source>
+        <translation type="unfinished">შეცდომა</translation>
+    </message>
+    <message>
         <source>Backup Wallet</source>
         <translation type="unfinished">საფულის არქივირება</translation>
     </message>
@@ -2058,6 +2008,77 @@
     <message>
         <source>The wallet data was successfully saved to %1.</source>
         <translation type="unfinished">საფულის მონაცემები შენახულია %1-ში.</translation>
+    </message>
+    </context>
+<context>
+    <name>vertcoin-core</name>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished">ეს არის წინასწარი სატესტო ვერსია - გამოიყენეთ საკუთარი რისკით - არ გამოიყენოთ მოპოვებისა ან კომერციული მიზნებისათვის</translation>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation type="unfinished">ყურადღება: ჩვენ არ ვეთანხმებით ყველა პირს. შესაძლოა თქვენ ან სხვა კვანძებს განახლება გჭირდებათ.</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation type="unfinished">შენიშნულია ბლოკთა ბაზის დაზიანება</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation type="unfinished">გავუშვათ ბლოკთა ბაზის ხელახლა აგება ეხლა?</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation type="unfinished">ჩატვირთვა დასრულებულია</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation type="unfinished">ვერ ინიციალიზდება ბლოკების ბაზა</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation type="unfinished">ვერ ინიციალიზდება საფულის ბაზის გარემო %s!</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation type="unfinished">არ იტვირთება ბლოკების ბაზა</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation type="unfinished">ბლოკთა ბაზის შექმნა ვერ მოხერხდა</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation type="unfinished">ვერ ხერხდება პორტების მიყურადება. თუ გსურთ, გამოიყენეთ -listen=0.</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation type="unfinished">საწყისი ბლოკი არ არსებობს ან არასწორია. ქსელის მონაცემთა კატალოგი datadir ხომ არის არასწორი?</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation type="unfinished">არ არის საკმარისი თანხა</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation type="unfinished">არ არის საკმარისი ფაილ-დესკრიპტორები.</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation type="unfinished">ტრანსაქციების ხელმოწერა ვერ მოხერხდა</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation type="unfinished">ტრანსაქციების რაოდენობა ძალიან ცოტაა</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation type="unfinished">ტრანსაქცია ძალიან დიდია</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation type="unfinished">-onlynet-ში მითითებულია უცნობი ქსელი: '%s'</translation>
     </message>
     </context>
 </TS>

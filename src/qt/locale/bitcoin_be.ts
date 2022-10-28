@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Стварыць новы адрас</translation>
+        <translation>Стварыць новы адрас</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Капіяваць пазначаны адрас у сістэмны буфер абмену</translation>
+        <translation>Капіяваць пазначаны адрас у сістэмны буфер абмену</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Выдаліць абраны адрас са спісу</translation>
+        <translation>Выдаліць абраны адрас са спісу</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,15 +35,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Экспартаваць гэтыя звесткі у файл</translation>
+        <translation>Экспартаваць гэтыя звесткі у файл</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">Экспарт</translation>
+        <translation>Экспарт</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">Выдаліць</translation>
+        <translation>Выдаліць</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -66,7 +66,7 @@
         <translation type="unfinished">адрасы Прымання</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Тут знаходзяцца Біткойн-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
     </message>
     <message>
@@ -114,19 +114,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">Дыялог сакрэтнай фразы</translation>
+        <translation>Дыялог сакрэтнай фразы</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Увядзіце кодавую фразу</translation>
+        <translation>Увядзіце кодавую фразу</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Новая кодавая фраза</translation>
+        <translation>Новая кодавая фраза</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Паўтарыце новую кодавую фразу</translation>
+        <translation>Паўтарыце новую кодавую фразу</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -153,7 +153,7 @@
         <translation type="unfinished">Пацвердзіце шыфраванне гаманца</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">Увага: калі вы зашыфруеце свой гаманец і страціце парольную фразу, то &lt;b&gt;СТРАЦІЦЕ ЎСЕ СВАЕ БІТКОЙНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -209,7 +209,7 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -217,7 +217,7 @@
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -261,136 +261,93 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished">Ці жадаеце вы перабудаваць зараз базу звестак блокаў?</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation type="unfinished">Загрузка выканана</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation type="unfinished">Памылка ініцыялізацыі базвы звестак блокаў</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished">Памалка ініцыялізацыі асяроддзя базы звестак гаманца %s!</translation>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation type="unfinished">Памылка загрузкі базвы звестак блокаў</translation>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation type="unfinished">Памылка адчынення базы звестак блокаў</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation type="unfinished">Недастаткова сродкаў</translation>
-    </message>
-    <message>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished">Не хапае файлавых дэскрыптараў.</translation>
-    </message>
-    <message>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished">Памылка подпісу транзакцыі</translation>
-    </message>
-    <message>
-        <source>This is experimental software.</source>
-        <translation type="unfinished">Гэта эксперыментальная праграма.</translation>
-    </message>
-    <message>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished">Транзакцыя занадта малая</translation>
-    </message>
-    <message>
-        <source>Transaction too large</source>
-        <translation type="unfinished">Транзакцыя занадта вялікая</translation>
-    </message>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">Агляд</translation>
+        <translation>Агляд</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Паказвае агульныя звесткі аб гаманцы</translation>
+        <translation>Паказвае агульныя звесткі аб гаманцы</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">Транзакцыі</translation>
+        <translation>Транзакцыі</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Праглядзець гісторыю транзакцый</translation>
+        <translation>Праглядзець гісторыю транзакцый</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">Выйсці</translation>
+        <translation>Выйсці</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Выйсці з праграмы</translation>
+        <translation>Выйсці з праграмы</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">Аб Qt</translation>
+        <translation>Аб Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Паказаць інфармацыю аб Qt</translation>
+        <translation>Паказаць інфармацыю аб Qt</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Даслаць манеты на Біткойн-адрас</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Даслаць манеты на Біткойн-адрас</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">Зрабіце копію гаманца ў іншае месца</translation>
+        <translation>Зрабіце копію гаманца ў іншае месца</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Змяніць пароль шыфравання гаманца</translation>
+        <translation>Змяніць пароль шыфравання гаманца</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">Даслаць</translation>
+        <translation>Даслаць</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">Атрымаць</translation>
+        <translation>Атрымаць</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Паказаць / Схаваць</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Паказаць альбо схаваць галоўнае вакно</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
+        <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Падпісаць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>Падпісаць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Спраўдзіць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Спраўдзіць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">Ф&amp;айл</translation>
+        <translation>Ф&amp;айл</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">Наладкі</translation>
+        <translation>Наладкі</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">Дапамога</translation>
+        <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
         <translation type="unfinished">Запатрабаваць плацёж (генеруецца QR-код для біткойн URI)</translation>
     </message>
     <message>
@@ -407,7 +364,7 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -415,34 +372,34 @@
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 таму</translation>
+        <translation>%1 таму</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished">Апошні прыняты блок генераваны %1 таму.</translation>
+        <translation>Апошні прыняты блок генераваны %1 таму.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished">Транзакцыи пасля гэтай не будуць бачныя.</translation>
+        <translation>Транзакцыи пасля гэтай не будуць бачныя.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Памылка</translation>
+        <translation>Памылка</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Увага</translation>
+        <translation>Увага</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Інфармацыя</translation>
+        <translation>Інфармацыя</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Сінхранізавана</translation>
+        <translation>Сінхранізавана</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -482,19 +439,19 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation type="unfinished">Дасланыя транзакцыі</translation>
+        <translation>Дасланыя транзакцыі</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Прынятыя транзакцыі</translation>
+        <translation>Прынятыя транзакцыі</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">Гаманец &lt;b&gt;зашыфраваны&lt;/b&gt; і зараз &lt;b&gt;разблакаваны&lt;/b&gt;</translation>
+        <translation>Гаманец &lt;b&gt;зашыфраваны&lt;/b&gt; і зараз &lt;b&gt;разблакаваны&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">Гаманец &lt;b&gt;зашыфраваны&lt;/b&gt; і зараз &lt;b&gt;заблакаваны&lt;/b&gt;</translation>
+        <translation>Гаманец &lt;b&gt;зашыфраваны&lt;/b&gt; і зараз &lt;b&gt;заблакаваны&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -607,15 +564,15 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation type="unfinished">Рэдагаваць Адрас</translation>
+        <translation>Рэдагаваць Адрас</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">Метка</translation>
+        <translation>Метка</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">Адрас</translation>
+        <translation>Адрас</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -642,21 +599,21 @@
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation type="unfinished">Будзе створаны новы каталог з данымі.</translation>
+        <translation>Будзе створаны новы каталог з данымі.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation type="unfinished">імя</translation>
+        <translation>імя</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation type="unfinished">Каталог ужо існуе. Дадайце %1 калі вы збіраецеся стварыць тут новы каталог.</translation>
+        <translation>Каталог ужо існуе. Дадайце %1 калі вы збіраецеся стварыць тут новы каталог.</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
+        <source>Vertcoin</source>
         <translation type="unfinished">Біткойн</translation>
     </message>
     <message numerus="yes">
@@ -670,11 +627,11 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Памылка</translation>
+        <translation>Памылка</translation>
     </message>
     <message>
         <source>Welcome</source>
-        <translation type="unfinished">Вітаем</translation>
+        <translation>Вітаем</translation>
     </message>
     </context>
 <context>
@@ -692,18 +649,10 @@
     </message>
     </context>
 <context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Paste address from clipboard</source>
-        <extracomment>Tooltip text for button that allows you to paste an address that is in your clipboard.</extracomment>
-        <translation type="unfinished">Уставіць адрас з буферу абмена</translation>
-    </message>
-</context>
-<context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Опцыі</translation>
+        <translation>Опцыі</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -718,7 +667,7 @@
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Форма</translation>
+        <translation>Форма</translation>
     </message>
     </context>
 <context>
@@ -738,7 +687,7 @@
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished">Інфармацыя</translation>
+        <translation>Інфармацыя</translation>
     </message>
     </context>
 <context>
@@ -794,7 +743,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Даслаць Манеты</translation>
+        <translation>Даслаць Манеты</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
@@ -822,7 +771,7 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation type="unfinished">Даслаць адразу некалькім атрымальнікам</translation>
+        <translation>Даслаць адразу некалькім атрымальнікам</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -830,11 +779,11 @@
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="unfinished">Баланс:</translation>
+        <translation>Баланс:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation type="unfinished">Пацвердзіць дасыланне</translation>
+        <translation>Пацвердзіць дасыланне</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -870,7 +819,7 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -885,19 +834,19 @@
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation type="unfinished">Колькасць:</translation>
+        <translation>Колькасць:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation type="unfinished">Заплаціць да:</translation>
+        <translation>Заплаціць да:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation type="unfinished">Метка:</translation>
+        <translation>Метка:</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Уставіць адрас з буферу абмена</translation>
+        <translation>Уставіць адрас з буферу абмена</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -916,11 +865,19 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Уставіць адрас з буферу абмена</translation>
+        <translation>Уставіць адрас з буферу абмена</translation>
     </message>
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>%1/unconfirmed</source>
         <translation type="unfinished">%1/непацверджана</translation>
@@ -943,7 +900,7 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -970,7 +927,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished">Гэтая панэль паказвае дэтальнае апісанне транзакцыі</translation>
+        <translation>Гэтая панэль паказвае дэтальнае апісанне транзакцыі</translation>
     </message>
     </context>
 <context>
@@ -986,6 +943,14 @@
     <message>
         <source>Label</source>
         <translation type="unfinished">Метка</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+            <numerusform />
+        </translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -1120,13 +1085,6 @@
     </message>
 </context>
 <context>
-    <name>WalletFrame</name>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">Памылка</translation>
-    </message>
-    </context>
-<context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
@@ -1142,6 +1100,61 @@
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished">Экспартаваць гэтыя звесткі у файл</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Памылка</translation>
+    </message>
+    </context>
+<context>
+    <name>vertcoin-core</name>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation type="unfinished">Ці жадаеце вы перабудаваць зараз базу звестак блокаў?</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation type="unfinished">Загрузка выканана</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation type="unfinished">Памылка ініцыялізацыі базвы звестак блокаў</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation type="unfinished">Памалка ініцыялізацыі асяроддзя базы звестак гаманца %s!</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation type="unfinished">Памылка загрузкі базвы звестак блокаў</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation type="unfinished">Памылка адчынення базы звестак блокаў</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation type="unfinished">Недастаткова сродкаў</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation type="unfinished">Не хапае файлавых дэскрыптараў.</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation type="unfinished">Памылка подпісу транзакцыі</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation type="unfinished">Гэта эксперыментальная праграма.</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation type="unfinished">Транзакцыя занадта малая</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation type="unfinished">Транзакцыя занадта вялікая</translation>
     </message>
     </context>
 </TS>

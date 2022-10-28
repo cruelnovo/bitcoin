@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Lag en ny adresse</translation>
+        <translation>Lag en ny adresse</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -16,7 +16,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Kopier den valgte adressen til systemutklippstavlen</translation>
+        <translation>Kopier den valgte adressen til systemutklippstavlen</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -28,7 +28,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Slett den valgte adressen fra listen </translation>
+        <translation>Slett den valgte adressen fra listen </translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -36,15 +36,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Eksporter dataen i gjeldende fane til en fil </translation>
+        <translation>Eksporter dataen i gjeldende fane til en fil </translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Eksporter</translation>
+        <translation>&amp;Eksporter</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Slett</translation>
+        <translation>&amp;Slett</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -63,8 +63,8 @@
         <translation type="unfinished">Mottar adresser </translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Dette er dine Bitcoin adresser for å sende betalinger.Alltid sjekk mengden og mottaker adressen før du sender mynter.  </translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Dette er dine Vertcoin adresser for å sende betalinger.Alltid sjekk mengden og mottaker adressen før du sender mynter.  </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -90,14 +90,14 @@
     <name>QObject</name>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -132,16 +132,16 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -172,7 +172,7 @@
     <name>SendCoinsDialog</name>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -181,8 +181,25 @@
 <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
             <numerusform />
             <numerusform />
         </translation>

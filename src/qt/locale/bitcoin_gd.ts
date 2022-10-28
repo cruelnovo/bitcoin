@@ -7,15 +7,15 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Cruthaich seòladh ùr</translation>
+        <translation>Cruthaich seòladh ùr</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Dèan lethbhreac den t-seòladh a chaidh a thaghadh an-dràsta gu cairt-bhòrd an t-siostaim</translation>
+        <translation>Dèan lethbhreac den t-seòladh a chaidh a thaghadh an-dràsta gu cairt-bhòrd an t-siostaim</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Thoir às an seòladh a chaidh a thaghadh an-dràsta bhon liosta</translation>
+        <translation>Thoir às an seòladh a chaidh a thaghadh an-dràsta bhon liosta</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -37,7 +37,7 @@
     <name>QObject</name>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -46,7 +46,7 @@
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -91,10 +91,10 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -103,18 +103,18 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Mearachd</translation>
+        <translation>Mearachd</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Rabhadh</translation>
+        <translation>Rabhadh</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Fiosrachadh</translation>
+        <translation>Fiosrachadh</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -135,7 +135,7 @@
     <name>FreespaceChecker</name>
     <message>
         <source>name</source>
-        <translation type="unfinished">ainm</translation>
+        <translation>ainm</translation>
     </message>
     </context>
 <context>
@@ -152,7 +152,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Mearachd</translation>
+        <translation>Mearachd</translation>
     </message>
     </context>
 <context>
@@ -173,7 +173,7 @@
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Fhoirm</translation>
+        <translation>Fhoirm</translation>
     </message>
     </context>
 <context>
@@ -188,7 +188,7 @@
     <name>SendCoinsDialog</name>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -199,8 +199,29 @@
 <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform />
+            <numerusform />
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
             <numerusform />
             <numerusform />
             <numerusform />
@@ -216,7 +237,7 @@
     </message>
     </context>
 <context>
-    <name>WalletFrame</name>
+    <name>WalletView</name>
     <message>
         <source>Error</source>
         <translation type="unfinished">Mearachd</translation>

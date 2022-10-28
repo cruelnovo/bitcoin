@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation type="unfinished">Nhấp chuột phải để sửa địa chỉ hoặc nhãn</translation>
+        <translation type="unfinished">Nhấn chuột phải để sửa địa chỉ hoặc nhãn</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Tạo địa chỉ mới</translation>
+        <translation>Tạo một địa chỉ mới</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Sao chép các địa chỉ đã được chọn vào bộ nhớ tạm thời của hệ thống</translation>
+        <translation>Sao chép các địa chỉ đã được chọn vào bộ nhớ tạm thời của hệ thống</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,19 +27,19 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Xóa địa chỉ đang chọn từ danh sách</translation>
+        <translation>Xóa địa chỉ đang chọn từ danh sách</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Xuất dữ liệu trong thẻ hiện tại ra file</translation>
+        <translation>Xuất dữ liệu trong thẻ hiện tại ra file</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Xuất</translation>
+        <translation>&amp;Xuất</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Xóa</translation>
+        <translation>&amp;Xóa</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -62,13 +62,8 @@
         <translation type="unfinished">Địa chỉ đang nhận</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Đây là những địa chỉ đang thực hiện thanh toán. Luôn kiểm tra số lượng và địa chỉ nhận trước khi gửi coins.</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Đây là các địa chỉ Bitcoin của bạn để nhận thanh toán. Sử dụng nút 'Tạo địa chỉ nhận mới' trong tab nhận để tạo các địa chỉ mới. Chỉ có thể gán địa chỉ với các địa chỉ thuộc loại 'kế thừa'.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -81,11 +76,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Export Address List</source>
         <translation type="unfinished">Xuất List Địa Chỉ</translation>
-    </message>
-    <message>
-        <source>Comma separated file</source>
-        <extracomment>Expanded name of the CSV file format. See: https://en.wikipedia.org/wiki/Comma-separated_values.</extracomment>
-        <translation type="unfinished">Tệp tách dấu phẩy</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
@@ -116,19 +106,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">Log Cụm Mật Khẩu</translation>
+        <translation>Log Cụm Mật Khẩu</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Nhập cụm mật khẩu</translation>
+        <translation>Nhập cụm mật khẩu</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Cụm mật khẩu mới</translation>
+        <translation>Cụm mật khẩu mới</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Lặp lại cụm mật khẩu mới</translation>
+        <translation>Lặp lại cụm mật khẩu mới</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -151,8 +141,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Đổi cụm mật khẩu</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Cảnh báo: Nếu bạn mã hóa ví và mất cụm mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ BITCOIN&lt;/b&gt;!</translation>
+        <source>Confirm wallet encryption</source>
+        <translation type="unfinished">Xác nhận mã hóa ví</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">Cảnh báo: Nếu bạn mã hóa ví và mất cụm mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ VERTCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -171,8 +165,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Nhập cụm mật khẩu cũ và mật khẩu mới cho ví.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Xin lưu ý rằng mật mã hóa ví của bạn không thể bảo vệ hoàn toàn bitcoin của bạn khỏi đánh cắp bởi các phẩn mềm gián điệp nhiễm vào máy tính của bạn.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your vertcoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Xin lưu ý rằng mật mã hóa ví của bạn không thể bảo vệ hoàn toàn vertcoin của bạn khỏi đánh cắp bởi các phẩn mềm gián điệp nhiễm vào máy tính của bạn.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -227,7 +221,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>VertcoinApplication</name>
     <message>
         <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
         <translation type="unfinished">Lỗi nghiêm trong. %1 không thể tiếp tục và sẽ thoát ra</translation>
@@ -248,8 +242,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Số lượng</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Nhập một Bitcoin address (e.g. %1)</translation>
+        <source>Enter a Vertcoin address (e.g. %1)</source>
+        <translation type="unfinished">Nhập một Vertcoin address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 h</source>
@@ -265,13 +259,13 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -305,177 +299,30 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
-    <message>
-        <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</source>
-        <translation type="unfinished">Dự toán phí không thành công. Fallbackfee bị vô hiệu hóa. Đợi sau một vài khối hoặc kích hoạt -fallbackfee.</translation>
-    </message>
-    <message>
-        <source>This is the maximum transaction fee you pay (in addition to the normal fee) to prioritize partial spend avoidance over regular coin selection.</source>
-        <translation type="unfinished">Đây là phí giao dịch tối đa bạn phải trả (ngoài phí thông thường) để ưu tiên việc tránh chi xài một phần (partial spend) so với việc lựa chọn đồng coin thông thường.</translation>
-    </message>
-    <message>
-        <source>Warning: Private keys detected in wallet {%s} with disabled private keys</source>
-        <translation type="unfinished">Cảnh báo: các khóa riêng tư được tìm thấy trong ví {%s} với  khóa riêng tư không kích hoạt</translation>
-    </message>
-    <message>
-        <source>A fatal internal error occurred, see debug.log for details</source>
-        <translation type="unfinished">Lỗi nghiêm trọng xảy ra, xem debug.log để biết chi tiết</translation>
-    </message>
-    <message>
-        <source>Cannot set -peerblockfilters without -blockfilterindex.</source>
-        <translation type="unfinished">Không thể đặt -peerblockfilters mà không có -blockfilterindex.</translation>
-    </message>
-    <message>
-        <source>Cannot write to data directory '%s'; check permissions.</source>
-        <translation type="unfinished">Không thể ghi vào thư mục dữ liệu  '%s'; kiểm tra lại quyền.</translation>
-    </message>
-    <message>
-        <source>Config setting for %s only applied on %s network when in [%s] section.</source>
-        <translation type="unfinished">Cài  dặt thuộc tính cho %s chỉ có thể áp dụng cho  mạng %s trong khi  [%s] .</translation>
-    </message>
-    <message>
-        <source>Could not find asmap file %s</source>
-        <translation type="unfinished">Không tìm thấy tệp asmap %s</translation>
-    </message>
-    <message>
-        <source>Could not parse asmap file %s</source>
-        <translation type="unfinished">Không đọc được tệp asmap %s</translation>
-    </message>
-    <message>
-        <source>Disk space is too low!</source>
-        <translation type="unfinished">Ổ đĩa còn quá ít</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Private keys can only be disabled during creation</source>
-        <translation type="unfinished">Lỗi tải %s: Khóa riêng tư chỉ có thể không kích hoạt trong suốt quá trình tạo.</translation>
-    </message>
-    <message>
-        <source>Error: Disk space is low for %s</source>
-        <translation type="unfinished">Lỗi: Đĩa trống ít quá cho %s</translation>
-    </message>
-    <message>
-        <source>Error: Keypool ran out, please call keypoolrefill first</source>
-        <translation type="unfinished">Lỗi: Keypool đã hết, vui lòng gọi keypoolrefill trước</translation>
-    </message>
-    <message>
-        <source>Failed to rescan the wallet during initialization</source>
-        <translation type="unfinished">Lỗi quét lại ví trong xuất quá trình khởi tạo</translation>
-    </message>
-    <message>
-        <source>Failed to verify database</source>
-        <translation type="unfinished">Lỗi xác nhận dữ liệu</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation type="unfinished">Không đủ tiền</translation>
-    </message>
-    <message>
-        <source>Invalid P2P permission: '%s'</source>
-        <translation type="unfinished">Quyền P2P không hợp lệ: '%s'</translation>
-    </message>
-    <message>
-        <source>No proxy server specified. Use -proxy=&lt;ip&gt; or -proxy=&lt;ip:port&gt;.</source>
-        <translation type="unfinished">Không có máy chủ proxy nào được chỉ định. Sử dụng -proxy =&lt;ip&gt; hoặc -proxy =&lt;ip:port&gt;.</translation>
-    </message>
-    <message>
-        <source>Section [%s] is not recognized.</source>
-        <translation type="unfinished">Mục [%s] không được nhìn nhận.</translation>
-    </message>
-    <message>
-        <source>Specified -walletdir "%s" does not exist</source>
-        <translation type="unfinished">Thư mục ví được nêu  -walletdir "%s" không tồn tại</translation>
-    </message>
-    <message>
-        <source>Specified -walletdir "%s" is a relative path</source>
-        <translation type="unfinished">Chỉ định -walletdir "%s" là đường dẫn tương đối</translation>
-    </message>
-    <message>
-        <source>Specified -walletdir "%s" is not a directory</source>
-        <translation type="unfinished">Chỉ định -walletdir "%s" không phải là một thư mục</translation>
-    </message>
-    <message>
-        <source>Specified blocks directory "%s" does not exist.</source>
-        <translation type="unfinished">Thư mục chứa các khối được chỉ ra "%s"  không tồn tại</translation>
-    </message>
-    <message>
-        <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation type="unfinished">Wallet sẽ hủy thanh toán nhỏ hơn phí relay.</translation>
-    </message>
-    <message>
-        <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation type="unfinished">Đây là minimum transaction fee bạn pay cho mỗi transaction.</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished">Đây là transaction fee bạn sẽ pay nếu gửi transaction.</translation>
-    </message>
-    <message>
-        <source>Transaction amounts must not be negative</source>
-        <translation type="unfinished">Transaction amounts phải không âm</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">Transaction có chuỗi mempool chain quá dài</translation>
-    </message>
-    <message>
-        <source>Transaction must have at least one recipient</source>
-        <translation type="unfinished">Transaction phải có ít nhất một người nhận</translation>
-    </message>
-    <message>
-        <source>Unable to create the PID file '%s': %s</source>
-        <translation type="unfinished">Không thể tạo tệp PID '%s': %s</translation>
-    </message>
-    <message>
-        <source>Unable to generate initial keys</source>
-        <translation type="unfinished">Không thể tạo khóa ban đầu</translation>
-    </message>
-    <message>
-        <source>Unable to generate keys</source>
-        <translation type="unfinished">Không thể tạo khóa</translation>
-    </message>
-    <message>
-        <source>Unknown -blockfilterindex value %s.</source>
-        <translation type="unfinished">Không rõ giá trị  -blockfilterindex  %s.</translation>
-    </message>
-    <message>
-        <source>Unknown address type '%s'</source>
-        <translation type="unfinished">Không biết địa chỉ kiểu '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown change type '%s'</source>
-        <translation type="unfinished">Không biết thay đổi kiểu '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation type="unfinished">Unknown network được xác định trong -onlynet: '%s'</translation>
-    </message>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Tổng quan</translation>
+        <translation>&amp;Tổng quan</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Hiển thị tổng quan ví</translation>
+        <translation>Hiển thị tổng quan ví</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Các Giao Dịch</translation>
+        <translation>&amp;Các Giao Dịch</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Trình duyệt lịch sử giao dịch</translation>
+        <translation>Trình duyệt lịch sử giao dịch</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">T&amp;hoát</translation>
+        <translation>T&amp;hoát</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Đóng ứng dụng</translation>
+        <translation>Đóng ứng dụng</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -487,11 +334,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">Về &amp;Qt</translation>
+        <translation>Về &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Hiện thông tin về Qt</translation>
+        <translation>Hiện thông tin về Qt</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -515,44 +362,52 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Proxy là &lt;b&gt; cho phép &lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Gửi coin đến một địa chỉ Bitcoin</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Gửi coin đến một địa chỉ Vertcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished">Backup ví đến một địa chỉ khác</translation>
+        <translation>Backup ví đến một địa chỉ khác</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Thay đổi cụm mật khẩu cho ví đã mã hóa</translation>
+        <translation>Thay đổi cụm mật khẩu cho ví đã mã hóa</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;Gửi</translation>
+        <translation>&amp;Gửi</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;Nhận</translation>
+        <translation>&amp;Nhận</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Hiển thị / Ẩn</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Hiện hoặc ẩn cửa sổ chính</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">Mã hóa private key thuộc về ví của bạn</translation>
+        <translation>Mã hóa private key thuộc về ví của bạn</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Đăng ký lời nhắn với địa chỉ Bitcoin của bạn để chứng minh quyền sở hữu chúng</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>Đăng ký lời nhắn với địa chỉ Vertcoin của bạn để chứng minh quyền sở hữu chúng</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Xác minh lời nhắn để chắc chắn đã được đăng ký với địa chỉ Bitcoin xác định</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Xác minh lời nhắn để chắc chắn đã được đăng ký với địa chỉ Vertcoin xác định</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Các thanh công cụ</translation>
+        <translation>Các thanh công cụ</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Yêu cầu thanh toán (tạo QR code và bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation type="unfinished">Yêu cầu thanh toán (tạo QR code và vertcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -568,45 +423,37 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 phia sau</translation>
+        <translation>%1 phia sau</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished">Khối nhận cuối cùng đã được tạo %1.</translation>
+        <translation>Khối nhận cuối cùng đã được tạo %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished">Các giao dịch sau giao dịch này sẽ không được hiển thị.</translation>
+        <translation>Các giao dịch sau giao dịch này sẽ không được hiển thị.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Lỗi</translation>
+        <translation>Lỗi</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Cảnh báo</translation>
+        <translation>Cảnh báo</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Thông tin</translation>
+        <translation>Thông tin</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished">Đã cập nhật</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Kết nối với mạng Bitcoin thông qua một proxy SOCKS5 riêng cho các dịch vụ Tor hành.</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Tải một phần giao dịch Bitcoin đã ký từ khay nhớ tạm</translation>
+        <translation>Đã cập nhật</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -625,8 +472,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Các địa chỉ đang nhận</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
-        <translation type="unfinished">Mở một bitcoin: URI</translation>
+        <source>Open a vertcoin: URI</source>
+        <translation type="unfinished">Mở một vertcoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -645,8 +492,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Đóng tất cả ví</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Hiển thị %1 tin nhắn hỗ trợ để nhận được danh sách Bitcoin command-line khả dụng</translation>
+        <source>Show the %1 help message to get a list with possible Vertcoin command-line options</source>
+        <translation type="unfinished">Hiển thị %1 tin nhắn hỗ trợ để nhận được danh sách Vertcoin command-line khả dụng</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -655,6 +502,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>No wallets available</source>
         <translation type="unfinished">Không có ví nào</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation type="unfinished">Thu nhỏ</translation>
     </message>
     <message>
         <source>Zoom</source>
@@ -669,7 +520,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">%1 khách</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -717,11 +568,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation type="unfinished">Giao dịch đã gửi</translation>
+        <translation>Giao dịch đã gửi</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Giao dịch đang nhận</translation>
+        <translation>Giao dịch đang nhận</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
@@ -737,17 +588,13 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">Ví thì &lt;b&gt;encrypted&lt;/b&gt; và hiện tại &lt;b&gt;unlocked&lt;/b&gt;</translation>
+        <translation>Ví thì &lt;b&gt;encrypted&lt;/b&gt; và hiện tại &lt;b&gt;unlocked&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">Ví thì &lt;b&gt;encrypted&lt;/b&gt; và hiện tại &lt;b&gt;locked&lt;/b&gt;</translation>
+        <translation>Ví thì &lt;b&gt;encrypted&lt;/b&gt; và hiện tại &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
-    <message>
-        <source>Original message:</source>
-        <translation type="unfinished">Tin nhắn ban đầu:</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -866,11 +713,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>CreateWalletActivity</name>
     <message>
-        <source>Create Wallet</source>
-        <extracomment>Title of window indicating the progress of creation of a new wallet.</extracomment>
-        <translation type="unfinished">Tạo Ví</translation>
-    </message>
-    <message>
         <source>Create wallet failed</source>
         <translation type="unfinished">Tạo ví thất bại</translation>
     </message>
@@ -892,11 +734,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>default wallet</source>
         <translation type="unfinished">ví mặc định</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <extracomment>Title of window indicating the progress of opening of a wallet.</extracomment>
-        <translation type="unfinished">Mớ ví</translation>
     </message>
     </context>
 <context>
@@ -945,10 +782,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Mật mã hóa ví</translation>
     </message>
     <message>
-        <source>Advanced Options</source>
-        <translation type="unfinished">Giao dịch thiếu một số thông tin về đầu vào.</translation>
-    </message>
-    <message>
         <source>Disable private keys for this wallet. Wallets with private keys disabled will have no private keys and cannot have an HD seed or imported private keys. This is ideal for watch-only wallets.</source>
         <translation type="unfinished">Tắt các khóa cá nhân cho ví này. Các ví với khóa cá nhân tắt sẽ không có các khóa cá nhân và không thể có nhân HD hoặc nhập thêm khóa cá nhân. Việc này tốt cho các ví chỉ dùng để xem.</translation>
     </message>
@@ -965,27 +798,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Tạo ví trống</translation>
     </message>
     <message>
-        <source>Use descriptors for scriptPubKey management</source>
-        <translation type="unfinished">Không có máy chủ proxy nào được chỉ định. Sử dụng -proxy = &lt;ip&gt; hoặc -proxy = &lt;ip: port&gt;.</translation>
-    </message>
-    <message>
-        <source>Descriptor Wallet</source>
-        <translation type="unfinished">Mô tả ví</translation>
-    </message>
-    <message>
         <source>Create</source>
         <translation type="unfinished">Tạo</translation>
-    </message>
-    <message>
-        <source>Compiled without sqlite support (required for descriptor wallets)</source>
-        <translation type="unfinished">Biên dịch cần hỗ trợ SQLite(Bắt buộc đối với mô tả ví)</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>&amp;Label</source>
-        <translation type="unfinished">Nhãn dữ liệu</translation>
+        <translation>Nhãn dữ liệu</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -997,7 +818,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation type="unfinished">Địa chỉ</translation>
+        <translation>Địa chỉ</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -1012,8 +833,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Edit address đang gửi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Address đã nhập "%1" không valid Bitcoin address.</translation>
+        <source>The entered address "%1" is not a valid Vertcoin address.</source>
+        <translation type="unfinished">Address đã nhập "%1" không valid Vertcoin address.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1036,23 +857,23 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation type="unfinished">Một danh mục dữ liệu mới sẽ được tạo.</translation>
+        <translation>Một danh mục dữ liệu mới sẽ được tạo.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation type="unfinished">tên</translation>
+        <translation>tên</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation type="unfinished">Danh mục đã tồn tại. Thêm %1 nếu bạn dự định creat một danh mục mới ở đây.</translation>
+        <translation>Danh mục đã tồn tại. Thêm %1 nếu bạn dự định creat một danh mục mới ở đây.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation type="unfinished">Path đã tồn tại, và không là danh mục.</translation>
+        <translation>Path đã tồn tại, và không là danh mục.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation type="unfinished">Không thể create dữ liệu danh mục tại đây.</translation>
+        <translation>Không thể create dữ liệu danh mục tại đây.</translation>
     </message>
 </context>
 <context>
@@ -1073,8 +894,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 sẽ download và lưu trữ một bản copy của Bitcoin block chain.</translation>
+        <source>%1 will download and store a copy of the Vertcoin block chain.</source>
+        <translation type="unfinished">%1 sẽ download và lưu trữ một bản copy của Vertcoin block chain.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1086,7 +907,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Lỗi</translation>
+        <translation>Lỗi</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
@@ -1110,11 +931,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation type="unfinished">Sử dụng default danh mục đa ta</translation>
+        <translation>Sử dụng default danh mục đa ta</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation type="unfinished">Sử dụng custom danh mục data:</translation>
+        <translation>Sử dụng custom danh mục data:</translation>
     </message>
 </context>
 <context>
@@ -1134,12 +955,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>ModalOverlay</name>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation type="unfinished">Giao dịch gần đây có thể chưa được hiển thị, và vì vậy số dư wallet của bạn có thể không dúng. Thông tin này sẽ được làm đúng khi wallet hoàn thành đồng bộ với bitcoin network, như chi tiết bên dưới.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vertcoin network, as detailed below.</source>
+        <translation type="unfinished">Giao dịch gần đây có thể chưa được hiển thị, và vì vậy số dư wallet của bạn có thể không dúng. Thông tin này sẽ được làm đúng khi wallet hoàn thành đồng bộ với vertcoin network, như chi tiết bên dưới.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Cố gắng spend các bitcoins bị ảnh hưởng bởi các giao dịch chưa được hiển thị sẽ không được chấp nhận bởi mạng.</translation>
+        <source>Attempting to spend vertcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation type="unfinished">Cố gắng spend các vertcoins bị ảnh hưởng bởi các giao dịch chưa được hiển thị sẽ không được chấp nhận bởi mạng.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1173,24 +994,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
-        <translation type="unfinished">Mở bitcoin URI</translation>
+        <source>Open vertcoin URI</source>
+        <translation type="unfinished">Mở vertcoin URI</translation>
     </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <extracomment>Tooltip text for button that allows you to paste an address that is in your clipboard.</extracomment>
-        <translation type="unfinished">Paste address từ clipboard</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Tùy chỉnh</translation>
+        <translation>Tùy chỉnh</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation type="unfinished">&amp;Chính</translation>
+        <translation>&amp;Chính</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
@@ -1209,6 +1025,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Minimize thay vì thoát khỏi ứng dụng khi cửa sổ đóng lại. Khi bật tùy chọn này, ứng dụng sẽ chỉ được đóng sau khi chọn Exit trong menu.</translation>
     </message>
     <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation type="unfinished">Bên thứ ba URLs (e.g. a block explorer) xuất hiện trong thẻ giao dịch như context menu items. %s in the URL thì được thay thế bởi transaction hash. Multiple URLs are separated by vertical bar |.</translation>
+    </message>
+    <message>
         <source>Open the %1 configuration file from the working directory.</source>
         <translation type="unfinished">Mở %1 configuration file từ danh mục làm việc working directory.</translation>
     </message>
@@ -1218,11 +1038,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished">Reset tất cả client options to default.</translation>
+        <translation>Reset tất cả client options to default.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished">&amp;Reset Tùy chọn</translation>
+        <translation>&amp;Reset Tùy chọn</translation>
     </message>
     <message>
         <source>Prune &amp;block storage to</source>
@@ -1241,8 +1061,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Chấp nhận  kết nối đang tới</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Kết nối đến Bitcoin network qua một SOCKS5 proxy.</translation>
+        <source>Connect to the Vertcoin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Kết nối đến Vertcoin network qua một SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1254,15 +1074,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished">Hiển thị chỉ thẻ icon sau khi thu nhỏ cửa sổ.</translation>
+        <translation>Hiển thị chỉ thẻ icon sau khi thu nhỏ cửa sổ.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished">&amp;Minimize đến thẻ thay vì taskbar</translation>
+        <translation>&amp;Minimize đến thẻ thay vì taskbar</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished">Giao diện người dùng &amp;language:</translation>
+        <translation>Giao diện người dùng &amp;language:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
@@ -1270,23 +1090,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished">&amp;Unit để hiện số lượng tại đây:</translation>
+        <translation>&amp;Unit để hiện số lượng tại đây:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Chọn default đơn vị phân chia để hiện giao diện và đang gửi coins.</translation>
+        <translation>Chọn default đơn vị phân chia để hiện giao diện và đang gửi coins.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
         <translation type="unfinished">Cho hiển thị tính năng coin control hoặc không.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Kết nối với mạng Bitcoin thông qua proxy SOCKS5 riêng cho các dịch vụ Tor</translation>
-    </message>
-    <message>
-        <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
-        <translation type="unfinished">Sử dụng proxy SOCKS&amp;5 riêng biệt để tiếp cận các đối tác ngang hàng thông qua các dịch vụ Tor Onion.</translation>
+        <source>&amp;Third party transaction URLs</source>
+        <translation type="unfinished">&amp;Các URL giao dịch của bên thứ ba</translation>
     </message>
     <message>
         <source>Options set in this dialog are overridden by the command line or in the configuration file:</source>
@@ -1294,7 +1110,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Hủy</translation>
+        <translation>&amp;Hủy</translation>
     </message>
     <message>
         <source>none</source>
@@ -1302,7 +1118,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished">Confirm tùy chọn reset</translation>
+        <translation>Confirm tùy chọn reset</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
@@ -1314,17 +1130,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Configuration options</source>
-        <extracomment>Window title text of pop-up box that allows opening up of configuration file.</extracomment>
         <translation type="unfinished">Tùy chọn cấu hình</translation>
     </message>
     <message>
         <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
-        <extracomment>Explanatory text about the priority order of instructions considered by client. The order from high to low being: command-line, configuration file, GUI settings.</extracomment>
         <translation type="unfinished">File cấu hình được sử dụng để chỉ định các tùy chọn nâng cao của người dùng mà ghi đè GUI settings. Ngoài ra, bất kỳ tùy chọn dòng lệnh sẽ ghi đè lên tập tin cấu hình này.</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="unfinished">Hủy</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1340,14 +1150,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished">Cung cấp proxy address thì invalid.</translation>
+        <translation>Cung cấp proxy address thì invalid.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Thông tin được hiển thị có thể đã lỗi thời. Cái wallet tự động đồng bộ với Bitcoin network sau một connection được thiết lập, nhưng quá trình này vẫn chưa completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vertcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Thông tin được hiển thị có thể đã lỗi thời. Cái wallet tự động đồng bộ với Vertcoin network sau một connection được thiết lập, nhưng quá trình này vẫn chưa completed yet.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1359,7 +1169,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation type="unfinished">Số dư khả dụng:</translation>
+        <translation>Số dư khả dụng:</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1367,15 +1177,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation type="unfinished">Tất cả giao dịch vẫn chưa được confirmed, và chưa tính vào số dư có thể chi tiêu</translation>
+        <translation>Tất cả giao dịch vẫn chưa được confirmed, và chưa tính vào số dư có thể chi tiêu</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation type="unfinished">Chưa hoàn thiện:</translation>
+        <translation>Chưa hoàn thiện:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished">Mined balance chưa matured hẳn</translation>
+        <translation>Mined balance chưa matured hẳn</translation>
     </message>
     <message>
         <source>Balances</source>
@@ -1383,11 +1193,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Total:</source>
-        <translation type="unfinished">Tổng cộng:</translation>
+        <translation>Tổng cộng:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation type="unfinished">Tổng số dư hiện tại</translation>
+        <translation>Tổng số dư hiện tại</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1425,10 +1235,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Đăng ký Tx</translation>
     </message>
     <message>
-        <source>Broadcast Tx</source>
-        <translation type="unfinished">Truyền phát Tx</translation>
-    </message>
-    <message>
         <source>Copy to Clipboard</source>
         <translation type="unfinished">Lưu vào bảng tạm</translation>
     </message>
@@ -1437,32 +1243,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Đóng</translation>
     </message>
     <message>
-        <source>Failed to load transaction: %1</source>
-        <translation type="unfinished">Tải giao dịch thất bại: %1</translation>
-    </message>
-    <message>
         <source>Failed to sign transaction: %1</source>
         <translation type="unfinished">Đăng ký giao dịch thất bại :%1</translation>
-    </message>
-    <message>
-        <source>Could not sign any more inputs.</source>
-        <translation type="unfinished">Không thể thêm bất cứ nguồn vào nào.</translation>
-    </message>
-    <message>
-        <source>Signed %1 inputs, but more signatures are still required.</source>
-        <translation type="unfinished">Nguồn %1 đã nạp, nhưng vẫn cần thêm các nguồn khác.</translation>
-    </message>
-    <message>
-        <source>Unknown error processing transaction.</source>
-        <translation type="unfinished">Lỗi không xác định xử lý giao dịch</translation>
-    </message>
-    <message>
-        <source>Transaction broadcast successfully! Transaction ID: %1</source>
-        <translation type="unfinished">Giao dịch dã được truyền thành công: Mã giao dịch: %1</translation>
-    </message>
-    <message>
-        <source>Transaction broadcast failed: %1</source>
-        <translation type="unfinished">Giao dịch truyền phát không thành công: %1</translation>
     </message>
     <message>
         <source>PSBT copied to clipboard.</source>
@@ -1481,10 +1263,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">*Gửi %1 tới %2</translation>
     </message>
     <message>
-        <source>Unable to calculate transaction fee or total transaction amount.</source>
-        <translation type="unfinished">Không thể tính phí giao dịch hoặc tổng số tiền giao dịch.</translation>
-    </message>
-    <message>
         <source>Pays transaction fee: </source>
         <translation type="unfinished">Trả phí giao dịch</translation>
     </message>
@@ -1497,20 +1275,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">hoặc</translation>
     </message>
     <message>
-        <source>Transaction is missing some information about inputs.</source>
-        <translation type="unfinished">Giao dịch thiếu một số thông tin về đầu vào.</translation>
-    </message>
-    <message>
         <source>Transaction still needs signature(s).</source>
         <translation type="unfinished">Giao dịch cần chữ ký</translation>
     </message>
     <message>
         <source>(But this wallet cannot sign transactions.)</source>
         <translation type="unfinished">(Nhưng ví này không thể đăng ký giao dịch.)</translation>
-    </message>
-    <message>
-        <source>(But this wallet does not have the right keys.)</source>
-        <translation type="unfinished">(Nhưng ví này không có chìa khóa phù hợp.)</translation>
     </message>
     <message>
         <source>Transaction is fully signed and ready for broadcast.</source>
@@ -1520,16 +1290,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>PaymentServer</name>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished">Không thể khởi tạo bitcoin: click-to-pay handler</translation>
+        <source>Cannot start vertcoin: click-to-pay handler</source>
+        <translation type="unfinished">Không thể khởi tạo vertcoin: click-to-pay handler</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' không khả dụng URI. Dùng thay vì 'bitcoin:' .</translation>
+        <source>'vertcoin://' is not a valid URI. Use 'vertcoin:' instead.</source>
+        <translation type="unfinished">'vertcoin://' không khả dụng URI. Dùng thay vì 'vertcoin:' .</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI không thể phân tích cú pháp! Đây có thể gây nên bởi invalid Bitcoin address hoặc URI không đúng định dạng tham số.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Vertcoin address or malformed URI parameters.</source>
+        <translation type="unfinished">URI không thể phân tích cú pháp! Đây có thể gây nên bởi invalid Vertcoin address hoặc URI không đúng định dạng tham số.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1563,7 +1333,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <extracomment>Title of Peers Table column which states the network the peer connected through.</extracomment>
         <translation type="unfinished">Mạng</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1591,7 +1361,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished">&amp;Thông tin</translation>
+        <translation>&amp;Thông tin</translation>
     </message>
     <message>
         <source>General</source>
@@ -1611,11 +1381,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Startup time</source>
-        <translation type="unfinished">Startup lúc</translation>
+        <translation>Startup lúc</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">Mạng</translation>
+        <translation>Mạng</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1623,7 +1393,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation type="unfinished">Số lượng connections</translation>
+        <translation>Số lượng connections</translation>
     </message>
     <message>
         <source>Memory Pool</source>
@@ -1747,19 +1517,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Last block time</source>
-        <translation type="unfinished">Thời gian block cuối cùng</translation>
+        <translation>Thời gian block cuối cùng</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished">&amp;BangDieuKhien</translation>
+        <translation>&amp;BangDieuKhien</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation type="unfinished">Debug file log</translation>
+        <translation>Debug file log</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation type="unfinished">Xóa console</translation>
+        <translation>Xóa console</translation>
     </message>
     <message>
         <source>Executing command without any wallet</source>
@@ -1777,8 +1547,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">Một optional lời nhắn để đính kèm đến payment request, cái mà sẽ được hiển thị khi mà request đang mở. Lưu ý: Tin nhắn này sẽ không được gửi với payment over the Bitcoin network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Vertcoin network.</source>
+        <translation type="unfinished">Một optional lời nhắn để đính kèm đến payment request, cái mà sẽ được hiển thị khi mà request đang mở. Lưu ý: Tin nhắn này sẽ không được gửi với payment over the Vertcoin network.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1811,6 +1581,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Clear</source>
         <translation type="unfinished">Xóa</translation>
+    </message>
+    <message>
+        <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
+        <translation type="unfinished">Các địa chỉ segwit gốc (còn gọi là Bech32 hoặc BIP-173) sẽ giảm phí giao dịch của bạn sau này và bảo vệ tốt hơn trước các lỗi chính tả, nhưng ví cũ không hỗ trợ chúng. Khi không được chọn, một địa chỉ tương thích với ví cũ sẽ được tạo thay thế.</translation>
+    </message>
+    <message>
+        <source>Generate native segwit (Bech32) address</source>
+        <translation type="unfinished">Tạo địa chỉ segwit (Bech32) riêng</translation>
     </message>
     <message>
         <source>Requested payments history</source>
@@ -1919,7 +1697,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Gửi Coins</translation>
+        <translation>Gửi Coins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1979,7 +1757,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation type="unfinished">Gửi đến tập thể người nhận một lần</translation>
+        <translation>Gửi đến tập thể người nhận một lần</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1994,8 +1772,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ẩn cài đặt phí giao dịch</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation type="unfinished">Khi có khối lượng giao dịch ít hơn chổ trống trong các khối, các nhà đào mỏ cũng như các nút chuyển tiếp có thể thực thi chỉ với một khoản phí tối thiểu. Chỉ trả khoản phí tối thiểu này là tốt, nhưng lưu ý rằng điều này có thể dẫn đến một giao dịch không bao giờ xác nhận một khi có nhu cầu giao dịch bitcoin nhiều hơn khả năng mạng có thể xử lý.</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for vertcoin transactions than the network can process.</source>
+        <translation type="unfinished">Khi có khối lượng giao dịch ít hơn chổ trống trong các khối, các nhà đào mỏ cũng như các nút chuyển tiếp có thể thực thi chỉ với một khoản phí tối thiểu. Chỉ trả khoản phí tối thiểu này là tốt, nhưng lưu ý rằng điều này có thể dẫn đến một giao dịch không bao giờ xác nhận một khi có nhu cầu giao dịch vertcoin nhiều hơn khả năng mạng có thể xử lý.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2015,11 +1793,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="unfinished">Số dư:</translation>
+        <translation>Số dư:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation type="unfinished">Confirm hành động gửi</translation>
+        <translation>Confirm hành động gửi</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -2054,8 +1832,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Cr&amp;eate không được ký</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Tạo Giao dịch Bitcoin được ký một phần (PSBT) để sử dụng với các dạng như: ví ngoại tuyến %1 hoặc ví phần cứng tương thích PSBT.</translation>
+        <source>Creates a Partially Signed Vertcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation type="unfinished">Tạo Giao dịch Vertcoin được ký một phần (PSBT) để sử dụng với các dạng như: ví ngoại tuyến %1 hoặc ví phần cứng tương thích PSBT.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -2068,6 +1846,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>%1 to %2</source>
         <translation type="unfinished">%1 đến%2</translation>
+    </message>
+    <message>
+        <source>Do you want to draft this transaction?</source>
+        <translation type="unfinished">Bạn có muốn tạo tạm thời dao dịch này?</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation type="unfinished">Bạn chắc chắn muốn gửi chứ?</translation>
     </message>
     <message>
         <source>Save Transaction Data</source>
@@ -2087,7 +1873,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Please, review your transaction.</source>
-        <extracomment>Text to prompt a user to review the details of the transaction they are attempting to send.</extracomment>
         <translation type="unfinished">Làm ơn xem xét đánh giá giao dịch của bạn.</translation>
     </message>
     <message>
@@ -2101,6 +1886,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Confirm send coins</source>
         <translation type="unfinished">Confirm gửi coins</translation>
+    </message>
+    <message>
+        <source>Confirm transaction proposal</source>
+        <translation type="unfinished">Xác nhận đề xuất giao dịch</translation>
     </message>
     <message>
         <source>Watch-only balance:</source>
@@ -2140,7 +1929,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -2164,12 +1953,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Chọn mới thì address</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">The Bitcoin address để gửi the payment đến</translation>
+        <source>The Vertcoin address to send the payment to</source>
+        <translation type="unfinished">The Vertcoin address để gửi the payment đến</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Paste address từ clipboard</translation>
+        <translation>Paste address từ clipboard</translation>
     </message>
     <message>
         <source>Remove this entry</source>
@@ -2180,8 +1969,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Lượng tiền để gửi trong mỗi đơn vị đã chọn</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">The fee sẽ được khấu trừ từ số tiền đang gửi. Người nhận sẽ receive ít bitcoins hơn bạn gõ vào khoảng trống. Nếu nhiều người gửi được chọn, fee sẽ được chia đều.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vertcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation type="unfinished">The fee sẽ được khấu trừ từ số tiền đang gửi. Người nhận sẽ receive ít vertcoins hơn bạn gõ vào khoảng trống. Nếu nhiều người gửi được chọn, fee sẽ được chia đều.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2208,8 +1997,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Nhập một label cho cái address này để thêm vào danh sách địa chỉ đã sử dụng</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation type="unfinished">Một tin nhắn được đính kèm với số bitcoin: URI mà sẽ được lưu giữ với transaction dành cho tài liệu tham khảo. Lưu ý: Tin nhắn này sẽ không được gửi thông qua Bitcoin network.</translation>
+        <source>A message that was attached to the vertcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vertcoin network.</source>
+        <translation type="unfinished">Một tin nhắn được đính kèm với số vertcoin: URI mà sẽ được lưu giữ với transaction dành cho tài liệu tham khảo. Lưu ý: Tin nhắn này sẽ không được gửi thông qua Vertcoin network.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2221,29 +2010,22 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>SendConfirmationDialog</name>
-    <message>
-        <source>Send</source>
-        <translation type="unfinished">Gửi</translation>
-    </message>
-    </context>
-<context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished">Chữ ký - Sign / Verify a Message</translation>
+        <translation>Chữ ký - Sign / Verify a Message</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished">&amp;Sign Tin nhắn</translation>
+        <translation>&amp;Sign Tin nhắn</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Bạn có thể ký/đồng ý với địa chỉ chứng minh bạn có thể receive bitcoins đã gửi đến chúng. Cẩn thận không ký bất cứ không rõ hay random, như các cuộc tấn công lừa đảo có thể cố lừa bạn ký tên vào danh tính của bạn.. Chỉ ký các bản tuyên bố hoàn chỉnh mà bạn đồng ý.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive vertcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation type="unfinished">Bạn có thể ký/đồng ý với địa chỉ chứng minh bạn có thể receive vertcoins đã gửi đến chúng. Cẩn thận không ký bất cứ không rõ hay random, như các cuộc tấn công lừa đảo có thể cố lừa bạn ký tên vào danh tính của bạn.. Chỉ ký các bản tuyên bố hoàn chỉnh mà bạn đồng ý.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">The Bitcoin address để ký với tin nhắn</translation>
+        <source>The Vertcoin address to sign the message with</source>
+        <translation type="unfinished">The Vertcoin address để ký với tin nhắn</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2251,35 +2033,35 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Paste address từ clipboard</translation>
+        <translation>Paste address từ clipboard</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished">Nhập tin nhắn bạn muốn ký tại đây</translation>
+        <translation>Nhập tin nhắn bạn muốn ký tại đây</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished">Copy hiện tại signature tới system clipboard</translation>
+        <translation>Copy hiện tại signature tới system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Ký tin nhắn để chứng minh bạn sở hữu Bitcoin address này</translation>
+        <source>Sign the message to prove you own this Vertcoin address</source>
+        <translation>Ký tin nhắn để chứng minh bạn sở hữu Vertcoin address này</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished">Reset tất cả khoảng chữ ký nhắn</translation>
+        <translation>Reset tất cả khoảng chữ ký nhắn</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished">&amp;Verify Tin nhắn</translation>
+        <translation>&amp;Verify Tin nhắn</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
         <translation type="unfinished">Nhập vào address người nhận, tin nhắn (chắc rằng bạn copy line breaks, khoảng trống, tabs, etc. chính xác) và signature bên dưới verify tin nhắn. Cẩn thận không đọc nhiều hơn từ signature so với cái được ký trong bản thân tin nhắn, để tránh bị lừa bới man-in-the-middle tấn công. Lưu ý rằng điều này chỉ chứng nhận nhóm những người nhân với address, nó không thể chứng minh bên gửi có bất kỳ transaction!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">The Bitcoin address tin nhắn đã ký với</translation>
+        <source>The Vertcoin address the message was signed with</source>
+        <translation type="unfinished">The Vertcoin address tin nhắn đã ký với</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -2290,12 +2072,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Chữ ký được cung cấp khi tin nhắn đã được ký</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Verify tin nhắn để chắc rằng nó đã được ký với xác định Bitcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Vertcoin address</source>
+        <translation>Verify tin nhắn để chắc rằng nó đã được ký với xác định Vertcoin address</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished">Reset tất cả verify khoảng trống nhắn</translation>
+        <translation>Reset tất cả verify khoảng trống nhắn</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -2328,13 +2110,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>Date</source>
         <translation type="unfinished">Ngày</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
         </translation>
     </message>
@@ -2364,6 +2152,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Label</source>
         <translation type="unfinished">Nhãn</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+        </translation>
     </message>
     <message>
         <source>Conflicted</source>
@@ -2401,17 +2195,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Năm nay</translation>
     </message>
     <message>
-        <source>Other</source>
-        <translation type="unfinished">Khác</translation>
-    </message>
-    <message>
         <source>Enter address, transaction id, or label to search</source>
         <translation type="unfinished">Nhập địa chỉ, số id giao dịch, hoặc nhãn để tìm kiếm</translation>
-    </message>
-    <message>
-        <source>Comma separated file</source>
-        <extracomment>Expanded name of the CSV file format. See: https://en.wikipedia.org/wiki/Comma-separated_values.</extracomment>
-        <translation type="unfinished">Tệp tách dấu phẩy</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -2437,34 +2222,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>WalletFrame</name>
     <message>
-        <source>No wallet has been loaded.
-Go to File &gt; Open Wallet to load a wallet.
-- OR -</source>
-        <translation type="unfinished">Chưa có ví nào được tải. Đi tới Tệp&gt; Mở Ví để nạp ví.- HOẶC -</translation>
-    </message>
-    <message>
         <source>Create a new wallet</source>
         <translation type="unfinished">Tạo một ví mới</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">Lỗi</translation>
-    </message>
-    <message>
-        <source>Load Transaction Data</source>
-        <translation type="unfinished">Tải thông tin giao dịch</translation>
-    </message>
-    <message>
-        <source>Partially Signed Transaction (*.psbt)</source>
-        <translation type="unfinished">Giao dịch được đăng ký một phần (*.psbt)</translation>
-    </message>
-    <message>
-        <source>PSBT file must be smaller than 100 MiB</source>
-        <translation type="unfinished">Tệp PSBT phải nhỏ hơn 100 MiB</translation>
-    </message>
-    <message>
-        <source>Unable to decode PSBT</source>
-        <translation type="unfinished">Không thể giải mã PSBT</translation>
     </message>
 </context>
 <context>
@@ -2476,6 +2235,10 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Fee bump error</source>
         <translation type="unfinished">Fee bơm error</translation>
+    </message>
+    <message>
+        <source>Do you want to draft a transaction with fee increase?</source>
+        <translation type="unfinished">Bạn có muốn tạo tạm thời một giao dịch với phí tăng?</translation>
     </message>
     <message>
         <source>Can't draft transaction.</source>
@@ -2501,8 +2264,159 @@ Go to File &gt; Open Wallet to load a wallet.
         <translation type="unfinished">Xuất dữ liệu trong thẻ hiện tại ra file</translation>
     </message>
     <message>
+        <source>Error</source>
+        <translation type="unfinished">Lỗi</translation>
+    </message>
+    <message>
+        <source>Load Transaction Data</source>
+        <translation type="unfinished">Tải thông tin giao dịch</translation>
+    </message>
+    <message>
+        <source>Partially Signed Transaction (*.psbt)</source>
+        <translation type="unfinished">Giao dịch được đăng ký một phần (*.psbt)</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation type="unfinished">Hủy</translation>
     </message>
 </context>
+<context>
+    <name>vertcoin-core</name>
+    <message>
+        <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
+        <translation type="unfinished">Không thể cung cấp kết nối nào và có addrman tìm kết nối đi cùng một lúc.</translation>
+    </message>
+    <message>
+        <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</source>
+        <translation type="unfinished">Dự toán phí không thành công. Fallbackfee bị vô hiệu hóa. Đợi sau một vài khối hoặc kích hoạt -fallbackfee.</translation>
+    </message>
+    <message>
+        <source>Warning: Private keys detected in wallet {%s} with disabled private keys</source>
+        <translation type="unfinished">Cảnh báo: các khóa riêng tư được tìm thấy trong ví {%s} với  khóa riêng tư không kích hoạt</translation>
+    </message>
+    <message>
+        <source>A fatal internal error occurred, see debug.log for details</source>
+        <translation type="unfinished">Lỗi nghiêm trọng xảy ra, xem debug.log để biết chi tiết</translation>
+    </message>
+    <message>
+        <source>Cannot write to data directory '%s'; check permissions.</source>
+        <translation type="unfinished">Không thể ghi vào thư mục dữ liệu  '%s'; kiểm tra lại quyền.</translation>
+    </message>
+    <message>
+        <source>Config setting for %s only applied on %s network when in [%s] section.</source>
+        <translation type="unfinished">Cài  dặt thuộc tính cho %s chỉ có thể áp dụng cho  mạng %s trong khi  [%s] .</translation>
+    </message>
+    <message>
+        <source>Could not find asmap file %s</source>
+        <translation type="unfinished">Không tìm thấy tệp asmap %s</translation>
+    </message>
+    <message>
+        <source>Could not parse asmap file %s</source>
+        <translation type="unfinished">Không đọc được tệp asmap %s</translation>
+    </message>
+    <message>
+        <source>Disk space is too low!</source>
+        <translation type="unfinished">Ổ đĩa còn quá ít</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Private keys can only be disabled during creation</source>
+        <translation type="unfinished">Lỗi tải %s: Khóa riêng tư chỉ có thể không kích hoạt trong suốt quá trình tạo.</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low for %s</source>
+        <translation type="unfinished">Lỗi: Đĩa trống ít quá cho %s</translation>
+    </message>
+    <message>
+        <source>Failed to rescan the wallet during initialization</source>
+        <translation type="unfinished">Lỗi quét lại ví trong xuất quá trình khởi tạo</translation>
+    </message>
+    <message>
+        <source>Failed to verify database</source>
+        <translation type="unfinished">Lỗi xác nhận dữ liệu</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation type="unfinished">Không đủ tiền</translation>
+    </message>
+    <message>
+        <source>Invalid P2P permission: '%s'</source>
+        <translation type="unfinished">Quyền P2P không hợp lệ: '%s'</translation>
+    </message>
+    <message>
+        <source>Section [%s] is not recognized.</source>
+        <translation type="unfinished">Mục [%s] không được nhìn nhận.</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" does not exist</source>
+        <translation type="unfinished">Thư mục ví được nêu  -walletdir "%s" không tồn tại</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" is a relative path</source>
+        <translation type="unfinished">Chỉ định -walletdir "%s" là đường dẫn tương đối</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" is not a directory</source>
+        <translation type="unfinished">Chỉ định -walletdir "%s" không phải là một thư mục</translation>
+    </message>
+    <message>
+        <source>Specified blocks directory "%s" does not exist.</source>
+        <translation type="unfinished">Thư mục chứa các khối được chỉ ra "%s"  không tồn tại</translation>
+    </message>
+    <message>
+        <source>The wallet will avoid paying less than the minimum relay fee.</source>
+        <translation type="unfinished">Wallet sẽ hủy thanh toán nhỏ hơn phí relay.</translation>
+    </message>
+    <message>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation type="unfinished">Đây là minimum transaction fee bạn pay cho mỗi transaction.</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation type="unfinished">Đây là transaction fee bạn sẽ pay nếu gửi transaction.</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must not be negative</source>
+        <translation type="unfinished">Transaction amounts phải không âm</translation>
+    </message>
+    <message>
+        <source>Transaction has too long of a mempool chain</source>
+        <translation type="unfinished">Transaction có chuỗi mempool chain quá dài</translation>
+    </message>
+    <message>
+        <source>Transaction must have at least one recipient</source>
+        <translation type="unfinished">Transaction phải có ít nhất một người nhận</translation>
+    </message>
+    <message>
+        <source>Unable to create the PID file '%s': %s</source>
+        <translation type="unfinished">Không thể tạo tệp PID '%s': %s</translation>
+    </message>
+    <message>
+        <source>Unable to generate initial keys</source>
+        <translation type="unfinished">Không thể tạo khóa ban đầu</translation>
+    </message>
+    <message>
+        <source>Unable to generate keys</source>
+        <translation type="unfinished">Không thể tạo khóa</translation>
+    </message>
+    <message>
+        <source>Unknown -blockfilterindex value %s.</source>
+        <translation type="unfinished">Không rõ giá trị  -blockfilterindex  %s.</translation>
+    </message>
+    <message>
+        <source>Unknown address type '%s'</source>
+        <translation type="unfinished">Không biết địa chỉ kiểu '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown change type '%s'</source>
+        <translation type="unfinished">Không biết thay đổi kiểu '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation type="unfinished">Unknown network được xác định trong -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrading txindex database</source>
+        <translation type="unfinished">Đang nâng cấp dữ liệu txindex</translation>
+    </message>
+    </context>
 </TS>

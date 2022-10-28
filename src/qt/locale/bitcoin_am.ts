@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">አዲስ አድራሻ ፍጠር</translation>
+        <translation>አዲስ አድራሻ ፍጠር</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">አሁን የተመረጠውን አድራሻ ወደ ሲስተሙ ቅንጥብ ሰሌዳ ቅዳ</translation>
+        <translation>አሁን የተመረጠውን አድራሻ ወደ ሲስተሙ ቅንጥብ ሰሌዳ ቅዳ</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,19 +27,19 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">አሁን የተመረጠውን አድራሻ ከዝርዝሩ ውስጥ ሰርዝ</translation>
+        <translation>አሁን የተመረጠውን አድራሻ ከዝርዝሩ ውስጥ ሰርዝ</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">በአሁኑ ማውጫ ውስጥ ያለውን መረጃ ወደ አንድ ፋይል ላክ</translation>
+        <translation>በአሁኑ ማውጫ ውስጥ ያለውን መረጃ ወደ አንድ ፋይል ላክ</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;ላክ</translation>
+        <translation>&amp;ላክ</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;ሰርዝ</translation>
+        <translation>&amp;ሰርዝ</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -62,7 +62,7 @@
         <translation type="unfinished">የመቀበያ አድራሻዎች</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">እነኚ የቢትኮይን ክፍያ የመላኪያ አድራሻዎችዎ ናቸው:: ገንዘብ/ኮይኖች ከመላክዎ በፊት መጠኑን እና የመቀበያ አድራሻውን ሁልጊዜ ያረጋግጡ::</translation>
     </message>
     <message>
@@ -110,19 +110,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">የይለፍ-ሐረግ ንግግር</translation>
+        <translation>የይለፍ-ሐረግ ንግግር</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">የይለፍ-ሐረግዎን ያስገቡ</translation>
+        <translation>የይለፍ-ሐረግዎን ያስገቡ</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">አዲስ የይለፍ-ሐረግ</translation>
+        <translation>አዲስ የይለፍ-ሐረግ</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">አዲስ የይለፍ-ሐረጉን ይድገሙት</translation>
+        <translation>አዲስ የይለፍ-ሐረጉን ይድገሙት</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -145,7 +145,7 @@
         <translation type="unfinished">የቢትኮይን ቦርሳዎን ማመስጠር ያረጋግጡ</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">ማስጠንቀቂያ: የቢትኮይን ቦርሳዎን አመስጥረው የይለፍ-ሐረግዎን ካጡት&lt;b&gt;ቢትኮይኖቾን በሙሉ ያጣሉ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -212,14 +212,14 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -254,30 +254,30 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;አጠቃላይ እይታ</translation>
+        <translation>&amp;አጠቃላይ እይታ</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">የቦርሳ አጠቃላይ እይታ ኣሳይ</translation>
+        <translation>የቦርሳ አጠቃላይ እይታ ኣሳይ</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;ግብይቶች</translation>
+        <translation>&amp;ግብይቶች</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">የግብይት ታሪክ ያስሱ</translation>
+        <translation>የግብይት ታሪክ ያስሱ</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">ውጣ</translation>
+        <translation>ውጣ</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">አፕሊኬሽኑን አቁም</translation>
+        <translation>አፕሊኬሽኑን አቁም</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -289,11 +289,11 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">ስለ &amp;Qt</translation>
+        <translation>ስለ &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished">ስለ Qt መረጃ አሳይ</translation>
+        <translation>ስለ Qt መረጃ አሳይ</translation>
     </message>
     <message>
         <source>Create a new wallet</source>
@@ -305,42 +305,46 @@
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;ላክ</translation>
+        <translation>&amp;ላክ</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;ተቀበል</translation>
+        <translation>&amp;ተቀበል</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;አሳይ/ ደብቅ</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;ፋይል</translation>
+        <translation>&amp;ፋይል</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;ቅንብሮች</translation>
+        <translation>&amp;ቅንብሮች</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;እርዳታ</translation>
+        <translation>&amp;እርዳታ</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">ስህተት</translation>
+        <translation>ስህተት</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">ማሳስቢያ</translation>
+        <translation>ማሳስቢያ</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">መረጃ</translation>
+        <translation>መረጃ</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -359,11 +363,15 @@
         <translation type="unfinished">መደበኛ ዋሌት</translation>
     </message>
     <message>
+        <source>Minimize</source>
+        <translation type="unfinished">አሳንስ</translation>
+    </message>
+    <message>
         <source>Zoom</source>
         <translation type="unfinished">እሳድግ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -446,11 +454,6 @@
         <source>default wallet</source>
         <translation type="unfinished">መደበኛ ዋሌት</translation>
     </message>
-    <message>
-        <source>Open Wallet</source>
-        <extracomment>Title of window indicating the progress of opening of a wallet.</extracomment>
-        <translation type="unfinished">ዋሌት ክፈት</translation>
-    </message>
     </context>
 <context>
     <name>WalletController</name>
@@ -474,13 +477,13 @@
     <name>FreespaceChecker</name>
     <message>
         <source>name</source>
-        <translation type="unfinished">ስም</translation>
+        <translation>ስም</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
+        <source>Vertcoin</source>
         <translation type="unfinished">ቢትኮይን</translation>
     </message>
     <message numerus="yes">
@@ -493,11 +496,11 @@
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">ስህተት</translation>
+        <translation>ስህተት</translation>
     </message>
     <message>
         <source>Welcome</source>
-        <translation type="unfinished">እንኳን ደህና መጣህ</translation>
+        <translation>እንኳን ደህና መጣህ</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
@@ -537,7 +540,7 @@
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">ከ</translation>
+        <translation>ከ</translation>
     </message>
     </context>
 <context>
@@ -602,7 +605,7 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -614,13 +617,20 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
     <message>
         <source>Date</source>
         <translation type="unfinished">ቀን</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -639,6 +649,13 @@
     <message>
         <source>Label</source>
         <translation type="unfinished">መለያ ስም</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -670,11 +687,7 @@
         <source>Create a new wallet</source>
         <translation type="unfinished">አዲስ ዋሌት ፍጠር</translation>
     </message>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished">ስህተት</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>WalletModel</name>
     <message>
@@ -691,6 +704,10 @@
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished">በአሁኑ ማውጫ ውስጥ ያለውን መረጃ ወደ አንድ ፋይል ላክ</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">ስህተት</translation>
     </message>
     </context>
 </TS>

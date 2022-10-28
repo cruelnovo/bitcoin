@@ -128,10 +128,12 @@ static const bool DEFAULT_REST_ENABLE = false;
 
 static const char* DEFAULT_ASMAP_FILENAME="ip_asn.map";
 
+ChainstateManager* g_chainman = nullptr;
+
 /**
  * The PID file facilities.
  */
-static const char* BITCOIN_PID_FILENAME = "bitcoind.pid";
+static const char* BITCOIN_PID_FILENAME = "vertcoind.pid";
 
 static fs::path GetPidFile(const ArgsManager& args)
 {
@@ -589,7 +591,7 @@ void SetupServerArgs(ArgsManager& argsman)
 #endif
 
 #if defined(USE_SYSCALL_SANDBOX)
-    argsman.AddArg("-sandbox=<mode>", "Use the experimental syscall sandbox in the specified mode (-sandbox=log-and-abort or -sandbox=abort). Allow only expected syscalls to be used by bitcoind. Note that this is an experimental new feature that may cause bitcoind to exit or crash unexpectedly: use with caution. In the \"log-and-abort\" mode the invocation of an unexpected syscall results in a debug handler being invoked which will log the incident and terminate the program (without executing the unexpected syscall). In the \"abort\" mode the invocation of an unexpected syscall results in the entire process being killed immediately by the kernel without executing the unexpected syscall.", ArgsManager::ALLOW_ANY, OptionsCategory::OPTIONS);
+    argsman.AddArg("-sandbox=<mode>", "Use the experimental syscall sandbox in the specified mode (-sandbox=log-and-abort or -sandbox=abort). Allow only expected syscalls to be used by vertcoind. Note that this is an experimental new feature that may cause vertcoind to exit or crash unexpectedly: use with caution. In the \"log-and-abort\" mode the invocation of an unexpected syscall results in a debug handler being invoked which will log the incident and terminate the program (without executing the unexpected syscall). In the \"abort\" mode the invocation of an unexpected syscall results in the entire process being killed immediately by the kernel without executing the unexpected syscall.", ArgsManager::ALLOW_ANY, OptionsCategory::OPTIONS);
 #endif // USE_SYSCALL_SANDBOX
 
     // Add the hidden options
@@ -1056,7 +1058,7 @@ bool AppInitParameterInteraction(const ArgsManager& args)
         if (!SetupSyscallSandbox(log_syscall_violation_before_terminating)) {
             return InitError(Untranslated("Installation of the syscall sandbox failed."));
         }
-        LogPrintf("Experimental syscall sandbox enabled (-sandbox=%s): bitcoind will terminate if an unexpected (not allowlisted) syscall is invoked.\n", sandbox_arg);
+        LogPrintf("Experimental syscall sandbox enabled (-sandbox=%s): vertcoind will terminate if an unexpected (not allowlisted) syscall is invoked.\n", sandbox_arg);
     }
 #endif // USE_SYSCALL_SANDBOX
 
@@ -1135,9 +1137,9 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
     // Warn about relative -datadir path.
     if (args.IsArgSet("-datadir") && !args.GetPathArg("-datadir").is_absolute()) {
         LogPrintf("Warning: relative datadir option '%s' specified, which will be interpreted relative to the " /* Continued */
-                  "current working directory '%s'. This is fragile, because if bitcoin is started in the future "
+                  "current working directory '%s'. This is fragile, because if vertcoin is started in the future "
                   "from a different location, it will be unable to locate the current data files. There could "
-                  "also be data loss if bitcoin is started while in a temporary directory.\n",
+                  "also be data loss if vertcoin is started while in a temporary directory.\n",
                   args.GetArg("-datadir", ""), fs::PathToString(fs::current_path()));
     }
 
@@ -1274,6 +1276,7 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
     assert(!node.chainman);
     node.chainman = std::make_unique<ChainstateManager>();
     ChainstateManager& chainman = *node.chainman;
+    g_chainman = &chainman;
 
     assert(!node.peerman);
     node.peerman = PeerManager::make(chainparams, *node.connman, *node.addrman, node.banman.get(),
@@ -1385,6 +1388,36 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
         RegisterValidationInterface(g_zmq_notification_interface);
     }
 #endif
+
+
+    // ********************************************************* Step 6b: generate verthash file and verify if it's valid
+
+    int cycle = 0;
+    while(cycle <= 1) {
+        uiInterface.InitMessage(_("Creating Verthash Datafile - may take several minutes").translated);
+        VerthashDatFile::CreateMiningDataFile();
+
+        bool fVerthashDiskOnly = gArgs.GetBoolArg("-verthash-diskonly", false);
+        if(!fVerthashDiskOnly) {
+            uiInterface.InitMessage(_("Loading Verthash Datafile into RAM").translated);
+            Verthash::LoadInRam();
+        }
+
+        uiInterface.InitMessage(_("Verifying Verthash Datafile").translated);
+        if(!Verthash::VerifyDatFile()) {
+            if(cycle == 0) {
+                VerthashDatFile::DeleteMiningDataFile();
+            } else {
+                return InitError(_("Generated Verthash datafile mismatch"));
+            }
+        } else {
+            break;
+        }
+        cycle++;
+    }
+
+
+
 
     // ********************************************************* Step 7: load block chain
 
@@ -1693,7 +1726,7 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
 
     const auto BadPortWarning = [](const char* prefix, uint16_t port) {
         return strprintf(_("%s request to listen on port %u. This port is considered \"bad\" and "
-                           "thus it is unlikely that any Bitcoin Core peers connect to it. See "
+                           "thus it is unlikely that any Vertcoin Core peers connect to it. See "
                            "doc/p2p-bad-ports.md for details and a full list."),
                          prefix,
                          port);

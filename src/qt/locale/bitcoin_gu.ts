@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">નવું સરનામું બનાવો</translation>
+        <translation>નવું સરનામું બનાવો</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">હાલમાં પસંદ કરેલા સરનામાંને સિસ્ટમ ક્લિપબોર્ડ પર નકલ કરો</translation>
+        <translation>હાલમાં પસંદ કરેલા સરનામાંને સિસ્ટમ ક્લિપબોર્ડ પર નકલ કરો</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">સૂચિમાંથી હાલમાં પસંદ કરેલું સરનામું કાઢી નાખો</translation>
+        <translation>સૂચિમાંથી હાલમાં પસંદ કરેલું સરનામું કાઢી નાખો</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,15 +35,15 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">હાલ માં પસંદ કરેલ માહિતી ને ફાઇલમાં નિકાસ કરો</translation>
+        <translation>હાલ માં પસંદ કરેલ માહિતી ને ફાઇલમાં નિકાસ કરો</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp; નિકાસ કરો</translation>
+        <translation>&amp; નિકાસ કરો</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp; કાઢી નાખો</translation>
+        <translation>&amp; કાઢી નાખો</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -66,11 +66,11 @@
         <translation type="unfinished">મેળવવા માટે ના સરનામાં</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">આ તમારા ચુકવણી કરવા માટે ના સરનામાં છે, હંમેશા કિંમત અને મોકલવાના ના સરનામાં ચકાસી લેવા સિક્કા આપતા પહેલા.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Vertcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">આ તમારુ ચૂકવણું લેવા માટે નું સરનામા છે. નવું સરનામું બનાવા માટે "મેળવવા" માટે ની ટેબ માં "ચૂકવણું લેવા માટે નવું સરનામુ બનાવો" બટન વાપરો.
 ડિજિટલી સહી કરવા માટે 'legacy એટલેકે જુના પ્રકાર નુ' પ્રકાર નું સરનામું હોવું જરૂરી છે.</translation>
@@ -115,19 +115,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished">ગુપ્ત શબ્દ માટે નુ ડાયલોગ</translation>
+        <translation>ગુપ્ત શબ્દ માટે નુ ડાયલોગ</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">ગુપ્ત શબ્દ દાખલ કરો </translation>
+        <translation>ગુપ્ત શબ્દ દાખલ કરો </translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">નવો ગુપ્ત શબ્દ</translation>
+        <translation>નવો ગુપ્ત શબ્દ</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">ગુપ્ત શબ્દ ફરી નાખો</translation>
+        <translation>ગુપ્ત શબ્દ ફરી નાખો</translation>
     </message>
     <message>
         <source>Show passphrase</source>
@@ -154,7 +154,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">એન્ક્રિપ્શન ખાતરી કરો </translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERTCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">ચેતવણી: જો તમે તમારું વletલેટ એન્ક્રિપ્ટ કરો છો અને તમારો પાસફ્રેઝ ખોવાઈ જાય છે, તો તમે તમારા બધા બિટકોઇન્સ ગુમાવશો!</translation>
     </message>
     <message>
@@ -170,14 +170,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>QObject</name>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -212,16 +212,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>VertcoinGUI</name>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Vertcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -270,7 +270,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>SendCoinsDialog</name>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -283,8 +283,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
+    </message>
+    <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform />
             <numerusform />
         </translation>
@@ -295,6 +302,13 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Label</source>
         <translation type="unfinished">ચિઠ્ઠી</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform />
+            <numerusform />
+        </translation>
     </message>
     <message>
         <source>(no label)</source>
