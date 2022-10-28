@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <boost/filesystem.hpp>
 
 #define NODE_SIZE 32
 
