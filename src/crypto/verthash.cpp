@@ -17,8 +17,6 @@
 #define N_INDEXES 4096
 #define BYTE_ALIGNMENT 16
 
-using namespace boost::filesystem;
-
 unsigned char *Verthash::datFile;
 size_t Verthash::datFileSize;
 bool Verthash::datFileInRam;
@@ -31,8 +29,8 @@ bool Verthash::VerifyDatFile()
 {
     CSHA256 ctx;
     if(!datFileInRam) {
-        fs::path dataFile = gArgs.GetDataDirNet() / "verthash.dat";
-        if(!exists(dataFile)) {
+        boost::filesystem::path dataFile{gArgs.GetDataDirNet() / "verthash.dat"};
+        if(!boost::filesystem::exists(dataFile)) {
             throw std::runtime_error("Verthash datafile not found");
         }
         FILE* datfile = fsbridge::fopen(dataFile.c_str(),"rb");
@@ -58,8 +56,8 @@ bool Verthash::VerifyDatFile()
 }
 
 void Verthash::LoadInRam() {
-    fs::path dataFile = gArgs.GetDataDirNet() / "verthash.dat";
-    if(!exists(dataFile)) {
+    boost::filesystem::path dataFile{gArgs.GetDataDirNet() / "verthash.dat"};
+    if(!boost::filesystem::exists(dataFile)) {
         throw std::runtime_error("Verthash datafile not found");
     }
     FILE* datfile = fsbridge::fopen(dataFile.c_str(),"rb");
@@ -108,8 +106,8 @@ void Verthash::Hash(const char* input, char* output)
     FILE* VerthashDatFile;
 
     if(!datFileInRam) {
-        fs::path dataFile = gArgs.GetDataDirNet() / "verthash.dat";
-        if(!exists(dataFile)) {
+        boost::filesystem::path dataFile{gArgs.GetDataDirNet() / "verthash.dat"};
+        if(!boost::filesystem::exists(dataFile)) {
             throw std::runtime_error("Verthash datafile not found");
         }
         VerthashDatFile = fsbridge::fopen(dataFile.c_str(),"rb");

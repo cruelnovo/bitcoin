@@ -17,6 +17,8 @@
 #include <compat/sanity.h>
 #include <consensus/amount.h>
 #include <deploymentstatus.h>
+#include <crypto/verthash_datfile.h>
+#include <crypto/verthash.h>
 #include <fs.h>
 #include <hash.h>
 #include <httprpc.h>
