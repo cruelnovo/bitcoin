@@ -8,6 +8,7 @@ src/vertcoin-cli
 src/vertcoin-gui
 src/vertcoin-node
 src/vertcoin-tx
+src/vertcoin-util
 src/vertcoin-wallet
 src/test/fuzz/*
 !src/test/fuzz/*.*

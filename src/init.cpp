@@ -17,7 +17,6 @@
 #include <chainparams.h>
 #include <compat/sanity.h>
 #include <deploymentstatus.h>
-#include <consensus/validation.h>
 #include <crypto/verthash_datfile.h>
 #include <crypto/verthash.h>
 #include <fs.h>
@@ -106,6 +105,8 @@ static const bool DEFAULT_REST_ENABLE = false;
 #endif
 
 static const char* DEFAULT_ASMAP_FILENAME="ip_asn.map";
+
+ChainstateManager* g_chainman = nullptr;
 
 /**
  * The PID file facilities.
@@ -576,8 +577,8 @@ void SetupServerArgs(ArgsManager& argsman)
 std::string LicenseInfo()
 {
     const std::string URL_SOURCE_CODE = "<https://github.com/vertcoin-project/vertcoin-core>";
-    
-    return CopyrightHolders(strprintf(_("Copyright (C) %i-%i").translated, 2014, COPYRIGHT_YEAR) + " ", 
+
+    return CopyrightHolders(strprintf(_("Copyright (C) %i-%i").translated, 2014, COPYRIGHT_YEAR) + " ",
            strprintf(_("Copyright (C) %i-%i").translated, 2009, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
            strprintf(_("Please contribute if you find %s useful. "
@@ -1187,10 +1188,11 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
     assert(!node.chainman);
     node.chainman = std::make_unique<ChainstateManager>();
     ChainstateManager& chainman = *node.chainman;
+    g_chainman = &chainman;
 
     assert(!node.peerman);
     node.peerman = PeerManager::make(chainparams, *node.connman, *node.addrman, node.banman.get(),
-                                     *node.scheduler, chainman, *node.mempool, ignores_incoming_txs);
+                                     chainman, *node.mempool, ignores_incoming_txs);
     RegisterValidationInterface(node.peerman.get());
 
     // sanitize comments per BIP-0014, format user agent and check total size
@@ -1307,6 +1309,7 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
     }
 #endif
 
+
     // ********************************************************* Step 6b: generate verthash file and verify if it's valid
 
     int cycle = 0;
@@ -1332,6 +1335,9 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
         }
         cycle++;
     }
+
+
+
 
     // ********************************************************* Step 7: load block chain
 
@@ -1829,6 +1835,8 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
     node.scheduler->scheduleEvery([banman]{
         banman->DumpBanlist();
     }, DUMP_BANS_INTERVAL);
+
+    if (node.peerman) node.peerman->StartScheduledTasks(*node.scheduler);
 
 #if HAVE_SYSTEM
     StartupNotify(args);

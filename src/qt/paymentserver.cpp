@@ -3,12 +3,12 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include <config/-config.h>
+#include <config/bitcoin-config.h>
 #endif
 
 #include <qt/paymentserver.h>
 
-#include <qt/units.h>
+#include <qt/bitcoinunits.h>
 #include <qt/guiutil.h>
 #include <qt/optionsmodel.h>
 

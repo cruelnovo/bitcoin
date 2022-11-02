@@ -28,52 +28,6 @@ void SetupChainParamsBaseOptions(ArgsManager& argsman)
     argsman.AddArg("-signetseednode", "Specify a seed node for the signet network, in the hostname[:port] format, e.g. sig.net:1234 (may be used multiple times to specify multiple seed nodes; defaults to the global default signet test network seed node(s))", ArgsManager::ALLOW_STRING, OptionsCategory::CHAINPARAMS);
 }
 
-/**
- * Main network
- */
-// this class left from vertcoin code
-/*
-class CBaseMainParams : public CBaseChainParams
-{
-public:
-    CBaseMainParams()
-    {
-        nRPCPort = 5888;
-    }
-};
-*/
-
-/**
- * Testnet (v3)
- */
-// this class left from vertcoin code
-/*
-class CBaseTestNetParams : public CBaseChainParams
-{
-public:
-    CBaseTestNetParams()
-    {
-        nRPCPort = 15888;
-        strDataDir = "testnet3";
-    }
-};
-*/
-/*
- * Regression test
- */
-// this class left from vertcoin code
-/*
-class CBaseRegTestParams : public CBaseChainParams
-{
-public:
-    CBaseRegTestParams()
-    {
-        nRPCPort = 18443;
-        strDataDir = "regtest";
-    }
-};
-*/
-
 static std::unique_ptr<CBaseChainParams> globalChainBaseParams;
 
 const CBaseChainParams& BaseParams()
@@ -89,13 +43,13 @@ const CBaseChainParams& BaseParams()
 std::unique_ptr<CBaseChainParams> CreateBaseChainParams(const std::string& chain)
 {
     if (chain == CBaseChainParams::MAIN) {
-        return MakeUnique<CBaseChainParams>("", 5888, 5890); //# was 8332);
+        return std::make_unique<CBaseChainParams>("", 5888, 5890); //# was 8332);
     } else if (chain == CBaseChainParams::TESTNET) {
-        return MakeUnique<CBaseChainParams>("testnet3", 15888, 15890); //# was 18332);
+        return std::make_unique<CBaseChainParams>("testnet3", 15888, 15890); //# was 18332);
     } else if (chain == CBaseChainParams::SIGNET) {
-        return MakeUnique<CBaseChainParams>("signet", 38443, 38445);
+        return std::make_unique<CBaseChainParams>("signet", 38332, 38334);
     } else if (chain == CBaseChainParams::REGTEST) {
-        return MakeUnique<CBaseChainParams>("regtest", 18443, 18445);
+        return std::make_unique<CBaseChainParams>("regtest", 18443, 18445);
     }
     throw std::runtime_error(strprintf("%s: Unknown chain %s.", __func__, chain));
 }

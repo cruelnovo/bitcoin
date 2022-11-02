@@ -43,7 +43,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
             return GetNextWorkRequired_Bitcoin(pindexLast, pblock, params);
         } else if(nHeight >= VERTHASH_FORKBLOCK_TESTNET && nHeight < VERTHASH_FORKBLOCK_TESTNET+10) { // Set diff to mindiff on testnet Verthash fork
             return bnProofOfWorkLimit.GetCompact();
-        }	        
+        }
 
         if(nHeight % 12 != 0) {
             CBigNum bnNew;
@@ -52,7 +52,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
             return bnNew.GetCompact();
         }
     }
-    return KimotoGravityWell(pindexLast, pblock, BlocksTargetSpacing, PastBlocksMin, PastBlocksMax, params);    
+    return KimotoGravityWell(pindexLast, pblock, BlocksTargetSpacing, PastBlocksMin, PastBlocksMax, params);
 }
 
 unsigned int GetNextWorkRequired_Bitcoin(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
@@ -89,18 +89,17 @@ unsigned int GetNextWorkRequired_Bitcoin(const CBlockIndex* pindexLast, const CB
         blockstogoback = params.DifficultyAdjustmentInterval();
 
     // Go back by what we want to be 14 days worth of blocks
-    int nHeightFirst = pindexLast->nHeight - (params.DifficultyAdjustmentInterval()-1);
-    assert(nHeightFirst >= 0);
-    const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
-    assert(pindexFirst);
+    const CBlockIndex* pindexFirst = pindexLast;
+    for (int i = 0; pindexFirst && i < blockstogoback; i++)
+        pindexFirst = pindexFirst->pprev;
 
     return CalculateNextWorkRequired(pindexLast, pindexFirst->GetBlockTime(), params);
 }
 
-unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, 
-                               const CBlockHeader *pblock, 
-                               uint64_t TargetBlocksSpacingSeconds, 
-                               uint64_t PastBlocksMin, 
+unsigned int KimotoGravityWell(const CBlockIndex* pindexLast,
+                               const CBlockHeader *pblock,
+                               uint64_t TargetBlocksSpacingSeconds,
+                               uint64_t PastBlocksMin,
                                uint64_t PastBlocksMax,
                                const Consensus::Params& params) {
     /* current difficulty formula - kimoto gravity well */
@@ -117,17 +116,17 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast,
     double                                EventHorizonDeviationSlow;
     static CBigNum                          bnProofOfWorkLimit(params.powLimit);
     static CBigNum                          bnPreVerthashProofOfWorkLimit(params.preVerthashPowLimit);
-    
+
     if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || static_cast<uint64_t>(BlockLastSolved->nHeight) < PastBlocksMin) { return UintToArith256(params.powLimit).GetCompact(); }
 
     for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
         if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
         PastBlocksMass++;
 
-        if (i == 1) { 
-            PastDifficultyAverage.SetCompact(BlockReading->nBits); 
-        } else { 
-            PastDifficultyAverage = ((CBigNum().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev; 
+        if (i == 1) {
+            PastDifficultyAverage.SetCompact(BlockReading->nBits);
+        } else {
+            PastDifficultyAverage = ((CBigNum().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev;
         }
         PastDifficultyAveragePrev = PastDifficultyAverage;
 
@@ -145,15 +144,15 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast,
         if (PastBlocksMass >= PastBlocksMin) {
                 if ((PastRateAdjustmentRatio <= EventHorizonDeviationSlow) || (PastRateAdjustmentRatio >= EventHorizonDeviationFast)) { assert(BlockReading); break; }
         }
-        if (BlockReading->pprev == NULL || 
+        if (BlockReading->pprev == NULL ||
             (Params().NetworkIDString() == CBaseChainParams::MAIN && (BlockReading->nHeight == 1080000 || BlockReading->nHeight == VERTHASH_FORKBLOCK_MAINNET))) // Don't calculate past fork block on mainnet
-        { 
-                assert(BlockReading); 
-                break; 
+        {
+                assert(BlockReading);
+                break;
         }
         BlockReading = BlockReading->pprev;
     }
-    
+
     CBigNum bnNew(PastDifficultyAverage);
     if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
             bnNew *= PastRateActualSeconds;
@@ -196,7 +195,6 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
         nActualTimespan = params.nPowTargetTimespan*4;
 
     // Retarget
-    const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
     arith_uint256 bnNew;
     arith_uint256 bnOld;
     bnNew.SetCompact(pindexLast->nBits);

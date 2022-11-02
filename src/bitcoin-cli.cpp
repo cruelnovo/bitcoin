@@ -260,7 +260,7 @@ public:
         if (!reply["error"].isNull()) return reply;
         const std::vector<UniValue>& nodes{reply["result"].getValues()};
         if (!nodes.empty() && nodes.at(0)["network"].isNull()) {
-            throw std::runtime_error("-addrinfo requires vertcoind server to be running v22.0 and up");
+            throw std::runtime_error("-addrinfo requires vertcoind server to be running v0.18 and up");
         }
         // Count the number of peers we know by network, including torv2 versus torv3.
         std::array<uint64_t, m_networks.size()> counts{{}};
@@ -450,7 +450,7 @@ public:
 
         const UniValue& networkinfo{batch[ID_NETWORKINFO]["result"]};
         if (networkinfo["version"].get_int() < 209900) {
-            throw std::runtime_error("-netinfo requires vertcoind server to be running v0.21.0 and up");
+            throw std::runtime_error("-netinfo requires vertcoind server to be running v0.18 and up");
         }
 
         // Count peer connection totals, and if DetailsRequested(), store peer data in a vector of structs.

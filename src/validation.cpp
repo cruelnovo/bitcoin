@@ -135,6 +135,7 @@ namespace {
 } // namespace
 
 // Internal stuff from blockstorage ...
+extern ChainstateManager* g_chainman;
 extern RecursiveMutex cs_LastBlockFile;
 extern std::vector<CBlockFileInfo> vinfoBlockFile;
 extern int nLastBlockFile;
@@ -3006,7 +3007,7 @@ void CChainState::ReceivedBlockTransactions(const CBlock& block, CBlockIndex* pi
 static bool CheckBlockHeader(const CBlockHeader& block, BlockValidationState& state, const Consensus::Params& consensusParams, bool fCheckPOW = true)
 {
     // Get prev block index
-    CBlockIndex* pindexPrev = LookupBlockIndex(block.hashPrevBlock);
+    CBlockIndex* pindexPrev = g_chainman->m_blockman.LookupBlockIndex(block.hashPrevBlock);
     int nHeight = 0;
     if (pindexPrev) {
         nHeight = pindexPrev->nHeight + 1;
@@ -3091,6 +3092,12 @@ bool CheckBlock(const CBlock& block, BlockValidationState& state, const Consensu
         block.fChecked = true;
 
     return true;
+}
+
+bool IsWitnessEnabled(const CBlockIndex* pindexPrev, const Consensus::Params& params)
+{
+    int height = pindexPrev == nullptr ? 0 : pindexPrev->nHeight + 1;
+    return (height >= params.SegwitHeight);
 }
 
 void UpdateUncommittedBlockStructures(CBlock& block, const CBlockIndex* pindexPrev, const Consensus::Params& consensusParams)
@@ -4254,12 +4261,12 @@ void CChainState::LoadExternalBlockFile(FILE* fileIn, FlatFilePos* dbp)
                     while (range.first != range.second) {
                         std::multimap<uint256, FlatFilePos>::iterator it = range.first;
                         std::shared_ptr<CBlock> pblockrecursive = std::make_shared<CBlock>();
-                        CBlockIndex* idx = LookupBlockIndex(it->first);
+                        CBlockIndex* idx = m_blockman.LookupBlockIndex(it->first);
                         int nHeight = 0;
                         if(idx) {
                             nHeight = idx->nHeight;
                         }
-                        if (ReadBlockFromDisk(*pblockrecursive, it->second, nHeight, chainparams.GetConsensus()))
+                        if (ReadBlockFromDisk(*pblockrecursive, it->second, nHeight, m_params.GetConsensus()))
                         {
                             LogPrint(BCLog::REINDEX, "%s: Processing out of order child %s of %s\n", __func__, pblockrecursive->GetHash().ToString(),
                                     head.ToString());

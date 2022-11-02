@@ -240,6 +240,7 @@ mkdir -p "$OUTDIR"
 CONFIGFLAGS="--enable-reduce-exports --disable-bench --disable-tests --disable-fuzz-binary"
 case "$HOST" in
     *linux*) CONFIGFLAGS+=" --disable-threadlocal" ;;
+    *mingw*) CONFIGFLAGS+=" --disable-shared" ;;
 esac
 
 # CFLAGS

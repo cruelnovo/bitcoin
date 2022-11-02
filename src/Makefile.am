@@ -490,7 +490,7 @@ crypto_libbitcoin_crypto_base_a_SOURCES = \
   crypto/Lyra2RE/bmw.c \
   crypto/Lyra2RE/bmw.h \
   crypto/siphash.cpp \
-  crypto/siphash.h \ 
+  crypto/siphash.h \
   crypto/verthash_datfile.h \
   crypto/verthash_datfile.cpp \
   crypto/tiny_sha3/sha3.c \
@@ -661,7 +661,7 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# vertcoind & bitcoin-node binaries #
+# vertcoind & vertcoin-node binaries #
 vertcoin_daemon_sources = bitcoind.cpp
 vertcoin_bin_cppflags = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 vertcoin_bin_cxxflags = $(AM_CXXFLAGS) $(PIE_FLAGS)

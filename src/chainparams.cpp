@@ -66,7 +66,7 @@ public:
         consensus.signet_challenge.clear();
         consensus.nSubsidyHalvingInterval = 840000;
         consensus.BIP16Height = 0;
-        consensus.BIP16Exception = uint256();;
+        consensus.BIP16Exception = uint256{};
         consensus.BIP34Height = 691488;
         consensus.BIP34Hash = uint256S("0x1d0446fe48fdebf4780f544f1de81c2527099da2d09465873475cefe96ab84a1");
         consensus.BIP65Height = 691488;
@@ -74,6 +74,7 @@ public:
         consensus.CSVHeight = 691488;
         consensus.SegwitHeight = 713664;
         consensus.MinBIP9WarningHeight = 715680; // segwit activation height + miner confirmation window
+
 		// powLimit should not be too high to produce blocks 2.5 mins apart.
         consensus.powLimit = uint256S("0007ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80");
         // Value for previous forks
@@ -119,7 +120,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x4af38ca0e323c0a5226208a73b7589a52c030f234810cf51e13e3249fc0123e7"));
 
         vSeeds.emplace_back("useast1.vtconline.org"); // James Lovejoy
-        vSeeds.emplace_back("vtc.gertjaap.org"); // Gert-Jaap Glasbergen 
+        vSeeds.emplace_back("vtc.gertjaap.org"); // Gert-Jaap Glasbergen
         vSeeds.emplace_back("vert.idzstad.pl"); // Jaroslaw (jk_14)
         vSeeds.emplace_back("vtcseed.javerity.com"); // Matt C. (cruelnovo)
         vSeeds.emplace_back("dnsseed.vertcoin.cc"); // DB Keys
@@ -173,7 +174,6 @@ public:
         m_assumeutxo_data = MapAssumeutxo{
          // TODO to be specified in a future patch.
         };
-
     }
 };
 
@@ -196,6 +196,7 @@ public:
         consensus.CSVHeight = 300;
         consensus.SegwitHeight = 300;
         consensus.MinBIP9WarningHeight = 350; // segwit activation height + miner confirmation window
+
         // TODO Determine correct value based on average miner performance / expected nethash
         // powLimit should not be too high to produce blocks 2.5 mins apart.
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
@@ -218,8 +219,8 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].nTimeout = 1630713600; // September 4, 2021
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].min_activation_height = 0; // No activation delay
 
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100010");
-        consensus.defaultAssumeValid = uint256S("0x69ab56f74d75afa90b65b1fe10df8adaf2769e2ba64df1e1dc99c4d6717e1a2a"); //9000
+        consensus.nMinimumChainWork = uint256S("00000000000000000000000000000000000000000000000000016f5327d0f0d9");
+        consensus.defaultAssumeValid = uint256S("0xe437f50bb18b6aebbefcceb10fc9f9f21fedbe6c4150420c9c1a30144b6310b3"); // 480000
 
         pchMessageStart[0] = 'v';
         pchMessageStart[1] = 'e';
@@ -227,8 +228,8 @@ public:
         pchMessageStart[3] = 't';
         nDefaultPort = 15889;
         nPruneAfterHeight = 1000;
-        m_assumed_blockchain_size = 40;
-        m_assumed_chain_state_size = 2;
+        m_assumed_blockchain_size = 1;
+        m_assumed_chain_state_size = 1;
 
         genesis = CreateGenesisBlock(1481291250, 915027, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
@@ -238,7 +239,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("tvtcseed.javerity.com");
+        vSeeds.emplace_back("tvtcseed.javerity.com"); // Matt C. (cruelnovo)
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,74);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
@@ -258,6 +259,8 @@ public:
         checkpointData = {
             {
                 {0, uint256S("cee8f24feb7a64c8f07916976aa4855decac79b6741a8ec2e32e2747497ad2c9")},
+                {160000, uint256S("3e5da83cea2056869b6792446e78f82e43f96716e0623833c3d1e030456a88e3")},
+                {232000, uint256S("0046e2d75adc14d355a2904ac68756cb12a0252f07da05dbf36137aeab39889a")},
             }
         };
 
@@ -267,9 +270,9 @@ public:
 
         chainTxData = ChainTxData{
             // Data as of block 00000000000001c200b9790dc637d3bb141fe77d155b966ed775b17e109f7c6c (height 1156179)
-            1481291250,
-            1,
-            0.001
+            /* nTime    */ 1481291250,
+            /* nTxCount */ 1,
+            /* dTxRate  */ 0.001
         };
     }
 };
@@ -294,9 +297,9 @@ public:
             m_assumed_blockchain_size = 1;
             m_assumed_chain_state_size = 0;
             chainTxData = ChainTxData{
-                1603986000,
-                9582,
-                0.00159272030651341,
+            /* nTime    */    1603986000,
+            /* nTxCount *     9582,
+            /* dTxRate  */    0.00159272030651341,
             };
         } else {
             const auto signet_challenge = args.GetArgs("-signetchallenge");
@@ -389,7 +392,7 @@ public:
 class CRegTestParams : public CChainParams {
 public:
     explicit CRegTestParams(const ArgsManager& args) {
-        strNetworkID =  CBaseChainParams::REGTEST;
+        strNetworkID = CBaseChainParams::REGTEST;
         consensus.signet_blocks = false;
         consensus.signet_challenge.clear();
         consensus.nSubsidyHalvingInterval = 150;

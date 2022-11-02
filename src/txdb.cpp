@@ -306,7 +306,7 @@ bool CBlockTreeDB::LoadBlockIndexGuts(const Consensus::Params& consensusParams, 
                 pindexNew->nTx            = diskindex.nTx;
 
                 MapCheckpoints::iterator it = checkPoints.find(pindexNew->nHeight);
-                if(it != checkPoints.end()) 
+                if(it != checkPoints.end())
                 {
                     LogPrintf("Verifying checkpoint at height %i\n", pindexNew->nHeight);
                     if(pindexNew->GetBlockHash() != it->second)
