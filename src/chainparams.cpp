@@ -94,7 +94,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].min_activation_height = 1623304; // Approximately September 1, 2021
 
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000ea23677f4c4103d3e");
-        consensus.defaultAssumeValid = uint256S("0x3a9d0a6b19f4c20959caef1bad1a7aa18e492c049327ccaf3b3fcf7c3815f4e0"); // 1740000
+        consensus.defaultAssumeValid = uint256S("0x3a9d0a6b19f4c20959caef1bad1a7aa18e492c049327ccaf3b3fcf7c3815f4e0"); //1740000
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
