@@ -152,6 +152,9 @@ arith_uint256 nMinimumChainWork;
 
 CFeeRate minRelayTxFee = CFeeRate(DEFAULT_MIN_RELAY_TX_FEE);
 
+// Internal stuff from blockstorage ...
+extern ChainstateManager* g_chainman;
+
 CBlockIndex* CChainState::FindForkInGlobalIndex(const CBlockLocator& locator) const
 {
     AssertLockHeld(cs_main);
