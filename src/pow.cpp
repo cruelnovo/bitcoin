@@ -89,10 +89,9 @@ unsigned int GetNextWorkRequired_Bitcoin(const CBlockIndex* pindexLast, const CB
         blockstogoback = params.DifficultyAdjustmentInterval();
 
     // Go back by what we want to be 14 days worth of blocks
-    int nHeightFirst = pindexLast->nHeight - (params.DifficultyAdjustmentInterval()-1);
-    assert(nHeightFirst >= 0);
-    const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
-    assert(pindexFirst);
+    const CBlockIndex* pindexFirst = pindexLast;
+    for (int i = 0; pindexFirst && i < blockstogoback; i++)
+        pindexFirst = pindexFirst->pprev;
 
     return CalculateNextWorkRequired(pindexLast, pindexFirst->GetBlockTime(), params);
 }
